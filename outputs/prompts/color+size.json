@@ -1,0 +1,128 @@
+{
+  "experiment_id": "color+size",
+  "timestamp": "2026-02-04T15:52:05.033965",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+size",
+      "skills": [
+        "color",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'laptop', 'color': 'purple'}, {'object': 'truck', 'color': 'blue'}, {'object': 'motorcycle', 'color': 'brown'}, {'object': 'cell phone', 'color': 'black'}. Make the truck(s) larger than the motorcycle(s). Make the laptop(s) smaller than the cell phone(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "laptop",
+            "color": "purple"
+          },
+          {
+            "object": "truck",
+            "color": "blue"
+          },
+          {
+            "object": "motorcycle",
+            "color": "brown"
+          },
+          {
+            "object": "cell phone",
+            "color": "black"
+          }
+        ],
+        "size_relations": [
+          [
+            "truck",
+            "larger",
+            "motorcycle"
+          ],
+          [
+            "laptop",
+            "smaller",
+            "cell phone"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A scene shows a large blue truck towering over a smaller brown motorcycle, while a compact purple laptop, noticeably smaller than a nearby black cell phone, rests on a table in the foreground.",
+        "A wide-angle urban scene in daylight: several large blue trucks tower over and are visibly larger than the smaller brown motorcycles parked along the curb; in the foreground a compact purple laptop, deliberately tiny, sits on a bench and is clearly smaller than a nearby black cell phone resting beside it.",
+        "A scene featuring a large blue truck parked next to a smaller brown motorcycle, and nearby a small purple laptop sitting on a table that is clearly smaller than a black cell phone placed beside it.",
+        "A street scene shows a large blue truck dominating the foreground beside a smaller brown motorcycle, while a sleek black cell phone rests next to a compact purple laptop that is noticeably smaller than the phone.",
+        "A street-side scene showing a tiny purple laptop sitting on a bench, noticeably smaller than a nearby black cell phone that lies beside it; in the roadway a large blue truck dominates the view and dwarfs several brown motorcycles clustered in front of it, with natural daylight and realistic textures."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+size",
+      "skills": [
+        "color",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'microwave', 'color': 'blue'}, {'object': 'umbrella', 'color': 'purple'}, {'object': 'surfboard', 'color': 'pink'}. Make the microwave(s) smaller than the umbrella(s). Make the microwave(s) larger than the surfboard(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "microwave",
+            "color": "blue"
+          },
+          {
+            "object": "umbrella",
+            "color": "purple"
+          },
+          {
+            "object": "surfboard",
+            "color": "pink"
+          }
+        ],
+        "size_relations": [
+          [
+            "microwave",
+            "smaller",
+            "umbrella"
+          ],
+          [
+            "microwave",
+            "larger",
+            "surfboard"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright staged still life showing a compact blue microwave placed on a mid-height shelf, a tall purple umbrella leaning against a wall behind it, and a short pink surfboard propped on the floor; the blue microwave is visibly smaller than the purple umbrella but noticeably larger than the pink surfboard.",
+        "A surreal beach scene featuring a large purple umbrella towering overhead, a medium-sized blue microwave sitting on the sand beneath it, and a small pink surfboard resting nearby, with the umbrella clearly the largest object and the surfboard the smallest.",
+        "An outdoor beach scene centered on a tall purple umbrella shading a medium blue microwave on a wooden table; the blue microwave is noticeably smaller than the umbrella yet clearly larger than two compact pink surfboards leaning against the table, with soft sand and gentle waves in the background."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+size",
+      "skills": [
+        "color",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'backpack', 'color': 'pink'}, {'object': 'truck', 'color': 'yellow'}. Make the truck(s) larger than the backpack(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "backpack",
+            "color": "pink"
+          },
+          {
+            "object": "truck",
+            "color": "yellow"
+          }
+        ],
+        "size_relations": [
+          [
+            "truck",
+            "larger",
+            "backpack"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, sunlit scene showing a large yellow truck dominating the foreground and a small pink backpack resting on the curb nearby, the truck clearly much larger than the backpack, vivid colors and crisp details.",
+        "A sunlit urban scene showing a large yellow truck dominating the foreground, its glossy body and oversized wheels clearly much larger than a small pink backpack left on the sidewalk beside the curb; realistic photographic style, soft shadows, scattered leaves, and shallow depth of field emphasizing the size difference."
+      ]
+    }
+  ]
+}

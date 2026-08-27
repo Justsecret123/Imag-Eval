@@ -1,0 +1,128 @@
+{
+  "experiment_id": "color+spatial",
+  "timestamp": "2026-02-05T11:25:04.528809",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial",
+      "skills": [
+        "color",
+        "spatial"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'mouse', 'color': 'black'}, {'object': 'broccoli', 'color': 'brown'}, {'object': 'oven', 'color': 'yellow'}, {'object': 'boat', 'color': 'orange'}. Position the mouse(s) next to the boat(s). Position the broccoli(s) to the right of the oven(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "mouse",
+            "color": "black"
+          },
+          {
+            "object": "broccoli",
+            "color": "brown"
+          },
+          {
+            "object": "oven",
+            "color": "yellow"
+          },
+          {
+            "object": "boat",
+            "color": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "mouse",
+            "next to",
+            "boat"
+          ],
+          [
+            "broccoli",
+            "to the right of",
+            "oven"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A black mouse stands next to an orange boat, and a brown broccoli sits to the right of a yellow oven.",
+        "A bright yellow oven stands with a brown head of broccoli placed immediately to its right; nearby, an orange boat sits at a dock with a small black mouse positioned directly next to the boat.",
+        "A simple, colorful scene depicts an orange boat at the water's edge with a small black mouse sitting next to it on the dock. Nearby, a bright yellow oven stands on a countertop, and to the oven's right a group of brown broccoli heads rests on a cutting board. The composition emphasizes the contrast between the black mouse beside the orange boat and the brown broccoli positioned to the right of the yellow oven.",
+        "A warm, slightly surreal kitchen scene: several small black mice gathered next to an orange boat on the tiled floor, while clusters of brown broccoli florets sit to the right of a bright yellow oven, the composition clearly showing the black mice beside the orange boat and the brown broccoli positioned to the right of the yellow oven.",
+        "A bright, whimsical scene showing a black mouse sitting next to an orange boat, and a brown broccoli positioned to the right of a yellow oven."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial",
+      "skills": [
+        "color",
+        "spatial"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'dog', 'color': 'purple'}, {'object': 'vase', 'color': 'blue'}, {'object': 'banana', 'color': 'black'}. Position the banana(s) to the left of the dog(s). Position the banana(s) below the vase(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "dog",
+            "color": "purple"
+          },
+          {
+            "object": "vase",
+            "color": "blue"
+          },
+          {
+            "object": "banana",
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "banana",
+            "to the left of",
+            "dog"
+          ],
+          [
+            "banana",
+            "below",
+            "vase"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A purple dog stands on a tiled floor; to its left and beneath a blue vase on a nearby table lies a black banana.",
+        "A purple dog stands on a neutral floor, with a black banana lying to the dog's left and directly beneath a tall blue vase.",
+        "A blue vase sits on a low table; directly beneath the vase and slightly to the left lies a black banana, and to the right of that banana stands a purple dog on the floor, with soft natural lighting and a neutral background."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial",
+      "skills": [
+        "color",
+        "spatial"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'apple', 'color': 'yellow'}, {'object': 'person', 'color': 'green'}. Position the person(s) under the apple(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "apple",
+            "color": "yellow"
+          },
+          {
+            "object": "person",
+            "color": "green"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "person",
+            "under",
+            "apple"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A clear, minimal composition showing a bright yellow apple centered above a person wearing vivid green clothing, the person positioned directly beneath the apple and looking up.",
+        "A bright yellow apple hangs centered in the upper part of the frame, with a person dressed in green standing directly beneath it, both set against a simple, softly lit neutral background."
+      ]
+    }
+  ]
+}

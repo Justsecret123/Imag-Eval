@@ -1,0 +1,155 @@
+{
+  "experiment_id": "counting+color+size+emotion_robust",
+  "timestamp": "2026-02-05T10:37:35.116424",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'chair', 'count': 4, 'color': 'orange'}, {'object': 'baseball glove', 'count': 5, 'color': 'brown'}, {'object': 'baseball bat', 'count': 4, 'color': 'yellow'}, {'object': 'sheep', 'count': 5, 'color': 'pink'}. Make the baseball bat(s) smaller than the baseball glove(s). Make the chair(s) larger than the sheep(s). Include a person showing joy. Include a person showing anger. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "anger",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "chair",
+            "count": 4,
+            "color": "orange"
+          },
+          {
+            "object": "baseball glove",
+            "count": 5,
+            "color": "brown"
+          },
+          {
+            "object": "baseball bat",
+            "count": 4,
+            "color": "yellow"
+          },
+          {
+            "object": "sheep",
+            "count": 5,
+            "color": "pink"
+          }
+        ],
+        "size_relations": [
+          [
+            "baseball bat",
+            "smaller",
+            "baseball glove"
+          ],
+          [
+            "chair",
+            "larger",
+            "sheep"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A whimsical scene on a grassy courtyard contains four large orange chairs, five brown baseball gloves, four small yellow baseball bats, and five plump pink sheep. The four orange chairs are noticeably larger than the pink sheep, dwarfing the animals beside them; five brown baseball gloves are scattered on the ground, and four yellow baseball bats lie nearby and are clearly smaller than the gloves. A person stands on one chair beaming with joy, arms raised in celebration; another person nearby scowls in anger, arms crossed and finger pointing at a glove; a third person stands with mouth agape in surprise, hands lifted as they stare at the tiny yellow bats.",
+        "In a whimsical grassy cortyard there are four large orange chairs, five brown baseball gloves, four small yellow baseball batts, and five plump pink sheep. The orange chairs are much bigger than the sheep, looming over them and making the animals look tiny; five brown gloves lie scattered across the grass, with four little yellow bats lying nearby that are clearly smaller than the gloves. One person stands atop a chair, beaming with joy and raising their arms in celebration; another nearby scowls in anger, arms crossed and a finger pointing at a glvoe; a third person stands with mouth agape, hands lifted as they stare at the tiny yellow bats.",
+        "A playful scene set on a grassy couryard shows four oversized orange chairs, five brown baseball gloves strewn about, four small yellow baseball bats lying nearby, and five plump pink sheep. The orange chairs tower over the pink sheep, visibly dwarfing the animals beside them; the five brown gloves are scattered across the grass and the four tiny yellow bats rest close at hand, noticeably smaller than the gloves. One person stands atop a chair beaming with joy, arms raised in celebration; another persson close by scowls in anger, arms crossed and a finger pointed at a glove; a third stands with mouth agape in suprise, hands up as they stare at the diminutive yellow bats.",
+        "In a whimsical scene on a grassy couryard there are four large orange chairs, five brown baseball gloves, four small yellow baseball bats, and five plump pink sheep. The four orange chairs tower over the pink sheep, dwarfing the animals beside them; five brown gloves are strewn across the ground, and the four yellow bats lie nearby, clearly smaler than the gloves. One person stands on top of a chair beeming with joy, arms raised in celebration; another person close by scowls in anger, arms crossed and a finger pointed at a glove; a third stands with mouth agape in surprise, hands lifted as they stare at the tiny yellow bats.",
+        "In a whimsical scene on a grassy couryard, four large oragne chairs sit among five brown baseball gloves, four small yellow baseball bats, and five plump pink sheep. The four oragne chairs are noticeably larger than the pink sheep, dwarfing the animals beside them; five brown baseball gloves are scattered on the ground, and four yellow baseball bats lie nearby and are clearly smaller than the gloves. One person stands on a chair beeming with joy, arms raised in celebration; another person nearby scowls in anger, arms crossed and finger pointing at a glove; a third person stands with mouth agape in surprise, hands lifted as they stare at the tiny yellow bats."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'backpack', 'count': 3, 'color': 'brown'}, {'object': 'remote', 'count': 2, 'color': 'red'}, {'object': 'car', 'count': 2, 'color': 'yellow'}. Make the car(s) larger than the remote(s). Make the car(s) smaller than the backpack(s). Include a person showing anticipation. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "backpack",
+            "count": 3,
+            "color": "brown"
+          },
+          {
+            "object": "remote",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "car",
+            "count": 2,
+            "color": "yellow"
+          }
+        ],
+        "size_relations": [
+          [
+            "car",
+            "larger",
+            "remote"
+          ],
+          [
+            "car",
+            "smaller",
+            "backpack"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An indoor scene with three large brown backpacks lined up on a bench, two yellow cars nearby that are noticeably larger than two small red remote controls but visibly smaller than the backpacks, the two red remotes lying beside the cars; in the foreground two people \u2014 one showing anticipation with wide eyes, a hopeful smile and hands clasped as they lean forward, the other showing anger with furrowed brows, a clenched jaw and arms crossed.",
+        "Indoor setting with three large brown backpacks arranged in a row on a benck, two yellow cars nearby that are clearly larger than two small red remote controles but still visably smaller than the backpacks; the two red remotes lying beside the cars. In the foreground two people \u2014 one showing anticipation with wide eyes, a hopefull smile and hands claspped as they lean forward, the other showing anger with furrowed brows, a clenched jaw and arms crossed.",
+        "Indoor scene with three large brown backpacks lined up on a bench; nearby sit two yellow cars that are noticeably larger than two small red remote controls yet visably smaller than the backpacks, the two red remotes lying beside the cars. In the foreground two people \u2014 one leaning forward with anticipiation, wide eyes, a hopeful smile and hands claspped together, the other scowling with furrowed brows, a clenched jaw and arms crossed."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'hair drier', 'count': 1, 'color': 'gray'}, {'object': 'apple', 'count': 2, 'color': 'black'}. Make the apple(s) larger than the hair drier(s). Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "hair drier",
+            "count": 1,
+            "color": "gray"
+          },
+          {
+            "object": "apple",
+            "count": 2,
+            "color": "black"
+          }
+        ],
+        "size_relations": [
+          [
+            "apple",
+            "larger",
+            "hair drier"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A somber indoor scene: a person sits at a small table, shoulders hunched and eyes downcast with visible tears, clearly showing sadness. On the table are two large matte black apples, each noticeably bigger than a single small gray hair drier placed beside them; the gray hair drier looks diminutive compared to the oversized black apples. Soft, diffused lighting and a muted background emphasize the emotional mood and the unusual scale contrast between the objects.",
+        "A melancholic indoor scene: someone sits at a small table, shoulders hunched and eyes cast downward with visible teers, clearly conveying sadness. On the table rest two oversized matte-black apples, each noticeably larger than a lone small grey hair drier placed beside them; the grey hair drier looks diminutivee next to the enormoues black apples. Soft, diffused lighting and a muted backdrop heighten the emotional mood and the unusual scale contrast between the objects."
+      ]
+    }
+  ]
+}

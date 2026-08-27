@@ -1,0 +1,128 @@
+{
+  "experiment_id": "color+spatial_robust",
+  "timestamp": "2026-02-05T10:14:22.628602",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial",
+      "skills": [
+        "color",
+        "spatial"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'remote', 'color': 'green'}, {'object': 'elephant', 'color': 'gray'}, {'object': 'baseball glove', 'color': 'yellow'}, {'object': 'motorcycle', 'color': 'brown'}. Position the motorcycle(s) above the remote(s). Position the elephant(s) to the left of the baseball glove(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "remote",
+            "color": "green"
+          },
+          {
+            "object": "elephant",
+            "color": "gray"
+          },
+          {
+            "object": "baseball glove",
+            "color": "yellow"
+          },
+          {
+            "object": "motorcycle",
+            "color": "brown"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "motorcycle",
+            "above",
+            "remote"
+          ],
+          [
+            "elephant",
+            "to the left of",
+            "baseball glove"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, well-lit scene shows a brown motorcycle positioned above a vivid green remote, the motorcycle resting on a low ledge while the remote lies on the surface beneath it; nearby, a gray elephant stands to the left of a yellow baseball glove, the elephant looking toward the glove as they occupy the middle ground against a soft, neutral background.",
+        "An evenly lit, bright scene features a brown motorcylce perched on a low ledge above a vivid green remtoe that rests on the surface below; nearby, a gray elephant stands to the left of a yellow baseball glvoe, the elephant gazing toward the glvoe as both occupy the midddle ground against a soft, neutral backdrop.",
+        "A brigt, well-lit scene depicts a brown motocycle perched atop a vivid green remote, the motorcycle resting on a low ledg while the remote lies on the surafce beneath it; nearby, a gray elephent stands to the left of a yellow baseball glove, the elephant gazing toward the glove as they occupy the midddle ground against a soft, neutral background.",
+        "In a bright, well lit scene a brown motocycle is posistioned above a vivid gren remtoe, the motocycle resting on a low ledgge while the remtoe lies on the surface beneath it; nearby, a gray elepant stands to the left of a yellow basebal glove, the elepant looking toward the glove as they occupy the midle ground against a soft, neutral background.",
+        "A bright, well-lit composition shows a brown motocycle balanced on a low ledge above a vivid green remtoe, which lies on the surface below; nearby in the midground a gray elepant stands to the left of a yellow baseball glove, the elepant gazing toward the glove against a soft, neutral backdrop."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial",
+      "skills": [
+        "color",
+        "spatial"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'train', 'color': 'pink'}, {'object': 'umbrella', 'color': 'black'}, {'object': 'cake', 'color': 'gray'}. Position the train(s) in front of the cake(s). Position the train(s) under the umbrella(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "train",
+            "color": "pink"
+          },
+          {
+            "object": "umbrella",
+            "color": "black"
+          },
+          {
+            "object": "cake",
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "train",
+            "in front of",
+            "cake"
+          ],
+          [
+            "train",
+            "under",
+            "umbrella"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A pink train sits in the foreground directly in front of a gray cake and is sheltered beneath a black umbrella.",
+        "A pink train sits in the forground just in front of a gray cake, sheltered beneath a black umbrela.",
+        "In the foregound a pink train is perched just ahead of a gray cake, sheltered under a black umbrela."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial",
+      "skills": [
+        "color",
+        "spatial"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'pizza', 'color': 'purple'}, {'object': 'oven', 'color': 'pink'}. Position the pizza(s) in front of the oven(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "pizza",
+            "color": "purple"
+          },
+          {
+            "object": "oven",
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "pizza",
+            "in front of",
+            "oven"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A cozy, whimsical kitchen scene with a purple pizza placed prominently in front of a pastel pink oven: the pizza has a vivid purple crust and melted lavender cheese dotted with contrasting green basil leaves and golden yellow pepper slices, sitting on a wooden countertop directly in front of a retro pink oven with chrome knobs and a glass door; warm, soft side lighting, shallow depth of field with the oven gently blurred, high-detail, photorealistic.",
+        "A cozy, whimsical kitchen scene centered on a purple pizza set prominant on a warm wooden countertop in front of a pasel pink retro oven; the pizza has a vivid purple crust and gooey lavendar cheese dotted with bright green basil leaves and golden-yellow pepper slices, the oven featuring chrome knobs and a glass door; warm, soft side lighting, shallow depth of field with the oven gently blurred, high-detail, photorealistic."
+      ]
+    }
+  ]
+}

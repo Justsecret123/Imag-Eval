@@ -1,0 +1,109 @@
+{
+  "experiment_id": "counting+emotion",
+  "timestamp": "2026-02-04T16:25:00.810606",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+emotion",
+      "skills": [
+        "counting",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'carrot', 'count': 5}, {'object': 'snowboard', 'count': 5}, {'object': 'wine glass', 'count': 5}, {'object': 'tie', 'count': 4}. Include a person showing trust. Include a person showing sadness. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "sadness",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "carrot",
+            "count": 5
+          },
+          {
+            "object": "snowboard",
+            "count": 5
+          },
+          {
+            "object": "wine glass",
+            "count": 5
+          },
+          {
+            "object": "tie",
+            "count": 4
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A cozy, slightly whimsical outdoor winter festival scene at dusk: five snowboards of different colors lean against a wooden fence dusted with snow, and a long rustic table nearby holds five carrots arranged in a neat row on a cutting board and five wine glasses lined up, some half-filled with deep red wine. Four ties \u2014 patterned and plain \u2014 are draped over a nearby chair and hung on a small coat rack, clearly visible. Near the table three people convey distinct emotions: a person showing trust reaches out with an open, gentle hand and a warm, reassuring smile toward a friend, a person showing sadness sits on a bench with shoulders hunched and a tear on their cheek while staring at the ground, and a person showing fear stands a step back, wide-eyed and clutching their chest as if startled by a sudden noise. The scene is softly lit by string lights, with a calm, intimate atmosphere that contrasts with the vivid colors of the snowboards, carrots, wine glasses, and ties.",
+        "A warm, softly lit mountain lodge scene after a long day on the slopes: five snowboards are propped side by side against a stone wall near the door; a long wooden table in the center holds five stemmed wine glasses (some half-full), a simple wooden bowl with five bright orange carrots neatly arranged, and a few folded napkins. Four neckties in different colors and patterns are draped over four chair backs. Around the table five adult friends are gathered: a woman leans forward with relaxed shoulders and an open hand resting in another\u2019s, her steady gaze and gentle smile radiating trust; beside her a man sits hunched, shoulders rounded, eyes red with a single tear rolling down his cheek, clearly showing sadness; across the table a person recoils slightly with wide eyes and hands raised near their face, frozen in fear; the other two friends sit nearby\u2014one reaching for a wine glass, the other offering a quiet, sympathetic smile. Warm golden light, rich wood and fabric textures, and subtle snow gear details create an intimate, emotionally charged moment.",
+        "A cozy, slightly surreal studio scene: a long wooden table in the foreground holds five wine glasses catching the soft afternoon light, and beside them five bright orange carrots are arranged neatly on a ceramic platter; leaning against the far wall are five snowboards standing upright with their colorful tops facing out, and on a nearby chair four ties are draped in a casual fan. Three people inhabit the space \u2014 one person shows trust, reclining and resting their head on another\u2019s shoulder with a relaxed expression and a gentle, confident smile; a second person sits alone with tear-streaked cheeks and downcast eyes, clearly showing sadness; a third stands a few steps away, shoulders tense, wide-eyed and hands raised toward their mouth, visibly showing fear. Warm light and eclectic objects create an intimate, slightly uncanny atmosphere.",
+        "A cozy apr\u00e8s-ski lodge scene: five snowboards leaned upright against the wall by the entrance, their colorful tops visible; a low wooden table holds five wine glasses in a loose row and a small platter with five bright orange carrots neatly lined up. Four men nearby wear ties \u2014 each a different color and pattern \u2014 visible beneath their jackets. A woman gently rests her head on a friend's shoulder, eyes soft and relaxed, clearly showing trust; a young man sits on a stool with his head bowed, tear tracks on his cheeks and shoulders slumped, showing sadness; and another person stands near the doorway with wide eyes and hands half-raised, recoiling slightly in fear. The warm, dim lighting and wood-paneled interior contrast with the sporty snowboards and the formal ties, creating an intimate, emotionally charged atmosphere.",
+        "On a wooden deck outside a mountain lodge at dusk, five snowboards lean against the railing, their colorful bases casting long shadows on the packed snow. A long picnic table nearby holds a woven basket with five bright orange carrots and a neat row of five wine glasses sparkling in the fading light; four ties\u2014silk and patterned\u2014are draped over the backs of chairs and a nearby coat rack. Three people fill the scene: a woman reaches out and clasps another\u2019s hand with a calm, open expression that radiates trust; a man sits hunched on the bench, face in his hands and shoulders shaking with quiet sadness; and a young person stands at the railing, eyes wide and body tense, mouth slightly open in visible fear as the cold wind tugs at their jacket. The scene blends the warmth of shared company with raw, intimate emotions against the cold mountain night."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+emotion",
+      "skills": [
+        "counting",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'microwave', 'count': 2}, {'object': 'backpack', 'count': 2}, {'object': 'scissors', 'count': 3}. Include a person showing fear. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "microwave",
+            "count": 2
+          },
+          {
+            "object": "backpack",
+            "count": 2
+          },
+          {
+            "object": "scissors",
+            "count": 3
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "In a cramped student common room, two microwaves sit side by side on a cluttered counter while two backpacks rest nearby\u2014one slumped on a chair and the other on the floor. Three pairs of scissors are scattered across the coffee table and countertop. A young woman stands with her mouth open and eyes wide in surprise, pointing toward one of the microwaves, while a young man hunches beside her, hands raised and face pale with fear as a faint puff of smoke and a small spark come from the appliance. The harsh fluorescent light casts sharp shadows over the shocked faces and scattered belongings.",
+        "A chaotic kitchen scene: two microwaves sit side by side on a stainless steel counter, and two backpacks lay on nearby chairs and the floor; three pairs of scissors are clearly visible \u2014 one in a utensil cup, one lying on the table, and one partially tucked into a backpack pocket. In the foreground a woman shows fear, eyes wide and body recoiling as she clutches her hands to her chest, while across the room a man stands with his mouth agape in surprise, eyebrows raised and hands lifted in an instinctive gesture. The lighting is harsh, casting strong shadows and heightening the tense, startled atmosphere.",
+        "A tense domestic scene: two microwaves sit side by side on a kitchen counter, two backpacks\u2014one slung over a chair and one resting on the floor\u2014and three scissors scattered across the table and countertop. In the foreground a woman shows fear, eyes wide and mouth open, hands raised as she steps back; nearby a man shows surprise, eyebrows high and one hand over his mouth. The room is cluttered and brightly lit, everyday items around them emphasizing the sudden alarm."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+emotion",
+      "skills": [
+        "counting",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bed', 'count': 1}, {'object': 'oven', 'count': 1}. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "bed",
+            "count": 1
+          },
+          {
+            "object": "oven",
+            "count": 1
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A small, quiet studio apartment in soft late-afternoon light: a single neatly made bed pushed against the wall and a compact oven in a tiny kitchenette nearby. A solitary person sits on the edge of the bed, shoulders slumped, head bowed and face wet with tears, hands covering their mouth\u2014an expression of deep sadness. Sparse furnishings, warm golden highlights and long shadows emphasize the heavy, introspective mood of the scene.",
+        "A quiet studio apartment with one simple bed pushed against the wall and one compact oven in a tiny kitchenette; a solitary person sits on the edge of the bed, shoulders hunched and face buried in their hands showing clear sadness, soft evening light casting long shadows and a muted color palette with a few personal items scattered around to suggest a modest, lived-in space."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "experiment_id": "counting+spatial+size_robust",
+  "timestamp": "2026-02-05T10:02:45.267738",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+size",
+      "skills": [
+        "counting",
+        "spatial",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'kite', 'count': 5}, {'object': 'donut', 'count': 4}, {'object': 'suitcase', 'count': 4}, {'object': 'teddy bear', 'count': 5}. Position the kite(s) in front of the suitcase(s). Position the donut(s) next to the teddy bear(s). Make the kite(s) larger than the suitcase(s). Make the teddy bear(s) smaller than the donut(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "kite",
+            "count": 5
+          },
+          {
+            "object": "donut",
+            "count": 4
+          },
+          {
+            "object": "suitcase",
+            "count": 4
+          },
+          {
+            "object": "teddy bear",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "kite",
+            "in front of",
+            "suitcase"
+          ],
+          [
+            "donut",
+            "next to",
+            "teddy bear"
+          ]
+        ],
+        "size_relations": [
+          [
+            "kite",
+            "larger",
+            "suitcase"
+          ],
+          [
+            "teddy bear",
+            "smaller",
+            "donut"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Create an image containing five kites, four donuts, four suitcases, and five teddy bears. Place the five kites in the foreground directly in front of the four suitcases so the suitcases are behind them; make the kites visibly larger in scale than the suitcases. Arrange the four donuts next to the five teddy bears so the donuts sit adjacent to the bears; make each donut larger than the teddy bears so the teddy bears appear noticeably smaller than the donuts. Use varied colors and simple soft lighting, with a clean uncluttered background.",
+        "Generate an image with five kites, four doonuts, four suitcaes, and five teddy bears. Put the five kites in the forground directly in front of the four suitcaes so the suitcaes sit behind them; the kites should be visibly larger in scale than the suitcaes. Position the four doonuts next to the five teddy bears so each doonut sits adjacent to a bear; make every doonut larger than the teddy bears so the bears look noticeably smaller. Use a range of colors and gentle soft lighting with a clean, uncluttered background.",
+        "Produce an image showing five kites, four donuts, four suitcases, and five teddy bears. Place the five kites in the forground directly in front of the four suitcasses so the suitcases sit behind them; make the kites scaled so they are visably larger than the suitcases. Arrange the four donuts next to the five teddy bears so each donut sits adjecent to a bear; make every donut bigger than the teddy bears so the bears appear noticably smaller than the donuts. Use varied colors and simple soft lighting with a clean, uncluttered background.",
+        "Generate an image with five kites, four donuts, four suitcases, and five teddy bears. Put the five kites in the foreground, infront of the four suitcases so the suitcases remain behind them; make the kites visbly larger in scale than the suitcases. Place the four donuts next to the five teddy bears so the donuts sit adjascent to the bears; make each donut larger than the teddy bears so the bears apear noticeably smaller than the donuts. Use varied colors and soft, gentle lighting, with a clean uncluttered background.",
+        "Create an image featuring five kites, four donuts, four suitcases, and five teddy bears. Place the five kites in the foregroud directly in front of the four suitcases so the suitcases are behind them; make the kites visably larger in scale than the suitcases. Arrange the four donuts next to the five teddy bears so the donuts sit adjacent to the bears; make each donut larger than the teddy bears so the teddy bears look noticably smaller than the donuts. Use varied colors and simple soft lighting, with a clean unclutterd background."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+size",
+      "skills": [
+        "counting",
+        "spatial",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'keyboard', 'count': 3}, {'object': 'bus', 'count': 3}, {'object': 'truck', 'count': 3}. Position the keyboard(s) inside the truck(s). Position the keyboard(s) to the left of the bus(s). Make the truck(s) smaller than the keyboard(s). Make the truck(s) larger than the bus(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "keyboard",
+            "count": 3
+          },
+          {
+            "object": "bus",
+            "count": 3
+          },
+          {
+            "object": "truck",
+            "count": 3
+          }
+        ],
+        "spatial_relations": [
+          [
+            "keyboard",
+            "inside",
+            "truck"
+          ],
+          [
+            "keyboard",
+            "to the left of",
+            "bus"
+          ]
+        ],
+        "size_relations": [
+          [
+            "truck",
+            "smaller",
+            "keyboard"
+          ],
+          [
+            "truck",
+            "larger",
+            "bus"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A scene with three trucks arranged in a row, each truck containing a single keyboard inside; the keyboards are oversized and larger than the trucks, filling and slightly overflowing the trucks' interiors. The three trucks (medium-sized, smaller than the keyboards but larger than the buses) are positioned to the left of three small buses, which form a separate row to the right. The composition clearly shows three keyboards inside three trucks on the left and three buses on the right, with keyboards the largest, trucks mid-sized, and buses the smallest.",
+        "A scene showing three trucks lined up in a row on the left, each truck holding a single keybaord; the keybaords are oversized\u2014biger than the trucks and filling and slightly overflowing each truck's interior. The three trucks (medium-sized: smaller than the keybaords but bigger than the busess) sit to the left of another row of three small buses on the right. The compositon clearly displays three keybaords inside three trucks on the left and three small buses on the right, with keybaords the largest, trucks mid-sized, and buses the smallest.",
+        "A scene shows three truks lined up side by side, each carrying one oversized keybaord that fills and slightly spills out of the truck bed; the keybaords are much bigger than the truks. The three truks \u2014 medium-sized (bigger than the buses but smaller than the keybaords) \u2014 sit to the left of a seperate row of three small buses to the right. The composition clearly displays three keybaords inside the three truks on the left and three buses on the right, with keybaords the largest, truks mid-sized, and buses the smallest."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+size",
+      "skills": [
+        "counting",
+        "spatial",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'microwave', 'count': 2}, {'object': 'bird', 'count': 2}. Position the microwave(s) behind the bird(s). Make the bird(s) larger than the microwave(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "microwave",
+            "count": 2
+          },
+          {
+            "object": "bird",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "microwave",
+            "behind",
+            "bird"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bird",
+            "larger",
+            "microwave"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two large birds fill the foreground, each noticeably bigger than the appliances, while two compact microwaves sit behind them on a low shelf, partially obscured by the birds; soft natural light highlights the birds' feathers and the small metallic surfaces of the microwaves.",
+        "Two oversized birds dominate the foreground, each clearely larger than the nearby appliances, while two compact microwaes sit behnd them on a low shelf, partilly hid by the birds; gentle natural light brings out the texture of the birds' feathers and the faint gleem on the microwaves' metalic surfaces."
+      ]
+    }
+  ]
+}

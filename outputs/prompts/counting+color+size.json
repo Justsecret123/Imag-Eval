@@ -1,0 +1,140 @@
+{
+  "experiment_id": "counting+color+size",
+  "timestamp": "2026-02-05T11:38:59.327420",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+size",
+      "skills": [
+        "counting",
+        "color",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'toaster', 'count': 4, 'color': 'gray'}, {'object': 'airplane', 'count': 4, 'color': 'purple'}, {'object': 'surfboard', 'count': 4, 'color': 'black'}, {'object': 'cat', 'count': 5, 'color': 'yellow'}. Make the cat(s) smaller than the airplane(s). Make the surfboard(s) larger than the toaster(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "toaster",
+            "count": 4,
+            "color": "gray"
+          },
+          {
+            "object": "airplane",
+            "count": 4,
+            "color": "purple"
+          },
+          {
+            "object": "surfboard",
+            "count": 4,
+            "color": "black"
+          },
+          {
+            "object": "cat",
+            "count": 5,
+            "color": "yellow"
+          }
+        ],
+        "size_relations": [
+          [
+            "cat",
+            "smaller",
+            "airplane"
+          ],
+          [
+            "surfboard",
+            "larger",
+            "toaster"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal, minimalist scene featuring four gray toasters, four purple airplanes, four black surfboards, and five small yellow cats. The purple airplanes hover overhead and are noticeably larger than the five yellow cats clustered below; the black surfboards are clearly larger than the compact gray toasters, which sit in a neat row on the ground, all set against a simple light background with soft shadows to emphasize their colors and sizes.",
+        "An image depicting four gray toasters, four purple airplanes, four black surfboards, and five yellow cats: the five yellow cats are small and noticeably smaller than the purple airplanes, which appear larger and soar or hover above; the four black surfboards are prominent and larger than the four gray toasters, which sit together on a surface.",
+        "A whimsical scene shows four gray toasters arranged in a neat row on a sunlit countertop, four black surfboards \u2014 each noticeably larger than the toasters \u2014 leaning behind them, and four purple airplanes suspended mid-air above the arrangement. Five yellow cats, each clearly smaller than the purple airplanes, weave between the appliances and boards, some perched on toaster tops and others batting at the surfboards. The lighting is soft and warm, casting gentle shadows and creating a crisp, playful composition.",
+        "An image shows four compact gray toasters arranged in a neat row, four sleek purple airplanes flying overhead with each airplane noticeably larger than the nearby cats, five small yellow cats scattered below\u2014clearly smaller than the airplanes\u2014and four long black surfboards standing upright and visibly larger than the toasters, creating a striking contrast of scale between the tiny cats, mid-sized airplanes, small toasters, and oversized surfboards.",
+        "Four gray toasters sit together while four black surfboards, noticeably larger than the toasters, lean nearby; four purple airplanes hover above and five yellow cats, each considerably smaller than the airplanes, are scattered through the scene."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+size",
+      "skills": [
+        "counting",
+        "color",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'giraffe', 'count': 2, 'color': 'red'}, {'object': 'broccoli', 'count': 3, 'color': 'green'}, {'object': 'bench', 'count': 3, 'color': 'white'}. Make the broccoli(s) larger than the giraffe(s). Make the broccoli(s) smaller than the bench(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "giraffe",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "broccoli",
+            "count": 3,
+            "color": "green"
+          },
+          {
+            "object": "bench",
+            "count": 3,
+            "color": "white"
+          }
+        ],
+        "size_relations": [
+          [
+            "broccoli",
+            "larger",
+            "giraffe"
+          ],
+          [
+            "broccoli",
+            "smaller",
+            "bench"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal park scene shows two red giraffes beside three green broccoli heads; each broccoli is larger than the two red giraffes but smaller than the three long white benches placed nearby.",
+        "Three white benches form a large backdrop, each the biggest object in the scene; in front of them are three vivid green broccoli heads, noticeably larger than two small red giraffes standing nearby, yet clearly smaller than the benches.",
+        "A bright, simple scene containing 2 red giraffes and 3 green broccoli heads that are noticeably larger than the giraffes but still smaller than 3 white benches; the 3 white benches are the largest objects, arranged in a row, the medium-sized green broccoli are positioned between them and the smaller red giraffes, set on grassy ground under a soft, neutral sky."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+size",
+      "skills": [
+        "counting",
+        "color",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'fire hydrant', 'count': 2, 'color': 'orange'}, {'object': 'sheep', 'count': 2, 'color': 'purple'}. Make the fire hydrant(s) smaller than the sheep(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "fire hydrant",
+            "count": 2,
+            "color": "orange"
+          },
+          {
+            "object": "sheep",
+            "count": 2,
+            "color": "purple"
+          }
+        ],
+        "size_relations": [
+          [
+            "fire hydrant",
+            "smaller",
+            "sheep"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two large, fluffy purple sheep dominate a sunny grassy scene, while two small orange fire hydrants\u2014noticeably much smaller than the sheep\u2014stand nearby, casting soft shadows and creating a playful, surreal contrast.",
+        "A sunlit grassy field where two purple sheep stand and graze in the center, with two small orange fire hydrants nearby\u2014each orange hydrant clearly smaller than the sheep\u2014one positioned to the left and one to the right."
+      ]
+    }
+  ]
+}

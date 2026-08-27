@@ -1,0 +1,139 @@
+{
+  "experiment_id": "size+text_robust",
+  "timestamp": "2026-02-05T10:59:39.181209",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_size+text",
+      "skills": [
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'toaster'}, {'object': 'orange'}, {'object': 'traffic light'}, {'object': 'oven'}. Make the toaster(s) smaller than the oven(s). Make the traffic light(s) larger than the orange(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about orange, toaster. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "toaster"
+          },
+          {
+            "object": "orange"
+          },
+          {
+            "object": "traffic light"
+          },
+          {
+            "object": "oven"
+          }
+        ],
+        "size_relations": [
+          [
+            "toaster",
+            "smaller",
+            "oven"
+          ],
+          [
+            "traffic light",
+            "larger",
+            "orange"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "orange",
+            "toaster"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright, slightly cluttered kitchen scene features a compact chrome two-slice toaster, noticeably smaller than the large stainless-steel oven behind it. A single ripe orange sits on a wooden cutting board, dwarfed by a tall traffic light fixture mounted by the window whose red, yellow, and green lenses are much larger than the orange. A small handwritten note taped to the cabinet reads: Do not place orange next to toaster",
+        "A bright, slighlty cluttered kitchen contains a compackt chrome two-slice toaster, clearly smaller than the large stainlees-steel oven behind it. A single ripe orange sits on a wooden cutting board, dwarfed by a tall traffic light fixture mounted by the window whose red, yellow, and green lenses are much larger than the orange. A small handwritten note tapt to the cabinet reads: Do not place orange next to toaster.",
+        "A bright, slightly cluttered kitchen scene shows a compact chrome two-slice toaster noticeably smaller than the large stainless-steel oven behind it. A single ripe orange sits on a wooden cutting board, dwarfed by a tall traffic-light fixture mounted by the window whose red, yellow, and green lenses are much larger than the orange. A small handwriten note taped to the cabinet reads: \"Do not place oragne next to toster\"",
+        "In a sunlit, mildly cluttered kitchen a compackt chrome two-slice toasterr sits on the counter in front of a large stainless steel oven, clearly much bigger than the small toaster. A single ripe orange rests on a wooden cutting board, dwarfed by a tall trafic light fixture mounted by the window whose red, yellow, and green lenses tower over the fruit. A small handwriten note taped to the cabinet reads: Do not place orange next to toaster",
+        "In a bright, slighlty cluttered kitchen a compcat chrome two-slice toaster sits noticeably smaller than the large stainless-steel oven behind it. A single ripe orange rests on a wooden cutting board, dwarfed by a tall trafffic light fixture mounted by the window whose red, yellow, and green lenses are much larger than the fruit. A small handwriten note taped to the cabinet reads: Do not place orange next to toaster"
+      ]
+    },
+    {
+      "id": "prompt_001_medium_size+text",
+      "skills": [
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'person'}, {'object': 'motorcycle'}, {'object': 'toothbrush'}. Make the motorcycle(s) smaller than the person(s). Make the motorcycle(s) larger than the toothbrush(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about motorcycle, toothbrush. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "person"
+          },
+          {
+            "object": "motorcycle"
+          },
+          {
+            "object": "toothbrush"
+          }
+        ],
+        "size_relations": [
+          [
+            "motorcycle",
+            "smaller",
+            "person"
+          ],
+          [
+            "motorcycle",
+            "larger",
+            "toothbrush"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "motorcycle",
+            "toothbrush"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A street-side workshop scene showing a single adult standing upright next to a compact motorcycle that only reaches her waist, with a small toothbrush lying on a nearby workbench much smaller than the bike; a taped sign on the pegboard above reads \"Motorcycle and toothbrush clean stubborn grime\".",
+        "Strete-side workshp scene of a lone adult standing upright beside a comapct motorcycle that barely reaches her waist, a tiny toothbrsh lying on a nearby workbench and much smaller than the bike; a taped sign on the pegbord above reads \"Motorcycle and toothbrush clean stubborn grime\".",
+        "A street-side workshop scene showing a single adult standing upright beside a compact motorcycle that only reaches her waise, with a tiny toothbrsh lying on a nearby workbench much smaller than the bike; a taped sign on the pegboard above reads \"Motorcycle and toothbrush clean stubborn grime\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_size+text",
+      "skills": [
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'person'}, {'object': 'fork'}. Make the person(s) smaller than the fork(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about fork. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "person"
+          },
+          {
+            "object": "fork"
+          }
+        ],
+        "size_relations": [
+          [
+            "person",
+            "smaller",
+            "fork"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "fork"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tiny person, no taller than the fork's handle, stands dwarfed by an enormous gleaming fork leaning against a table, with a small tag attached to the utensil that reads \"Giant Fork\".",
+        "A tiny person, no taller than the fork's handle, stans dwarfed beside a massive gleeming fork propt against a table, with a small tag attached to the utenisil that reads \"Giant Fork\"."
+      ]
+    }
+  ]
+}

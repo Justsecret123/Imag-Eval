@@ -1,0 +1,185 @@
+{
+  "experiment_id": "color+spatial+size+text",
+  "timestamp": "2026-02-04T16:53:52.916595",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+size+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'orange', 'color': 'blue'}, {'object': 'stop sign', 'color': 'red'}, {'object': 'potted plant', 'color': 'brown'}, {'object': 'sheep', 'color': 'gray'}. Position the stop sign(s) in front of the orange(s). Position the potted plant(s) behind the sheep(s). Make the sheep(s) smaller than the orange(s). Make the potted plant(s) larger than the stop sign(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about stop sign, sheep. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "orange",
+            "color": "blue"
+          },
+          {
+            "object": "stop sign",
+            "color": "red"
+          },
+          {
+            "object": "potted plant",
+            "color": "brown"
+          },
+          {
+            "object": "sheep",
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "stop sign",
+            "in front of",
+            "orange"
+          ],
+          [
+            "potted plant",
+            "behind",
+            "sheep"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sheep",
+            "smaller",
+            "orange"
+          ],
+          [
+            "potted plant",
+            "larger",
+            "stop sign"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "stop sign",
+            "sheep"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A scene with a bright red stop sign standing in the foreground directly in front of a small tree bearing several blue oranges; a small white placard attached to the stop sign reads \"Stop sign warns: sheep must halt\". Nearby are a couple of small gray sheep, clearly smaller than the blue oranges, and behind the sheep sits a large brown potted plant that is noticeably larger than the red stop sign.",
+        "A red stop sign stands in front of a cluster of blue oranges, the red sign bearing no lettering except a small white placard on its pole that reads: \"Stop sign, gray sheep: keep distance.\" A small gray sheep, noticeably smaller than the blue oranges, stands nearby with a large brown potted plant positioned behind the sheep; the brown potted plant is larger than the red stop sign.",
+        "A clean, well-lit scene shows a red stop sign placed directly in front of several large blue oranges so the stop sign is clearly in front of the oranges. A small gray sheep, noticeably smaller than the oranges, stands near the stop sign with a large brown potted plant positioned behind the sheep and larger than the stop sign. A white note attached to the stop sign reads: Stop sign protects gray sheep crossing",
+        "A single image shows a red stop sign placed in front of a large blue orange; a gray sheep, noticeably smaller than the blue orange, stands nearby with a brown potted plant sitting behind the sheep. The brown potted plant is larger than the red stop sign. A small white placard displays the six-word message: \"Stop sign warns sheep crossing here\"",
+        "A scene with several large blue oranges clustered toward the back and a red stop sign placed directly in front of the oranges; the red stop sign has white text that reads: \"Stop sign warns sheep to halt\". A small gray sheep stands nearer the viewer and is noticeably smaller than the blue oranges. Behind the sheep sits a tall brown potted plant that is clearly larger than the red stop sign."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+size+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'refrigerator', 'color': 'blue'}, {'object': 'fork', 'color': 'pink'}, {'object': 'sheep', 'color': 'orange'}. Position the refrigerator(s) next to the fork(s). Position the refrigerator(s) to the left of the sheep(s). Make the sheep(s) larger than the refrigerator(s). Make the sheep(s) smaller than the fork(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about fork, sheep. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "refrigerator",
+            "color": "blue"
+          },
+          {
+            "object": "fork",
+            "color": "pink"
+          },
+          {
+            "object": "sheep",
+            "color": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "refrigerator",
+            "next to",
+            "fork"
+          ],
+          [
+            "refrigerator",
+            "to the left of",
+            "sheep"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sheep",
+            "larger",
+            "refrigerator"
+          ],
+          [
+            "sheep",
+            "smaller",
+            "fork"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "fork",
+            "sheep"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A vivid scene shows a small blue refrigerator standing directly to the left of a very large pink fork; both are positioned to the left of an orange sheep. The orange sheep is larger than the blue refrigerator but smaller than the pink fork. A small label on the refrigerator reads \"Fork and sheep are friends today\".",
+        "A single-scene photograph shows a compact blue refrigerator standing directly next to a large pink fork on the left side of the frame, and a medium-sized orange sheep positioned to the right of the refrigerator and fork. The orange sheep is larger than the blue refrigerator but smaller than the pink fork. A small hand-painted sign visible in the foreground reads \"Fork and sheep: pink meets orange.\"",
+        "A simple scene shows, from left to right, a small blue refrigerator sitting immediately next to a very large pink fork, and to the right of them an orange sheep that is larger than the refrigerator but smaller than the fork. A paper label on the refrigerator reads: \"Fork and sheep are oddly paired\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+size+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'skateboard', 'color': 'black'}, {'object': 'wine glass', 'color': 'gray'}. Position the wine glass(s) behind the skateboard(s). Make the skateboard(s) smaller than the wine glass(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about wine glass. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "skateboard",
+            "color": "black"
+          },
+          {
+            "object": "wine glass",
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "wine glass",
+            "behind",
+            "skateboard"
+          ]
+        ],
+        "size_relations": [
+          [
+            "skateboard",
+            "smaller",
+            "wine glass"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "wine glass"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Photorealistic still life showing a small black skateboard in the foreground, deliberately scaled about half the size of the object behind it. Directly behind the skateboard stands an oversized gray wine glass, taller and wider than the skateboard. A small white tag hanging from the wine glass stem clearly reads \"Wine Glass\". Soft studio lighting, neutral seamless background, shallow depth of field, realistic reflections and subtle shadows.",
+        "A small black skateboard sits in the foreground, noticeably smaller than a tall gray wine glass positioned directly behind it. The skateboard has a matte black deck with subtle scuffs and small wheels; the gray wine glass is slightly translucent with soft reflections. A small white label on the glass reads Wine Glass."
+      ]
+    }
+  ]
+}

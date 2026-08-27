@@ -1,0 +1,163 @@
+{
+  "experiment_id": "counting+color+size+text",
+  "timestamp": "2026-02-04T16:19:55.637893",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'remote', 'count': 4, 'color': 'gray'}, {'object': 'horse', 'count': 4, 'color': 'green'}, {'object': 'hot dog', 'count': 4, 'color': 'red'}, {'object': 'traffic light', 'count': 5, 'color': 'pink'}. Make the remote(s) larger than the traffic light(s). Make the hot dog(s) smaller than the horse(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about remote, horse. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "remote",
+            "count": 4,
+            "color": "gray"
+          },
+          {
+            "object": "horse",
+            "count": 4,
+            "color": "green"
+          },
+          {
+            "object": "hot dog",
+            "count": 4,
+            "color": "red"
+          },
+          {
+            "object": "traffic light",
+            "count": 5,
+            "color": "pink"
+          }
+        ],
+        "size_relations": [
+          [
+            "remote",
+            "larger",
+            "traffic light"
+          ],
+          [
+            "hot dog",
+            "smaller",
+            "horse"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "remote",
+            "horse"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A colorful scene showing four large gray remotes, four green horses, four small red hot dogs, and five pink traffic lights. The gray remotes are visibly larger than the pink traffic lights; the red hot dogs are clearly smaller than the green horses. The green horses stand in a loose row across the midground, each about twice the size of a hot dog placed on small plates in the foreground. The five pink traffic lights hang together on a short pole at the left, noticeably smaller than the remotes which lie on a low table center-right. A small wooden sign propped on the table is clearly readable and displays the exact text: Remote calms horse remote and horse belong together.",
+        "A vibrant scene contains four large gray remotes, four green horses, four small red hot dogs, and five pink traffic lights. Each gray remote is clearly larger than each pink traffic light, and every red hot dog is noticeably smaller than each green horse. A nearby sign displays the visible text: \"Gray remotes control green horses in synchronized movement.\"",
+        "A surreal composition containing four gray remotes, four green horses, four red hot dogs, and five pink traffic lights. The gray remotes are visibly larger than the pink traffic lights, and the red hot dogs are noticeably smaller than the green horses. A clearly readable sign in the scene displays exactly this eight-word sentence: \"Remotes are larger; horses are smaller than remotes\". Ensure all objects are plainly visible with the specified colors, counts, and relative sizes.",
+        "A surreal scene shows four large gray remotes scattered across a park, each clearly larger than five petite pink traffic lights standing nearby. Four vivid green horses stand together, each taller than four tiny red hot dogs placed on the ground beside them. A wooden sign in the foreground displays eight words about the remote and the horse: Gray remote controls green horse do not touch",
+        "A whimsical tabletop scene features four gray remotes, each noticeably larger than five small pink traffic lights clustered nearby; four green horses \u2014 life-size toy figures \u2014 stand prominently, and four red hot dogs, much smaller than the horses, lie on plates in front of them. A small paper note on the table reads \"Remote guides horse gently; respect both's space always\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'toilet', 'count': 2, 'color': 'gray'}, {'object': 'bowl', 'count': 2, 'color': 'pink'}, {'object': 'sink', 'count': 2, 'color': 'red'}. Make the sink(s) smaller than the toilet(s). Make the sink(s) larger than the bowl(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about toilet, sink. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "toilet",
+            "count": 2,
+            "color": "gray"
+          },
+          {
+            "object": "bowl",
+            "count": 2,
+            "color": "pink"
+          },
+          {
+            "object": "sink",
+            "count": 2,
+            "color": "red"
+          }
+        ],
+        "size_relations": [
+          [
+            "sink",
+            "smaller",
+            "toilet"
+          ],
+          [
+            "sink",
+            "larger",
+            "bowl"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "toilet",
+            "sink"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright, tidy bathroom scene containing two gray toilets side by side, two red wall-mounted sinks placed in front of and noticeably smaller than the toilets but clearly larger than the bowls, and two small pink bowls sitting on the countertop beneath the sinks; a small white sign on the wall above the sinks displays the five-word message: \"Toilet and sink need cleaning.\"",
+        "A bright, minimal showroom scene features two gray toilets standing side by side as the dominant fixtures; each toilet is the largest object in the frame. In front of them sit two red sinks that are clearly smaller than the toilets but noticeably larger than the two small pink bowls placed beneath each sink. A small wall sign reads: \"Toilet and sink need cleaning\".",
+        "A bright bathroom shows two gray toilets standing side by side, two red sinks mounted on the wall, and two small pink bowls sitting on a low shelf. Each red sink is noticeably smaller than the gray toilets but clearly larger than the pink bowls. A paper sign on the mirror reads \"Toilet and sink need cleaning\""
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'chair', 'count': 2, 'color': 'blue'}, {'object': 'car', 'count': 2, 'color': 'black'}. Make the car(s) smaller than the chair(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about chair. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "chair",
+            "count": 2,
+            "color": "blue"
+          },
+          {
+            "object": "car",
+            "count": 2,
+            "color": "black"
+          }
+        ],
+        "size_relations": [
+          [
+            "car",
+            "smaller",
+            "chair"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "chair"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Two large blue chairs sit side by side as the focal point, their bright upholstery and oversized proportions making them dominate the scene; in front of them are two small black cars that are clearly smaller than the chairs. A white sign nearby reads \"Chair for sale\".",
+        "A bright living space features two large blue chairs placed side by side, and two small black cars on the floor that are clearly smaller than the chairs. A small paper sign taped to one chair reads \"Blue chairs welcome\". The chairs have soft cushions and wooden legs, while the miniature black cars gleam with chrome details."
+      ]
+    }
+  ]
+}

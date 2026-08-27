@@ -1,0 +1,212 @@
+{
+  "experiment_id": "all_skills",
+  "timestamp": "2026-02-05T11:34:04.883168",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bowl', 'count': 5, 'color': 'white'}, {'object': 'toilet', 'count': 5, 'color': 'black'}, {'object': 'hot dog', 'count': 4, 'color': 'blue'}, {'object': 'toothbrush', 'count': 5, 'color': 'purple'}. Position the bowl(s) to the right of the toilet(s). Position the hot dog(s) in front of the toothbrush(s). Make the toothbrush(s) larger than the bowl(s). Make the hot dog(s) smaller than the toilet(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about toilet, hot dog. Include a person showing trust. Include a person showing disgust. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "disgust",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "bowl",
+            "count": 5,
+            "color": "white"
+          },
+          {
+            "object": "toilet",
+            "count": 5,
+            "color": "black"
+          },
+          {
+            "object": "hot dog",
+            "count": 4,
+            "color": "blue"
+          },
+          {
+            "object": "toothbrush",
+            "count": 5,
+            "color": "purple"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bowl",
+            "to the right of",
+            "toilet"
+          ],
+          [
+            "hot dog",
+            "in front of",
+            "toothbrush"
+          ]
+        ],
+        "size_relations": [
+          [
+            "toothbrush",
+            "larger",
+            "bowl"
+          ],
+          [
+            "hot dog",
+            "smaller",
+            "toilet"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "toilet",
+            "hot dog"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Five black toilets are arranged in a neat row on the left side of the room; to the right of them, five white bowls are arranged in a matching row so that every bowl is clearly positioned to the right of every toilet. Behind the foreground objects stand five oversized purple toothbrushes (taller and larger in scale than the white bowls), and in front of those toothbrushes are four small blue hot dogs placed closer to the viewer\u2014each blue hot dog noticeably smaller than the black toilets. A small sign near the toilets reads \"Toilet and hot dog: keep apart\". Three people are visible: one person expressing trust with a warm smile and a hand gently resting on another person's shoulder, one person expressing disgust with a grimace and recoil while looking at a toilet, and one person expressing anticipation, leaning forward with bright eyes and hands slightly clasped while focused on a blue hot dog. The scene is well lit so all object colors, relative sizes, placements, and facial expressions are clearly visible.",
+        "A staged scene shows five black toilets lined up on the left and five white bowls arranged directly to their right so every bowl sits to the right of the toilets. Behind a low foreground row of four small blue hot dogs are five large purple toothbrushes; the hot dogs are placed in front of the toothbrushes and are visibly smaller than the toilets, while each purple toothbrush is noticeably larger in scale than any white bowl. A small sign on the wall reads: \"Toilet, hot dog: not for sharing\". Three people occupy the scene: one person with a relaxed, open face and an outstretched hand conveying trust; a second person recoiling with a wrinkled nose and curled lip expressing disgust; and a third person leaning forward with wide eyes and clasped hands showing eager anticipation. The composition emphasizes the color and size contrasts among the black toilets, white bowls, blue hot dogs, and purple toothbrushes.",
+        "An intentionally staged scene shows five black toilets lined up on the left with five white bowls positioned to their right; five oversized purple toothbrushes stand behind while four small blue hot dogs sit in front of them. The purple toothbrushes are noticeably larger than the white bowls, and each blue hot dog is clearly smaller than the black toilets. A wall poster displays the six-word message: \"Toilet and hot dog strictly separate\". In the foreground three people react: one smiling warmly and extending a hand to show trust, one recoiling with a grimace to show disgust, and one leaning forward with eager anticipation toward the hot dogs.",
+        "Five black toilets sit in a neat row across the left side of the scene; five white bowls are aligned directly to the right of those toilets. In the foreground four small blue hot dogs lie in front of five tall purple toothbrushes \u2014 the toothbrushes are noticeably larger than the white bowls, and the blue hot dogs are clearly smaller than the black toilets. A small wall sign behind the toilets displays exactly six printed words: \"Toilet and hot dog are questionable\". Three people are visible: one person near the bowls shows trust with a soft smile and open-palmed gesture, another person standing close to the toilets shows disgust with a wrinkled nose and recoiling posture, and a third person kneeling near the hot dogs shows anticipation, leaning forward with eager eyes and hands ready. The scene is well lit so all colors, sizes, positions, and facial expressions are clearly visible.",
+        "A carefully staged, studio-lit scene containing exactly five black toilets and five white bowls, with each white bowl positioned directly to the right of the toilets. In front of five purple toothbrushes (the toothbrushes are noticeably larger than the bowls) sit four small blue hot dogs placed closer to the viewer, and the hot dogs are visibly smaller than the toilets. A clear sign on an easel displays the six-word message: \"Toilet and hot dog: keep apart\". Three people are present: one person showing trust with an open, warm smile and relaxed posture, one person showing disgust by covering their nose and grimacing, and one person showing eager anticipation, leaning forward with wide eyes and clasped hands."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bottle', 'count': 2, 'color': 'red'}, {'object': 'sink', 'count': 2, 'color': 'green'}, {'object': 'baseball glove', 'count': 2, 'color': 'brown'}. Position the bottle(s) below the baseball glove(s). Position the bottle(s) inside the sink(s). Make the baseball glove(s) smaller than the sink(s). Make the baseball glove(s) larger than the bottle(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about bottle, baseball glove. Include a person showing disgust. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "bottle",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "sink",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "baseball glove",
+            "count": 2,
+            "color": "brown"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bottle",
+            "below",
+            "baseball glove"
+          ],
+          [
+            "bottle",
+            "inside",
+            "sink"
+          ]
+        ],
+        "size_relations": [
+          [
+            "baseball glove",
+            "smaller",
+            "sink"
+          ],
+          [
+            "baseball glove",
+            "larger",
+            "bottle"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "bottle",
+            "baseball glove"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Two red bottles (two total) sit inside two green sinks (side by side); each red bottle is positioned below a brown baseball glove so that the bottles are inside the sinks and directly beneath the gloves. There are two brown baseball gloves, each larger than the red bottles but smaller than the green sinks, perched near the rim above their respective bottles. A white label attached to the front of the left sink displays the visible text: \"Bottle and baseball glove smell bad\". A person on the left recoils with a disgusted expression, nose wrinkled and hand raised in aversion; a person on the right leans forward with a warm, open smile and hand over chest, clearly showing trust. The scene is well lit so the red bottles, green sinks, brown gloves, and the six-word label are all clearly visible.",
+        "An image shows two green sinks placed side by side, each sink holding a small red bottle sitting at the bottom. Resting on the rim above each sink is a brown baseball glove; each glove is noticeably smaller than the sink that holds it but clearly larger than the red bottle inside the sink beneath it. The two red bottles are positioned below the brown gloves and are fully inside their respective sinks. A small paper sign taped to the wall between the sinks displays six words in plain text: Bottle and baseball glove smell awful. To the left of the sinks a person displays a disgusted expression, wrinkling their nose and recoiling slightly; to the right a different person shows a trusting, calm smile and relaxed posture. The scene is well lit so the glossy green sinks, red plastic bottles, and textured brown leather gloves are all clearly visible.",
+        "A cleanly composed scene shows two green sinks side by side, each sink larger than the objects above it and each containing one small red bottle sitting at the bottom; directly above each sink, and clearly larger than the bottles but noticeably smaller than the sinks, float two brown baseball gloves suspended just over the sink rims so the bottles are below the gloves. To the right, a person turns away with a disgusted expression, wrinkling their nose and crossing their arms; to the left, another person leans forward with a relaxed, trusting smile and open hands toward the gloves. A small laminated sign attached to the backsplash above the sinks reads: \"Bottle and baseball glove need cleaning\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'fire hydrant', 'count': 2, 'color': 'blue'}, {'object': 'apple', 'count': 1, 'color': 'purple'}. Position the apple(s) under the fire hydrant(s). Make the fire hydrant(s) smaller than the apple(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about apple. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "fire hydrant",
+            "count": 2,
+            "color": "blue"
+          },
+          {
+            "object": "apple",
+            "count": 1,
+            "color": "purple"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "apple",
+            "under",
+            "fire hydrant"
+          ]
+        ],
+        "size_relations": [
+          [
+            "fire hydrant",
+            "smaller",
+            "apple"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "apple"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Photorealistic street scene with two small blue fire hydrants and one large purple apple: two miniature blue fire hydrants (clearly smaller than the fruit) stand on a sidewalk with a single oversized purple apple positioned directly beneath and centered between them. A joyful person nearby, smiling broadly with arms raised, celebrates the whimsical sight. A small sign next to the apple reads Purple Apple. Soft daylight, shallow depth of field, realistic details.",
+        "A whimsical outdoor scene with two small blue fire hydrants positioned above and to either side, and one oversized purple apple sitting directly underneath them so the apple is noticeably larger than the hydrants. A small wooden sign planted in front of the apple clearly reads \"Purple apple\". Nearby a joyful person beams with delight, smiling broadly and raising their arms in celebration."
+      ]
+    }
+  ]
+}

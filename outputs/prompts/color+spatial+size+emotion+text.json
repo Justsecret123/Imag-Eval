@@ -1,0 +1,200 @@
+{
+  "experiment_id": "color+spatial+size+emotion+text",
+  "timestamp": "2026-02-05T10:10:49.976340",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+size+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bicycle', 'color': 'purple'}, {'object': 'tie', 'color': 'pink'}, {'object': 'giraffe', 'color': 'yellow'}, {'object': 'car', 'color': 'green'}. Position the car(s) to the right of the tie(s). Position the bicycle(s) below the giraffe(s). Make the bicycle(s) smaller than the tie(s). Make the car(s) larger than the giraffe(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about car, giraffe. Include a person showing surprise. Include a person showing sadness. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "sadness",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "bicycle",
+            "color": "purple"
+          },
+          {
+            "object": "tie",
+            "color": "pink"
+          },
+          {
+            "object": "giraffe",
+            "color": "yellow"
+          },
+          {
+            "object": "car",
+            "color": "green"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "car",
+            "to the right of",
+            "tie"
+          ],
+          [
+            "bicycle",
+            "below",
+            "giraffe"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bicycle",
+            "smaller",
+            "tie"
+          ],
+          [
+            "car",
+            "larger",
+            "giraffe"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "car",
+            "giraffe"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A street-side tableau: a large green car sits to the right of a giant pink tie hanging on a lamp post; the green car is noticeably larger than the nearby yellow giraffe. A small purple bicycle is positioned below the giraffe\u2019s legs and is deliberately smaller than the oversized pink tie. A weathered wooden sign on the lamp post reads \"Green car and yellow giraffe together\". Three people are visible\u2014one with wide eyes and hands raised in surprise near the car, one seated with a downcast face showing sadness, and a third person offering a steady hand and calm expression toward the sad person, showing trust.",
+        "A whimsical street scene: a tall yellow giraffe stands center-left, with a small purple bicycle parked directly below it \u2014 the bicycle is noticeably smaller than a large decorative pink tie hanging on a storefront to its left. To the right of that pink tie sits a big green car, clearly larger than the giraffe. A lamppost sign near the car reads exactly: \"Car meets giraffe in town, unbelievable.\" Three people react in the scene: one person beside the bicycle shows surprise with wide eyes and raised hands; another person on a nearby bench looks sad, head bowed with visible tears; a third person stands between the tie and the car, placing a reassuring hand on the sad person's shoulder and showing a calm, trusting expression. The composition emphasizes the color contrasts and the specified size and positional relationships among the purple bicycle, pink tie, yellow giraffe, and green car.",
+        "A vivid scene: a lanky yellow giraffe stands center-left, and directly beneath it sits a very small purple bicycle (the bicycle is noticeably smaller than a nearby oversized pink tie). To the right of the person wearing that pink tie is a large green car that is visibly larger than the yellow giraffe. A roadside sign reads \"Car and giraffe share a lane\". Three people are visible: one person looks surprised and points up at the giraffe, another person sits by the tiny purple bicycle with a sad expression, and a trusting person wearing the oversized pink tie smiles and shakes hands with a companion near the left side. The composition clearly shows the yellow giraffe above the purple bicycle, the pink tie to the left of the green car, and the large green car dominating the scene.",
+        "A whimsical street-scene: a tall yellow giraffe stands center-left with a small purple bicycle placed directly below it; the purple bicycle is noticeably smaller than a nearby pink tie draped over a bench. To the right of that pink tie sits a large green car, the green car clearly larger than the yellow giraffe. A wooden sign near the car displays the exact words \"Car meets giraffe near the street\". Three people react in the scene: one person shows surprise with wide eyes and an open mouth by the sign, another shows sadness with downcast eyes and slumped shoulders sitting by the bicycle, and a third shows trust with a gentle smile and relaxed posture standing close to the giraffe.",
+        "A colorful street scene features a tall yellow giraffe standing near a low fence. Directly below the giraffe sits a small purple bicycle, clearly smaller than a bright pink tie draped over the fence. To the right of that pink tie a large green car sits, its body noticeably larger than the giraffe. A hand-painted sign mounted beside the car reads \"Car, giraffe together: unexpected roadside meeting\". Nearby three people react: one person showing surprise with wide eyes and an open mouth, another person showing sadness with downcast eyes and a tear, and a third person showing trust as they gently place a reassuring hand on the giraffe's neck."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+size+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'donut', 'color': 'gray'}, {'object': 'zebra', 'color': 'purple'}, {'object': 'bowl', 'color': 'blue'}. Position the zebra(s) below the donut(s). Position the zebra(s) on top of the bowl(s). Make the bowl(s) larger than the donut(s). Make the bowl(s) smaller than the zebra(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about bowl, zebra. Include a person showing joy. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "donut",
+            "color": "gray"
+          },
+          {
+            "object": "zebra",
+            "color": "purple"
+          },
+          {
+            "object": "bowl",
+            "color": "blue"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "zebra",
+            "below",
+            "donut"
+          ],
+          [
+            "zebra",
+            "on top of",
+            "bowl"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bowl",
+            "larger",
+            "donut"
+          ],
+          [
+            "bowl",
+            "smaller",
+            "zebra"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "bowl",
+            "zebra"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A whimsical scene shows a small gray donut floating near the top of the frame, directly above a large purple zebra that stands on top of a medium-sized blue bowl; the blue bowl is noticeably larger than the gray donut but smaller than the purple zebra. A small wooden sign nearby reads: \"This bowl balances the purple zebra\". To the left a person beams with joy, hands raised and smiling, while to the right another person looks downcast and wipes away a tear.",
+        "A whimsical scene shows a large purple zebra standing on top of a medium-sized blue bowl, with a small gray donut positioned just above the zebra so the zebra is below the donut. The blue bowl is clearly larger than the gray donut but noticeably smaller than the purple zebra. A wooden sign beside the bowl displays the text: \"Bowl holds zebra above gray donut\". Nearby, one person shows joy\u2014smiling broadly and pointing excitedly at the zebra\u2014while another person shows sadness, looking down with tears; the lighting is bright so colors and the sign are clearly legible.",
+        "A whimsical scene: a purple zebra stands on top of a medium blue bowl, the bowl larger than a nearby gray donut but noticeably smaller than the zebra. A gray donut hovers above each zebra so every zebra is below a donut while perched on its bowl. A small handwritten sign by the display reads \"Purple zebra sits atop blue bowl\". Nearby, one person shows joy with an open smile and raised arms, while another person looks sad with downcast eyes and a tear."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+size+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bench', 'color': 'purple'}, {'object': 'remote', 'color': 'black'}. Position the bench(s) under the remote(s). Make the bench(s) larger than the remote(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about bench. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "bench",
+            "color": "purple"
+          },
+          {
+            "object": "remote",
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bench",
+            "under",
+            "remote"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bench",
+            "larger",
+            "remote"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "bench"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A large purple bench dominates the lower part of the scene, clearly larger than and positioned beneath a small black remote that sits on a narrow shelf directly above it. To the right, a person turns away with a disgusted expression, nose wrinkled and lips curled. A small taped sign on the bench reads \"ugly purple bench\".",
+        "A large purple bench sits directly beneath a small black remote mounted on the wall above it; the bench is noticeably larger in scale than the remote. A single paper sign taped to the front of the bench reads exactly \"Bench is disgusting\" with no other words or punctuation. Nearby, a person displays a disgusted expression\u2014wrinkled nose, narrowed eyes, and a turned-down mouth\u2014recoiling and covering their mouth with one hand. No other visible text appears in the scene."
+      ]
+    }
+  ]
+}

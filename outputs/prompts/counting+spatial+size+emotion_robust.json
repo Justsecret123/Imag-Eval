@@ -1,0 +1,177 @@
+{
+  "experiment_id": "counting+spatial+size+emotion_robust",
+  "timestamp": "2026-02-05T10:18:24.812262",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'baseball glove', 'count': 5}, {'object': 'umbrella', 'count': 4}, {'object': 'bicycle', 'count': 4}, {'object': 'fire hydrant', 'count': 5}. Position the baseball glove(s) under the bicycle(s). Position the fire hydrant(s) on top of the umbrella(s). Make the bicycle(s) smaller than the baseball glove(s). Make the fire hydrant(s) larger than the umbrella(s). Include a person showing trust. Include a person showing fear. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "fear",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "baseball glove",
+            "count": 5
+          },
+          {
+            "object": "umbrella",
+            "count": 4
+          },
+          {
+            "object": "bicycle",
+            "count": 4
+          },
+          {
+            "object": "fire hydrant",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "baseball glove",
+            "under",
+            "bicycle"
+          ],
+          [
+            "fire hydrant",
+            "on top of",
+            "umbrella"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bicycle",
+            "smaller",
+            "baseball glove"
+          ],
+          [
+            "fire hydrant",
+            "larger",
+            "umbrella"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal outdoor scene contains five baseball gloves, four umbrellas, four bicycles, and five fire hydrants. All five baseball gloves lie directly beneath the four bicycles \u2014 each bicycle is positioned above at least one glove and one bicycle is balanced over two gloves \u2014 and the bicycles are noticeably smaller than the oversized baseball gloves. Four open umbrellas are spaced across the scene; every umbrella supports fire hydrants on its canopy so that all five fire hydrants rest on top of the umbrellas (one umbrella holds two hydrants), and each fire hydrant is visibly larger than the umbrella it sits on. Three people are present showing distinct emotions: one person stands with a relaxed posture and a gentle smile while placing a hand on another\u2019s arm to convey trust, a second person recoils with wide eyes and raised hands in obvious fear, and a third person laughs with arms thrown up in clear joy.",
+        "A surreal outdoor tableau features five oversized baseball glovs, four open umbreallas, four bicycels, and five fire hydrents. All five baseball glovs lie directly beneath the four bicycels \u2014 each bicycel is positioned above at least one glov, and one bicycel is balanced over two glovs \u2014 and the bicycels are noticeably smaller than the oversized baseball glovs. The four open umbreallas are spaced across the scene; every umbrella canopy supports fire hydrents so that all five hydrents rest on top of the umbrellas (one umbrella holds two hydrents), and each fire hydrent is visibly larger than the umbrella it sits on. Three people are present showing distinct emotions: one person stands in a relaxed posture with a gentle smile while placing a hand on another\u2019s arm to convey trust, a second person recoils with wide eyes and raised hands in obvious fear, and a third person laughs with arms thrown up in clear joy.",
+        "In a surreal outdoor tableau there are five oversized baseball glovves, four open umbrallas, four bicylces, and five fire hydrants. All five gloves lie directly beneath the four bicycles \u2014 each bicycle sits above at least one glove and one bicycle is balanced over two gloves \u2014 and the bicycles are noticeably smaller than the abnormally large gloves. The four umbrellas are spaced across the scene; every umbrella supports fire hydrants on its canopy so that all five hydrants rest atop the umbrellas (one umbrella holds two hydrants), and each fire hydrant is visibly larger than the umbrella it sits on. Three people are present showing distinct emotions: one person stands with a relaxed posture and a gentle smile while placing a hand on another\u2019s arm to convey trust, a second person recoils with wide eyes and raised hands in obvious fear, and a third person laughs with arms thrown up in clear joy.",
+        "A surreal outdoor tableu contains five baseball gloves, four umbrellas, four bicylces, and five fire hydrants. All five baseball gloves lie directly beneath the four bicylces \u2014 each bicylce is positioned above at least one glove and one bicylce is balanced over two gloves \u2014 and the bicylces are noticeably smaller than the oversized baseball gloves. Four open umbrellas are spaced across the scene; every umbrella supports fire hydrants on its canopy so that all five fire hydrants rest on top of the umbrellas (one umbrella holds two hydrants), and each fire hydrant is visably larger than the umbrella it sits on. Three people are present showing distinct emotions: one person stands with a relaxed posture and a gentle smile while placing a hand on another's arm to convey trust, a second person recoils with wide eyes and raised hands in obvious fear, and a third person laughs with arms thrown up in clear joy.",
+        "A surreal outdoor tableau contains five baseball gloves, four bycicles, four umbreallas, and five fire hydrants. All five gloves lie directly beneath the four bycicles \u2014 each bicycle is positoned above at least one glove and one bicycle is balanced over two gloves \u2014 and the bicycles are noticeably smaller than the oversized baseball gloves. Four open umbreallas are spaced across the scene; every umbrella supports fire hydrants on its canopy so that all five fire hydrants rest on top of the umbreallas (one umbrella holds two hydrants), and each fire hydrant is visibly larger than the umbrella it sits on. Three people appear with distinct emotions: one stands relaxed with a gentle smile, placing a hand on another\u2019s arm to convey trust, a second recoils with wide eyes and raised hands in clear fear, and a third laughs with arms thrown up in unabashed joy."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'boat', 'count': 2}, {'object': 'tennis racket', 'count': 3}, {'object': 'donut', 'count': 3}. Position the boat(s) inside the tennis racket(s). Position the boat(s) below the donut(s). Make the tennis racket(s) larger than the boat(s). Make the tennis racket(s) smaller than the donut(s). Include a person showing surprise. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "boat",
+            "count": 2
+          },
+          {
+            "object": "tennis racket",
+            "count": 3
+          },
+          {
+            "object": "donut",
+            "count": 3
+          }
+        ],
+        "spatial_relations": [
+          [
+            "boat",
+            "inside",
+            "tennis racket"
+          ],
+          [
+            "boat",
+            "below",
+            "donut"
+          ]
+        ],
+        "size_relations": [
+          [
+            "tennis racket",
+            "larger",
+            "boat"
+          ],
+          [
+            "tennis racket",
+            "smaller",
+            "donut"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A whimsical scene: three giant colorful donuts float across the upper part of the frame. Below them, three tennis rackets hang in midair\u2014each racket noticeably smaller than the donuts but clearly larger than the boats. Two of the rackets cradle a small wooden boat inside their stringed frames (two boats total), the boats sitting inside the rackets and directly beneath the floating donuts, while the third racket remains empty. In the foreground two people react to the surreal tableau: one person with wide eyes and hands over their mouth in surprise, and another recoiling with a terrified expression and hands raised in fear. Bright daylight, soft shadows, playful color palette, clear emphasis on the size relationships (donuts largest, rackets medium, boats smallest).",
+        "A whimsical tableau: three giant, coloful donuts drift across the upper edge of the frame. Beneath them hang three tennis rackets midair\u2014each racket noticeably smaller than the donuts but still considerably larger than the boats. Two of the rackets cradle a small wooden boat inside their stringed frames (two boats in total), the boats sitting within the rackets directly under the floating donuts, while the third racket remains empty. In the foreground, two people react to the surreal scene: one with wide eyes and hands clapped over their mouth in surprize, the other recoiling with a terrified face and hands raised. Bright daylight, soft shadows, a playful color pallette, and a clear emphasis on the scale relationships (donuts largest, rackets medium, boats smallest).",
+        "A fanciful scene where three enormous, brightly-coloful doughnuts drift across the top of the frame. Beneath them, three tennis rackets hang suspended in mid-air \u2014 each noticeably smaller than the doughnuts but clearly larger than the tiny wooden boats. Two of the rackets cradle a small wooden boat within their strung frames (two boats total), the boats sitting inside the rackets and directly beneath the floating doughnuts, while the third racket remains empty. In the foreground two people react to the surreal tableau: one person with wide eyes and hands over their mouth in surpise, and another recoiling with a terrified expression and hands raised in fear. Bright daylight, soft shadows, playful color pallette, clear emphasis on the size relationships (doughnuts largest, rackets medium, boats smallest)."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bird', 'count': 1}, {'object': 'car', 'count': 1}. Position the bird(s) to the right of the car(s). Make the car(s) larger than the bird(s). Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "bird",
+            "count": 1
+          },
+          {
+            "object": "car",
+            "count": 1
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bird",
+            "to the right of",
+            "car"
+          ]
+        ],
+        "size_relations": [
+          [
+            "car",
+            "larger",
+            "bird"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A realistic daytime street scene with one car positioned center-left and noticeably larger than a small bird perched to its right on the curb; the bird sits just to the right of the car and is clearly smaller in scale. A person stands nearby showing surprise\u2014wide eyes, mouth open, hands raised\u2014looking toward the car and the bird. Soft natural light, clear focus, and lifelike proportions.",
+        "Daytime street scene: a single car sits center-left and is visably much larger than a litle bird perched on the curb immediately to its right; the small bird rests just right of the vehicle and is clearly smaller in scale. A nearby person reacts with surprise \u2014 wide eyes, mouth agape, hands raised \u2014 looking toward the car and bird. Soft natural light, crsip focus, and realstic lifelike proportions."
+      ]
+    }
+  ]
+}

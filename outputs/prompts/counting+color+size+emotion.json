@@ -1,0 +1,155 @@
+{
+  "experiment_id": "counting+color+size+emotion",
+  "timestamp": "2026-05-04T16:54:11.433261",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'dining table', 'count': 4, 'color': 'red'}, {'object': 'sandwich', 'count': 5, 'color': 'black'}, {'object': 'couch', 'count': 4, 'color': 'blue'}, {'object': 'truck', 'count': 5, 'color': 'green'}. Make the truck(s) larger than the sandwich(s). Make the couch(s) smaller than the dining table(s). Include a person showing disgust. Include a person showing joy. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "joy",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "dining table",
+            "count": 4,
+            "color": "red"
+          },
+          {
+            "object": "sandwich",
+            "count": 5,
+            "color": "black"
+          },
+          {
+            "object": "couch",
+            "count": 4,
+            "color": "blue"
+          },
+          {
+            "object": "truck",
+            "count": 5,
+            "color": "green"
+          }
+        ],
+        "size_relations": [
+          [
+            "truck",
+            "larger",
+            "sandwich"
+          ],
+          [
+            "couch",
+            "smaller",
+            "dining table"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal indoor scene features four red dining tables arranged across the floor, each noticeably larger than the four blue couches scattered nearby \u2014 the couches are visibly smaller in scale than the tables. Five green trucks line the back of the room; each truck is much larger than the five small black sandwiches placed around them and on some plates. In the foreground three people convey distinct emotions: one person wrinkles their nose and gags in disgust while glancing at a black sandwich, another sits on a blue couch beaming with joy, and a third stands by a red dining table with an eager, anticipatory expression.",
+        "A surreal, brightly lit scene contains four red dining tables and four blue couches; the blue couches are visibly smaller than the red dining tables. Five green trucks sit in the middle ground and are noticeably larger than five black sandwiches, which lie like tiny items on plates in the foreground. Three people are in the scene: one recoiling and showing disgust, one beaming with joy, and one leaning forward with eager anticipation.",
+        "A whimsical outdoor gathering scene: four red dining tables sit on a paved plaza, arranged in a loose square, each table sturdy and noticeably larger than the four blue couches placed nearby; the blue couches are compact and clearly smaller than the red dining tables. Scattered across the tables are five black sandwiches, small and odd-looking, with one table holding two sandwiches and the others having one each; the five green trucks are parked around the plaza and are much larger than the tiny black sandwiches, their scale dominating the scene. A person recoiling with clear disgust holds up a black sandwich and wrinkles their nose, another person radiates joy as they lounge happily on one of the small blue couches with a broad smile, and a third person stands beside a green truck with a tense, eager expression of anticipation, leaning forward as if waiting for something to begin. The composition emphasizes the color contrast\u2014red tables, black sandwiches, blue couches, and green trucks\u2014and the relative sizes, with the large trucks, medium red tables, smaller blue couches, and tiny black sandwiches creating a playful, surreal tableau.",
+        "An image shows four red dining tables arranged in a spacious scene; each red dining table is substantial and clearly larger than the nearby seating. Four blue couches sit around the tables but are noticeably smaller than the red dining tables. Five small black sandwiches are scattered on and around the tables and couches, clearly much smaller than the vehicles in the scene. Five green trucks are parked nearby and are much larger than the black sandwiches, looming over the tabletop items. A person standing beside one table twists their face in disgust, turning away from a sandwich; another person seated on a small blue couch beams with joy while holding a sandwich; a third person stands at the edge of the scene leaning forward with an eager expression of anticipation as they watch a green truck approach.",
+        "A bright, surreal scene shows four red dining tables spread across a sunlit plaza, each table large and sturdy with glossy red tops. Nearby sit four blue couches, clearly smaller in scale than the red dining tables, low and compact as if child-sized compared with the tables. Scattered around and on the furniture are five small black sandwiches\u2014tiny, starkly black sandwiches that look miniature compared with the other items. Positioned near them are five green trucks, substantially larger than the black sandwiches and dominating the composition; the trucks are full-sized and noticeably bigger than the food items, some parked close to the tables and others looming behind the couches. Three people punctuate the scene: one standing beside a table with a contorted face of disgust as they recoil from a black sandwich, another sitting on a blue couch beaming with joy and clapping their hands, and a third person leaning forward toward a green truck with an expression of eager anticipation, eyes wide and hands clasped. The overall mood mixes playful absurdity with clear size relationships\u2014the trucks tower over the tiny sandwiches, and the blue couches remain visibly smaller than the red dining tables."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'stop sign', 'count': 3, 'color': 'green'}, {'object': 'remote', 'count': 3, 'color': 'gray'}, {'object': 'bed', 'count': 2, 'color': 'blue'}. Make the remote(s) larger than the stop sign(s). Make the remote(s) smaller than the bed(s). Include a person showing trust. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "stop sign",
+            "count": 3,
+            "color": "green"
+          },
+          {
+            "object": "remote",
+            "count": 3,
+            "color": "gray"
+          },
+          {
+            "object": "bed",
+            "count": 2,
+            "color": "blue"
+          }
+        ],
+        "size_relations": [
+          [
+            "remote",
+            "larger",
+            "stop sign"
+          ],
+          [
+            "remote",
+            "smaller",
+            "bed"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A realistic interior scene with three green stop signs mounted along the back wall, three gray remote controls placed on a low table and a nightstand\u2014each remote noticeably larger than the green stop signs but clearly smaller than two large blue beds that dominate the foreground. The two blue beds sit side by side, about twice the size of the remotes; the remotes serve as mid-sized objects between the tiny stop signs and the large beds. A person showing trust stands beside one bed with a warm, relaxed smile and an open, outstretched hand toward the other person; a second person showing anger stands near the opposite bed with furrowed brows, clenched fists, and an intense scowl, creating a clear emotional contrast in the room.",
+        "A realistic interior scene featuring two large blue beds as the dominant elements, each bed oversized and plush; three medium-sized gray remotes arranged on and between the beds, noticeably larger than but clearly smaller than the beds; and three small green stop signs placed upright around the remotes. A person showing trust stands beside one bed with a warm, open smile, soft eyes, relaxed posture and an open hand resting gently on a companion\u2019s shoulder; a second person showing anger faces them with a furrowed brow, clenched jaw and tense, crossed arms, glaring toward the remotes. Soft natural light, neutral background, crisp photographic detail.",
+        "A staged interior scene with two large blue beds occupying the center and right of the frame, and three small green stop signs scattered on the floor and on a bedside table; three gray remotes sit on the beds and nearby surfaces \u2014 each remote clearly larger than the green stop signs but noticeably smaller than the blue beds. Two people are present: one person near the left bed expressing trust with a warm, open smile, relaxed posture and open palms toward the other; the other person nearer the right bed expressing anger with furrowed brows, clenched jaw and crossed arms, creating a tense contrast in the composition. The room is simply furnished so the colors and relative sizes \u2014 three green stop signs, three gray remotes, and two blue beds \u2014 and the emotional interaction remain the focal point."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'carrot', 'count': 1, 'color': 'white'}, {'object': 'orange', 'count': 1, 'color': 'red'}. Make the orange(s) smaller than the carrot(s). Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "carrot",
+            "count": 1,
+            "color": "white"
+          },
+          {
+            "object": "orange",
+            "count": 1,
+            "color": "red"
+          }
+        ],
+        "size_relations": [
+          [
+            "orange",
+            "smaller",
+            "carrot"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A softly lit, intimate scene on a wooden table: a single white carrot lies horizontally, and beside it a single red orange\u2014clearly smaller than the carrot\u2014rests near the carrot\u2019s tip. In the background, a lone person sits hunched over, shoulders slumped and eyes downcast with tears, their face conveying quiet sadness as they gaze at the two items. The mood is muted and melancholic, with gentle shadows emphasizing the pale carrot, the small red orange, and the person\u2019s sorrow.",
+        "A quiet, intimate scene: a single large white carrot dominates the foreground with smooth pale skin, and beside it sits a single small red orange that is noticeably smaller than the carrot. In the background a solitary person shows clear sadness\u2014head bowed, shoulders slumped, a tear on their cheek\u2014soft diffused light and a muted neutral backdrop with a shallow depth of field."
+      ]
+    }
+  ]
+}

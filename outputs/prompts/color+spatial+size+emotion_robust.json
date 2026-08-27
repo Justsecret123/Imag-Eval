@@ -1,0 +1,177 @@
+{
+  "experiment_id": "color+spatial+size+emotion_robust",
+  "timestamp": "2026-02-05T11:04:14.184024",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+size+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'backpack', 'color': 'yellow'}, {'object': 'banana', 'color': 'purple'}, {'object': 'giraffe', 'color': 'gray'}, {'object': 'toothbrush', 'color': 'pink'}. Position the toothbrush(s) below the banana(s). Position the giraffe(s) under the backpack(s). Make the banana(s) larger than the toothbrush(s). Make the backpack(s) smaller than the giraffe(s). Include a person showing disgust. Include a person showing sadness. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "sadness",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "backpack",
+            "color": "yellow"
+          },
+          {
+            "object": "banana",
+            "color": "purple"
+          },
+          {
+            "object": "giraffe",
+            "color": "gray"
+          },
+          {
+            "object": "toothbrush",
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "toothbrush",
+            "below",
+            "banana"
+          ],
+          [
+            "giraffe",
+            "under",
+            "backpack"
+          ]
+        ],
+        "size_relations": [
+          [
+            "banana",
+            "larger",
+            "toothbrush"
+          ],
+          [
+            "backpack",
+            "smaller",
+            "giraffe"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A small yellow backpack sits above a tall gray giraffe\u2014the gray giraffe stands directly beneath the yellow backpack, making the backpack clearly smaller than the giraffe. Nearby, a large purple banana hangs above a small pink toothbrush, with the pink toothbrush positioned directly below the purple banana and noticeably smaller than the banana. Three people watch the scene: one recoiling in disgust with a wrinkled nose and grimace, one sitting with tears and a sorrowful expression of sadness, and one smiling broadly and laughing in joy.",
+        "A small yellow backpak rests above a tall gray giraff \u2014 the gray giraff stands directly beneath the yellow backpak, making the pack clearly smaller than the giraff. Nearby, a large purple bananna hangs above a small pink toothbrsh, with the pink toothbrsh positioned directly below the purple bananna and noticeably smaller than the bananna. Three people watch the scene: one recoiling in disgust with a wrinkled nose and grimace, one sitting with tears and a sorrwful expression, and one smiling broadly and laughing in joy.",
+        "A tiny yellow backpack hangs above a tall gray giraff \u2014 the gray giraff stands directly beneath the yellow backpack, making the pack clearly much smaller than the animal. Nearby, a large purple bananna dangles over a small pink toothbrsh, with the pink toothbrsh positioned directly below the banana and noticeably smaller. Three people watch the tableau: one recoiling in disgust with a wrinkled nose and a grimace, one sitting and crying with a sorrowfull expression, and one smiling broadly and laffing joyfully.",
+        "A tiny yellow backpack hovers above a tall grey girafe \u2014 the grey girafe stands directly underneath the yellow pack, highlighting that the backpack is much smaller than the giraffe. Nearby, a large purple bananna dangles over a small pink toothbruhsh, with the pink toothbruhsh placed directly below the purple banana and noticeably smaller than it. Three people watch the scene: one recoiling in disgust with a wrinkled nose and grimace, one sitting with tears and a sorrowful expression of sadness, and one smiling broadly and laughing with joy.",
+        "A small yellow backpak perches above a tall gray graffe \u2014 the graffe stands directly under the yellow backpak, emphasizing that the pack is much smaller than the animal. Nearby, a large purple banana dangles above a small pink toothbrish, the pink toothbrish positioned right beneath the purple banana and noticeably tinier than the banana. Three people watch the scene: one recoiling in disgust with a wrinkled nose and a grimace, one seated with tears and a sorrowful expression, and one beaming widely and laughing with joy."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+size+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'train', 'color': 'pink'}, {'object': 'sink', 'color': 'green'}, {'object': 'cow', 'color': 'orange'}. Position the train(s) in front of the sink(s). Position the train(s) next to the cow(s). Make the cow(s) larger than the train(s). Make the cow(s) smaller than the sink(s). Include a person showing surprise. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "train",
+            "color": "pink"
+          },
+          {
+            "object": "sink",
+            "color": "green"
+          },
+          {
+            "object": "cow",
+            "color": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "train",
+            "in front of",
+            "sink"
+          ],
+          [
+            "train",
+            "next to",
+            "cow"
+          ]
+        ],
+        "size_relations": [
+          [
+            "cow",
+            "larger",
+            "train"
+          ],
+          [
+            "cow",
+            "smaller",
+            "sink"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright scene shows a small pink train placed directly in front of a very large green sink; an orange cow stands right next to the pink train, noticeably larger than the train but still smaller than the towering green sink behind them. One person nearby has wide eyes and a hand over their mouth in clear surprise, while another person leans toward the cow with a calm, trusting smile, gently resting a hand on the cow's flank.",
+        "In a vivd setting, a tiny pink train sits directly before a huge green sink; an orange cow stands beside the pink train, cleary bigger than the train yet still dwarfed by the massive green sink looming behind. Nearby, one person stares with wide eyes and a hand over their mouth in obvious shock, while another leans in toward the cow with a peacful, trusting smile, softly placing a hand on the cow's flank.",
+        "A brighly lit scene features a tiny pink train parked directly in front of an enromous green sink; an orange cow stands beside the pink train, clearly bigger than the train yet still smaller than the towering green sink behind them. One onlooker has wide eyes and a hand pressed to thier mouth in obvious surprise, while another person leans toward the cow with a serene, trusting smile, gently resting a hand on the cow's flanck."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+size+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'handbag', 'color': 'pink'}, {'object': 'bird', 'color': 'blue'}. Position the handbag(s) behind the bird(s). Make the bird(s) smaller than the handbag(s). Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "handbag",
+            "color": "pink"
+          },
+          {
+            "object": "bird",
+            "color": "blue"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "handbag",
+            "behind",
+            "bird"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bird",
+            "smaller",
+            "handbag"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A joyful young woman laughing with her arms raised in delight, small vivid blue birds fluttering and perching in the foreground\u2014each bird noticeably smaller than the large glossy pink handbags positioned clearly behind them, the oversized pink bags forming a colorful backdrop; warm soft light and a shallow depth of field that keeps the smiling person and tiny blue birds in focus while the pink handbags sit behind the birds.",
+        "A gleeful young woman laughing with her arms raised in delite, while small vivid blu birds flutter and perch in the foreground\u2014each bird clearly much smaller than the large glosy pink handbags placed just behind them, the oversized pink bags forming a colorful backdrop; warm, soft lighting and a shallow depth of field keep the smiling woman and the tiny blue birds in sharp focus while the pink handbags sit softly behind."
+      ]
+    }
+  ]
+}

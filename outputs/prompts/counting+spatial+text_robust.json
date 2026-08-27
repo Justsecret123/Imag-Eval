@@ -1,0 +1,151 @@
+{
+  "experiment_id": "counting+spatial+text_robust",
+  "timestamp": "2026-02-05T12:17:43.376320",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'cat', 'count': 5}, {'object': 'bicycle', 'count': 4}, {'object': 'airplane', 'count': 5}, {'object': 'fire hydrant', 'count': 4}. Position the fire hydrant(s) next to the airplane(s). Position the cat(s) above the bicycle(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about bicycle, cat. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cat",
+            "count": 5
+          },
+          {
+            "object": "bicycle",
+            "count": 4
+          },
+          {
+            "object": "airplane",
+            "count": 5
+          },
+          {
+            "object": "fire hydrant",
+            "count": 4
+          }
+        ],
+        "spatial_relations": [
+          [
+            "fire hydrant",
+            "next to",
+            "airplane"
+          ],
+          [
+            "cat",
+            "above",
+            "bicycle"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "bicycle",
+            "cat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A vivid outdoor scene: five airplanes are parked in a row on the tarmac, and four bright red fire hydrants stand immediately next to four of the airplanes; in the foreground four colorful bicycles are neatly lined up, and five curious cats are perched above the bicycles on a low railing and a bench; a wooden sign near the bicycles reads \"Bicycles and cats share friendly rides and naps\"",
+        "A bright outdoor tableau shows five airplains parked in a neat row on the tarmac, with four vivid red fire hydrents positioned right beside four of the planes; in the foreground four colorful bicykles sit in a tidy line, and five currious cats lounge above them on a low railing and a wooden bench; a nearby wooden sign reads \"Bicycles and cats share friendly rides and naps.\"",
+        "A bright outdoor tableau shows five airplans parked in a row on the tarmac, with four vivid red fire hydrents placed right beside four of the planes; in the foreground four colurful bicycles are neatly lind up, while five curious cats sit perched above them on a low railing and a bench; a wooden sign by the bikes reads \"Bicycles and cats share frendly rides and naps\".",
+        "A vivid outdoor scene: five airplanes are parkt in a row on the tarmac, and four bright red fire hydrents stand immediately next to four of the airplanes; in the forground four colorful bicylces are neatly lined up, and five curous cats are perched above the bicycles on a low railing and a bench; a wooden sign near the bicycles reads \"Bicylces and cats share friendly rides and naps\"",
+        "A vivid outdoor scene shows five airplaens parked in a row on the tarmac, with four bright red fire hydrents positioned immediately beside four of the planes; in the foreground four colorful bicycels are neatly lined up, and five curious cats are perched above them on a low railing and a bench; a wooden sign near the bicycles reads \"Bicycles and cats share friendly rides and naps\""
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'person', 'count': 2}, {'object': 'keyboard', 'count': 2}, {'object': 'vase', 'count': 2}. Position the vase(s) under the person(s). Position the vase(s) to the right of the keyboard(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about person, keyboard. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "person",
+            "count": 2
+          },
+          {
+            "object": "keyboard",
+            "count": 2
+          },
+          {
+            "object": "vase",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "vase",
+            "under",
+            "person"
+          ],
+          [
+            "vase",
+            "to the right of",
+            "keyboard"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "person",
+            "keyboard"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A clean, modern photo of two people seated side by side at a long wooden desk. In front of each person sits a compact keyboard (two keyboards total) on the desk. Directly beneath each person on the floor is a decorative vase (two vases total), each vase positioned to the right of its corresponding keyboard. A small laminated sign on the desk near the keyboards reads: \"People and keyboards make creative workspaces\". The people are casually dressed, one looking at a screen and the other typing, with soft natural light from a nearby window and a neutral background.",
+        "A clean, modern photograph of two people sitting side by side at a long wooden desk. In front of each person rests a compact keyboard (two keyboards total) on the desk. Directly beneath each person on the floor is a decorative vase (two vasees total), each vase positioned to the right of its corresponding keybaord. A small laminated signe on the desk near the keyboards reads: \"Peple and keybaords make creative workspaces\". The people are casually dressed, one looking at a screen and the other typing, bathed in soft natural light from a nearby window with a neutral background.",
+        "A crisp modern photo of two people sitted side by side at a long wooden desk. Each person has a compact keybaord in front of them on the desk (two keyboards total). Directly beneath each person on the floor sits a decorative vase (two vases total), each placed to the right of its corresponding keyboard. A small laminted sign on the desk near the keyboards reads: \"People and keyboards make creative workspaces\". The people are casually dressed, one looking at a screen while the other types, with soft natural light from a nearby window and a neutral backgroud."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'cow', 'count': 1}, {'object': 'surfboard', 'count': 1}. Position the cow(s) next to the surfboard(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about surfboard. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cow",
+            "count": 1
+          },
+          {
+            "object": "surfboard",
+            "count": 1
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cow",
+            "next to",
+            "surfboard"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "surfboard"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A lone cow stands next to a colorful surfboard propped upright in the sand on a sunny beach; a small weathered sign leaning against the board reads \"Surfboard for sale\".",
+        "On a sunny beach a lone cow stands beside a coloful surfboard propped upright in the sand; a smal, weathred sign leaning against the board reads \"Surfboard for sale\"."
+      ]
+    }
+  ]
+}

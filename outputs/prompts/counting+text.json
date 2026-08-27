@@ -1,0 +1,117 @@
+{
+  "experiment_id": "counting+text",
+  "timestamp": "2026-02-05T11:27:19.480844",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+text",
+      "skills": [
+        "counting",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'truck', 'count': 5}, {'object': 'sheep', 'count': 5}, {'object': 'apple', 'count': 5}, {'object': 'dining table', 'count': 4}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about apple, truck. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "truck",
+            "count": 5
+          },
+          {
+            "object": "sheep",
+            "count": 5
+          },
+          {
+            "object": "apple",
+            "count": 5
+          },
+          {
+            "object": "dining table",
+            "count": 4
+          }
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "apple",
+            "truck"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor country market scene with 5 trucks parked along a dirt lane, 4 wooden dining tables arranged under a canvas awning, and 5 sheep grazing nearby; exactly 5 bright red apples are visible on and around the tables, and a hand-painted wooden sign reads \"Apple and truck delivering fresh fruit to market.\"",
+        "A bright farmyard scene showing five colorful trucks parked in a loose row beside four wooden dining tables, each table clear but nearby with small place settings; five sheep graze and wander between the tables and trucks, calmly nibbling grass; exactly five apples are visible, arranged on one table and in a shallow crate on a truck bed; a hand-painted sign propped on a crate reads: \"Apples and trucks create a colorful rural market.\"",
+        "A bright, slightly surreal farmyard scene showing five trucks parked in a loose row by a split-rail fence, five sheep grazing and milling nearby, and five red apples placed across four wooden dining tables set outdoors; a small chalkboard sign propped against a table reads \"Count: five apples and five trucks on display.\"",
+        "A bustling rural market scene with five trucks parked in a loose row beside a barn, five sheep milling and grazing between the vehicles, and five bright red apples arranged on plates and scattered on crates. Four wooden dining tables sit together under a striped canopy, each set for a meal. A weathered hand-painted sign is clearly visible and reads: \"Apple boxes surround truck near four dining tables.\"",
+        "An outdoor farm market scene with five trucks parked side by side near four wooden dining tables; five sheep wander between the tables and trucks, and five red apples sit arranged on one of the tables. A hand-painted sign on a nearby post reads \"Five apples loaded into five trucks for market.\" The barn lies in the background under soft morning light."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+text",
+      "skills": [
+        "counting",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'laptop', 'count': 2}, {'object': 'spoon', 'count': 2}, {'object': 'clock', 'count': 3}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about laptop, clock. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "laptop",
+            "count": 2
+          },
+          {
+            "object": "spoon",
+            "count": 2
+          },
+          {
+            "object": "clock",
+            "count": 3
+          }
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "laptop",
+            "clock"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright workspace scene shows two open laptops side by side on a wooden desk, two metal spoons placed next to a ceramic mug, and three clocks mounted on the wall showing different times; a yellow sticky note on one laptop screen clearly reads \"Check laptop, set clock\".",
+        "A tidy workspace features two open laptops side by side on a wooden desk, two spoons resting next to a ceramic mug, and three wall clocks above the desk set to different times. A small yellow sticky note on one laptop bears the words \"Laptop clock shows time\". Sunlight falls across the scene.",
+        "A tidy workspace shows two laptops open on a wooden desk, two spoons resting beside a coffee mug, and three clocks visible in the scene \u2014 a round wall clock, a small analog desk clock, and a digital alarm clock on a shelf. A yellow sticky note attached to the laptop lid reads \"Charge laptop clock battery\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+text",
+      "skills": [
+        "counting",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'dining table', 'count': 2}, {'object': 'sandwich', 'count': 1}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about dining table. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "dining table",
+            "count": 2
+          },
+          {
+            "object": "sandwich",
+            "count": 1
+          }
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "dining table"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright, sunlit caf\u00e9 scene featuring two wooden dining tables positioned side by side; on one table sits a single sandwich on a small white plate with a glass of water nearby. A small laminated tabletop sign next to the plate clearly reads \"Dining Table\". Warm natural light casts soft shadows across the textured wood, with a potted plant and blurred background giving a cozy, realistic atmosphere.",
+        "An airy dining room scene features two wooden dining tables placed side by side; a single sandwich on a white plate sits on the nearer table, and a small paper tag clipped to the table edge clearly reads \"dining table\"."
+      ]
+    }
+  ]
+}

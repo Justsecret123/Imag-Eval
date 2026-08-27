@@ -1,0 +1,143 @@
+{
+  "experiment_id": "counting+size+emotion_robust",
+  "timestamp": "2026-02-05T11:38:01.361547",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+size+emotion",
+      "skills": [
+        "counting",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bench', 'count': 5}, {'object': 'hot dog', 'count': 5}, {'object': 'potted plant', 'count': 4}, {'object': 'hair drier', 'count': 5}. Make the hot dog(s) smaller than the hair drier(s). Make the bench(s) larger than the potted plant(s). Include a person showing surprise. Include a person showing joy. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "joy",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "bench",
+            "count": 5
+          },
+          {
+            "object": "hot dog",
+            "count": 5
+          },
+          {
+            "object": "potted plant",
+            "count": 4
+          },
+          {
+            "object": "hair drier",
+            "count": 5
+          }
+        ],
+        "size_relations": [
+          [
+            "hot dog",
+            "smaller",
+            "hair drier"
+          ],
+          [
+            "bench",
+            "larger",
+            "potted plant"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A whimsical park scene with five wooden benches arranged along a sunlit paved path and five small potted plants clustered beside them; the benches are noticeably larger than the potted plants. Scattered on and around the benches are five hot dogs \u2014 tiny, bite-sized hot dogs that are clearly smaller than the nearby five hair driers, which are unusually large and chunky compared to the hot dogs. Three people interact in the scene: a person showing surprise, eyes wide and finger pointing at one of the oversized hair driers; a person showing joy, laughing and holding one of the small hot dogs; and a person showing anger, scowling with crossed arms while glaring at a hair drier. The composition emphasizes the size relationships (benches > potted plants, hair driers > hot dogs) and balances the five benches, five hair driers, five hot dogs, and four potted plants across the frame.",
+        "In a playful, whimsical park setting, five wooden benches line a sunlit paved pathway, each accompanied by five small pottted plants clustered at their sides; the benches are clearly much larger than the pottted plants. Scattered on and around the benches are five tiny, bite-sized hot dogs \u2014 noticeably smaller than five oversized, chunky hair driars that loom nearby. Three people interact: one person with eyes wide in suprise, pointing at an enormous hair drier; another bursting with joy, laghing while holding one of the tiny hot dogs; and a third looking angry, scowling with arms crossed as they glare at a hair drier. The composition strongly shows the size relationships (benches > potted plants, hair driars > hot dogs) and balnces the five benches, five hair driers, five hot dogs, and four potted plants across the frame.",
+        "A whimsical park setting with five wooden benchs lined along a sunlit paved path, and four small potted plants clustered beside them; the benches are noticeably larger than the potted plants. Scattered on and around the benchs are five tiny, bite-sized hot dogs \u2014 clearly much smaller than five nearby hair drires, which are unusually large and chunky compared to the hot dogs. Three people interact: one person shows suprise, eyes wide and finger pointing at an oversized hair drier; one person shows joy, laughing and holding a small hot dog; and another person shows anger, scowling with crossed arms while glaring at a hair drier. The composition stresses the size relationships (benchs > potted plants, hair driers > hot dogs) and balances five benches, five hair driers, five hot dogs, and four potted plants across the frame.",
+        "A playful park scene with five wooden benches set along a sunit paved path and five small potted plants clustred beside them; the benches are noticably larger than the pots. Scattered on and around the benches are five tiny, bite-sized hot dogs \u2014 clearly smaller than five unusually large, chunky hair drires positioned nearby. Three people interact in the scene: one person showing surprise, eyes wide and finger pionting at an oversized hair drier; another person showing joy, laughing and holding one of the small hot dogs; and a third person showing anger, scowling with crossed arms while glaring at a hair drier. The composition emphasises the size relationships (benches > potted plants, hair drires > hot dogs) and balnaces the five benches, five hair driers, five hot dogs, and five potted plants across the frame.",
+        "A whimsical park scene featuring five wooden benches set along a sunlit paved paath, with four small potted plants clustered beside them; the benches are noticeably larger than the potted plants. Scattered on and around the benches are five tiny, bite-sixed hot dogs that are clearly smaller than the five oversized, chuncky hair driers nearby. Three people interact: one person showing suprise, eyes wide and finger pointing at an outsized hair drier; one person beaming with joy, laughing and holding a small hot dog; and one person angry, scowling with crossed arms and glaring at a hair drier. The composition stresses the size relationships (benches > potted plants, hair driers > hot dogs) and balances five benches, five hair driers, five hot dogs, and four potted plants across the frame."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+size+emotion",
+      "skills": [
+        "counting",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'wine glass', 'count': 2}, {'object': 'sandwich', 'count': 3}, {'object': 'skis', 'count': 2}. Make the sandwich(s) larger than the skis(s). Make the sandwich(s) smaller than the wine glass(s). Include a person showing sadness. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "wine glass",
+            "count": 2
+          },
+          {
+            "object": "sandwich",
+            "count": 3
+          },
+          {
+            "object": "skis",
+            "count": 2
+          }
+        ],
+        "size_relations": [
+          [
+            "sandwich",
+            "larger",
+            "skis"
+          ],
+          [
+            "sandwich",
+            "smaller",
+            "wine glass"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An intimate caf\u00e9 scene: on a small wooden table sit two wine glasses and three sandwiches on plates; the three sandwiches are noticeably larger than the two skis propped against a chair nearby but still smaller than the two wine glasses that tower subtly above them. Two people occupy the scene \u2014 one seated at the table, head bowed with tears and a forlorn expression showing sadness, while the other stands beside them with clenched fists, furrowed brows and a scowl expressing anger; warm light illuminates the table and the contrasting emotions.",
+        "A cozy caf\u00e9 moment: a small wooden table holds two wine glases and three sandwhiches on plates. The three sandwhiches are clearly larger than the pair of skis propped against a nearby chair, yet still smaller than the two wine glases that subtly tower above them. Two people occupy the scene \u2014 one seated at the table with head bowed, tears on their face and a forlorn, despondent expression of sadness, while the other stands beside them with clenched fists, furrowed brows and a scowl of anger. Warm light illuminates the table and highlights the contrasting emotions.",
+        "A cozy caf\u00e9 tableau: on a small wooden table sit two wine glasses and three sandwitches on plates; teh three sandwitches are clearly larger than the two skis propped against a nearby chair but still smaller than the two wineglasses that rise subtly above them. Two people occupy the shot \u2014 one is seated at the table, head bowed with tears and a foirorn expression of sadness, while the other stands beside them with clenched fists, furrowed brows and a scowl of anger; warm light falls on the table and throws the contrasting emotions into relief."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+size+emotion",
+      "skills": [
+        "counting",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'toilet', 'count': 1}, {'object': 'handbag', 'count': 2}. Make the handbag(s) smaller than the toilet(s). Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "toilet",
+            "count": 1
+          },
+          {
+            "object": "handbag",
+            "count": 2
+          }
+        ],
+        "size_relations": [
+          [
+            "handbag",
+            "smaller",
+            "toilet"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "One white toilet stands against pale tiles in a small bathroom. Two small handbags, clutch-sized and noticeably smaller than the toilet, sit on the floor beside it. A person stands nearby, shoulders hunched and eyes brimming with tears, face turned down in a clear expression of sadness.",
+        "Against pale, faded tiles in a compact bathroom sits a single white toilet. Two tiny, clucth-sized handbgs, distinctly much smaller than the toilet, rest on the floor beside it. A person stands nearby, shoulders hunched, eyes brimming with tears and head bowed down in an obviuos show of sadness."
+      ]
+    }
+  ]
+}

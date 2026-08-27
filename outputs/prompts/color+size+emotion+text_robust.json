@@ -1,0 +1,166 @@
+{
+  "experiment_id": "color+size+emotion+text_robust",
+  "timestamp": "2026-02-05T11:48:24.391486",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+size+emotion+text",
+      "skills": [
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'suitcase', 'color': 'black'}, {'object': 'scissors', 'color': 'white'}, {'object': 'train', 'color': 'orange'}, {'object': 'dining table', 'color': 'yellow'}. Make the train(s) larger than the dining table(s). Make the scissors(s) smaller than the suitcase(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about train, dining table. Include a person showing trust. Include a person showing disgust. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "disgust",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "suitcase",
+            "color": "black"
+          },
+          {
+            "object": "scissors",
+            "color": "white"
+          },
+          {
+            "object": "train",
+            "color": "orange"
+          },
+          {
+            "object": "dining table",
+            "color": "yellow"
+          }
+        ],
+        "size_relations": [
+          [
+            "train",
+            "larger",
+            "dining table"
+          ],
+          [
+            "scissors",
+            "smaller",
+            "suitcase"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "train",
+            "dining table"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A busy platform scene shows a long orange train looming behind a small yellow dining table set near the platform edge; a lamppost poster reads: Train larger than dining table today. In the foreground a closed black suitcase sits on a bench with a tiny white pair of scissors beside it, the scissors much smaller than the suitcase. Three people display clear emotions: a passenger smiling with an open hand in a trusting gesture toward a station attendant, a commuter recoiling with a disgusted grimace as they look at the scissors, and another traveler scowling angrily and pointing at the poster. The orange train towers over the yellow dining table, emphasizing the size contrast.",
+        "A crowded pltaform scene features a long orange train looming behind a tiny yellow dining table set right at the platform edge; a lamppost advertisement reads \"Train larger than dining table today.\" In the foreground a closed black suitcase rests on a bench with a minute white pair of scisors beside it, the scissors noticeably much smaller than the suitcase. Three people show distinct emotions: a passenger smiling and offering an open hand in a trusing gesture toward a station attendant, a commuter recoiling with a disgusted grimace as they stare at the scissors, and another traveler scowling angrily and pointing at the poster. The towering orange train dwarfs the yellow dining table, underscoring the stark size contrast.",
+        "On a busy platform a long orange train looms behind a tiny yellow dining table set close to the platform edge; a poster on a lampost reads: Train larger than dining table today. In the foreground a closed black suitcase sits on a bench with a tiny white pair of scisscors beside it, the scissors much smaller than the suitcase. Three people show clear emotions: a passenger beamimg and offering an open hand in a trusting gesture toward a station attendant, a commuter recoiling with a disgusted grimace as they peir at the scissors, and another traveler scowling angrily and pointing at the poster. The orange train towers over the yellow dining table, underscoring the size contrast.",
+        "On a busy station platform a long orange train looms behind a small yellow dining table set near the platform edge; a lampost postr reads: Train larger than dining table today. In the foreground a closed black suitcase rests on a benceh with a tiny white pair of scisors beside it, the scisors much smaller than the suitcase. Three people show clear emotions: a passenger smiling and offering an open hand in a trusting gesture toward a station attendant, a commuter recoiling with a disgusted grimace as they look at the scisors, and another traveler scowling angrily and pointing at the poster. The orange train towers over the yellow dining table, emphasizing the size contrast.",
+        "A crowded platfrom scene: a long orange train looms behind a small yellow dining table set dangerously close to the platform edge; a lamppost poster proclaims: \"Train larger than dining table today.\" In the foreground a closed black suitcase rests on a bench with a tiny white pair of scisors beside it, the scisors far smaller than the suitcase. Three people show distinct emotions \u2014 a passenger smiling and offering an open hand in a trusting gesture toward a station attendant, a commuter recoiling with a disgusted grimace as they stare at the scissors, and another travler scowling angrily while pointing at the poster. The orange train towers over the yellow table, underscoring the exaggerated size contrast."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+size+emotion+text",
+      "skills": [
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'kite', 'color': 'pink'}, {'object': 'snowboard', 'color': 'blue'}, {'object': 'bed', 'color': 'yellow'}. Make the kite(s) smaller than the snowboard(s). Make the kite(s) larger than the bed(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about bed, kite. Include a person showing anticipation. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "kite",
+            "color": "pink"
+          },
+          {
+            "object": "snowboard",
+            "color": "blue"
+          },
+          {
+            "object": "bed",
+            "color": "yellow"
+          }
+        ],
+        "size_relations": [
+          [
+            "kite",
+            "smaller",
+            "snowboard"
+          ],
+          [
+            "kite",
+            "larger",
+            "bed"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "bed",
+            "kite"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bustling outdoor market stall displays several large blue snowboards leaning against a rack, with a few medium-sized pink kites fluttering nearby \u2014 the pink kites are visibly smaller than the blue snowboards but noticeably larger than the tiny yellow beds set on a low table. A hand-painted cardboard sign propped on the table reads \"Bed kite for sale\". To the left, a young woman leans forward, hands clasped and eyes bright, clearly showing anticipation; to the right, a shopper wrinkles his nose and recoils slightly, his expression one of disgust. Sunlight highlights the glossy blue boards, the soft pink kite fabric, and the chipped yellow paint on the miniature beds.",
+        "At a busy open-air market stall, several large blue snowboards lean against a rack while a few medium-sized pink kites flutter nearby \u2014 the pink kites are clearly smaller than the blue snowboards but noticeably larger than the tiny yellow beds arranged on a low table. A hand-painted cardbord sign propped on the table reads \"Bed kite for sale\". To the left, a young woman leans forward, hands clasped and eyes bright with anctipation; to the right, a shopper wrinkles his nose and recoils slightly, his face showing disgust. Sunlight glints off the glosy blue boards, the soft pink kite fabric, and the chipped yellow paint on the miniature beds.",
+        "At a busy outdoor market stall, several large blue snowboads lean against a rack while a handful of mid-sized pink kites flutter nearby \u2014 the pink kites are visbly smaller than the blue boards but noticeably larger than the tiny yellow beds arranged on a low table. A hand-painted cardbord sign propped on the table reads \"Bed kite for sale\". To the left, a young woman leans forward, hands clasped and eyes bright in anticpation; to the right, a shopper wrinkles his nose and recoils slightly, his face showing clear disgust. Sunlight picks out the glossy blue boards, the soft pink kite fabric, and the chipped yellow paint on the miniture beds."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+size+emotion+text",
+      "skills": [
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'cup', 'color': 'white'}, {'object': 'traffic light', 'color': 'blue'}. Make the cup(s) smaller than the traffic light(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about cup. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "cup",
+            "color": "white"
+          },
+          {
+            "object": "traffic light",
+            "color": "blue"
+          }
+        ],
+        "size_relations": [
+          [
+            "cup",
+            "smaller",
+            "traffic light"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "cup"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A realistic urban scene: a small white cup sits on a sidewalk caf\u00e9 table, deliberately much smaller than a large blue traffic light towering nearby; a person stands beside the table, leaning forward with clasped hands and an eager, anticipatory expression. A weathered paper sign clipped to the table is clearly legible and reads \"The white cup\". Warm evening light, shallow depth of field, high-resolution detail.",
+        "A realistic urban scene: a tiny white cup rests on a sidewal cafe table, intentionally much smaller than a large blue traffic light towring nearby; a persn stands next to the table, leaning forward with clasped hands and an eager, anticpatory expression. A weatherd paper sign clipped to the table is clearly legible and reads \"The white cup\". Warm evening light, shallow depth of field, high-resolution detail."
+      ]
+    }
+  ]
+}

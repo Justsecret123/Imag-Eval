@@ -1,0 +1,151 @@
+{
+  "experiment_id": "color+size+text_robust",
+  "timestamp": "2026-02-05T10:39:09.453527",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+size+text",
+      "skills": [
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'boat', 'color': 'yellow'}, {'object': 'toaster', 'color': 'brown'}, {'object': 'tv', 'color': 'white'}, {'object': 'bird', 'color': 'red'}. Make the boat(s) larger than the tv(s). Make the bird(s) smaller than the toaster(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about bird, boat. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "boat",
+            "color": "yellow"
+          },
+          {
+            "object": "toaster",
+            "color": "brown"
+          },
+          {
+            "object": "tv",
+            "color": "white"
+          },
+          {
+            "object": "bird",
+            "color": "red"
+          }
+        ],
+        "size_relations": [
+          [
+            "boat",
+            "larger",
+            "tv"
+          ],
+          [
+            "bird",
+            "smaller",
+            "toaster"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "bird",
+            "boat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A sunlit harbor scene: a large yellow boat dominates the shallow dock water, clearly larger than a small white television set perched on a nearby crate. A brown toaster sits on a weathered picnic table, and a tiny red bird, noticeably smaller than the toaster, perches on its handle. A wooden sign nailed to a post reads \"Red bird watches the yellow boat nearby\".",
+        "A sunlit harbor tableau: a large yellow boat fills the shallow dock water, clearly bigger than a tiny white televison set sitting on a nearby crate. A broown toaster rests on a weathered picnic table, and an even smaler red bird, noticeably smaller than the toaster, perches on its handle. A wooden sign nailed to a post reads \"Red bird watches the yellow boat nearby\".",
+        "A sunlit harbor vista: a large yellow boat fills the shallow dock water, clearly much bigger than a small white televison set perched on a nearby crate. A brown toater sits on a weahtered picnic table, and a tiny red bird, noticeably smaller than the toater, perches on its handle. A wooden sign nailed to a post reads \"Red bird watches the yellow boat nearby\".",
+        "A sunlit harbou scene shows a large yellow boat filling the shallow dock water, noticeably bigger than a small white televison set balanced on a nearby crate. On a weathered picnic table sits a brown toaster, and a tiny red bird, clearly much smaller than the toaster, perchs on its handle. A wooden sign nailed to a post reads \"Red bird watches the yelow boat nearby\".",
+        "A sunlit harbuor scene where a big yellow boat fills the shallow dock water, looming over a small white televsion set sitting on a nearby crate. A brown toasta rests on a weathered picnic table, and a tiny red bird, clearly much smaller than the toasta, perches on its handle. A rough wooden sign tacked to a post reads \"Red bird watches the yellow boat nearby\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+size+text",
+      "skills": [
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'pizza', 'color': 'orange'}, {'object': 'elephant', 'color': 'red'}, {'object': 'kite', 'color': 'green'}. Make the elephant(s) larger than the pizza(s). Make the elephant(s) smaller than the kite(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about elephant, pizza. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "pizza",
+            "color": "orange"
+          },
+          {
+            "object": "elephant",
+            "color": "red"
+          },
+          {
+            "object": "kite",
+            "color": "green"
+          }
+        ],
+        "size_relations": [
+          [
+            "elephant",
+            "larger",
+            "pizza"
+          ],
+          [
+            "elephant",
+            "smaller",
+            "kite"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "elephant",
+            "pizza"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor scene shows a red elephant standing in the grassy center, noticeably larger than an orange pizza on a small picnic blanket but clearly smaller than a giant green kite drifting overhead; a wooden sign in the foreground reads \"Red elephant loves orange pizza\".",
+        "Outside, a red elephant stands in the grasey center, noticeably bigger than a small oragne pizza on a little picnik blanket but still smaller than a giant green kite drifting overhead; a wooden sign in the forground reads \"Red elephant loves orange pizza\".",
+        "Outside, a red elephant stands in the grassy center, a bit larger than an oragne piza on a small picnik blanket yet clearly smaller than a giant green kite drifiting overhead; a wooden sign in the foreground reads \"Red elephant loves orange pizza\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+size+text",
+      "skills": [
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'truck', 'color': 'brown'}, {'object': 'toilet', 'color': 'yellow'}. Make the toilet(s) larger than the truck(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about truck. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "truck",
+            "color": "brown"
+          },
+          {
+            "object": "toilet",
+            "color": "yellow"
+          }
+        ],
+        "size_relations": [
+          [
+            "toilet",
+            "larger",
+            "truck"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "truck"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A surreal urban scene at golden hour: several oversized glossy yellow toilets tower over a group of small brown trucks, the toilets noticeably larger in scale than the trucks. Place two huge yellow porcelain toilets in the foreground, each about twice the height of the nearest compact brown pickup truck, with a third medium yellow toilet farther back. Park three small brown trucks beside and partially beneath the toilets to emphasize the size contrast. Attach a weathered wooden signpost on the left with visible text that reads Respect the truck. Warm soft light, long convincing shadows, wet reflective pavement with subtle reflections on porcelain and metal, realistic textures for porcelain glaze, chipped paint, rusted brown metal, and asphalt. Wide-angle composition with a slight low camera angle to amplify the toilets\u2019 dominance, muted urban storefronts and a cloudy sky in the background, no other legible text.",
+        "A surreal urban scene at golden hour: several oversized glossy yellow toilletts tower over a cluster of small brown trucks, the toilets noticeably larger in scale than the vehicles. Place two huge yellow porceline toilets in the foreground, each about twice the height of the nearest compact brown pickup truck, with a third medium yellow toilet set farther back. Park three small brown trucks beside and partially beneath the toilets to emphasize the size contrast. Mount a wetered wooden signpost on the left with visable text that reads Respect the truck. Warm soft light, long convinsing shadows, wet reflective pavement with subtle reflections on porcelain and metal, realistic textures for porcelain glaze, chipped paint, rusted brown metal, and asphalt. Wide-angle composition with a slight low camera angle to amplify the toilets\u2019 dominance, muted urban storefronts and a cloudy sky in the background, no other legible text."
+      ]
+    }
+  ]
+}

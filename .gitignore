@@ -1,0 +1,119 @@
+data/images/
+data/images_refactored/
+data/images_metadata/
+
+outputs/matches
+outputs/results
+annotations/
+
+test.ipynb
+
+evaluation/detectron/cache/
+
+# Images and unwanted files
+data/images_refactored/*.png
+evaluation/*.png
+experiments/*.png
+*.png
+complete_*.png
+non_complete_*.png
+*.svg
+data/annotations/*.xlsx
+hallucinations*
+experiments/test scripts/judge_logs.json
+data/to_annotate/z_image_turbo_a*
+data/to_annotate/d*
+data/to_annotate/g*
+data/to_annotate/s*
+data/to_annotate/~$annotations_example.xlsx
+
+# Agreement and annotation files
+agreements*
+merged*
+merge*
+evaluate_results_merged_d*
+evaluate_results_merged_u*
+evaluate_results_merged_f*
+evaluate_results_merged_c*
+evaluate_results_merged_g*
+evaluate_results_merged_z*
+evaluate_results_merged_s*
+dataset_stats.ipynb
+website*
+*_logs.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer```
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific
+logs/
+*.log
+temp/
+.cache/
+
+# Package builds
+build/
+dist/
+*.egg-info/
+
+# Dependencies
+node_modules/
+.pip-cache/
+
+# Configuration files with secrets
+.env
+config.local.*
+*.pt

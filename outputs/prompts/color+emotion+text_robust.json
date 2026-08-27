@@ -1,0 +1,132 @@
+{
+  "experiment_id": "color+emotion+text_robust",
+  "timestamp": "2026-02-05T10:29:40.978182",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+emotion+text",
+      "skills": [
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'potted plant', 'color': 'blue'}, {'object': 'sports ball', 'color': 'gray'}, {'object': 'laptop', 'color': 'green'}, {'object': 'bottle', 'color': 'white'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about bottle, sports ball. Include a person showing trust. Include a person showing joy. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "joy",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "potted plant",
+            "color": "blue"
+          },
+          {
+            "object": "sports ball",
+            "color": "gray"
+          },
+          {
+            "object": "laptop",
+            "color": "green"
+          },
+          {
+            "object": "bottle",
+            "color": "white"
+          }
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "bottle",
+            "sports ball"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "In a cozy studio, a blue potted plant sits on a shelf while a gray sports ball rests on the floor beside a white bottle and an open green laptop on the table. A small note taped to the bottle displays the text: \"Bottle and sports ball sit together\". To the left, a woman showing trust calmly accepts the bottle from a friend; nearby a man beams with joy as he gestures toward the green laptop; in the background a teenager recoils, face wide-eyed in fear.",
+        "In a snug studio space, a blue pottedd plant perches on a shelf while a gray sprots ball rests on the floor next to a white bottle and an open green laptop on the table. A small note taped to the bottle reads: \"Bottle and sports ball sit together\". To the left, a woman conveying trust calmy accepts the bottle from a friend; nearby a man beams with joy as he gestures toward the green laptop; in the background a teenager recoils, eyes wide in fear.",
+        "In a cozzy studio, a blue potted plant perches on a shelv while a gray sports ball lies on the floor next to a white bottle and an open grren laptop on the table. A small note taped to the bottle reads: \"Bottle and sports ball sit together\". To the left, a woman showing trust calmly accepts the bottle from a freind; nearby a man beams with joy as he gesturs toward the green laptop; in the background a teenger recoils, face wideyed in fear.",
+        "Inside a cozey studio, a blue potted plant sits on a shelf while a gray sports ball rests on the floor beside a white bottle and an open green laptop on the table. A small note taped to the bottle displays the text: \"Bottle and sports ball sit together\". To the left, a woman showing trust calmly taks the bottle from a freind; nearby a man beams with joy as he gestures toward the green laptop; in the backgroud a teenager recoils, face wideyed in fear.",
+        "In a cozzy studio a blue potted plant sits on a shelve while a gray sports ball rests on the floor beside a white bottle and an open greem laptop on the table. A small note taped to the bottle reads: \"Bottle and sports ball sit togther\". To the left, a woman showing trust calmly accepts the bottle from a friend; nearby a man beams with joy as he gestures toward the greem laptp; in the background a teenager recoils, face wide-eyed in fear."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+emotion+text",
+      "skills": [
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'person', 'color': 'brown'}, {'object': 'elephant', 'color': 'orange'}, {'object': 'pizza', 'color': 'gray'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about pizza, elephant. Include a person showing disgust. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "person",
+            "color": "brown"
+          },
+          {
+            "object": "elephant",
+            "color": "orange"
+          },
+          {
+            "object": "pizza",
+            "color": "gray"
+          }
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "pizza",
+            "elephant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A vivid scene: an orange elephant stands beside a small table holding a single gray pizza on a plate; two brown people are in the foreground \u2014 one recoiling with visible disgust, the other wide-eyed and stepping back in fear \u2014 the elephant looks sheepish; a handwritten sign propped on the table reads \"Orange elephant ate gray pizza\" in bold black letters; warm late-afternoon light, urban sidewalk background.",
+        "A vivid scene: an oragne elephant stands beside a small table holding a single graey pizza on a plate; two brown peaple are in the foreground \u2014 one recoiling with visible disgust, the other wide-eyed and stepping back in fear \u2014 the elephant looks sheapish; a handwriten sign propped on the table reads \"Orange elephant ate gray pizza\" in bold black letters; warm late-afternoon light, urban sidewalk background.",
+        "Bright, vivid scene of an orang elephant standing next to a small table holding a single gray pizza on a plate; two brown peolpe in the foreground \u2014 one recoiling with obvious disgust, the other wide-eyed and stepping back in fear \u2014 the elephant looks sheepish; a hand-writen sign propped on the table reads \"Orange elephant ate gray pizza\" in bold black letters; warm late-afternoon light, urban sidewalk background."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+emotion+text",
+      "skills": [
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'parking meter', 'color': 'yellow'}, {'object': 'bear', 'color': 'pink'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about bear. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "parking meter",
+            "color": "yellow"
+          },
+          {
+            "object": "bear",
+            "color": "pink"
+          }
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "bear"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A street scene with a bright yellow parking meter in the foreground and a large pink bear standing on the sidewalk; a surprised person nearby with mouth agape and hands raised is clearly reacting to the bear; a sign on a lamppost prominently reads \"Pink Bear Ahead\".",
+        "A busy street scene with a bright yelow parkin meter in the foreground and a huge pink bear standing on the sidewalk; a suprised person nearby, mouth agape and hands raised, clearly reacting to the bear; a sign on a lamppost prominently reed \"Pink Bear Ahead\"."
+      ]
+    }
+  ]
+}

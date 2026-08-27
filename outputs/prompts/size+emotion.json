@@ -1,0 +1,131 @@
+{
+  "experiment_id": "size+emotion",
+  "timestamp": "2026-02-05T10:45:29.109753",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_size+emotion",
+      "skills": [
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'apple'}, {'object': 'car'}, {'object': 'skateboard'}, {'object': 'sports ball'}. Make the apple(s) larger than the sports ball(s). Make the car(s) smaller than the skateboard(s). Include a person showing anger. Include a person showing surprise. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "surprise",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "apple"
+          },
+          {
+            "object": "car"
+          },
+          {
+            "object": "skateboard"
+          },
+          {
+            "object": "sports ball"
+          }
+        ],
+        "size_relations": [
+          [
+            "apple",
+            "larger",
+            "sports ball"
+          ],
+          [
+            "car",
+            "smaller",
+            "skateboard"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An outdoor urban scene: several large red apples sitting on a bench and on the ground, each noticeably larger than the nearby sports balls (a soccer ball and a basketball) which are small and scuffed; on the sidewalk a lineup of tiny toy cars, clearly much smaller than the adult-size skateboards propped beside them. Three people in the frame show strong reactions: one person furious and shouting with a pointed finger (anger), another with wide eyes and hands over their mouth staring at the oversized apples in shocked surprise, and a third making a disgusted face and turning away from a sports ball. Realistic lighting and vivid colors, shallow depth of field.",
+        "A sunlit sidewalk scene shows three glossy red apples perched on a low wall, each apple noticeably larger than a nearby small sports ball lying on the pavement; beside them sits a tiny toy car, clearly smaller than an adult-sized skateboard propped against the wall. Nearby three people react vividly: a man with clenched fists and a scowling face radiates anger, a teenager with wide eyes and hands over her mouth displays surprise, and a passerby turning away with a wrinkled nose and curled lip expresses disgust.",
+        "A bright city park scene shows several large red apples, each noticeably bigger than the scattered sports balls (a soccer ball and a basketball). Nearby, a row of small toy-like cars sits beside long skateboards that are clearly larger than the cars. Three people are in the frame: one scowling angrily with clenched fists while pointing at a tiny car, another frozen in surprise with wide eyes and raised hands as she stares at an oversized apple, and a third recoiling in disgust, nose wrinkled and turning away from a nearby sports ball.",
+        "A busy urban plaza scene where a few oversized red apples dominate a bench area\u2014each apple noticeably larger than the nearby sports balls (several basketballs and soccer balls lying on the ground appear small beside the apples). Along the edge of the plaza a row of longboards and skateboards stand upright, noticeably larger than the tiny toy cars scattered around them; the small cars are so compact they look dwarfed by the skateboards. In the foreground a man clenches his fists and glares with a flushed, angry face, while a woman beside him has her hand over her mouth in visible surprise, and a third person wrinkles their nose and pulls back in clear disgust. The composition emphasizes the scale contrast between fruit and balls and between miniature cars and full-size skateboards, with the three people\u2019s strong emotions creating tension in the scene.",
+        "A sunlit skatepark scene: a huge red apple sits on a bench, noticeably larger than a small soccer ball at its base; a long wooden skateboard lies on the ground and dwarfs a tiny toy car parked beside it; three people stand nearby \u2014 one with clenched fists and a furious scowl showing anger, another with wide eyes and mouth agape in surprise, and a third with a curled lip and nose turned up in disgust."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_size+emotion",
+      "skills": [
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'remote'}, {'object': 'vase'}, {'object': 'motorcycle'}. Make the motorcycle(s) smaller than the remote(s). Make the motorcycle(s) larger than the vase(s). Include a person showing disgust. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "remote"
+          },
+          {
+            "object": "vase"
+          },
+          {
+            "object": "motorcycle"
+          }
+        ],
+        "size_relations": [
+          [
+            "motorcycle",
+            "smaller",
+            "remote"
+          ],
+          [
+            "motorcycle",
+            "larger",
+            "vase"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A photorealistic living room scene centered on an oversized TV remote lying across a low coffee table \u2014 the remote is unusually large, the dominant object in the frame. Around it sit two small motorcycles, clearly smaller than the remote but noticeably larger than the tiny decorative vases scattered nearby: the motorcycles are toy-sized compared with the remote yet about twice the height of the delicate porcelain vases. One tiny vase is tipped over beside a motorcycle, another stands intact, emphasizing the size scale. A woman standing by the doorway displays disgust, nose wrinkled and one hand raised as if to cover her face, body slightly turned away; on the couch a man shows surprise, mouth open and eyes wide, hands lifted in mid-gesture, leaning forward toward the table. warm natural daylight from a window at left, soft shadows, shallow depth of field focusing on the remote and the motorcycles, cozy modern furnishings and muted color palette.",
+        "A surreal living-room scene where two oversized TV remotes dominate the foreground, each clearly larger than a pair of mid-sized motorcycles parked on the coffee table; those motorcycles are noticeably bigger than several small ceramic vases scattered nearby. A woman stands next to the table, nose wrinkled and mouth curled in disgust as she glares at one of the vases, while a man across from her leans back with wide eyes and hands raised in surprise, staring at the absurdly large remote. Soft daylight highlights the contrast in scale and crisp surface textures.",
+        "A surreal living room scene where oversized TV remotes dominate the foreground, with medium-sized motorcycles placed around them that are clearly smaller than the remotes but still noticeably larger than tiny decorative vases scattered on the table; a woman recoils in disgust at one of the motorcycles while a man beside her stands with wide-eyed surprise, staring at the giant remote."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_size+emotion",
+      "skills": [
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'skateboard'}, {'object': 'zebra'}. Make the zebra(s) larger than the skateboard(s). Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "skateboard"
+          },
+          {
+            "object": "zebra"
+          }
+        ],
+        "size_relations": [
+          [
+            "zebra",
+            "larger",
+            "skateboard"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A melancholy scene in a quiet park: a full-grown zebra, clearly much larger than a small skateboard lying on the pavement near its hooves, stands calmly while an unclaimed skateboard rests unused at its side. Nearby a person sits on a low curb with hunched shoulders and their face in their hands, tears visible and body language conveying deep sadness as the gentle zebra looks on under overcast, muted light.",
+        "A photorealistic scene in a quiet park at late afternoon: a full-grown zebra stands on a cracked concrete path, clearly larger in scale than a single small skateboard lying on the ground in front of its hooves. The zebra dominates the frame, its black-and-white stripes catching the warm, soft light. Nearby on the curb, a young adult sits hunched over, shoulders slumped and head bowed, showing clear sadness\u2014tear tracks on their cheeks, hands clasped around their knees, expression forlorn. The skateboard looks small and ordinary beside the zebra, with worn grip tape and scuffed wheels, emphasizing the size difference. Muted, melancholic color tones, gentle shadows, and a shallow depth of field focus attention on the trio: zebra, tiny skateboard, and the sad person, evoking a quiet, poignant mood."
+      ]
+    }
+  ]
+}

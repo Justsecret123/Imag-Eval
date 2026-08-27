@@ -1,0 +1,154 @@
+{
+  "experiment_id": "spatial+emotion+text_robust",
+  "timestamp": "2026-02-05T11:12:13.116196",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+emotion+text",
+      "skills": [
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'skis'}, {'object': 'giraffe'}, {'object': 'cow'}, {'object': 'banana'}. Position the cow(s) inside the skis(s). Position the giraffe(s) on top of the banana(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about skis, giraffe. Include a person showing trust. Include a person showing surprise. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "surprise",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "skis"
+          },
+          {
+            "object": "giraffe"
+          },
+          {
+            "object": "cow"
+          },
+          {
+            "object": "banana"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cow",
+            "inside",
+            "skis"
+          ],
+          [
+            "giraffe",
+            "on top of",
+            "banana"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "skis",
+            "giraffe"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A whimsical outdoor scene: a pair of long alpine skis are planted upright and slightly splayed, and a small cow stands comfortably inside the space between the skis as if nested; nearby a giant yellow banana lies horizontally with a tall giraffe balancing delicately on top of the banana, hooves planted on its curved peel. Three people react to the surreal tableau: a woman gently places a hand on the cow's back, showing trust; a teenager to her left has wide eyes and an open mouth, showing surprise; a man on the right recoils and clasps his chest, showing fear. A wooden sign near the group reads \"Skis help giraffes glide above the ground\".",
+        "A whimsical outdoor scene: a pair of long alpine skis are planted upright and slightly splayed, forming a tiny nook where a small cow stands snugly between them as if nested; nearby a giant yellow bananna lies on its side with a tall giraafe balancing delicately along the curved peel, hooves planted on the banana's arc. Three people react to the surreal tableau: a woman gently places a hand on the cow's back, showing trust; a teenager to her left has wide eyes and an open mouth, displaying surprise; a man on the right recoils and clasps his chest, showing fear. A rustic wooden sign nearby reads \"Skis help giraffes glide above the ground\".",
+        "In a playful outdoor scene, a pair of long alpine skis are stuck upright and slightly splayed, creating a small space where a little cow stands comforably between them as if nested; nearby a giant yellow banana lies on its side with a tall giraffe delicatly balanced along the curved peel, hooves planted on the banana. Three people react to the surreal tableau: a womman gently places her hand on the cow's back in a trusting gesture; a teenager to her left has wide eyes and an open mouth, clearly surprised; and a man on the right recoils and clasps his chest, showing fear. A wooden sign near the group reads \"Skis help giraffes glide above the ground\".",
+        "An enchanting outdoor scene: a pair of long alpine skis are planted upright and slightly splayed, and a small cow stands snugly inside the space between the skis as if nested; nearby a giant yellow bananna lies horizontally with a tall giraff balanced delicately atop the curved peel, its hooves planted. Three people react to the surreal tableau: a woman gently places a hand on the cow's back, showing trust; to her left a teenager gapes with wide eyes and an open mouth in surprise; a man on the right recoils and clasps his chest, showing fear. A wooden sign near the group reads \"Skis help giraffes glide abouve the ground\".",
+        "In a whimsical outdoor scene, two long alpime skis are stuck upright and splayed slightly, forming a little cradle where a small cow stands comfortably nestled between them; nearby a giant yellow bananna lies on its side with a tall giraff balancing delicately on the curved peel, hoovs planted. Three people respond to the odd tableau: a woman gently places a hand on the cow's back in a quiet gesture of trust; to her left a teenager stares with wide eyes and an open mouth in surprize; a man on the right recoils and clasps his chest, showing fear. A rustik wooden signe near the group reads \"Skis help giraffes glide above the ground\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+emotion+text",
+      "skills": [
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'microwave'}, {'object': 'baseball bat'}, {'object': 'snowboard'}. Position the microwave(s) in front of the baseball bat(s). Position the microwave(s) next to the snowboard(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about microwave, snowboard. Include a person showing trust. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "microwave"
+          },
+          {
+            "object": "baseball bat"
+          },
+          {
+            "object": "snowboard"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "microwave",
+            "in front of",
+            "baseball bat"
+          ],
+          [
+            "microwave",
+            "next to",
+            "snowboard"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "microwave",
+            "snowboard"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A cluttered garage scene shows a white microwave placed directly in front of a wooden baseball bat leaning against a pegboard, the microwave set immediately next to a colorful snowboard standing upright. On a small sticky note stuck to the microwave door is a handwritten warning that reads \"Microwave and snowboard are dangerous\". Two people are visible in the frame: a young man with a gentle, reassuring hand on a friend's shoulder conveying trust, and an older woman sitting on a crate with her face in her hands, clearly showing sadness. The lighting is soft and natural, with scuffed equipment and a calendar on the wall giving the space a lived-in feel.",
+        "A messy garage scene shows a white micorwave placed directly in front of a wooden baseball bat propped against a pegbord, the micorwave set immediately next to a colroful snowboard standing upright. On a small sticky note stuck to the microwave door is a handwritten warnng that reads \"Microwave and snowboard are dangerous\". Two people are visible in the frame: a young man with a gentle, reassuring hand on a frined's shoulder conveying trust, and an older woman sitting on a crate with her face in her hands, clearly showing sadness. The lighting is soft and natural, with scuffed equipment and a calendar on the wall giving the space a lived-in feel.",
+        "Inside a cluttered garage a white micorwave sits directly in front of a wooden baseball bat leaning against a pegbord, the microwave placed immediatly next to a coloful snowboard standing upright. A small sticky note stuck to the microwave door bears a handwriten warning that reads \"Micorwave and snowboad are dangerus\". Two people are visible in the frame: a young man with a gentle, reassuring hand on a freind's shoulder conveying trust, and an older woman sitting on a crate with her face in her hands, clearly showing sadness. The lighting is soft and natural, with scuffed equipment and a calendar on the wall giving the space a lived-in feel."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+emotion+text",
+      "skills": [
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'orange'}, {'object': 'baseball glove'}. Position the baseball glove(s) next to the orange(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about baseball glove. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "orange"
+          },
+          {
+            "object": "baseball glove"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "baseball glove",
+            "next to",
+            "orange"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "baseball glove"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A sunlit picnic table scene: a worn brown leather baseball glove is placed directly next to a small cluster of bright oranges, with a joyful young woman behind the table laughing and raising her arms in celebration. A small white note beside the glove shows a single bold word: Glove \u2014 no other visible text appears in the scene. Warm natural light, candid moment, high detail and realistic colors.",
+        "Sun-drenched picnic-table vignette: a worn brown lether baseball glove sits right beside a small cluster of bright oragnes; a joyful young woamn stands behind the table, laughing and lifting her arms in celebration. A small white note next to the glove bears a single bold word: Glvoe \u2014 no other text is visible. Warm natural light, candid moment, high detail, and realistic colors."
+      ]
+    }
+  ]
+}

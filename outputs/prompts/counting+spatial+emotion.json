@@ -1,0 +1,143 @@
+{
+  "experiment_id": "counting+spatial+emotion",
+  "timestamp": "2026-02-04T16:36:07.669175",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'frisbee', 'count': 4}, {'object': 'oven', 'count': 5}, {'object': 'traffic light', 'count': 4}, {'object': 'orange', 'count': 5}. Position the frisbee(s) below the oven(s). Position the traffic light(s) above the orange(s). Include a person showing trust. Include a person showing anger. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "anger",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "frisbee",
+            "count": 4
+          },
+          {
+            "object": "oven",
+            "count": 5
+          },
+          {
+            "object": "traffic light",
+            "count": 4
+          },
+          {
+            "object": "orange",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "frisbee",
+            "below",
+            "oven"
+          ],
+          [
+            "traffic light",
+            "above",
+            "orange"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal outdoor market scene featuring five retro ovens arranged on a low platform, and directly below them four colorful frisbees rest on the ground; above, four traffic lights hang from a metal beam, positioned high over five bright oranges neatly arranged on a long wooden table below. The ovens are different pastel colors and slightly worn, the frisbees are vivid primary colors, the traffic lights show mixed signals, and the oranges are glossy and ripe. Three people stand among the objects: one person with soft eyes, an open posture, and gentle smile clearly showing trust; another with a clenched jaw, furrowed brows, and tense fists conveying anger; and a third with wide eyes, raised eyebrows, and mouth agape expressing surprise. The background is a softly lit city square with warm late-afternoon light and subtle shadows tying the scene together.",
+        "A vibrant scene shows five ovens mounted along a high shelf in the mid-upper background, and directly beneath them four frisbees arranged on the floor, clearly positioned below the ovens. Four traffic lights hang overhead near the top of the frame, each shining down on and positioned above a cluster of five oranges piled on a nearby table. In the foreground three people display distinct emotions: one person wearing a gentle smile and open posture conveys trust as they reach out a hand, a second person with a clenched jaw and furrowed brow scowls in anger, and a third person stands with wide eyes and an open mouth, visibly surprised.",
+        "A scene featuring exactly 5 ovens arranged in a row across the upper-middle area, with 4 colorful frisbees positioned directly below and aligned under the ovens on the lower plane. To the side, show exactly 4 traffic lights suspended above and clearly overseeing a group of exactly 5 oranges placed on the ground beneath them. In the foreground include three distinct people: one person clearly showing trust with a gentle, reassuring expression and an open, welcoming gesture; one person clearly showing anger with a scowl, furrowed brow, and tense posture; and one person clearly showing surprise with wide eyes and an open mouth. The composition should make the counts and the vertical relationships (frisbees below ovens, traffic lights above oranges) immediately obvious.",
+        "An urban scene shows five ovens mounted along a brick wall with four brightly colored frisbees lying on the floor directly beneath the ovens. Four traffic lights hang overhead, suspended above a small fruit table that holds five neatly arranged oranges. Three people are visible: one person with a trusting expression and open palms toward another, a second person showing clear anger with a furrowed brow and clenched jaw, and a third person frozen in surprise with wide eyes and mouth agape. Soft natural light and realistic detail.",
+        "A surreal indoor scene: five stainless-steel ovens are mounted on the back wall, and directly beneath them on the floor lie four brightly colored frisbees scattered in a loose row. In the foreground a wooden table holds five ripe oranges arranged in a neat line, with four traffic lights suspended from the ceiling, hung above and aligned over the oranges so the lights face downward. Three people occupy the space: one person displays trust, resting a hand reassuringly on another's shoulder with a warm, open smile and relaxed posture; a second person shows anger, eyes narrowed, brow furrowed and fists clenched; a third person shows surprise, standing with wide eyes and mouth open, hands raised. The overall mood is slightly whimsical, with warm, natural lighting and clear, readable expressions."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bench', 'count': 3}, {'object': 'cat', 'count': 3}, {'object': 'carrot', 'count': 3}. Position the cat(s) in front of the carrot(s). Position the cat(s) to the right of the bench(s). Include a person showing trust. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "bench",
+            "count": 3
+          },
+          {
+            "object": "cat",
+            "count": 3
+          },
+          {
+            "object": "carrot",
+            "count": 3
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cat",
+            "in front of",
+            "carrot"
+          ],
+          [
+            "cat",
+            "to the right of",
+            "bench"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright park scene with three wooden benches lined along the left side; to the right of these benches three cats are arranged in a row, each cat sitting directly in front of one bright orange carrot so that every cat is positioned in front of its carrot. A person seated on the middle bench leans forward slightly with relaxed shoulders and open palms, smiling gently and conveying trust, while another person stands a few steps nearer the cats, eyes wide and leaning forward with hands clasped in eager expectation, clearly showing anticipation.",
+        "An outdoor scene with three wooden benches lined up along the left side of the frame; to the right of those benches, three cats sit in a row, each cat positioned in front of a carrot so that three orange carrots are directly behind the cats. A person showing trust kneels calmly beside the nearest cat, smiling softly and extending a gentle open hand toward it, while a second person showing anticipation stands slightly behind the carrots, leaning forward with bright, eager eyes and hands clasped as if waiting to feed or interact with the cats; warm daylight and a soft, inviting atmosphere.",
+        "An outdoor scene shows three wooden benches lined up on the left; to the right of the benches three cats sit in a row, each cat positioned directly in front of a carrot planted behind it so the cats are clearly in front of the carrots. Nearby two people are visible: one person displays trust with a relaxed posture and a gentle, open expression while placing a hand reassuringly on another\u2019s arm, and the other person leans forward with bright eyes and clasped hands, clearly showing anticipation."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'frisbee', 'count': 2}, {'object': 'bicycle', 'count': 2}. Position the frisbee(s) behind the bicycle(s). Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "frisbee",
+            "count": 2
+          },
+          {
+            "object": "bicycle",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "frisbee",
+            "behind",
+            "bicycle"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An outdoor park scene in soft late-afternoon light: two bicycles stand side-by-side in the foreground with their kickstands down, and directly behind the bicycles two colorful frisbees lie on the grass; a single person nearby looks visibly angry, eyebrows furrowed and mouth in a tight scowl with clenched fists, facing the bicycles as if upset, while trees and a winding path form the background.",
+        "Two bicycles stand side by side in the foreground of a sunlit park; directly behind them on the grass lie two frisbees (one red, one blue). Nearby a single person shows clear anger\u2014furrowed brow, clenched jaw and fists, tense posture\u2014staring toward the bicycles. Realistic photographic style, natural daylight, shallow depth of field."
+      ]
+    }
+  ]
+}

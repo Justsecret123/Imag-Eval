@@ -1,0 +1,174 @@
+{
+  "experiment_id": "counting+color+spatial+size",
+  "timestamp": "2026-02-05T11:01:14.337074",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+size",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'sports ball', 'count': 4, 'color': 'orange'}, {'object': 'boat', 'count': 5, 'color': 'pink'}, {'object': 'spoon', 'count': 4, 'color': 'red'}, {'object': 'parking meter', 'count': 4, 'color': 'blue'}. Position the sports ball(s) under the parking meter(s). Position the spoon(s) above the boat(s). Make the sports ball(s) larger than the boat(s). Make the parking meter(s) smaller than the spoon(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "sports ball",
+            "count": 4,
+            "color": "orange"
+          },
+          {
+            "object": "boat",
+            "count": 5,
+            "color": "pink"
+          },
+          {
+            "object": "spoon",
+            "count": 4,
+            "color": "red"
+          },
+          {
+            "object": "parking meter",
+            "count": 4,
+            "color": "blue"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "sports ball",
+            "under",
+            "parking meter"
+          ],
+          [
+            "spoon",
+            "above",
+            "boat"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sports ball",
+            "larger",
+            "boat"
+          ],
+          [
+            "parking meter",
+            "smaller",
+            "spoon"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An image depicting four orange sports balls, each sitting directly beneath one of four small blue parking meters; the sports balls are noticeably larger than the five pink boats in the scene. Four red spoons are positioned above the five pink boats, and the blue parking meters are smaller than the red spoons.",
+        "A composed scene shows four large orange sports balls, each placed directly beneath one of four small blue parking meters so that every parking meter stands over a ball. Nearby, five pink boats float in a row on calm water, and four red spoons hover above four of those boats. The orange sports balls are noticeably larger than the pink boats, and each blue parking meter is noticeably smaller than the red spoons.",
+        "A clear, well-lit scene containing exactly four orange sports balls, five pink boats, four red spoons, and four blue parking meters. Arrange the four blue parking meters each positioned directly above and vertically aligned with one of the four orange sports balls so that every orange sports ball sits underneath a blue parking meter. Place the four red spoons above the boats, with each red spoon hovering directly over a different pink boat (four of the five pink boats have a red spoon above them). Make the orange sports balls noticeably larger than the pink boats, and make each blue parking meter smaller than each red spoon. Keep the objects evenly spaced on a neutral background so all relationships and colors are clearly visible.",
+        "Four large orange sports balls sit directly beneath four small blue parking meters; the sports balls are noticeably larger than the five pink boats arranged nearby. Four red spoons, each larger than the blue parking meters, hover above the five pink boats.",
+        "An image contains four orange sports balls, five pink boats, four red spoons, and four blue parking meters. Each of the four orange sports balls sits directly beneath a blue parking meter; the orange sports balls are noticeably larger than the pink boats. Four red spoons are positioned above the boats, each red spoon hovering over one of four pink boats (one pink boat has no spoon). The blue parking meters are smaller in size than the red spoons."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+size",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'dining table', 'count': 2, 'color': 'brown'}, {'object': 'oven', 'count': 2, 'color': 'red'}, {'object': 'motorcycle', 'count': 2, 'color': 'gray'}. Position the dining table(s) below the motorcycle(s). Position the dining table(s) above the oven(s). Make the motorcycle(s) smaller than the dining table(s). Make the motorcycle(s) larger than the oven(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "dining table",
+            "count": 2,
+            "color": "brown"
+          },
+          {
+            "object": "oven",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "motorcycle",
+            "count": 2,
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "dining table",
+            "below",
+            "motorcycle"
+          ],
+          [
+            "dining table",
+            "above",
+            "oven"
+          ]
+        ],
+        "size_relations": [
+          [
+            "motorcycle",
+            "smaller",
+            "dining table"
+          ],
+          [
+            "motorcycle",
+            "larger",
+            "oven"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two gray motorcycles sit at the top of the image, each medium-sized\u2014noticeably smaller than the two large brown dining tables directly beneath them but larger than the two small red ovens below the tables. The two brown dining tables occupy the middle of the scene, positioned directly below the motorcycles and directly above the two tiny red ovens at the bottom; there are two of each object, with the ovens the smallest, the motorcycles intermediate, and the dining tables the largest.",
+        "An image showing two small gray motorcycles near the top of the frame; directly below them are two larger brown dining tables occupying the middle of the composition, and beneath the tables at the bottom are two tiny red ovens. The gray motorcycles are noticeably smaller than the brown dining tables but clearly larger than the red ovens; the pairs are vertically stacked and aligned\u2014motorcycles on top, dining tables in the middle, ovens at the bottom\u2014against a simple neutral background.",
+        "Two gray motorcycles at the top, two brown dining tables directly below them, and two red ovens beneath the tables, arranged vertically so the dining tables are below the motorcycles and above the ovens; each motorcycle is smaller than each dining table but larger than each oven."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+size",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'broccoli', 'count': 2, 'color': 'red'}, {'object': 'carrot', 'count': 1, 'color': 'gray'}. Position the carrot(s) to the left of the broccoli(s). Make the broccoli(s) larger than the carrot(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "broccoli",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "carrot",
+            "count": 1,
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "carrot",
+            "to the left of",
+            "broccoli"
+          ]
+        ],
+        "size_relations": [
+          [
+            "broccoli",
+            "larger",
+            "carrot"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A minimalist scene featuring a single gray carrot placed on the left and two larger red broccoli heads to its right; the red broccoli are noticeably bigger than the gray carrot and sit side by side on a plain background.",
+        "A minimalist scene showing one small gray carrot on the left and two large red broccoli heads on the right, with the broccoli noticeably larger than the carrot."
+      ]
+    }
+  ]
+}

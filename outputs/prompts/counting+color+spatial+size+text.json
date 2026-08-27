@@ -1,0 +1,197 @@
+{
+  "experiment_id": "counting+color+spatial+size+text",
+  "timestamp": "2026-02-05T09:51:53.726905",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'remote', 'count': 5, 'color': 'blue'}, {'object': 'potted plant', 'count': 5, 'color': 'gray'}, {'object': 'horse', 'count': 4, 'color': 'black'}, {'object': 'couch', 'count': 4, 'color': 'pink'}. Position the remote(s) above the potted plant(s). Position the couch(s) to the right of the horse(s). Make the horse(s) larger than the remote(s). Make the couch(s) smaller than the potted plant(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about horse, potted plant. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "remote",
+            "count": 5,
+            "color": "blue"
+          },
+          {
+            "object": "potted plant",
+            "count": 5,
+            "color": "gray"
+          },
+          {
+            "object": "horse",
+            "count": 4,
+            "color": "black"
+          },
+          {
+            "object": "couch",
+            "count": 4,
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "remote",
+            "above",
+            "potted plant"
+          ],
+          [
+            "couch",
+            "to the right of",
+            "horse"
+          ]
+        ],
+        "size_relations": [
+          [
+            "horse",
+            "larger",
+            "remote"
+          ],
+          [
+            "couch",
+            "smaller",
+            "potted plant"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "horse",
+            "potted plant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Create an image with five blue remotes, five gray potted plants, four black horses, and four pink couches. Arrange each blue remote directly above a gray potted plant so there are five remote-over-plant pairs. Place four black horses, each noticeably larger than the blue remotes, with each pink couch positioned to the right of a horse; each pink couch should be noticeably smaller than the gray potted plants. Use clear, saturated colors for blue remotes, gray potted plants, black horses, and pink couches. Include one readable sign in the scene that displays exactly these eight words: \"Horses and potted plants share a still moment.\" No other visible text appears in the image.",
+        "An arranged scene shows five blue remote controls positioned directly above five gray potted plants, each remote centered over a matching plant; four large black horses stand to the left, each horse noticeably larger than the remotes; to the right of each horse sits a small pink couch, four in total, and each pink couch is visibly smaller than the nearby gray potted plant. A small label attached to one plant reads: \"Horse admires gray potted plant, concise observational label\"",
+        "A clean, well-lit scene containing five blue remote controls and five gray potted plants: each blue remote is positioned directly above a corresponding gray potted plant, all five pairs aligned in a neat row; the gray potted plants are medium-sized and are visibly larger than the remotes. To the left of four small pink couches stand four large black horses; each pink couch sits to the right of a horse, and the horses are noticeably larger than the remotes while the pink couches are smaller than the potted plants. A small wooden stake sign near the plants displays the visible text: \"Four black horses beside five gray potted plants.\"",
+        "A clean staged scene contains five blue remotes positioned directly above five gray potted plants, each remote centered over a corresponding plant; four black horses, noticeably larger than the remotes, stand to the left, and four pink couches, visibly smaller than the potted plants, are arranged to the right of the horses. A small paper sign on a nearby easel is clearly legible and reads: Every horse benefits from a nearby potted plant.",
+        "Five blue remote controls are positioned above five gray potted plants, each remote sitting directly over a matching plant. Four black horses, clearly larger than the remotes, stand to the left of four pink couches; each pink couch is placed to the right of a horse and is smaller than the nearby gray potted plants. A visible sign in the scene reads: \"Black horses prefer gray potted plants for grazing.\""
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'refrigerator', 'count': 3, 'color': 'green'}, {'object': 'suitcase', 'count': 3, 'color': 'white'}, {'object': 'sandwich', 'count': 2, 'color': 'red'}. Position the refrigerator(s) under the sandwich(s). Position the refrigerator(s) inside the suitcase(s). Make the sandwich(s) larger than the refrigerator(s). Make the sandwich(s) smaller than the suitcase(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about suitcase, sandwich. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "refrigerator",
+            "count": 3,
+            "color": "green"
+          },
+          {
+            "object": "suitcase",
+            "count": 3,
+            "color": "white"
+          },
+          {
+            "object": "sandwich",
+            "count": 2,
+            "color": "red"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "refrigerator",
+            "under",
+            "sandwich"
+          ],
+          [
+            "refrigerator",
+            "inside",
+            "suitcase"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sandwich",
+            "larger",
+            "refrigerator"
+          ],
+          [
+            "sandwich",
+            "smaller",
+            "suitcase"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "suitcase",
+            "sandwich"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A staged scene contains three green refrigerators, three white suitcases, and two red sandwiches. Each small green refrigerator is tucked inside a large open white suitcase, and every refrigerator sits beneath one of the red sandwiches \u2014 the two red sandwiches are larger than the refrigerators but smaller than the white suitcases, hovering above so they cover the refrigerators beneath. The suitcases are the largest objects, the refrigerators are the smallest, and the red sandwiches are medium-sized between them. A visible label on the nearest suitcase reads: \"White suitcase contains fridge; red sandwich\"",
+        "A bright scene shows three white suitcases arranged side by side, each opened to reveal a small green refrigerator tucked neatly inside; two red sandwiches hover above, each sandwich noticeably larger than the refrigerators but still smaller than the roomy suitcases, and both sandwiches are positioned so that all of the refrigerators lie directly beneath them. A small label on the nearest suitcase reads: \"suitcase contains sandwich keep both cool\"",
+        "A tidy tabletop scene shows three white suitcases arranged side by side, each one open and containing a small green refrigerator tucked inside. Two red sandwiches hover above the row; each red sandwich is noticeably larger than the little green refrigerators but still smaller than the open white suitcases, and they are positioned so that all three refrigerators sit directly beneath the hanging sandwiches. A taped label on the nearest suitcase reads: \"Suitcase holds sandwich; keep it safe.\""
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cat', 'count': 1, 'color': 'yellow'}, {'object': 'stop sign', 'count': 1, 'color': 'red'}. Position the cat(s) under the stop sign(s). Make the cat(s) smaller than the stop sign(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about stop sign. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cat",
+            "count": 1,
+            "color": "yellow"
+          },
+          {
+            "object": "stop sign",
+            "count": 1,
+            "color": "red"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cat",
+            "under",
+            "stop sign"
+          ]
+        ],
+        "size_relations": [
+          [
+            "cat",
+            "smaller",
+            "stop sign"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "stop sign"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single yellow cat, noticeably smaller than the sign, sits directly beneath a large red octagonal stop sign; the stop sign face is blank with no lettering, and a small white note taped to the sign pole clearly reads \"Stop sign ahead\".",
+        "A single small yellow cat sits directly beneath a red octagonal stop sign, the cat noticeably smaller than the stop sign; a small white label attached to the sign pole displays the visible three-word text \"Stop sign ahead\"."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "experiment_id": "color+size+emotion",
+  "timestamp": "2026-02-05T10:49:01.115592",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+size+emotion",
+      "skills": [
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'car', 'color': 'green'}, {'object': 'sports ball', 'color': 'brown'}, {'object': 'baseball glove', 'color': 'blue'}, {'object': 'toaster', 'color': 'black'}. Make the toaster(s) smaller than the baseball glove(s). Make the car(s) larger than the sports ball(s). Include a person showing fear. Include a person showing trust. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "trust",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "car",
+            "color": "green"
+          },
+          {
+            "object": "sports ball",
+            "color": "brown"
+          },
+          {
+            "object": "baseball glove",
+            "color": "blue"
+          },
+          {
+            "object": "toaster",
+            "color": "black"
+          }
+        ],
+        "size_relations": [
+          [
+            "toaster",
+            "smaller",
+            "baseball glove"
+          ],
+          [
+            "car",
+            "larger",
+            "sports ball"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A sunlit suburban scene: a large green car parked in the driveway dwarfs a brown sports ball resting on the pavement nearby, while on a picnic bench a blue baseball glove sits next to a small black toaster that is clearly smaller than the glove; three people stand near the bench \u2014 one clutching their chest with wide eyes and trembling lips showing fear, another smiling gently and extending a hand in a trusting gesture, and a third with furrowed brows and a clenched jaw showing anger.",
+        "A photo-realistic scene: a large green car parked on a sunlit street, clearly bigger than a small brown sports ball lying on the curb; an oversized blue baseball glove rests on a nearby bench with a tiny black toaster sitting next to it, the toaster visibly smaller than the glove. In the foreground three people convey distinct emotions: a young woman with wide eyes and a pale face recoiling in fear, a middle-aged man gently smiling and placing his hand on a friend's shoulder showing trust, and an angry teenager with a clenched jaw and furrowed brows pointing at the car. Warm afternoon light, realistic textures and natural shadows.",
+        "A candid street-scene shows a large green car parked along the curb, dwarfing a single brown sports ball lying on the pavement nearby; on a bench in the foreground a blue baseball glove is conspicuously larger than a small black toaster sitting beside it. Three people populate the scene: a young woman clutching her chest with wide eyes and a pale face, clearly showing fear; a middle-aged man with a relaxed smile and open posture leaning toward a companion, conveying trust; and a teenager with furrowed brows, clenched jaw and crossed arms, visibly angry.",
+        "A scene shows a large green car parked beside a small brown sports ball on the pavement; nearby a large blue baseball glove dwarfs a tiny black toaster, the black toaster clearly much smaller than the blue glove. In the foreground three people convey different emotions: one recoils with wide eyes and trembling hands, visibly terrified; another stands with a calm, open expression and places a reassuring hand on a companion\u2019s shoulder, showing trust; the third clenches their fists and glares with a flushed face, unmistakably angry.",
+        "A sunlit suburban driveway shows a large green car parked near a low bench; in front of it a small brown sports ball lies on the ground, clearly much smaller than the car. Nearby a blue baseball glove sits on the bench and is noticeably larger than a compact black toaster placed beside it. Three people fill the scene: one recoiling in fear with wide eyes and raised hands, another standing close with a relaxed posture and a warm, trusting smile, and a third with clenched jaw and crossed arms showing clear anger."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+size+emotion",
+      "skills": [
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bench', 'color': 'yellow'}, {'object': 'sandwich', 'color': 'white'}, {'object': 'handbag', 'color': 'pink'}. Make the sandwich(s) larger than the bench(s). Make the sandwich(s) smaller than the handbag(s). Include a person showing joy. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "bench",
+            "color": "yellow"
+          },
+          {
+            "object": "sandwich",
+            "color": "white"
+          },
+          {
+            "object": "handbag",
+            "color": "pink"
+          }
+        ],
+        "size_relations": [
+          [
+            "sandwich",
+            "larger",
+            "bench"
+          ],
+          [
+            "sandwich",
+            "smaller",
+            "handbag"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A whimsical scene in a sunlit urban park: a small yellow bench sits next to an oversized white sandwich that is clearly larger than the bench yet noticeably smaller than a gigantic pink handbag looming nearby; a joyful person beams with arms raised and laughter while perched on the white sandwich, and a second person stands a few feet away, eyes wide and recoiling in fear, hands raised to their face, as soft daylight casts gentle shadows across the surreal but realistic setting.",
+        "A whimsical street scene shows a row of small yellow benches \u2014 bright yellow and deliberately petite \u2014 beside a low table holding several white sandwiches that are noticeably larger than the little yellow benches; towering behind them are oversized pink handbags that make the white sandwiches look modest in comparison. A woman nearby beams with pure joy, laughing with arms raised, while a man beside her recoils in fear, eyes wide and hands up as if startled, the colorful objects around them creating a playful, surreal scale contrast.",
+        "A surreal park scene: a small yellow bench sits beside a white sandwich that is noticeably larger than the bench but still smaller than an oversized pink handbag leaning against a lamppost; the scale differences look playful and exaggerated. Nearby, one person beams with joy, arms raised and laughing, while another recoils in fear, eyes wide and hands up, reacting to the strange arrangement."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+size+emotion",
+      "skills": [
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'carrot', 'color': 'yellow'}, {'object': 'banana', 'color': 'black'}. Make the banana(s) smaller than the carrot(s). Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "carrot",
+            "color": "yellow"
+          },
+          {
+            "object": "banana",
+            "color": "black"
+          }
+        ],
+        "size_relations": [
+          [
+            "banana",
+            "smaller",
+            "carrot"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A photorealistic image of a large, bright yellow carrot dominating the foreground, with several small black bananas clustered at its base that are clearly much smaller than the carrot; in the background a person recoils in fear, eyes wide and hands raised, dramatic lighting and shallow depth of field.",
+        "A surreal scene in a bright kitchen: several large yellow carrots dominate the countertop, while tiny black bananas, noticeably smaller than the carrots, cluster at their bases; a person stands nearby with wide eyes and a trembling mouth, hands raised in fear as they back away from the strange produce."
+      ]
+    }
+  ]
+}

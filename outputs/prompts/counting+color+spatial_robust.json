@@ -1,0 +1,140 @@
+{
+  "experiment_id": "counting+color+spatial_robust",
+  "timestamp": "2026-02-05T12:13:31.194902",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial",
+      "skills": [
+        "counting",
+        "color",
+        "spatial"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'stop sign', 'count': 4, 'color': 'yellow'}, {'object': 'mouse', 'count': 4, 'color': 'brown'}, {'object': 'motorcycle', 'count': 4, 'color': 'pink'}, {'object': 'zebra', 'count': 5, 'color': 'gray'}. Position the zebra(s) to the left of the stop sign(s). Position the mouse(s) inside the motorcycle(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "stop sign",
+            "count": 4,
+            "color": "yellow"
+          },
+          {
+            "object": "mouse",
+            "count": 4,
+            "color": "brown"
+          },
+          {
+            "object": "motorcycle",
+            "count": 4,
+            "color": "pink"
+          },
+          {
+            "object": "zebra",
+            "count": 5,
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "zebra",
+            "to the left of",
+            "stop sign"
+          ],
+          [
+            "mouse",
+            "inside",
+            "motorcycle"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An image depicting four yellow stop signs standing toward the right with five gray zebras positioned to the left of them; nearby are four pink motorcycles, each containing a brown mouse seated inside the motorcycle (one mouse per bike).",
+        "A picture showing five gray zebras on the left and, towads the right, four yellow stop signs standing; nearby are four pink motorcyles, each holding a brown mouse siting on the bike (one mouse per bike).",
+        "A picture of four yelow stop signes standing on the right, five gray zebras grouped to their left, and nearby four pink motorcycles, each carrying a brown mose seated inside the bike (one mose per bike).",
+        "An illustration of four yelow stop signs standing on the rigth side, with five gray zebras positioned to their left; nearby are four pink motercycles, each containing a brown mouse seated inside (one mouse per bike).",
+        "Four yelow stop signs stand toward the right, with five gray zebras positioned to their left; nearby are four pink motoscycles, each with a brown mous seated inside the bike (one mous per bike)."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial",
+      "skills": [
+        "counting",
+        "color",
+        "spatial"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'horse', 'count': 2, 'color': 'brown'}, {'object': 'elephant', 'count': 3, 'color': 'pink'}, {'object': 'oven', 'count': 3, 'color': 'black'}. Position the oven(s) next to the horse(s). Position the oven(s) behind the elephant(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "horse",
+            "count": 2,
+            "color": "brown"
+          },
+          {
+            "object": "elephant",
+            "count": 3,
+            "color": "pink"
+          },
+          {
+            "object": "oven",
+            "count": 3,
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "oven",
+            "next to",
+            "horse"
+          ],
+          [
+            "oven",
+            "behind",
+            "elephant"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A scene featuring two brown horses standing beside three black ovens, with those three black ovens located directly behind three pink elephants that are positioned in the foreground.",
+        "In the foreground there are three pink elephans, with three black ovnes positioned directly behind them, and two brwon horses standing beside the ovnes.",
+        "A scene with two brwon horses standing beside three black ovns, the three black ovns positioned directly behidn three pink elephents that occupy the forground."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial",
+      "skills": [
+        "counting",
+        "color",
+        "spatial"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cow', 'count': 2, 'color': 'pink'}, {'object': 'stop sign', 'count': 2, 'color': 'white'}. Position the cow(s) on top of the stop sign(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cow",
+            "count": 2,
+            "color": "pink"
+          },
+          {
+            "object": "stop sign",
+            "count": 2,
+            "color": "white"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cow",
+            "on top of",
+            "stop sign"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal scene showing two pink cows, each perched on top of a white octagonal stop sign; two white stop signs on poles support one pink cow apiece, the cows centered and facing the viewer, softly lit by natural daylight against a minimal pale-blue sky, with high-detail realistic textures and shallow depth of field.",
+        "A surreal tableau of two pink cows balancing atop white octagonel stop signs \u2014 each sign on a slim pole suporting a single pink cow, both cows centerd and facing the viewer, bathed in soft natural daylight against a spare pale-blue sky, with high-detail realistic texures and a subtle shallow depth of field."
+      ]
+    }
+  ]
+}

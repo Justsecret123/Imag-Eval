@@ -1,0 +1,22 @@
+experiment:
+  name: size+text
+prompt_generation:
+  metadata_config:
+    name: coco
+  skills:
+  - level: hard
+    skills: [size, text]
+    k: 5
+  - level: medium
+    skills: [size, text]
+    k: 3
+  - level: easy
+    skills: [size, text]
+    k: 2
+  llm_model:
+    name: openai
+    model: gpt-5-mini
+    temperature: 1
+  samples_per_skill: 1
+output:
+  file: outputs/prompts/size+text.json

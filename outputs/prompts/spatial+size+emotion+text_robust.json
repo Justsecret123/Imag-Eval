@@ -1,0 +1,188 @@
+{
+  "experiment_id": "spatial+size+emotion+text_robust",
+  "timestamp": "2026-02-05T12:00:28.720998",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+size+emotion+text",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'frisbee'}, {'object': 'suitcase'}, {'object': 'potted plant'}, {'object': 'baseball bat'}. Position the frisbee(s) to the left of the suitcase(s). Position the baseball bat(s) below the potted plant(s). Make the potted plant(s) larger than the frisbee(s). Make the baseball bat(s) smaller than the suitcase(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about suitcase, potted plant. Include a person showing trust. Include a person showing sadness. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "sadness",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "frisbee"
+          },
+          {
+            "object": "suitcase"
+          },
+          {
+            "object": "potted plant"
+          },
+          {
+            "object": "baseball bat"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "frisbee",
+            "to the left of",
+            "suitcase"
+          ],
+          [
+            "baseball bat",
+            "below",
+            "potted plant"
+          ]
+        ],
+        "size_relations": [
+          [
+            "potted plant",
+            "larger",
+            "frisbee"
+          ],
+          [
+            "baseball bat",
+            "smaller",
+            "suitcase"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "suitcase",
+            "potted plant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An indoor scene: a colorful frisbee lies on the floor to the left of a medium suitcase, and a tall potted plant\u2014noticeably larger than the frisbee\u2014stands slightly behind and to the right; a small baseball bat rests on the floor directly below the potted plant and is clearly smaller than the suitcase. A handwritten note taped to the suitcase reads: Suitcase contains keys; potted plant needs water daily. Three people are in the image: one person with a soft, open expression and an outstretched hand toward another (showing trust), a second person seated with tears and a bowed head (showing sadness), and a third standing with arms crossed and a furrowed brow (showing anger).",
+        "An indoor scene: a colorful frisbie lies on the floor to the left of a medium suitcasee, and a tall potted plant \u2014 noticably larger than the frisbee \u2014 stands slightly behind and to the right; a small basebal bat rests on the floor directly below the potted plant and is clearly smaller than the suitcase. A handwriten note taped to the suitcase reads: Suitcase contains keys; potted plant needs water daily. Three people are in the image: one person with a soft, open expression and an outstretched hand toward another (showing trust), a second person seated with tears and a bowed head (showing sadness), and a third standing with arms crossed and a furrowed brow (showing anger).",
+        "Interior shot: a colurful frisbee rests on the floor to the left of a medium-sized suitcase; slightly behind and to the right a tall potted plant\u2014clearly much larger than the frisbee\u2014stands. Directly beneath the plant lies a small baseball bat on the floor, noticably smaller than the suitcase. A handwriten note taped to the suitcase reads: Suitcase contains keys; potted plant needs water daily. Three people are present: one with a gentle, open expression and an outstretched hand reaching toward another (conveying trust), a second person seated with tears and a bowed head (expressing sadness), and a third standing with arms crossed and a furrowed brow (showing anger).",
+        "Indoors, a bright colrful frisby sits on the floor to the left of a medium-sized suitcase, while a tall potted plant \u2014 visibly bigger than the frisby \u2014 stands just behind and slightly to the right; directly underneath the plant a small baseball bat lies on the ground and is noticeably smaller than the suitcase. A taped, handwritten note on the suitcase says: \"Suitcase conains keys; potted plant neads water daily.\" The scene includes three people: one reaching out with a gentle, open face and an outstretched hand toward another (conveying trust), a second person seated with tears and a bowed head (conveying sadness), and a third person standing with crossed arms and a furrowed brow (conveying anger).",
+        "Inside scene: a bright, colorful frisb\u0435\u0435 lies on the floor to the left of a medim suitcase, and a tall potted plant\u2014noticeably larger than the frisb\u0435\u0435\u2014stands just behind and slightly to the right; directly beneath the plant on the floor rests a small baseball bat that is clearly smaller than the suitcase. A handwriten note tapd to the suitcase reads: \"Suitcase contians keys; potted plant needs water dailly.\" Three people appear: one person with a soft, open expression and an outstreched hand toward another (showing trust), a second person seated with teers and a bowed head (showing sadness), and a third standing with arms crossed and a furrowed brow (showing anger)."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+size+emotion+text",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'frisbee'}, {'object': 'zebra'}, {'object': 'teddy bear'}. Position the zebra(s) to the left of the frisbee(s). Position the zebra(s) in front of the teddy bear(s). Make the zebra(s) smaller than the frisbee(s). Make the zebra(s) larger than the teddy bear(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about frisbee, teddy bear. Include a person showing disgust. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "frisbee"
+          },
+          {
+            "object": "zebra"
+          },
+          {
+            "object": "teddy bear"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "zebra",
+            "to the left of",
+            "frisbee"
+          ],
+          [
+            "zebra",
+            "in front of",
+            "teddy bear"
+          ]
+        ],
+        "size_relations": [
+          [
+            "zebra",
+            "smaller",
+            "frisbee"
+          ],
+          [
+            "zebra",
+            "larger",
+            "teddy bear"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "frisbee",
+            "teddy bear"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A whimsical park scene: a bright red frisbee rests on the grass toward the right, and a small group of zebras stands to the left of the frisbee; the zebras are deliberately smaller than the frisbee yet noticeably larger than a row of tiny teddy bears that sit behind them, with each zebra positioned in front of the teddy bears. A handmade wooden sign propped in the grass is clearly visible and reads \"Frisbee hides teddy bear today\". To the left a woman grimaces and shows disgust, arms crossed, while to the right a young man leans forward with clasped hands and wide eyes, radiating anticipation; warm afternoon light and a playful, surreal atmosphere complete the image.",
+        "A whimsical park scene: a bright red frisbbee rests on the grass toward the right, and a small group of zebras stands to the left of the frisbee; the zebras are deliberately smaller than the frisbee yet noticeably larger than a row of tiny teddie bears that sit behind them, with each zebra positioned in front of the teddy bears. A handmade wooden sign propt in the grass is clearly visible and reads \"Frisbee hides teddy bear today\". To the left a woman grimces and shows disgust, arms crosssed, while to the right a young man leans forward with clasped hands and wide eyes, radiating anticipation; warm afternoon light and a playful, surrelist atmosphere complete the image.",
+        "A whimsical park scene in warm afternoon light: a bright red frisbee rests on the grass toward the right, and to its left a small group of zebres stands \u2014 deliberately smaller than the frisbee yet noticeably larger than a tidy row of tiny teddie bears sitting behind them, with each zebra positioned in front of the teddy bears. A handmade wooden sign propped in the grass is clearly visable and reads \"Frisbee hides teddy bear today\". To the left a woman grimaces, showing disgusit with her arms crossed, while to the right a young man leans forward with clasped hands and wide eyes, radiating anticipation; the overall atmosphere is playful, surreal and slightly magical."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+size+emotion+text",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bear'}, {'object': 'baseball glove'}. Position the bear(s) inside the baseball glove(s). Make the bear(s) larger than the baseball glove(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about baseball glove. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "bear"
+          },
+          {
+            "object": "baseball glove"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bear",
+            "inside",
+            "baseball glove"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bear",
+            "larger",
+            "baseball glove"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "baseball glove"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A surreal, photo\u2011realistic scene of one or two full\u2011size brown bears tucked inside small, worn leather baseball gloves: each bear is noticeably larger than the glove that holds it, with the bear\u2019s head and front paws spilling out of the glove\u2019s opening so the glove looks tiny and comically tight. A nearby person recoils in visible fear\u2014wide eyes, mouth open, hands raised\u2014stepping back from the absurd sight. A small wooden placard beside the gloves is clearly legible and reads Giant baseball glove. No other visible text appears anywhere in the image. Soft natural light, realistic textures, shallow depth of field.",
+        "A surreal, photo-relistic scene of one or two full-size brown bears tucked inside small, worn leather baseball gloves: each bear is noticeably larger than the glove that holds it, with the bear\u2019s head and front paws spilling out of the glove\u2019s opening so the glove looks tiny and comicaly tight. A nearby person recoils in visible fear\u2014wide eyes, mouth open, hands raised\u2014stepping back from the absurd sight. A small wooden placard beside the gloves is clearly leagible and reads Giant baseball glove. No other visible text appears anywhere in the image. Soft natural light, realistic textures, shallow depth of field."
+      ]
+    }
+  ]
+}

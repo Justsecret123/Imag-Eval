@@ -1,0 +1,162 @@
+{
+  "experiment_id": "counting+spatial+size",
+  "timestamp": "2026-02-05T10:22:17.071583",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+size",
+      "skills": [
+        "counting",
+        "spatial",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'keyboard', 'count': 5}, {'object': 'bear', 'count': 5}, {'object': 'horse', 'count': 4}, {'object': 'car', 'count': 5}. Position the car(s) in front of the bear(s). Position the horse(s) above the keyboard(s). Make the car(s) smaller than the horse(s). Make the bear(s) larger than the keyboard(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "keyboard",
+            "count": 5
+          },
+          {
+            "object": "bear",
+            "count": 5
+          },
+          {
+            "object": "horse",
+            "count": 4
+          },
+          {
+            "object": "car",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "car",
+            "in front of",
+            "bear"
+          ],
+          [
+            "horse",
+            "above",
+            "keyboard"
+          ]
+        ],
+        "size_relations": [
+          [
+            "car",
+            "smaller",
+            "horse"
+          ],
+          [
+            "bear",
+            "larger",
+            "keyboard"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An image featuring five bears, five cars, four horses, and five keyboards. Arrange the five cars in front of the five bears (cars closer to the viewer, each car positioned directly in front of a bear). Position the four horses above the keyboards so the horses appear higher in the frame with the five keyboards below them. Make the cars noticeably smaller than the horses, and make the bears noticeably larger than the keyboards; keep clear spacing so each object and its count are easy to see.",
+        "An image depicting five keyboards, five bears, four horses, and five cars: five keyboards aligned along the lower edge of the scene, four horses positioned above the keyboards, and five cars placed in the foreground directly in front of five bears standing behind them; the cars are visibly smaller than the horses, and the bears are noticeably larger than the keyboards.",
+        "An image depicting five keyboards arranged along the lower part of the scene, four horses positioned above the keyboards, and five bears that are larger than the keyboards; in front of each bear sits a small car\u2014five cars in total\u2014that are smaller than the horses, creating a layered composition with keyboards at the bottom, horses above them, bears behind the cars, and the smaller cars in the foreground.",
+        "A balanced scene showing five keyboards lined up along the lower foreground, with four horses positioned above the keyboards; the horses are visibly larger than the keyboards. Five bears stand behind the keyboards and horses and are noticeably larger than the keyboards. In front of each bear, closer to the viewer, are five small cars (one per bear); the cars are clearly smaller than the horses.",
+        "A composed scene with five keyboards arranged on the ground in a loose row; above them, four horses stand or gallop on a raised plane or slightly elevated platform, each horse noticeably larger than the keyboards; in front of five large bears there are five small cars parked nearer the viewer, with each car positioned directly in front of a bear so the cars partially obscure the bears' lower bodies; the bears are clearly larger than the keyboards, and the cars are clearly smaller than the horses, creating a balanced foreground of small cars, a middle ground of large bears, an elevated band of horses above the keyboards, and the five keyboards forming the low plane."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+size",
+      "skills": [
+        "counting",
+        "spatial",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'sports ball', 'count': 2}, {'object': 'clock', 'count': 3}, {'object': 'airplane', 'count': 2}. Position the clock(s) next to the airplane(s). Position the clock(s) above the sports ball(s). Make the sports ball(s) smaller than the clock(s). Make the sports ball(s) larger than the airplane(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "sports ball",
+            "count": 2
+          },
+          {
+            "object": "clock",
+            "count": 3
+          },
+          {
+            "object": "airplane",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "clock",
+            "next to",
+            "airplane"
+          ],
+          [
+            "clock",
+            "above",
+            "sports ball"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sports ball",
+            "smaller",
+            "clock"
+          ],
+          [
+            "sports ball",
+            "larger",
+            "airplane"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two small airplanes are depicted with three larger clocks placed immediately next to them \u2014 the clocks sit side-by-side adjacent to the planes (for example, two clocks beside one airplane and one clock beside the other). Directly below the clocks are two sports balls; the sports balls are noticeably smaller than the clocks but clearly larger than the airplanes, and the clocks are positioned above the balls.",
+        "An image containing three clocks, two sports balls, and two airplanes: the three clocks are positioned next to the two airplanes (one airplane is flanked by two clocks, the other airplane sits beside the remaining clock), and all three clocks are located above the two sports balls. The sports balls are sized smaller than the clocks but larger than the airplanes, so the clocks are the largest elements, the sports balls are medium-sized, and the airplanes are the smallest.",
+        "Create an image showing exactly 2 sports balls, 3 clocks, and 2 airplanes. Arrange the three clocks together so they sit directly above the two sports balls and are positioned next to (adjacent to) the two airplanes. Make the clocks the largest objects, the sports balls medium-sized (smaller than the clocks but larger than the airplanes), and the airplanes the smallest. Ensure the clocks are clearly above the sports balls and visibly next to the airplanes, with all objects fully visible."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+size",
+      "skills": [
+        "counting",
+        "spatial",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'dog', 'count': 2}, {'object': 'pizza', 'count': 1}. Position the pizza(s) to the right of the dog(s). Make the dog(s) larger than the pizza(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "dog",
+            "count": 2
+          },
+          {
+            "object": "pizza",
+            "count": 1
+          }
+        ],
+        "spatial_relations": [
+          [
+            "pizza",
+            "to the right of",
+            "dog"
+          ]
+        ],
+        "size_relations": [
+          [
+            "dog",
+            "larger",
+            "pizza"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two large dogs sit together on the left side of the scene, noticeably larger than the single pizza that lies to their right.",
+        "A photo-realistic image of two large dogs occupying the left side of the frame, sitting close together and facing slightly toward the camera; to their right, a single small pizza sits on the ground (or a low table), clearly to the right of the dogs and noticeably smaller in scale than them, with the dogs appearing significantly larger than the pizza; soft natural lighting and a simple, unobtrusive background keep the focus on the two dogs and the single pizza to their right."
+      ]
+    }
+  ]
+}

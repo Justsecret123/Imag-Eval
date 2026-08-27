@@ -1,0 +1,120 @@
+{
+  "experiment_id": "emotion+text",
+  "timestamp": "2026-05-04T16:52:18.639399",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_emotion+text",
+      "skills": [
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'fire hydrant'}, {'object': 'bottle'}, {'object': 'cat'}, {'object': 'cell phone'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about bottle, cell phone. Include a person showing disgust. Include a person showing trust. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "trust",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "fire hydrant"
+          },
+          {
+            "object": "bottle"
+          },
+          {
+            "object": "cat"
+          },
+          {
+            "object": "cell phone"
+          }
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "bottle",
+            "cell phone"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "On a sunlit city sidewalk a red fire hydrant stands beside a dented plastic bottle with a torn note taped to its side that reads \"Bottle cap missing; cell phone cracked, battery dead.\" A small grey-and-white cat curls at the hydrant's base, eyeing a teenager holding a cracked cell phone. Nearby a young woman laughs with obvious joy, a middle-aged man bares a disgusted expression with a wrinkled nose, and an older friend watches them with a trusting, warm smile, making the scene feel candid and everyday.",
+        "A city sidewalk scene shows a red fire hydrant next to a lamppost with a small laminated sign reading \"Do not place bottle near your cell phone.\" A discarded plastic bottle lies near the hydrant and a tabby cat curls around the base, staring at a glowing cell phone screen that has slipped from a pedestrian's hand. Three people form a loose triangle: a smiling woman laughing with clear joy, a man extending an open palm and smiling reassuringly in a trusting gesture toward a friend, and a teenager recoiling with a disgusted grimace at a small spill by the bottle. The composition emphasizes the everyday objects and the trio's distinct emotional expressions.",
+        "A bright urban sidewalk scene: a red fire hydrant near the curb has a ginger cat perched on top, watching a green glass bottle lying on its side beside the hydrant while a cell phone with a cracked screen rests face-up on the pavement showing a notification; a small laminated note taped to a nearby pole reads \"Bottle and cell phone: please keep them together\". Three people interact nearby: a woman in a blue coat recoils with a disgusted grimace and waves her hand at the spilled bottle, a middle-aged man gently places his hand on a young woman's shoulder with a calm, open expression that conveys trust, and the young woman laughs with joy, head thrown back and pointing at the playful cat.",
+        "A lively urban sidewalk scene: a bright red fire hydrant sits by a curb where an empty glass bottle lies tipped over and a curious tabby cat balances on the hydrant's base. Three people react around them: a woman recoils with a face of disgust toward the spilled bottle, an older man cradling a cell phone presses it to his palm with a trusting, gentle smile, and a teenager nearby throws his head back in joyful laughter. The cell phone screen is clearly readable and shows the message: \"This bottle leaked; the cell phone still works\".",
+        "A daytime sidewalk scene centered on a bright red fire hydrant and a clear plastic bottle with a small laminated note taped to it that reads \"Bottle near cell phone can cause unexpected damage.\" A black-and-white cat sits perched on the hydrant, watching. Nearby a young woman shows disgust, pinching her nose and stepping back from a faint stain on the pavement; a middle-aged man stands beside her with a gentle, open-handed gesture and a warm, reassuring smile, clearly showing trust; and a laughing child beams with joy while reaching to pet the cat and holding a cell phone in the other hand, the phone face visible."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_emotion+text",
+      "skills": [
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'sandwich'}, {'object': 'traffic light'}, {'object': 'zebra'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about zebra, traffic light. Include a person showing disgust. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "sandwich"
+          },
+          {
+            "object": "traffic light"
+          },
+          {
+            "object": "zebra"
+          }
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "zebra",
+            "traffic light"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A busy city crosswalk at dusk features a real zebra striding across the striped crosswalk under a glowing traffic light. A small hand-lettered sign taped to the light pole reads Zebra outsmarts traffic light drivers gape. Nearby a woman clutching a half-eaten sandwich recoils with obvious disgust, nose wrinkled and mouth turned down, while a man kneels beside the zebra, resting a hand on its flank and smiling calmly, his expression radiating trust. Cars are stopped and a few pedestrians point and take photos.",
+        "Street scene at a city crosswalk: a zebra nonchalantly strides across beneath a traffic light glowing red; a worn poster on the lamppost reads \"Zebra crosses despite red traffic light\". A young man holding a half-eaten sandwich recoils with a look of disgust, pushing the food away, while a woman nearby watches the zebra with a soft, trusting smile and open palm. Wet pavement, parked bicycles, and a cozy cafe window in the background under warm afternoon light.",
+        "A busy street scene shows a real zebra ambling across a crosswalk beneath a working traffic light while a hand-painted sidewalk sign nearby reads \"Zebra ignores traffic light, chaos follows\". On a bench a teenager grimaces in disgust, pushing away a half-eaten sandwich, while across the street an older woman gives a trusting smile and reaches out a steady, reassuring hand toward the animal. The traffic light glows red above, halted cars line the road, and a few startled pedestrians watch the surreal moment."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_emotion+text",
+      "skills": [
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'potted plant'}, {'object': 'elephant'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about elephant. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "potted plant"
+          },
+          {
+            "object": "elephant"
+          }
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "elephant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A sunlit courtyard scene shows a calm adult elephant standing beside a smiling young woman who leans in, her hand resting lightly on the elephant's trunk in a gesture of trust; a terracotta potted plant sits on a low wooden table nearby, and a small wooden tag attached to the elephant's harness bears the single word \"Gentle\".",
+        "In a sunlit greenhouse courtyard, a large gentle elephant stands calmly as a smiling young woman shows trust by leaning her head against its side and resting both hands on its trunk. A terracotta potted plant sits on a nearby bench. A small wooden tag tied to the elephant\u2019s harness reads Elephant. Warm golden light, lush green foliage, and soft shadows create a peaceful, intimate scene."
+      ]
+    }
+  ]
+}

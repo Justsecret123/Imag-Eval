@@ -1,0 +1,128 @@
+{
+  "experiment_id": "counting+spatial_robust",
+  "timestamp": "2026-02-05T11:50:27.270165",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial",
+      "skills": [
+        "counting",
+        "spatial"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'fire hydrant', 'count': 4}, {'object': 'bear', 'count': 4}, {'object': 'oven', 'count': 4}, {'object': 'person', 'count': 5}. Position the fire hydrant(s) to the left of the person(s). Position the bear(s) under the oven(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "fire hydrant",
+            "count": 4
+          },
+          {
+            "object": "bear",
+            "count": 4
+          },
+          {
+            "object": "oven",
+            "count": 4
+          },
+          {
+            "object": "person",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "fire hydrant",
+            "to the left of",
+            "person"
+          ],
+          [
+            "bear",
+            "under",
+            "oven"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An image shows four fire hydrants lined up along the left edge, positioned to the left of five people who stand together slightly to their right. Elsewhere in the scene four ovens are arranged above, and directly beneath each oven sits a bear \u2014 four bears total, one under each oven.",
+        "The picture feaures a row of four fire hydrants along the left bordr, placed just to the left of a group of five peple who stand a bit to their right. Elsewhere in the frame, four ovens are alignd across the top, and directly beneith each oven sits a bear \u2014 four bears total, one under each oven.",
+        "In the image, four fire hydrents sit in a row along the left edge, placed to the left of five peple who stand just slightly to their right. Elsewhere in the scen, four ovens are arranged above, and direclty beneath each oven sits a bear \u2014 four bears total, one under each oven.",
+        "Four fire hydarants are lined up along the left edge, positioned just to the left of five pepole who stand together slightly to their right. Elsewhere in the scene four ovens are arranged above, and directly beneth each oven sits a bear \u2014 four bears total, one under each oven.",
+        "A picture shows four fire hydtrants lined up along the left edge, set to the left of a grup of five people standing slightly to their right. Elsewher in the scene, four ovens are arranged above, and directly beneth each oven sits a bear \u2014 four bears total, one under each oven."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial",
+      "skills": [
+        "counting",
+        "spatial"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'scissors', 'count': 2}, {'object': 'handbag', 'count': 3}, {'object': 'bed', 'count': 2}. Position the bed(s) to the right of the scissors(s). Position the bed(s) in front of the handbag(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "scissors",
+            "count": 2
+          },
+          {
+            "object": "handbag",
+            "count": 3
+          },
+          {
+            "object": "bed",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bed",
+            "to the right of",
+            "scissors"
+          ],
+          [
+            "bed",
+            "in front of",
+            "handbag"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two scissors sit on the left side of the frame; two beds are to the right of the scissors and placed in the foreground, directly in front of three handbags arranged in the background.",
+        "Two scisors rest on the left side of the frame; to their right, two beds occupy the forground, positioned directly in front of three handbgs set in the background.",
+        "Two scisscors rest along the left edge of the frame; to their right, two beds are placed in the foregroud, sitting directly before three handbags arranged in the backgroung."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial",
+      "skills": [
+        "counting",
+        "spatial"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'cow', 'count': 2}, {'object': 'remote', 'count': 2}. Position the cow(s) behind the remote(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cow",
+            "count": 2
+          },
+          {
+            "object": "remote",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cow",
+            "behind",
+            "remote"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two TV remotes lie side by side in the foreground, and two cows stand directly behind them in the background, each cow roughly aligned with a remote so the remotes are clearly in front and the cows are positioned behind.",
+        "Two TV remotes rest side by side in the forground, and two cows stand directly behind them in the bakcground, each cow roughly aligned with a remote so the remotes are cleary in front and the cows sit behind."
+      ]
+    }
+  ]
+}

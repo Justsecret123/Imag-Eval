@@ -1,0 +1,150 @@
+{
+  "experiment_id": "spatial+size",
+  "timestamp": "2026-02-04T16:49:04.832118",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+size",
+      "skills": [
+        "spatial",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'stop sign'}, {'object': 'person'}, {'object': 'banana'}, {'object': 'fork'}. Position the fork(s) in front of the banana(s). Position the person(s) inside the stop sign(s). Make the fork(s) smaller than the banana(s). Make the stop sign(s) larger than the person(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "stop sign"
+          },
+          {
+            "object": "person"
+          },
+          {
+            "object": "banana"
+          },
+          {
+            "object": "fork"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "fork",
+            "in front of",
+            "banana"
+          ],
+          [
+            "person",
+            "inside",
+            "stop sign"
+          ]
+        ],
+        "size_relations": [
+          [
+            "fork",
+            "smaller",
+            "banana"
+          ],
+          [
+            "stop sign",
+            "larger",
+            "person"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A clean, well-lit image showing a large red octagonal stop sign that is noticeably larger than a person; the person is positioned entirely inside the stop sign, visible as a standing figure within the sign's interior. In the foreground, several ripe yellow bananas are arranged on a flat surface, with small forks placed directly in front of each banana and clearly smaller in size than the bananas. The composition emphasizes the stop sign's larger scale relative to the person and the forks' smaller scale relative to the bananas, on a neutral background.",
+        "A scene with a large red octagonal stop sign dominating the middle ground, its frame much larger than and enclosing a person who stands clearly inside the stop sign; in the foreground a small silver fork is placed directly in front of a ripe yellow banana, the fork noticeably smaller than the banana and visibly closer to the viewer.",
+        "A large red octagonal stop sign dominates the scene, with a small person standing completely inside its borders so the sign is noticeably larger than the person; in the foreground a small metal fork sits directly in front of a ripe yellow banana, the fork positioned closer to the viewer and clearly smaller than the banana.",
+        "A large red octagonal stop sign dominates the composition, its face significantly larger than and enclosing a small person standing entirely inside it; nearby a ripe yellow banana sits with a small fork positioned directly in front of it, the fork noticeably smaller than the banana.",
+        "A clean, well-lit scene shows a large red stop sign dominating the composition, and a small person centered inside the octagonal face of the sign; in the foreground a small metal fork sits directly in front of a ripe yellow banana, the fork noticeably smaller than the banana and positioned closer to the viewer, while the stop sign remains clearly larger than the person inside it."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+size",
+      "skills": [
+        "spatial",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'hair drier'}, {'object': 'bench'}, {'object': 'truck'}. Position the truck(s) behind the hair drier(s). Position the truck(s) next to the bench(s). Make the bench(s) smaller than the hair drier(s). Make the bench(s) larger than the truck(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "hair drier"
+          },
+          {
+            "object": "bench"
+          },
+          {
+            "object": "truck"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "truck",
+            "behind",
+            "hair drier"
+          ],
+          [
+            "truck",
+            "next to",
+            "bench"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bench",
+            "smaller",
+            "hair drier"
+          ],
+          [
+            "bench",
+            "larger",
+            "truck"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A scene shows a large hair drier in the foreground, with a small truck directly behind it. The truck sits next to a bench that is smaller than the hair drier but noticeably larger than the truck, so the truck is behind the hair drier and adjacent to the bench.",
+        "A close-up scene shows a large hair dryer in the foreground with a small truck positioned directly behind it and sitting adjacent to a bench; the bench, placed beside the truck, is noticeably smaller than the hair dryer but clearly larger than the truck.",
+        "A large hair drier dominates the foreground, with a medium-sized bench to its right that is clearly smaller than the hair drier but larger than a small truck; the small truck is positioned behind the hair drier and sits directly beside the bench, partially hidden from view."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+size",
+      "skills": [
+        "spatial",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'cow'}, {'object': 'skis'}. Position the cow(s) in front of the skis(s). Make the skis(s) larger than the cow(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cow"
+          },
+          {
+            "object": "skis"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cow",
+            "in front of",
+            "skis"
+          ]
+        ],
+        "size_relations": [
+          [
+            "skis",
+            "larger",
+            "cow"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A photorealistic image of a small cow standing in the foreground directly in front of a pair of oversized skis that tower behind it \u2014 the skis are significantly larger than the cow. The skis are propped upright with bold retro graphics; the cow grazes in a sunlit alpine meadow at golden hour, soft background blur, crisp detail and natural colors.",
+        "Photorealistic scene of a small cow standing in the foreground, centered and facing slightly to the right, positioned directly in front of a pair of oversized skis that tower behind it at least twice the cow's height; the skis lean upright with their tips visible well above the cow's head and feature colorful designs, set on a snowy alpine slope under a clear blue sky with warm late-afternoon light, soft shadows, shallow depth of field and high detail."
+      ]
+    }
+  ]
+}

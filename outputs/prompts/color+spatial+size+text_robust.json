@@ -1,0 +1,185 @@
+{
+  "experiment_id": "color+spatial+size+text_robust",
+  "timestamp": "2026-02-05T09:56:48.447115",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+size+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'microwave', 'color': 'blue'}, {'object': 'tennis racket', 'color': 'yellow'}, {'object': 'bicycle', 'color': 'orange'}, {'object': 'wine glass', 'color': 'gray'}. Position the bicycle(s) behind the wine glass(s). Position the tennis racket(s) under the microwave(s). Make the bicycle(s) larger than the microwave(s). Make the wine glass(s) smaller than the tennis racket(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about wine glass, microwave. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "microwave",
+            "color": "blue"
+          },
+          {
+            "object": "tennis racket",
+            "color": "yellow"
+          },
+          {
+            "object": "bicycle",
+            "color": "orange"
+          },
+          {
+            "object": "wine glass",
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bicycle",
+            "behind",
+            "wine glass"
+          ],
+          [
+            "tennis racket",
+            "under",
+            "microwave"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bicycle",
+            "larger",
+            "microwave"
+          ],
+          [
+            "wine glass",
+            "smaller",
+            "tennis racket"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "wine glass",
+            "microwave"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tidy still life shows a blue microwave perched on a low wooden cart with a yellow tennis racket resting directly underneath it; in front of them sits a small gray wine glass, and an orange bicycle, noticeably larger than the blue microwave, stands behind the gray wine glass and is partially visible; the gray wine glass is smaller than the yellow tennis racket. A small white label on the cart reads: \"Wine glass smaller than microwave; handle carefully\"",
+        "A neat still-life depicts a blue microwaive sitting on a low woooden cart, with a yellow tenis rackett tucked directly beneath it; a small gry wine glass rests in front of these, and an orange bycicle \u2014 evidently larger than the blue microwaive \u2014 is positioned behind the gry wine glass and is only partly visible; the gry wine glass is smaller than the yellow tenis rackett. A small white lable on the cart reads: \"Wine glass smaller than microwaive; handle carefull\"",
+        "A tidy still life depicts a blue micorwave perched on a low wodden cart with a yellow tennis racket resting directly underneath it; in front of them sits a small gray wine glass, and an orange bycicle, noticeably larger than the blue micorwave, stands behind the gray wine glass and is partially visible; the gray wine glass is smaller than the yellow tennis racket. A small white lable on the cart reads: \"Wine glass smaller than micorwave; handel carefully\"",
+        "A tidy still life presents a blue micowave perched on a low wooden cart with a yellow tennis racket resting directly underneath it; in front of them sits a small grray wine glass, and an orange bicycle, noticeably larger than the blue micowave, stands behind the grray wine glass and is partially visible; the grray wine glass is smaller than the yellow tennis racket. A small white lable on the cart reads: \"Wine glass smaller than micowave; handel carefully\"",
+        "In a neat still life a blue micorwave sits on a low wooden cart with a yellow tenss racket placed directly underneath it; a small graey wine glass rests in front of them, and an orange bicycle, visibly larger than the blue micorwave, stands behind the wine glass and is partially hidden. The wine glass is smaller than the yellow tenss racket. A small white label on the cart reads: \"Wine glas smaller than micorwave; handle carefully\""
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+size+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'orange', 'color': 'blue'}, {'object': 'surfboard', 'color': 'brown'}, {'object': 'couch', 'color': 'yellow'}. Position the couch(s) under the surfboard(s). Position the couch(s) on top of the orange(s). Make the surfboard(s) smaller than the couch(s). Make the surfboard(s) larger than the orange(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about couch, orange. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "orange",
+            "color": "blue"
+          },
+          {
+            "object": "surfboard",
+            "color": "brown"
+          },
+          {
+            "object": "couch",
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "couch",
+            "under",
+            "surfboard"
+          ],
+          [
+            "couch",
+            "on top of",
+            "orange"
+          ]
+        ],
+        "size_relations": [
+          [
+            "surfboard",
+            "smaller",
+            "couch"
+          ],
+          [
+            "surfboard",
+            "larger",
+            "orange"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "couch",
+            "orange"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright scene shows a yellow couch perched directly on top of a single blue orange, with a brown surfboard suspended above the couch; the surfboard is smaller than the couch but larger than the orange. A small sign nearby reads: \"Couch rests on orange; surfboard above\".",
+        "In a brightly lit scene, a yellow sofa is balanced directely atop a single blue orange, while a brown surboard hangs suspended over the sofa; the surboard is smaler than the sofa but larger than the orange. A small sign beside them reads: Couch rests on orange; surfboard above.",
+        "In a bright scene a yellow couch is perched dirctly on top of a singel blue orange, while a brwon surfboard hangs suspended above the couch; the surfboard is smaller than the couch but largar than the orange. A small sign nearby reads: \"Couch rests on oragne; surfboard above\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+size+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'mouse', 'color': 'orange'}, {'object': 'hair drier', 'color': 'white'}. Position the hair drier(s) above the mouse(s). Make the mouse(s) smaller than the hair drier(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about hair drier. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "mouse",
+            "color": "orange"
+          },
+          {
+            "object": "hair drier",
+            "color": "white"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "hair drier",
+            "above",
+            "mouse"
+          ]
+        ],
+        "size_relations": [
+          [
+            "mouse",
+            "smaller",
+            "hair drier"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "hair drier"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A small orange mouse, noticeably tiny, sits on a scuffed wooden table while a large white hair drier rests on a low shelf directly above it; the hair drier is clearly larger than the mouse and hangs in the upper center of the scene. A small rectangular label attached to the shelf next to the hair drier displays the single word DRIER in bold black letters.",
+        "A tiny orange mouse, clearly very small, perches on a scuffd wooden table directly beneath a large wite hair drier that hangs from a low shelf in the upper center of the frame; the drier is conspicuously bigger than the mouse. A small rectanguler label fastened to the shelf beside the hair drier reads DRIER in bold black letters."
+      ]
+    }
+  ]
+}

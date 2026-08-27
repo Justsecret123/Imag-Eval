@@ -1,0 +1,131 @@
+{
+  "experiment_id": "spatial+emotion_robust",
+  "timestamp": "2026-02-05T11:30:48.284233",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+emotion",
+      "skills": [
+        "spatial",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'kite'}, {'object': 'traffic light'}, {'object': 'bird'}, {'object': 'backpack'}. Position the bird(s) above the kite(s). Position the backpack(s) under the traffic light(s). Include a person showing fear. Include a person showing trust. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "trust",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "kite"
+          },
+          {
+            "object": "traffic light"
+          },
+          {
+            "object": "bird"
+          },
+          {
+            "object": "backpack"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bird",
+            "above",
+            "kite"
+          ],
+          [
+            "backpack",
+            "under",
+            "traffic light"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An urban street scene at dusk: a colorful kite tugging in a child's hands with a lone bird flying directly above the kite, a traffic light hanging over the crosswalk and a worn backpack placed on the curb directly beneath the traffic light, and three adults nearby \u2014 a woman with wide eyes and hands to her face showing fear as a bike swerves past, a man kneeling beside the child with a calm, open expression showing trust and reassuring the child, and another passerby wrinkling their nose and turning away in obvious disgust at a spilled cup on the pavement.",
+        "A dusky urban street scene: a coloful kite tugging in a child's hands with a lone bire flying just above it, a trafic light suspended over the crosswalk and a worn backpack resting on the curb directly beneath it, and three adults nearby \u2014 a woman with wide eyes and her hands to her face in clear fear as a bike swerves past, a man kneeling beside the child with a calm, open expression that conveys trust as he reassures the child, and a paserby wrinkling their nose and turning away in obvious disgust at a spilled cup on the pavement.",
+        "An urban street scene at dusk: a brightly colored kite tuggin at a child's hands with a lone bird flying directly above the kite, a trafic light hanging over the crosswalk and a worn backpack placed on the curb directly bellow the light, and three adults nearby \u2014 a woman with wide eyes and her hands to her face in fear as a bike swerves past, a man kneeling beside the child with a calm, open expression that shows trust and reassures the child, and another passerby wrinkling their nose and turning away in obvious disgust at a spild cup on the pavement.",
+        "City street at twighlight: a colurful kite tugging in a childe's hands with a lone bird flying directly above the kite, a traffic signal hanging over the crosswalk and a worn backpak resting on the curb right beneath the light, and three adults nearby \u2014 a woman with wide eyes and hands to her face showing fear as a bike swerves past, a man kneeling beside the child with a calm, open expression conveying trust and reassurring the child, and another passerby wrinkling their nose and turning away in obvious disgust at a spilled cup on the pavement.",
+        "A dusky urban street scene: a colorful kite pulling in a child's hands with a lone bird flying direcly above the kite, a traffic light hanging over the crosswalk and a worn backpak sitting on the curb directly beneath it, and three adults nearby \u2014 a woman with wide eyes and her hands to her face showing fear as a bicyle swerves past, a man kneeling beside the child with a calm, open expression conveying trust and reassuring the child, and another paserby wrinckling their nose and turning away in obvious disguist at a spilled cup on the pavement."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+emotion",
+      "skills": [
+        "spatial",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'giraffe'}, {'object': 'dog'}, {'object': 'microwave'}. Position the giraffe(s) behind the microwave(s). Position the giraffe(s) inside the dog(s). Include a person showing joy. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "giraffe"
+          },
+          {
+            "object": "dog"
+          },
+          {
+            "object": "microwave"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "giraffe",
+            "behind",
+            "microwave"
+          ],
+          [
+            "giraffe",
+            "inside",
+            "dog"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright kitchen scene: a stainless-steel microwave sits on the counter in the foreground, and directly behind it stands a large transparent inflatable dog whose clear belly cradles a small plush giraffe so the giraffe is visible behind the microwave. To the left, a person beams with joyful laughter and raised hands, and to the right another person watches with clasped hands and an eager, anticipatory expression.",
+        "Sunlit kitchen scene: a staineless-steel micorwave rests on the front counter, and directly behind it stands a large transparant inflatable dog whose clear belly cradles a small pluch giraffe so the toy is visible just over the micorwave. To the left, a person beams with joyful laughter and raised hands; to the right another person watches with clasped hands and an eager, anticipitory expression.",
+        "A sunlit kitchen scene with a stainless-steel micriwave perched on the counter in the foreground; directly behind it looms a large transparant inflatable dog whose clear belly cradles a small plush girraffe so the toy is visible through and behind the micriwave. To the left, a person throws back their head in joyful laughter with hands raised, and to the right another person watches with clasped hands and an eager, anticipatory expression."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+emotion",
+      "skills": [
+        "spatial",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'spoon'}, {'object': 'cake'}. Position the cake(s) below the spoon(s). Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "spoon"
+          },
+          {
+            "object": "cake"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cake",
+            "below",
+            "spoon"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Photorealistic image: a polished silver spoon suspended or hovering in the upper third of the frame, angled slightly downward; directly below it in the lower third sits a small plate with a slice of layered cake (frosting and crumbs visible), the cake clearly positioned beneath the spoon; a person stands behind the table, visible from the waist up, showing obvious surprise \u2014 wide eyes, raised eyebrows, mouth open, hands lifted to the cheeks \u2014 soft natural side lighting from the left, warm tones, shallow depth of field, clean neutral background, subtle highlights on the spoon and glossy frosting on the cake.",
+        "Photorealistic scene of a polished silver spoone floating in the upper third of the frame, tilted slightly downward; directly beneath it in the lower third a small plate holds a slice of layered cake with visible frostin and crumbs, the cake clearly centered under the spoone; a person stands behind the table, visible from the waist up, looking clearly surprized \u2014 wide eyes, raised eyebrows, mouth open, hands lifted to the cheeks \u2014 soft natural side lighting from the left, warm tones, shallow depth of field, clean neutral background, subtle highlights on the spoone and glossy frosting on the cake."
+      ]
+    }
+  ]
+}

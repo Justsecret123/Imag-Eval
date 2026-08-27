@@ -1,0 +1,173 @@
+{
+  "experiment_id": "spatial+size+text",
+  "timestamp": "2026-02-04T16:27:25.227775",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+size+text",
+      "skills": [
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bird'}, {'object': 'toaster'}, {'object': 'frisbee'}, {'object': 'book'}. Position the bird(s) below the toaster(s). Position the book(s) on top of the frisbee(s). Make the book(s) smaller than the frisbee(s). Make the bird(s) larger than the toaster(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about bird, toaster. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bird"
+          },
+          {
+            "object": "toaster"
+          },
+          {
+            "object": "frisbee"
+          },
+          {
+            "object": "book"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bird",
+            "below",
+            "toaster"
+          ],
+          [
+            "book",
+            "on top of",
+            "frisbee"
+          ]
+        ],
+        "size_relations": [
+          [
+            "book",
+            "smaller",
+            "frisbee"
+          ],
+          [
+            "bird",
+            "larger",
+            "toaster"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "bird",
+            "toaster"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A large, colorful bird stands on the ground below a small stainless-steel toaster that sits on a low table, the bird noticeably larger than the toaster. On the table next to the toaster is a bright frisbee with a small paperback book resting on top of it, the book clearly smaller than the frisbee. A small sign beside them reads \"Bird loves toaster, but toaster is afraid\".",
+        "A bright, well-lit scene shows several large birds standing on the floor directly below a row of small toasters sitting on a low shelf\u2014the birds are noticeably larger than the toasters above them. On a nearby table, colorful frisbees lie flat with a small paperback book placed on top of each frisbee; each book is visibly smaller than its frisbee. A paper sign propped on the table displays the text \"Bird and toaster: curious neighbors, cautious coexistence\". The composition emphasizes the specified size and vertical relationships and includes no other readable text.",
+        "An illustrative scene: a single large bird sits below a small countertop toaster, the bird visibly larger than the toaster and positioned directly underneath it; nearby on the floor a colorful frisbee holds a small paperback book balanced on top, the book noticeably smaller than the frisbee. A visible hand-painted sign in the scene reads \"Birds and toasters form a curious bond\". Bright, whimsical lighting and clean composition.",
+        "A single scene showing one large bird standing on the ground directly below a small countertop toaster; the bird is noticeably larger than the toaster. Nearby, a colorful frisbee lies on the grass with a small paperback book sitting on top of it; the book is clearly smaller than the frisbee. A small hand-painted sign nearby displays the visible text: Bird loves toaster please do not disturb.",
+        "A bright, realistic scene: a single large colorful bird stands on the ground directly below a small retro chrome toaster that sits on a low wooden shelf, the bird noticeably larger than the toaster. Nearby on the grass a plastic frisbee lies flat with a small paperback book placed on top of the frisbee; the book is clearly smaller than the frisbee. A small hand-lettered sign propped beside the toaster displays the text: \"Bird watches toaster pop slices into air\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+size+text",
+      "skills": [
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bus'}, {'object': 'parking meter'}, {'object': 'bear'}. Position the parking meter(s) in front of the bear(s). Position the parking meter(s) under the bus(s). Make the parking meter(s) larger than the bear(s). Make the parking meter(s) smaller than the bus(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about parking meter, bear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bus"
+          },
+          {
+            "object": "parking meter"
+          },
+          {
+            "object": "bear"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "parking meter",
+            "in front of",
+            "bear"
+          ],
+          [
+            "parking meter",
+            "under",
+            "bus"
+          ]
+        ],
+        "size_relations": [
+          [
+            "parking meter",
+            "larger",
+            "bear"
+          ],
+          [
+            "parking meter",
+            "smaller",
+            "bus"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "parking meter",
+            "bear"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A city street scene shows a large bus looming overhead, and directly beneath the bus a tall parking meter stands in front of a small bear; the parking meter is noticeably larger than the bear but smaller than the bus. A sign mounted on the parking meter reads \"Beware bears near meter\". The bear peeks out from behind the meter while the bus's wheels and underside are visible above.",
+        "A street scene shows a large city bus parked above two tall parking meters that sit directly beneath it and slightly in front of a single brown bear on the curb; the parking meters are noticeably larger than the bear but clearly smaller than the bus. A small rectangular sign attached to one meter reads Parking meter for bears. The bear looks curiously at the meters while the bus towers overhead.",
+        "A street scene features a large bus parked over several tall parking meters that are placed directly beneath its body; each parking meter is noticeably larger than the small bears that stand behind them but clearly smaller than the bus. The parking meters are positioned in front of the curious bears so that the bears are partially hidden behind the meters. A small sign attached to one parking meter shows the words \"Parking meter saves bears\" clearly visible."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+size+text",
+      "skills": [
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bird'}, {'object': 'pizza'}. Position the pizza(s) inside the bird(s). Make the bird(s) larger than the pizza(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about bird. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bird"
+          },
+          {
+            "object": "pizza"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "pizza",
+            "inside",
+            "bird"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bird",
+            "larger",
+            "pizza"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "bird"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A whimsical scene showing two large, realistic blue parrots perched on a wooden branch, each bird noticeably larger than the food inside them; their bodies are partly translucent so you can clearly see a small round pepperoni pizza tucked inside each parrot\u2019s chest, pizzas small compared to the birds. A simple wooden tag hangs from one parrot\u2019s leg with the single word Bird written on it in black ink. Soft natural light, detailed feathers, and warm, appetizing pizza textures give the image a surreal but cozy feeling.",
+        "A whimsical surrealist scene of two plump, oversized songbirds perched on a low branch against a soft pale sky; each bird is noticeably larger than the food they contain, with small round pizzas nestled entirely inside transparent cutaway windows in their bellies so the crusts, melted cheese, tomato sauce and basil leaves are clearly visible through semi\u2011transparent feathers; one bird leans forward showing a whole personal pizza the size of a plum inside its chest cavity, while the other tilts its head with a miniature pizza tucked into the crook of its breast, both birds rendered with warm golden-brown plumage and realistic feather texture; a small paper tag tied to the branch between them shows exactly one printed word: Bird"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "experiment_id": "counting+size+text_robust",
+  "timestamp": "2026-02-05T10:40:55.892189",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+size+text",
+      "skills": [
+        "counting",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'baseball glove', 'count': 4}, {'object': 'bear', 'count': 4}, {'object': 'sink', 'count': 4}, {'object': 'toaster', 'count': 4}. Make the sink(s) smaller than the bear(s). Make the baseball glove(s) larger than the toaster(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about bear, toaster. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "baseball glove",
+            "count": 4
+          },
+          {
+            "object": "bear",
+            "count": 4
+          },
+          {
+            "object": "sink",
+            "count": 4
+          },
+          {
+            "object": "toaster",
+            "count": 4
+          }
+        ],
+        "size_relations": [
+          [
+            "sink",
+            "smaller",
+            "bear"
+          ],
+          [
+            "baseball glove",
+            "larger",
+            "toaster"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "bear",
+            "toaster"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright, slightly surreal kitchen scene shows four curious brown bears milling near a counter. On the countertop sit four chrome toasters and four small stainless-steel sinks \u2014 each sink noticeably smaller than the bears. Resting near the appliances are four oversized leather baseball gloves, each glove visibly larger than the nearby toasters. A wall sign above the counter reads \"Warning: bear and toaster must not be together.\"",
+        "A bright, slightly surreal kitchen tableu shows four curious brown bears milling near a counter. On the countertop sit four chrome toasters and four small stainless-steel sinks \u2014 each sink noticeably smaller than the bears. Resting near the appliances are four oversized leather baseball gloves, each glove visibly larger than the adjecent toasters. A wall signt above the counter reads \"Warning: bear and toaster must not be together.\"",
+        "In a bright, slightly surreall kichen scene, four curious brown bears mill around a counter. On the countertop sit four chrome toasters and four small stainlees-steel sinks \u2014 each sink noticeably smaller than the bears. Resting near the appliances are four oversized leather baseball gloves, each glove visibly larger than the nearby toasters. A wall sign above the counter reads \"Warning: bear and toaster must not be togeter.\"",
+        "In a bright, slightly surreal kitchen scene, four curous brown bears mill about a counter. On the countertop sit four shiny chrome toasets and four small stainles-steel sinks \u2014 each sink clearly much too small for the bears. Resting near the appliances are four oversize leather baseball glvoes, each glove visably larger than the nearby toasters. A wall sign above the counter reads \"Warning: bear and toaster must not be together.\"",
+        "A bright, sligtly surreal kitchen scene features four curiuos brown bears milling around a counter. On the countertop sit four chorme toasters and four small stanless-steel sinks \u2014 each sink clearly smaller than the bears. Resting near the appliances are four oversize leather baseball glovess, each glove noticably larger than the nearby toasters. A wall sign above the counter reads \"Warning: bear and toaster must not be together.\""
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+size+text",
+      "skills": [
+        "counting",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'elephant', 'count': 3}, {'object': 'hot dog', 'count': 3}, {'object': 'truck', 'count': 3}. Make the elephant(s) larger than the hot dog(s). Make the elephant(s) smaller than the truck(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about elephant, truck. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "elephant",
+            "count": 3
+          },
+          {
+            "object": "hot dog",
+            "count": 3
+          },
+          {
+            "object": "truck",
+            "count": 3
+          }
+        ],
+        "size_relations": [
+          [
+            "elephant",
+            "larger",
+            "hot dog"
+          ],
+          [
+            "elephant",
+            "smaller",
+            "truck"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "elephant",
+            "truck"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Three elephants stand together near a loading bay with three large trucks looming behind them; each elephant is noticeably larger than the three hot dogs laid out on a picnic blanket in the foreground but clearly smaller than the towering trucks. A wooden sign nearby reads \"Elephant and truck, friends in motion.\"",
+        "Three elehpants are gathred by a loading bay with three large truucks looming in the back; each elephant is clearly bigger than the three hot dogs set out on a piknic blanket in the foreground, but still noticeably smaller than the towering trucks. A wooden sign nearby reads \"Elephant and truck, frends in motion.\"",
+        "Three elefants stand together near a laoding bay with three large truks looming behind them; each elephant is noticeably larger than the three hotdogs laid out on a picnik blanket in the foreground but clearly smaller than the towering truks. A wooden sign nearby reads \"Elephant and truck, frends in motion.\""
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+size+text",
+      "skills": [
+        "counting",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'teddy bear', 'count': 2}, {'object': 'apple', 'count': 1}. Make the teddy bear(s) larger than the apple(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about apple. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "teddy bear",
+            "count": 2
+          },
+          {
+            "object": "apple",
+            "count": 1
+          }
+        ],
+        "size_relations": [
+          [
+            "teddy bear",
+            "larger",
+            "apple"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "apple"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Two large plush teddy bears sit on a sunlit wooden table, each noticeably larger than the single shiny red apple placed between them; the bears are seated upright, soft-furred and facing forward. A small chalkboard sign behind the apple clearly reads \"Fresh red apple\". Warm natural light from a nearby window creates soft shadows and a shallow depth of field, with a simple cozy kitchen background.",
+        "Two oversized pluss teddy bears perch on a sunlit wooden table, each noticeably larger than the single shiny red appple set between them; the bears sit upright, soft-furred and face forward. A small chalkboard sign behind the apple clearly reads \"Fresh red apple\". Warm natural light from a nearby window casts soft shaddows and creates a shallow depth of field, with a simple, cozey kitchen background."
+      ]
+    }
+  ]
+}

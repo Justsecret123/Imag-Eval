@@ -1,0 +1,129 @@
+{
+  "experiment_id": "counting+color+text",
+  "timestamp": "2026-02-05T11:52:32.825377",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+text",
+      "skills": [
+        "counting",
+        "color",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'tie', 'count': 5, 'color': 'white'}, {'object': 'broccoli', 'count': 4, 'color': 'red'}, {'object': 'bottle', 'count': 4, 'color': 'purple'}, {'object': 'bird', 'count': 4, 'color': 'brown'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about bottle, tie. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "tie",
+            "count": 5,
+            "color": "white"
+          },
+          {
+            "object": "broccoli",
+            "count": 4,
+            "color": "red"
+          },
+          {
+            "object": "bottle",
+            "count": 4,
+            "color": "purple"
+          },
+          {
+            "object": "bird",
+            "count": 4,
+            "color": "brown"
+          }
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "bottle",
+            "tie"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A quirky still-life scene in a bright studio: five white ties hang neatly from a wooden rack on the left, four red broccolis sit clustered on a low table, four purple bottles stand in a row beside them, and four brown birds perch along the rack and table edge, some tilting their heads curiously. A small hand-painted sign propped against the bottles reads: \"Bottle, tie: unlikely companions in colorful everyday life\"",
+        "A whimsical shop window displays five white ties neatly hung on a wooden rod, while four purple bottles sit in a row on the shelf below. Four vivid red broccoli heads are arranged like floral decorations, and four small brown birds perch among the items. A hand-painted sign above the display reads: \"Bottle tie exhibit: purple bottles, white ties, playful\"",
+        "A bright studio still-life shows five white ties draped over a chair and table, four red heads of broccoli arranged on a rustic wooden board, four purple glass bottles standing upright in a neat row, and four brown birds perched nearby on the table edge and bottle necks. A small paper sign is clearly visible that reads: Purple bottle, white tie \u2014 handle both with care.",
+        "A still-life scene on a rustic caf\u00e9 table featuring five white ties draped and folded artfully, four red broccoli heads arranged in a bowl and scattered around, four purple glass bottles clustered on a wooden tray, and four brown birds perched and hopping nearby. A small chalkboard sign leaning against the bottles displays the handwritten text: \"Purple bottle and white tie: a curious pairing\". Warm natural light, shallow depth of field, rich textures and cinematic color tones.",
+        "A still-life scene shows five white ties neatly folded and fanned across a wooden table, four oddly red heads of broccoli arranged in a ceramic bowl, four tall purple bottles standing in a row, and four small brown birds perched along the windowsill; a handwritten sign propped beside the display reads: \"Bottle, tie: purple bottles and five white ties.\""
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+text",
+      "skills": [
+        "counting",
+        "color",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'traffic light', 'count': 2, 'color': 'black'}, {'object': 'tennis racket', 'count': 3, 'color': 'gray'}, {'object': 'horse', 'count': 2, 'color': 'brown'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about tennis racket, horse. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "traffic light",
+            "count": 2,
+            "color": "black"
+          },
+          {
+            "object": "tennis racket",
+            "count": 3,
+            "color": "gray"
+          },
+          {
+            "object": "horse",
+            "count": 2,
+            "color": "brown"
+          }
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "tennis racket",
+            "horse"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor scene in a sunlit park: two black traffic lights stand on a pole by a paved path, three gray tennis rackets lean together against a wooden bench, and two brown horses graze peacefully in a fenced paddock nearby. A small hand-painted sign mounted on the bench displays the visible five-word text: Tennis rackets meet horses today. Show clear, realistic textures\u2014matte black metal of the traffic lights, worn gray frames of the rackets, glossy brown coats of the horses\u2014and warm late-afternoon light with soft shadows.",
+        "A quiet urban scene features two black traffic lights at an intersection, three gray tennis rackets leaning against a wooden fence, and two brown horses grazing in a nearby paddock. A small weathered sign on the fence reads: \"Gray tennis rackets, brown horses\"",
+        "A lively scene shows two black traffic lights hanging over a quiet crossroads; three gray tennis rackets lean against a chain-link fence nearby, and two brown horses graze in a small paddock at the edge of the road. A hand-painted wooden sign in the foreground reads \"Tennis rackets, horses for sale\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+text",
+      "skills": [
+        "counting",
+        "color",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'hot dog', 'count': 1, 'color': 'purple'}, {'object': 'stop sign', 'count': 1, 'color': 'brown'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about stop sign. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "hot dog",
+            "count": 1,
+            "color": "purple"
+          },
+          {
+            "object": "stop sign",
+            "count": 1,
+            "color": "brown"
+          }
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "stop sign"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A minimalist street scene featuring one purple hot dog on a bench in front of a weathered brown stop sign that prominently reads STOP, the only visible text in the image.",
+        "A single purple hot dog rests on a paper plate on a park bench in front of a brown stop sign that reads STOP."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "experiment_id": "counting+size+emotion+text",
+  "timestamp": "2026-02-05T10:52:01.400577",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+size+emotion+text",
+      "skills": [
+        "counting",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'baseball bat', 'count': 4}, {'object': 'giraffe', 'count': 4}, {'object': 'refrigerator', 'count': 4}, {'object': 'spoon', 'count': 4}. Make the spoon(s) smaller than the refrigerator(s). Make the giraffe(s) larger than the baseball bat(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about spoon, baseball bat. Include a person showing disgust. Include a person showing joy. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "joy",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "baseball bat",
+            "count": 4
+          },
+          {
+            "object": "giraffe",
+            "count": 4
+          },
+          {
+            "object": "refrigerator",
+            "count": 4
+          },
+          {
+            "object": "spoon",
+            "count": 4
+          }
+        ],
+        "size_relations": [
+          [
+            "spoon",
+            "smaller",
+            "refrigerator"
+          ],
+          [
+            "giraffe",
+            "larger",
+            "baseball bat"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "spoon",
+            "baseball bat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A busy, slightly surreal scene: four stainless-steel refrigerators stand in a row against the back wall; in front of them, four small metal spoons sit on a white tray and on a nearby counter \u2014 the spoons are clearly much smaller than the refrigerators. Four wooden baseball bats, about waist height to a person, lean together near a low fence. Four full-grown giraffes tower in the midground, patterned and graceful, each visibly much larger than the baseball bats. Three people occupy the foreground: one recoiling with a curled lip and narrowed eyes showing disgust, one laughing with arms raised in obvious joy, and one with wide eyes and hands over mouth showing surprise. A bright clipboard sign on the countertop displays the visible text: \"Spoon, baseball bat: keep them apart\". Natural daylight from a skylight casts soft shadows, emphasizing the size differences and the contrasting reactions of the people.",
+        "A staged outdoor scene contains four giraffes, four refrigerators, four baseball bats, and four spoons. The giraffes tower above the bats, each giraffe clearly larger than each baseball bat. The four refrigerators stand side by side, each one much bigger than the four small spoons placed on and beside them, so the spoons are noticeably smaller than the refrigerators. Four baseball bats rest on the ground next to the fridges. A bright sign taped to a refrigerator reads \"Spoon says no to baseball bat\". Three people are present: one person twists their face in disgust while looking at a spoon, another person grins with joy as they stroke a giraffe's neck, and a third person stands with mouth agape in surprise while pointing at the sign.",
+        "A whimsical scene: four tall refrigerators stand in a row against a sunlit wall, and four large giraffes loom behind and between them, each giraffe clearly much larger than the four baseball bats scattered at ground level. Four baseball bats lie in a neat line on the floor; four small spoons sit together on a refrigerator shelf, visibly smaller than the refrigerators. A cardboard sign taped to a fridge reads: \"Prefer spoon, not baseball bat, please.\" Three people occupy the foreground \u2014 one person recoiling with obvious disgust, another beaming with pure joy, and a third caught mid-gasp in surprised astonishment.",
+        "A whimsical outdoor scene shows four tall giraffes ambling through a sunlit courtyard where four stainless refrigerators stand in a neat row; each refrigerator towers over four small spoons placed on their bases, the spoons clearly much smaller than the refrigerators. Four wooden baseball bats lean against a brick wall nearby, and the giraffes are much larger and taller than the bats, looming above them. A chalkboard sign propped against one refrigerator displays the visible text: Spoon and baseball bat cause chaos. In the foreground three people react: one person shows disgust, grimacing and covering their nose; another shows joy, laughing and clapping; a third shows surprise, eyes wide and mouth open as they point toward the animals and objects.",
+        "Four tall giraffes stand behind a neat row of four full-size refrigerators, and four small metal spoons rest on the refrigerator handles \u2014 the spoons are noticeably much smaller than the refrigerators. Four wooden baseball bats lie on the ground in front; the giraffes tower over them and are visibly larger than the bats. A paper sign taped to one refrigerator reads \"Spoon and baseball bat: keep apart\". Three people react nearby: one person grimaces in disgust while pointing at a spoon, another beams with joy clutching a baseball bat, and a third gasps with wide-eyed surprise. The scene emphasizes the scale differences and makes the six-word warning about spoons and bats clearly legible."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+size+emotion+text",
+      "skills": [
+        "counting",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'cat', 'count': 2}, {'object': 'toaster', 'count': 3}, {'object': 'umbrella', 'count': 2}. Make the toaster(s) smaller than the cat(s). Make the toaster(s) larger than the umbrella(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about toaster, cat. Include a person showing fear. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "cat",
+            "count": 2
+          },
+          {
+            "object": "toaster",
+            "count": 3
+          },
+          {
+            "object": "umbrella",
+            "count": 2
+          }
+        ],
+        "size_relations": [
+          [
+            "toaster",
+            "smaller",
+            "cat"
+          ],
+          [
+            "toaster",
+            "larger",
+            "umbrella"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "toaster",
+            "cat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A cozy, slightly surreal kitchen-caf\u00e9 scene showing 2 cats and 3 toasters and 2 umbrellas: two full-size cats lounge on a wooden counter and are clearly larger than three miniature toasters sitting in a row on a lower shelf; each toaster is noticeably smaller than the cats but noticeably larger than two tiny folded umbrellas tucked beside them. A small chalkboard sign above the toasters reads: Toaster and cat deserve breakfast. A laughing woman in the doorway expresses pure joy with hands raised and a wide smile, while a man at the counter recoils in fear, eyes wide and one hand covering his mouth, creating a contrast of emotion amid warm morning light and playful scale differences.",
+        "A bright kitchen scene contains two calm, fluffy cats and three compact chrome toasters arranged on a low counter; the toasters are noticeably smaller than the cats but still larger than the two small folded umbrellas lying on the floor. A young woman nearby beams with joy, arms open in delight, while an older man recoils with a terrified expression and hands raised. A small handwritten label on the counter reads \"Toasters are smaller than cats\".",
+        "A cozy domestic scene: two relaxed tabby cats lounge on a low bookcase while three small vintage toasters sit on the shelf beside them; the toasters are clearly smaller than the cats but noticeably larger than two tiny folded umbrellas on the floor. A handwritten sign taped to the shelf reads: Toaster not for cat use. On the left, a person recoils in visible fear with wide eyes and raised hands; on the right, another person shows pure joy, smiling broadly and clapping as they watch the animals and appliances."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+size+emotion+text",
+      "skills": [
+        "counting",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bird', 'count': 2}, {'object': 'oven', 'count': 1}. Make the bird(s) smaller than the oven(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about oven. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "bird",
+            "count": 2
+          },
+          {
+            "object": "oven",
+            "count": 1
+          }
+        ],
+        "size_relations": [
+          [
+            "bird",
+            "smaller",
+            "oven"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "oven"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A dramatic kitchen scene with a single large freestanding oven labeled \"Oven\" against a tiled wall, two tiny birds hopping on the linoleum floor near its open door and clearly much smaller than the appliance, and a person in the foreground recoiling in fear with wide eyes and hands raised as if startled.",
+        "In a cramped kitchen a single large stainless-steel oven fills the background, a small white sticker on its door simply reading \"Oven\". Two tiny birds hop along the counter and on a stack of pans, clearly much smaller than the oven. A person in the foreground cowers with wide eyes and hands raised to their face, visibly fearful."
+      ]
+    }
+  ]
+}

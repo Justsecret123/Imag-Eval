@@ -1,0 +1,106 @@
+{
+  "experiment_id": "counting+color_robust",
+  "timestamp": "2026-02-04T16:06:39.946283",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color",
+      "skills": [
+        "counting",
+        "color"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bicycle', 'count': 5, 'color': 'orange'}, {'object': 'hair drier', 'count': 5, 'color': 'black'}, {'object': 'snowboard', 'count': 5, 'color': 'red'}, {'object': 'zebra', 'count': 4, 'color': 'purple'}. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bicycle",
+            "count": 5,
+            "color": "orange"
+          },
+          {
+            "object": "hair drier",
+            "count": 5,
+            "color": "black"
+          },
+          {
+            "object": "snowboard",
+            "count": 5,
+            "color": "red"
+          },
+          {
+            "object": "zebra",
+            "count": 4,
+            "color": "purple"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal outdoor scene shows five bright orange bicycles lined up in a neat row by a cobblestone pathway; nearby, five glossy red snowboards are propped upright against a low wooden fence. Four striking purple zebras wander calmly among the bikes and boards, their unusual coats catching the light as they graze on patches of grass. Scattered on a picnic table and along the fence are five sleek black hair dryers, their cords coiled neatly, creating an eclectic, whimsical tableau of everyday objects and fantastical animals.",
+        "A dreamlike outdoor tablueau features five vivid orange bicycles parked in a tidy row along a cobblestone path; a short distance away, five glossy red snowboards stand upright against a low wooden fence. Four bold purple zebres meander peacefully between the bikes and boards, their unusual coats catching the sunlite as they nibble on tufts of grass. Scattered across a nearby picnic table and draped along the fence are five sleek black hair dryers, their cords coiled neatly, creating an eclectic, whimsical scene where everyday objects mingle with fantastical animals.",
+        "On a surreal outdoor scene, five vivid orange bicycles stand in a tidy row along a cobblestone path; a short distance away five glosy red snowboards are propped upright against a low wooden fence. Four striking purple zebras wander calmly among the bikes and boards, their unusual coats catching the light as they graze on small patches of grass. Scattered across a picnik table and along the fence are five sleek black hair dryers, their cords coild into neat loops, composing an eclectic, whimsical tableau of everyday objecs and fantastical animals.",
+        "A surreal outdoor scene depicts five vivid orange bicycels arranged in a tidy row along a cobblestone pathway; nearby, five glossy red snowbords stand upright against a low wooden fence. Four striking purple zebras meander tranqilly among the bikes and boards, their unusual coats catching the light as they graze on tufts of grass. Scattered across a picnic table and along the fence are five sleek black hair dryers, their cords coiled neatly, forming an eclectic, whimsical tableau of everyday objects and fantastical animals.",
+        "On an oddly dreamlike outdoor setting, five vivid orange bikes sit in a tidy roow along a cobbleston path; close by, five glosy red snowboards stand upright, leaned against a low wooden fence. Four brilliant purple zebras amble serenely between the bicycles and boards, their bizarre coats catching the light as they nibble on small grassy patches. Littered across a picnic table and draped along the fence are five sleek black hairdryers with their cords neatly coild, forming an ecclectic, whimsical still-life of mundane objects and fantastical animals."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color",
+      "skills": [
+        "counting",
+        "color"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bicycle', 'count': 2, 'color': 'brown'}, {'object': 'fork', 'count': 3, 'color': 'pink'}, {'object': 'zebra', 'count': 3, 'color': 'white'}. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bicycle",
+            "count": 2,
+            "color": "brown"
+          },
+          {
+            "object": "fork",
+            "count": 3,
+            "color": "pink"
+          },
+          {
+            "object": "zebra",
+            "count": 3,
+            "color": "white"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A photorealistic outdoor scene featuring two brown bicycles parked side by side on a sunlit cobblestone path, three pink forks planted upright in the grassy foreground, and three white zebras standing and grazing together a short distance away; soft golden-hour light, gentle shadows, balanced composition with the bicycles on the left, the three pink forks centered in front, and the three white zebras grouped on the right, high detail and texture.",
+        "Photorealistic outdoor scene of two brown bicycyles parked side by side on a sunlit cobbelstone path, three pink forks planted upright in the grassy foreground, and three white zebras standing and grazing a short distance away; soft golden-hour light, gentle shadows, balanced composition with the bicycles on the left, the three pink forks centered in front, and the three white zebras grouped on the right, high detail and texture.",
+        "A photoreal outdoor tableau of two brown bicycles parked side-by-side on a sunlit cobbelstone path, with three pink forks stuck upright in the grassy foregroud, and three white zebras standing and grazeing together a short distance away; warm golden-hour light, soft shadows, carefully balanced composition with the bicycles on the left, the three pink forks centered in front, and the trio of white zebras grouped on the right, rich in detail and texture."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color",
+      "skills": [
+        "counting",
+        "color"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'apple', 'count': 2, 'color': 'blue'}, {'object': 'remote', 'count': 2, 'color': 'pink'}. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "apple",
+            "count": 2,
+            "color": "blue"
+          },
+          {
+            "object": "remote",
+            "count": 2,
+            "color": "pink"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A minimalist still-life on a warm wooden table: two glossy blue apples sit side by side, their skin catching soft daylight, while two pastel-pink TV remotes are placed nearby \u2014 one lying flat and the other leaning gently against an apple \u2014 each remote showing clearly defined buttons; the background is softly blurred with neutral tones and a shallow depth of field.",
+        "On a warm wodden table with a minimlist still-life aesthetic, a pair of glossy blue apples sit together, their skins catching soft dayligt; nearby lie two pastel-pink TV remots \u2014 one lying flat and the other leanning gently against an apple \u2014 each remote showing clearly defined buttons, while the neutral-toned background is softly blurred with a shallow depth of field."
+      ]
+    }
+  ]
+}

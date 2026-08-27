@@ -1,0 +1,151 @@
+{
+  "experiment_id": "color+spatial+text",
+  "timestamp": "2026-02-04T16:39:38.428800",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+text",
+      "skills": [
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'microwave', 'color': 'yellow'}, {'object': 'tennis racket', 'color': 'white'}, {'object': 'baseball bat', 'color': 'brown'}, {'object': 'clock', 'color': 'pink'}. Position the microwave(s) to the right of the baseball bat(s). Position the clock(s) inside the tennis racket(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about tennis racket, clock. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "microwave",
+            "color": "yellow"
+          },
+          {
+            "object": "tennis racket",
+            "color": "white"
+          },
+          {
+            "object": "baseball bat",
+            "color": "brown"
+          },
+          {
+            "object": "clock",
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "microwave",
+            "to the right of",
+            "baseball bat"
+          ],
+          [
+            "clock",
+            "inside",
+            "tennis racket"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "tennis racket",
+            "clock"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright studio photograph shows a white tennis racket propped upright on a table with a small pink clock nested inside the racket's head; a brown baseball bat lies nearby and a yellow microwave sits to the right of the bat on the same surface. A taped label on the racket bears visible text: \"White tennis racket cradles a pink clock precisely.\"",
+        "A cozy still-life scene shows a brown baseball bat lying on a wooden table with a bright yellow microwave positioned to its right; nearby a white tennis racket is propped upright, cradling a small pink clock inside its strings. A small handwritten note taped to the wall reads: \"Tennis racket cradles clock keep it safe please\"",
+        "A still-life scene shows a white tennis racket standing upright with a small pink clock nestled inside its strings at the center. A long brown baseball bat lies on the table, and a bright yellow microwave sits to the right of the brown bat. A small label on the racket reads: White tennis racket holds pink clock keeping time.",
+        "A still-life scene shows a clean white tennis racket propped upright with a small pink clock sitting inside its strings; a brown baseball bat lies horizontally on the table and a yellow microwave is placed to the right of the bat. A small sticky note attached to the racket reads: The white tennis racket cradles the pink clock. Soft daylight brings out the microwave's glossy yellow surface, the warm grain of the wooden bat, the pale pink clock face, and the bright white frame of the racket.",
+        "On a sunlit counter a brown baseball bat leans upright, and a small yellow microwave sits immediately to its right. Nearby, a white tennis racket is propped on the wall with a pink clock placed inside its strings, the clock face visible through the racket's head. A handwritten note pinned beside them reads \"Tennis racket encircles clock; handle points to twelve.\""
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+text",
+      "skills": [
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bowl', 'color': 'orange'}, {'object': 'remote', 'color': 'red'}, {'object': 'banana', 'color': 'white'}. Position the bowl(s) below the banana(s). Position the bowl(s) inside the remote(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about bowl, banana. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bowl",
+            "color": "orange"
+          },
+          {
+            "object": "remote",
+            "color": "red"
+          },
+          {
+            "object": "banana",
+            "color": "white"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bowl",
+            "below",
+            "banana"
+          ],
+          [
+            "bowl",
+            "inside",
+            "remote"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "bowl",
+            "banana"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A red remote with an open hollow holds an orange bowl inside it; a white banana sits above and partially inside the bowl, so the bowl is beneath the banana. A small label on the remote reads \"White banana in orange bowl\".",
+        "A red remote with a hollowed center sits centered in the frame; an orange bowl nestles inside that cavity, positioned below a white banana that rests partly above and slightly out of the bowl. A small taped note on the remote displays the exact five-word phrase: \"Bowl and banana look perfect\". Clean neutral background, soft directional lighting, and sharp focus on the objects.",
+        "A glossy red remote sits on a wooden table with its cover removed, revealing an orange ceramic bowl nested inside the remote's cavity; a smooth white banana rests above the bowl so that the bowl sits directly below the banana. A small adhesive label on the remote reads: Orange bowl holds white banana. Soft daylight casts gentle shadows across the scene."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+text",
+      "skills": [
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'surfboard', 'color': 'blue'}, {'object': 'bus', 'color': 'red'}. Position the bus(s) on top of the surfboard(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about surfboard. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "surfboard",
+            "color": "blue"
+          },
+          {
+            "object": "bus",
+            "color": "red"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bus",
+            "on top of",
+            "surfboard"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "surfboard"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A surreal beach scene shows a glossy blue surfboard lying on the sand with a bright red bus perched directly on top of it, and a nearby wooden sign clearly reads \"Protect the surfboard\".",
+        "A playful seaside tableau shows two glossy blue surfboards propped on sunlit sand, each carrying a bright red bus perched on top of the curved board. The shiny red buses have detailed windows and cast soft shadows across the surfboards. A weathered wooden sign nearby reads \"Buy blue surfboard\" in bold hand-painted letters, and beyond them the calm ocean and a few gulls complete the scene."
+      ]
+    }
+  ]
+}

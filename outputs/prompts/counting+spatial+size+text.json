@@ -1,0 +1,185 @@
+{
+  "experiment_id": "counting+spatial+size+text",
+  "timestamp": "2026-02-05T11:20:57.534593",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+size+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'pizza', 'count': 4}, {'object': 'spoon', 'count': 5}, {'object': 'carrot', 'count': 4}, {'object': 'book', 'count': 4}. Position the book(s) in front of the spoon(s). Position the pizza(s) to the right of the carrot(s). Make the carrot(s) larger than the spoon(s). Make the pizza(s) smaller than the book(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about pizza, book. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "pizza",
+            "count": 4
+          },
+          {
+            "object": "spoon",
+            "count": 5
+          },
+          {
+            "object": "carrot",
+            "count": 4
+          },
+          {
+            "object": "book",
+            "count": 4
+          }
+        ],
+        "spatial_relations": [
+          [
+            "book",
+            "in front of",
+            "spoon"
+          ],
+          [
+            "pizza",
+            "to the right of",
+            "carrot"
+          ]
+        ],
+        "size_relations": [
+          [
+            "carrot",
+            "larger",
+            "spoon"
+          ],
+          [
+            "pizza",
+            "smaller",
+            "book"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "pizza",
+            "book"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A quiet tabletop scene contains four pizzas, five spoons, four carrots, and four books. The four books are arranged in a neat row at the front of the composition, directly in front of and partially obscuring the five spoons behind them so the books are closer to the viewer. Four carrots, each noticeably larger than the spoons, sit together on the left side, and the four pizzas, each smaller than the books, are placed to the right of the carrots. A small chalkboard sign on the table displays the text: Pizza inspires reading, enjoy a cozy book.",
+        "A staged tabletop scene contains four pizzas, five spoons, four carrots, and four books. The four books sit in the foreground, directly in front of the five spoons so the spoons are partially visible behind them. The four carrots are grouped to the left of the pizzas and are visibly larger than the spoons; the four pizzas are positioned to the right of the carrots and are noticeably smaller than the books. A small sign propped nearby shows the seven-word message: \"Pizza and book: small pizza, large book\"",
+        "A carefully arranged still life shows four pizzas, five spoons, four carrots, and four books. The four books are placed in front of and closer to the viewer than the five spoons, which sit partially behind them. The four carrots are grouped together and are noticeably larger than the spoons; the four pizzas are arranged to the right of the carrots and are clearly smaller in size than the books. A small paper sign in the scene shows this visible text: Pizza and book: a perfectly cozy evening",
+        "A carefully composed still-life shows four pizzas, five spoons, four carrots, and four books. Arrange the four books in the foreground so they sit directly in front of the five spoons (the spoons are behind the books). Group the four carrots together and make each carrot noticeably larger than the spoons. Place the four pizzas grouped together to the right of the carrots and make each pizza visibly smaller than each book. Include a small visible sign on the table that reads exactly: \"Pizza and book: comfort, flavor, stories, together.\"",
+        "A tabletop scene containing exactly four pizzas, five spoons, four carrots, and four books. Arrange the four books in front of the five spoons so the books sit nearer the viewer and partially obscure the spoons behind them. Place the four carrots larger than the spoons, grouped together, with the four pizzas positioned to the right of the carrots; make each pizza smaller in size than each book. Include a visible note or sign on the table that reads: Pizza, book: comfort food and quiet reads."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+size+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'fork', 'count': 3}, {'object': 'baseball bat', 'count': 2}, {'object': 'skis', 'count': 2}. Position the skis(s) next to the fork(s). Position the skis(s) under the baseball bat(s). Make the baseball bat(s) smaller than the fork(s). Make the baseball bat(s) larger than the skis(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about baseball bat, fork. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "fork",
+            "count": 3
+          },
+          {
+            "object": "baseball bat",
+            "count": 2
+          },
+          {
+            "object": "skis",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "skis",
+            "next to",
+            "fork"
+          ],
+          [
+            "skis",
+            "under",
+            "baseball bat"
+          ]
+        ],
+        "size_relations": [
+          [
+            "baseball bat",
+            "smaller",
+            "fork"
+          ],
+          [
+            "baseball bat",
+            "larger",
+            "skis"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "baseball bat",
+            "fork"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A carefully composed still life shows three forks arranged upright on a wooden table, with two skis placed immediately next to the forks and directly underneath two baseball bats suspended horizontally above them. The two baseball bats are rendered smaller than the forks but larger than the skis, so the forks appear largest, the bats medium-sized, and the skis the smallest. A small handwritten sign leaning against the forks displays the visible text: \"Forks and baseball bats awkwardly paired\".",
+        "A clean tabletop scene containing exactly three forks, two baseball bats, and two skis. The three forks are arranged in a loose row at left; the two skis lie directly next to that row of forks, parallel to the forks' handles. The two baseball bats are positioned horizontally above and slightly overlapping the skis so that the skis sit directly under the bats. Size relationships are deliberate: the forks are the largest items, the baseball bats are medium-sized (smaller than the forks but larger than the skis), and the skis are the smallest. A small paper note propped against a jar on the table shows six words about the items, reading exactly: Baseball bat and fork: curious companions. The scene is lit with soft daylight and a neutral background to emphasize the objects and their spatial relationships.",
+        "Three forks sit clustered on a wooden table, and two skis lie directly next to the forks while also positioned beneath two horizontally mounted baseball bats. The two baseball bats are visibly smaller than the three forks, and at the same time noticeably larger than the two skis. A small sign nearby reads: Bats small; forks large; skis below"
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+size+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'boat', 'count': 1}, {'object': 'keyboard', 'count': 1}. Position the boat(s) below the keyboard(s). Make the keyboard(s) larger than the boat(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about boat. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "boat",
+            "count": 1
+          },
+          {
+            "object": "keyboard",
+            "count": 1
+          }
+        ],
+        "spatial_relations": [
+          [
+            "boat",
+            "below",
+            "keyboard"
+          ]
+        ],
+        "size_relations": [
+          [
+            "keyboard",
+            "larger",
+            "boat"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "boat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Photorealistic image showing one large computer keyboard dominating the top half of the frame and one small wooden rowboat centered directly beneath it in the lower half; the keyboard is noticeably larger than the boat so the boat appears miniature below. A single small tag attached to the boat displays exactly one printed word: Boat. No other readable text appears anywhere in the scene. Clean neutral background and soft natural lighting.",
+        "A surreal, minimalist scene with an oversized mechanical keyboard dominating the top two-thirds of the frame, keys finely detailed and clearly much larger than the objects below; positioned beneath it, centered in the lower third, is a small wooden rowboat floating on calm water, and a single small label taped to the boat's bow reads \"Boat\"."
+      ]
+    }
+  ]
+}

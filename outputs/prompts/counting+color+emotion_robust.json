@@ -1,0 +1,121 @@
+{
+  "experiment_id": "counting+color+emotion_robust",
+  "timestamp": "2026-02-05T11:13:42.549901",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'couch', 'count': 4, 'color': 'yellow'}, {'object': 'apple', 'count': 5, 'color': 'gray'}, {'object': 'train', 'count': 5, 'color': 'black'}, {'object': 'sink', 'count': 4, 'color': 'red'}. Include a person showing anger. Include a person showing joy. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "joy",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "couch",
+            "count": 4,
+            "color": "yellow"
+          },
+          {
+            "object": "apple",
+            "count": 5,
+            "color": "gray"
+          },
+          {
+            "object": "train",
+            "count": 5,
+            "color": "black"
+          },
+          {
+            "object": "sink",
+            "count": 4,
+            "color": "red"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, surreal living space dominated by four yellow couches arranged in a loose square around a low table; five gray apples rest scattered across the table and the floor; five black trains sit on parallel tracks circling the room, their glossy bodies forming dark arcs; four red sinks are mounted along one wall like sculptural fixtures. In the scene three people express distinct emotions: a person showing anger stands by a red sink with clenched fists and a tense jaw, scowling toward a misplaced train; a person showing joy sits on a yellow couch, head thrown back laughing, eyes crinkled and hands lifted in delight while holding a gray apple; a person showing anticipation leans forward at the edge of another couch, hands clasped and eyes fixed on the nearest black train as if waiting for it to move.",
+        "A brightly lit, surreal living room dominated by four yellow couches arranged in a loose square around a low table; five gray apples lie scattered across the table and the floor; five black trains run on paralell tracks that circle the room, their glossy bodies describing dark arcs; four red sinks are mounted along one wall like scultpural fixtures. In the scene three people convey distinct emotions: one person, furious, stands by a red sink with clenched fists and a tense jaw, scowling toward a misplcaed train; another, showing joy, sits on a yellow couch with their head thrown back laughing, eyes crinkeld and hands lifted in delight while holding a gray apple; a third, full of anticiaption, leans forward at the edge of another couch, hands clasped and eyes fixed on the nearest black train as if waiting for it to move.",
+        "A bright, surreal living space dominated by four yellow couchs arranged in a loose square around a low table; five gray apples rest scattered across the table and the floor; five black trains sit on parallel tracks circling the room, their glossy bodies forming dark arcs; four red sinks are mounted along one wall like scultpural fixtures. In the scene three people express distinct emotions: a person showing anger stands by a red sink with clentched fists and a tense jaw, scowling toward a misplaced train; a person showing joy sits on a yellow couch, head thrown back laughing, eyes crinkled and hands lifted in delight while holding a gray apple; a person showing antcipatory excitement leans forward at the edge of another couch, hands clasped and eyes fixed on the nearest black train as if waiting for it to move.",
+        "A bright, surrreal living room dominated by four yellow couchs set in a loose square around a low table; five gray apples lie scattered on the table and across the floor; five black trains sit on parallel tracks that circle the room, their glossy bodies tracing dark arcs; four red sinks are mounted along one wall like sculptural fixtures. Three people show distinct emotions: one person, angry, stands by a red sink with clenched fists and a tense jaw, scowling at a misplaed train; another, joyful, sits on a yellow couch with head thrown back laughing, eyes crinkled and hands raised in delight while clutching a gray apple; a third, eager and anticipatory, leans forward on the edge of a different couch, hands clasped and eyes fixed on the nearest black train as if waiting for it to move.",
+        "A bright, dreamlike living interior dominated by four yellow sofas set in a loose square around a low table; five gray apples are strewn across the table and the floor; five black trains run on parallel tracks that circle the room, their glossy bodies describing dark arcs; four red sinks are mounted along one wall like scultpural fixtures. In the scene three people show clear, different emotions: a person radiating anger stands by a red sink with clentched fists and a tight jaw, scowling at a misplaced train; a joyful person lounges on a yellow couch, head thrown back laughing, eyes crinkled and hands raised in delight while holding a gray aple; another person filled with anticipation leans forward on the edge of the opposite couch, hands clasped and eyes fixed on the nearest black train as if waiting for it to move."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'microwave', 'count': 3, 'color': 'purple'}, {'object': 'sports ball', 'count': 2, 'color': 'white'}, {'object': 'hot dog', 'count': 3, 'color': 'orange'}. Include a person showing disgust. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "microwave",
+            "count": 3,
+            "color": "purple"
+          },
+          {
+            "object": "sports ball",
+            "count": 2,
+            "color": "white"
+          },
+          {
+            "object": "hot dog",
+            "count": 3,
+            "color": "orange"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A brightly lit, slightly surreal kitchen scene: three purple microwaves sit side by side along the left countertop; a wooden table in the center holds a plate with three bright orange hot dogs; two white sports balls are present, one resting on the tiled floor to the right and the other being held by a joyful person who is beaming and laughing, raising the ball triumphantly; nearby a second person stands by the table showing obvious disgust, nose wrinkled and mouth turned down, recoiling with one hand up as if pushing the plate away.",
+        "A brightly lit, slightly surreal kitchen: three purpel microwaves sit side by side along the left countertop; a wooden table in the center holds a plate with three bright oragne hot dogs; two white sports balls are present, one resting on the tiled floor to the right and the other being held aloft by a joyful persson who is beaming and laughing, raising the ball triumphantly; nearby a second person stands by the table showing obvious disgust, nose wrinkled and mouth turned down, recoiling with one hand up as if pushing the plate away.",
+        "A brightly lit, slightly surreal kitchen: three purple micorwaves sit side by side along the left countertop; a wooden table in the center holds a plate with three bright orange hotdogs; two white sports balls are present, one resting on the tiled floor to the right and the other being held aloft by a jubliant person who is beaming and laughing, raising the ball triumpantly; nearby a second person stands by the table showing obvious disguist, nose wrinkled and mouth turned down, recoiling with one hand up as if pushing the plate away."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'tv', 'count': 2, 'color': 'orange'}, {'object': 'fork', 'count': 2, 'color': 'green'}. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "tv",
+            "count": 2,
+            "color": "orange"
+          },
+          {
+            "object": "fork",
+            "count": 2,
+            "color": "green"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A tense, cinematic interior scene showing two orange televisions\u2014vintage sets with warm glowing screens\u2014sitting side by side on a low console, and exactly two bright green forks placed visibly (one stuck upright in a bowl on the coffee table, the other balanced on the sofa arm); in the foreground a person stands showing clear anger, fists clenched, jaw tight, teeth bared, brow furrowed and eyes narrowed, posture rigid and shoulders raised as if shouting toward the TVs, with dramatic directional lighting casting strong shadows and emphasizing the vivid contrast between the orange screens, the green forks, and the muted room surroundings.",
+        "A tense, cinematic interior shot of two orange televisons\u2014vintage sets with warm, glowing screens\u2014sitting side by side on a low console, with exactly two bright green foor ks placed clearly in the scene (one stuck upright in a bowl on the coffee table, the other perched on the sofa arm); in the forground a person stands, radiating anger: fists clenched, jaw tight, teeth bared, brow furrowed and eyes narrowed, body rigid and shoulders hunched as if shouting at the TVs, while dramatic directional lighting throws strong shadows and hightens the vivid contrast between the orange screens, the green forks, and the otherwise muted room surroundings."
+      ]
+    }
+  ]
+}

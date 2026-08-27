@@ -1,0 +1,200 @@
+{
+  "experiment_id": "color+spatial+size+emotion+text_robust",
+  "timestamp": "2026-02-05T11:08:09.406204",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+size+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bus', 'color': 'yellow'}, {'object': 'tv', 'color': 'blue'}, {'object': 'bowl', 'color': 'orange'}, {'object': 'bicycle', 'color': 'white'}. Position the bicycle(s) to the left of the tv(s). Position the bowl(s) to the right of the bus(s). Make the bicycle(s) smaller than the bus(s). Make the tv(s) larger than the bowl(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about tv, bicycle. Include a person showing joy. Include a person showing anger. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "anger",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "bus",
+            "color": "yellow"
+          },
+          {
+            "object": "tv",
+            "color": "blue"
+          },
+          {
+            "object": "bowl",
+            "color": "orange"
+          },
+          {
+            "object": "bicycle",
+            "color": "white"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bicycle",
+            "to the left of",
+            "tv"
+          ],
+          [
+            "bowl",
+            "to the right of",
+            "bus"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bicycle",
+            "smaller",
+            "bus"
+          ],
+          [
+            "tv",
+            "larger",
+            "bowl"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "tv",
+            "bicycle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A small white bicycle sits on the far left of the scene, clearly smaller than the vehicles to its right. Immediately to its right stands a large blue television set on a wooden crate; the TV is noticeably larger than the nearby orange bowl. Further right of the TV, a big yellow city bus looms, larger than the bicycle; an orange bowl rests on a bench to the right of the yellow bus. A paper sign taped to the blue TV screen reads \"Blue TV, white bicycle are best friends\". Three people are visible: a person near the bicycle showing joy with arms raised and a wide smile, a person beside the bus showing anger with a scowling face and clenched fists, and a person sitting on the curb near the bowl showing sadness with tears and a downcast expression. Urban street background in daylight.",
+        "A small white bicycyle sits at the far left of the scene, clearly much smaller than the vehicles to its right. Immediately to its right stands a large blue television set on a wooden cratte; the TV is noticeably larger than the nearby orange bowl. Further right of the TV, a big yellow city bus looms, larger than the bicycle; an orange bowl rests on a bench to the right of the yellow bus. A paper sign taped to the blue TV screen reads \"Blue TV, white bicycle are best friends\". Three people are visible: a person near the bicycle showing joy with arms raised and a wide smile, a person beside the bus showing anger with a scowlingg face and clenched fists, and a person sitting on the curb near the bowl showing sadness with teers and a downcast expression. Urban street background in daylight.",
+        "A small white bicycel sits on the far left of the scene, clearly smaller than the vehicles to its right. Immediately to its right stands a large blue televison set on a wooden crtae; the TV is noticeably larger than the nearby orange bowl. Further right of the TV, a big yellow city bus looms, larger than the bicycle; an orange bowl rests on a bench to the right of the yellow bus. A paper sign taped to the blue TV screen reads \"Blue TV, white bicycel are best freinds\". Three people are visible: a person near the bicycle showing joy with arms raised and a wide smile, a person beside the bus showing anger with a scowling face and clenched fists, and a person sitting on the curb near the bowl showing sadness with tears and a downcast expression. Urban street background in daylight.",
+        "At the far left of the scene sits a small white bicycle, clearly smaller than the vehicles to its right. Immediately next to it a large blue television rests on a wooden cratte; the TV is noticeably larger than a nearby orange bowl. Further to the right of the TV a big yellow city bous looms, larger than the bicycle; an orange bowl sits on a bench to the right of the yellow bus. A paper sign taped to the blue TV screen reads \"Blue TV, white bicycle are best friends\". Three people are visible: one near the bicycle jubliant with arms raised and a wide smile, one beside the bus showing anger with a scowling face and clenched fists, and one sitting on the curb near the bowl looking sad with tears and a downcast expression. Urban street background in daylight.",
+        "A small white bucycle sits at the far left of the scene, clearly smaler than the vehicles to its right. Immediately to its right stands a large blue television set on a woden crate; the TV is noticably larger than the nearby orange bowl. Further right of the TV, a big yellow city bus looms, larger than the bicycle; an orange bowl rests on a bench to the right of the yellow bus. A paper sign taped to the blue TV screen reads \"Blue TV, white bicycle are best friends\". Three people are visible: a person near the bicycle showing joy with arms raised and a wide smile, a person beside the bus showing anger with a scowling face and clenched fists, and a person sitting on the curb near the bowl showing sadness with tears and a downcast expression. Urban street background in daylite."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+size+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'toothbrush', 'color': 'yellow'}, {'object': 'tennis racket', 'color': 'pink'}, {'object': 'truck', 'color': 'black'}. Position the toothbrush(s) above the truck(s). Position the toothbrush(s) on top of the tennis racket(s). Make the tennis racket(s) larger than the truck(s). Make the tennis racket(s) smaller than the toothbrush(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about toothbrush, truck. Include a person showing trust. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "toothbrush",
+            "color": "yellow"
+          },
+          {
+            "object": "tennis racket",
+            "color": "pink"
+          },
+          {
+            "object": "truck",
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "toothbrush",
+            "above",
+            "truck"
+          ],
+          [
+            "toothbrush",
+            "on top of",
+            "tennis racket"
+          ]
+        ],
+        "size_relations": [
+          [
+            "tennis racket",
+            "larger",
+            "truck"
+          ],
+          [
+            "tennis racket",
+            "smaller",
+            "toothbrush"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "toothbrush",
+            "truck"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright, staged scene shows a large yellow toothbrush balanced across and lying on top of a medium pink tennis racket; the toothbrush is positioned above a small black truck parked directly beneath them. The pink tennis racket is noticeably larger than the black truck but clearly smaller than the oversized yellow toothbrush. A small white sign propped against the truck reads Toothbrush over black truck. To the left, a woman faces the objects with open palms and a trusting, warm smile conveying trust; to the right, a man recoils slightly with a curled lip and wrinkled nose, clearly showing disgust.",
+        "A bright, staged scene depicts a large yellow toothbrush balnaced across and lying on top of a medium pink tennis racket; the toothbrush is posiioned above a small black truck parked directly beneath it. The pink racket is noticeably larger than the black truck but clearely smaller than the oversized yellow toothbrush. A small white sighn propped against the truck reads Toothbrush over blak truck. To the left, a woman faces the objects with open palms and a trusing, warm smile conveying trust; to the right, a man recoils slightly with a curled lip and wrinkled nose, clearly showing disgust.",
+        "In a brightly lit, staged scene an oversized yellow toothbrush lies across and atop a medium pink tennis racket; the toothbrush is posistioned above a small black truck parked directly beneath them. The pink racket is obviosuly larger than the little black truck but still smaller than the huge yellow toothbrush. A small white sign leant agaisnt the truck reads \"Toothbrush over black truck.\" To the left a woman faces the objects with open palms and a warm, trusing smile; to the right a man recoils slightly, his lip curled and nose wrinkled in clear disgust."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+size+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'spoon', 'color': 'yellow'}, {'object': 'bottle', 'color': 'black'}. Position the spoon(s) under the bottle(s). Make the spoon(s) larger than the bottle(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about spoon. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "spoon",
+            "color": "yellow"
+          },
+          {
+            "object": "bottle",
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "spoon",
+            "under",
+            "bottle"
+          ]
+        ],
+        "size_relations": [
+          [
+            "spoon",
+            "larger",
+            "bottle"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "spoon"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A scene on a simple wooden table showing an oversized yellow spoon lying flat with two small matte black bottles balanced on top of it so the spoon is clearly underneath and much larger than the bottles; a nearby person recoils with a disgusted expression, wrinkling their nose and pulling their lips back. A single white sticky note next to the spoon bears exactly one word in plain black letters: \"SPOON\" \u2014 no other visible text appears in the image.",
+        "A scene on a simple woooden table showing an oversized yellow spoon lying flat with two small mattee black botles balanced on top of it so the spoon is clearly underneath and much larger than the botles; a nearby person recools with a disgusted expresion, wrinkling their nose and pulling their lips back. A single white sticky note next to the spoon bears exactly one word in plaing black letters: \"SPOON\" \u2014 no other visible text appears in the image."
+      ]
+    }
+  ]
+}

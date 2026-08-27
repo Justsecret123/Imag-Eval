@@ -1,0 +1,143 @@
+{
+  "experiment_id": "counting+spatial+emotion_robust",
+  "timestamp": "2026-02-05T11:55:51.077198",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'surfboard', 'count': 5}, {'object': 'cake', 'count': 5}, {'object': 'clock', 'count': 5}, {'object': 'sink', 'count': 5}. Position the clock(s) behind the cake(s). Position the surfboard(s) under the sink(s). Include a person showing joy. Include a person showing disgust. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "disgust",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "surfboard",
+            "count": 5
+          },
+          {
+            "object": "cake",
+            "count": 5
+          },
+          {
+            "object": "clock",
+            "count": 5
+          },
+          {
+            "object": "sink",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "clock",
+            "behind",
+            "cake"
+          ],
+          [
+            "surfboard",
+            "under",
+            "sink"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright studio scene showing five decorated cakes arranged in a neat row on a long table, and directly behind each cake is a wall clock (five clocks total) positioned slightly above and behind the cakes; to one side are five wall-mounted sinks in a row with five colorful surfboards placed directly beneath the sinks (one surfboard under each sink); in the foreground three people are visible \u2014 one person beaming with joy, one person scrunching their face in disgust, and one person looking calm and trusting, all clearly visible and naturally interacting with the scene.",
+        "A bright studio scene featuring five decroated cakes arranged in a neat row on a long table, and directly behind each cake a wall clok positioned slightly above and behind the cakes (five cloks total); to one side five wall-mountd sinks are lined up with five colorful surfbords placed directly beneath each sink (one surfbord under each); in the foreground three people are visible \u2014 one person beaming with jpy, one person scrunhing their face in disgust, and one person looking calm and trusting, all clearly visible and naturally interacting with the scene.",
+        "A bright stduio scene showing five decorated cakes arranged in a neat row on a long table, and directly behind each cake is a wall clock (five cloks total) positioned slightly above and behind the cakes; to one side are five wall-mounted sinks in a row with five coloful surfboards placed directly beneth the sinks (one surfboard under each sink); in the foreground three people are visible \u2014 one person beaming with joy, one person scrunching their face in disgust, and one person looking calm and trusting, all clearly visible and naturally interacting with the scene.",
+        "A bright studio scene showing five decrated cakes arranged in a neat row on a long table, and directly behind each cake is a wall clock (five clocks total) positioned slighly above and behind the cakes; to one side are five wall-mounted sinks in a row with five colourful surboards placed directly beneath the sinks (one surfboard under each sink); in the foreground three people are visible \u2014 one person beaming with joy, one person scrunching thier face in disgus, and one person looking calm and trusting, all clearly visible and naturally interacting with the scene.",
+        "Well-lit stduio scene featuring five beautifully decorated cakes arranged in a neat row on a long table, with a wall clock directly behind each cake (five cloks in total) positioned slightly above and just behind the cakes. To one side are five wall-mounted sinks in a line, and beneath each sink sits a colorful surfboard (one surfbord under each). In the foreground three people are clearly visible \u2014 one person beaming with joy, one person scrunchng their face in disgust, and one person looking calm and trusting; all are naturally interacting with the scene and with one another."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'clock', 'count': 2}, {'object': 'chair', 'count': 3}, {'object': 'frisbee', 'count': 2}. Position the clock(s) behind the frisbee(s). Position the clock(s) next to the chair(s). Include a person showing fear. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "clock",
+            "count": 2
+          },
+          {
+            "object": "chair",
+            "count": 3
+          },
+          {
+            "object": "frisbee",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "clock",
+            "behind",
+            "frisbee"
+          ],
+          [
+            "clock",
+            "next to",
+            "chair"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Three wooden chairs are arranged in a gentle arc. Two colorful frisbees lie on the ground in front of the chairs, and two round clocks are positioned directly behind the frisbees, each clock sitting next to the chairs. Nearby, a person stands with wide eyes and a pale, fearful expression, leaning back as if startled; another person stands with their nose wrinkled and mouth curled in disgust, arms crossed, looking at the scene.",
+        "Three wooden chairs form a gentle arc. Two colorful frisbess lie on the ground in front of the seats, and two round cloks are positioned just behind the frisbess, each clock sitting beside a chair. Nearby, a person stands with wide eyes and a pale, fearful expression, leaning back as if starteld; another person stands with their nose wrinkled and mouth curled in disgut, arms crossed, looking at the scene.",
+        "Three wooden chairs are set in a soft arc. Two colorfull frisbess rest on the ground in front of the chairs, and two round cloxks sit directly behind the frisbess, each cloxk positioned beside a chair. Nearby, one person stands with wide eyes and a pale, fearful expression, leaning back as if startled; another person stands with their nose wrinkled and their mouth curled in disgust, arms crossed as they look at the scene."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'hair drier', 'count': 1}, {'object': 'banana', 'count': 2}. Position the hair drier(s) above the banana(s). Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "hair drier",
+            "count": 1
+          },
+          {
+            "object": "banana",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "hair drier",
+            "above",
+            "banana"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A photorealistic scene showing one hair drier suspended above two ripe yellow bananas lying side by side on a wooden table; a person nearby displays eager anticipation\u2014leaning forward slightly, eyes bright and wide, a small smile and hands clasped together\u2014soft warm kitchen lighting, shallow depth of field, natural colors.",
+        "A photorealistic kitchen scene showing a hair dyrer suspended above two ripe yellow bannanas lying side by side on a wooden table; a person nearby displays eagar anticipation\u2014leaning forward slightly, eyes brite and wide, a small smile and hands clasped together\u2014soft warm kitchen lighting, shallow depth of field, natural colors."
+      ]
+    }
+  ]
+}

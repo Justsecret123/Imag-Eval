@@ -1,0 +1,178 @@
+{
+  "experiment_id": "counting+color+size+emotion+text_robust",
+  "timestamp": "2026-02-05T11:36:23.412337",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'toothbrush', 'count': 5, 'color': 'yellow'}, {'object': 'zebra', 'count': 5, 'color': 'green'}, {'object': 'sink', 'count': 4, 'color': 'gray'}, {'object': 'broccoli', 'count': 5, 'color': 'pink'}. Make the toothbrush(s) larger than the sink(s). Make the zebra(s) smaller than the broccoli(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about broccoli, toothbrush. Include a person showing fear. Include a person showing anger. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "anger",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "toothbrush",
+            "count": 5,
+            "color": "yellow"
+          },
+          {
+            "object": "zebra",
+            "count": 5,
+            "color": "green"
+          },
+          {
+            "object": "sink",
+            "count": 4,
+            "color": "gray"
+          },
+          {
+            "object": "broccoli",
+            "count": 5,
+            "color": "pink"
+          }
+        ],
+        "size_relations": [
+          [
+            "toothbrush",
+            "larger",
+            "sink"
+          ],
+          [
+            "zebra",
+            "smaller",
+            "broccoli"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "broccoli",
+            "toothbrush"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A surreal bathroom tableau: five oversized yellow toothbrushes stand or lean deliberately, each noticeably larger than four small gray sinks clustered along a tiled counter. Five large pink heads of broccoli occupy the counter and shelves, each substantially bigger than five tiny green zebras that wander around their bases\u2014every zebra clearly smaller than every broccoli. A paper sign taped to the mirror is clearly legible and reads: \"Pink broccoli needs yellow toothbrushes; handle them gently.\" A woman at left shows obvious fear, clutching her chest and stepping back; a man in the center is visibly angry, face flushed and fists clenched; a third person on the right displays surprise, eyes wide and hands covering their mouth. Bright bathroom lighting reflects off the tiles and chrome, emphasizing the yellow toothbrushes, green zebras, pink broccoli, and gray sinks while the eight-word note remains prominent.",
+        "A surreal bathroom scene: five oversized yellow toothbrshes stand or lean delibrately, each noticeably larger than four small gray sinks grouped along a tiled counter. Five large pink heads of brocoli occupy the counter and shelves, each substantially bigger than five tiny green zebras that wander around their bases\u2014every zebra clearly smaller than every broccoli. A paper sign taped to the mirror is clearly legible and reads: \"Pink broccoli needs yellow toothbrushes; handle them gently.\" A woman at left shows obvious fear, clutching her chest and stepping back; a man in the center is visibly angry, his face flushed and fists clenched; a third person on the right displays surprise, eyes wide and hands covering their mouth. Bright bathroom lighting reflects off the tiles and chrome, emphasizing the yellow toothbrshes, green zebras, pink brocoli, and gray sinks while the eight-word note remains prominent.",
+        "A surreal bathrom tableau: five oversized yello toothbrushes stand or lean deliberately, each noticeably larger than four small gray sinks clustered along a tiled counter. Five large pink heads of brocoli occupy the counter and shelves, each substantially bigger than five tiny green zebras that wander around their bases\u2014every zebra clearly smaller than every broccoli. A paper sign taped to the mirror is clearly legible and reads: \"Pink broccoli needs yellow toothbrushes; handle them gently.\" A woman at left shows obvious fear, clucthing her chest and stepping back; a man in the center is visibly angry, face flushed and fists clenched; a third person on the right displays surprise, eyes wide and hands covering their mouth. Bright bathroom lighting reflects off the tiles and chrome, emphasizing the yellow toothbrushes, green zebras, pink broccoli, and gray sinks while the eight-word note remains prominent.",
+        "A surreal bathrom tableau: five oversized yellow toothbrushes stand or lean deliberately, each noticeably larger than four small gray sinks clustered along a tiled counter. Five large pink heads of brocolli occupy the counter and shelves, each substantially bigger than five tiny green zebras that wander around their bases\u2014every zebra clearly smaller than every broccoli. A paper sign taped to the mirror is clearly legible and reads: \"Pink broccoli needs yellow toothbrushes; handle them gently.\" A woman at left shows obvious fear, clutiching her chest and stepping back; a man in the center is visibly angry, face flushed and fists clenched; a third person on the right displays surprise, eyes wide and hands covering their mouth. Bright bathrom lighting reflects off the tiles and chrome, emphasizing the yellow toothbrushes, green zebras, pink broccoli, and gray sinks while the eight-word note remains promiment.",
+        "A surrreal bathroom tableau: five oversized yellow toothbrushes stand or lean with intent, each noticeably larger than four small gray sinks clustred along a tilded counter. Five large pink heads of brocoli occupy the counter and shelves, each substantially bigger than five tiny green zebras that wander around their bases\u2014every zebra clearly smaller than every broccoli. A paper sign taped to the mirror is legable and reads: \"Pink broccoli needs yellow toothbrushes; handle them gently.\" A woman at left shows obvious fear, clutching her chest and stepping bakc; a man in the center is visibly angry, face flushed and fists clenched; a third person on the right displays surprise, eyes wide and hands covering their mouth. Bright bathroom lighting reflects off the tiles and chrome, emphasizing the yellow toothbrushes, green zebras, pink broccoli, and gray sinks while the eight-word note remains prominant."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'elephant', 'count': 3, 'color': 'green'}, {'object': 'potted plant', 'count': 3, 'color': 'gray'}, {'object': 'backpack', 'count': 3, 'color': 'pink'}. Make the elephant(s) smaller than the potted plant(s). Make the elephant(s) larger than the backpack(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about backpack, elephant. Include a person showing surprise. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "elephant",
+            "count": 3,
+            "color": "green"
+          },
+          {
+            "object": "potted plant",
+            "count": 3,
+            "color": "gray"
+          },
+          {
+            "object": "backpack",
+            "count": 3,
+            "color": "pink"
+          }
+        ],
+        "size_relations": [
+          [
+            "elephant",
+            "smaller",
+            "potted plant"
+          ],
+          [
+            "elephant",
+            "larger",
+            "backpack"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "backpack",
+            "elephant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor scene showing three small green elephants, three large gray potted plants, and three tiny pink backpacks. The green elephants are noticeably smaller than the gray potted plants but clearly larger than the pink backpacks. A wooden sign in the foreground displays the text: Backpack smaller than elephant. A person nearby looks shocked with wide eyes and hands raised in surprise, while another person glares angrily with furrowed brows and crossed arms.",
+        "An outdoor scene features three tiny green elephants, three big gray potted plants, and three petite pink backpacks. The green elephants are clearly smaller than the large gray plants but still bigger than the little pink bags. In the wooden forground a sign reads: \"Backpack smaler than elephant\". Nearby, one person stands with wide eyes and hands lifted in shock, while another glares with furrowed brows and crossed arms, looking seiously annoyed.",
+        "An outdoor scene depicting three small green elephants, three large gray potted plants, and three tiny pink backpacks. The green elephants are noticeably smaller than the gray potted plants but clearly larger than the pink backpacks. A wooden sign in the foregrond displays the words: Backpack smaller than elephant. A person nearby looks shocked with wide eyes and hands raised in surprize, while another person glares angrily with furrowed brows and crossed arms."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'clock', 'count': 2, 'color': 'purple'}, {'object': 'suitcase', 'count': 1, 'color': 'pink'}. Make the clock(s) smaller than the suitcase(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about suitcase. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "clock",
+            "count": 2,
+            "color": "purple"
+          },
+          {
+            "object": "suitcase",
+            "count": 1,
+            "color": "pink"
+          }
+        ],
+        "size_relations": [
+          [
+            "clock",
+            "smaller",
+            "suitcase"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "suitcase"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single large pink suitcase sits center foreground on a wooden floor with a plain white baggage label on it that reads \"FRAGILE\" (only one written word about the suitcase and no other visible text in the scene). Two tiny purple clocks \u2014 clearly much smaller than the suitcase \u2014 rest on either side of it. Behind the suitcase a person stands with a flushed, angry face, eyebrows knitted, fists clenched and mouth open as if shouting.",
+        "A single large pink suitcase sits centor foreground on a wooden floor with a plain white baggage label on it that reads \"FRAGILE\" (the only visible written word in the scene; no other text). Two tiny purple clocks \u2014 clearly much smaler than the suitcase \u2014 rest on either side of it. Behind the suitcase a person stands with a flushd, angry face, eyebrows knittted, fists clenched and mouth open as if shouting."
+      ]
+    }
+  ]
+}

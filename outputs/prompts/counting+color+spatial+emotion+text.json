@@ -1,0 +1,178 @@
+{
+  "experiment_id": "counting+color+spatial+emotion+text",
+  "timestamp": "2026-02-05T10:05:58.265089",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bed', 'count': 5, 'color': 'orange'}, {'object': 'bicycle', 'count': 5, 'color': 'pink'}, {'object': 'sink', 'count': 5, 'color': 'black'}, {'object': 'vase', 'count': 4, 'color': 'green'}. Position the vase(s) to the left of the bed(s). Position the sink(s) next to the bicycle(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about bed, bicycle. Include a person showing fear. Include a person showing joy. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "joy",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "bed",
+            "count": 5,
+            "color": "orange"
+          },
+          {
+            "object": "bicycle",
+            "count": 5,
+            "color": "pink"
+          },
+          {
+            "object": "sink",
+            "count": 5,
+            "color": "black"
+          },
+          {
+            "object": "vase",
+            "count": 4,
+            "color": "green"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "vase",
+            "to the left of",
+            "bed"
+          ],
+          [
+            "sink",
+            "next to",
+            "bicycle"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "bed",
+            "bicycle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "In a spacious studio, five orange beds are arranged in a row on the right side, with four small green vases neatly lined to the left of those beds. Five pink bicycles are parked in a matching row, each paired with a black sink placed directly next to it so the sinks sit side by side with the bicycles. A paper sign on the wall reads: Bed and bicycle promise rest, escape, and adventure. Nearby, a woman stands with wide eyes and trembling hands, clearly showing fear; a young person laughs with open arms beside a pink bicycle, showing joy; and a man sits on an orange bed with his face in his hands, visibly sad.",
+        "A studio scene with five orange beds arranged in a neat row on the right side of the room and four green vases arranged to the left of the five beds, clearly positioned to the left of the beds. Five pink bicycles are parked in a parallel row; each pink bicycle has a black sink placed immediately beside it so that each of the five black sinks sits next to a bicycle. A sign on the wall reads exactly: Bed and bicycle evoke rest, travel, and nostalgia. Include three people with distinct emotions: one person showing fear (wide eyes, defensive posture) standing near a pink bicycle, one person showing joy (big smile, arms raised) sitting or standing on one of the orange beds, and one person showing sadness (slumped shoulders, tearful expression) seated near a black sink. Realistic style, clear bright colors, even lighting, and detailed, visible expressions.",
+        "In a bright studio, five orange beds are arranged in a loose row across the room. To the left of those beds, four green vases sit on a low shelf, clearly positioned left of the beds. Five pink bicycles stand near the center, each paired with a black sink placed directly next to it so there are five black sinks beside the bicycles. A small wooden sign on the far wall displays the words: \"Orange beds and pink bicycles cause surprising emotions\". A person showing fear stands near one bed, eyes wide and body leaning back away from the bicycles. Nearby, a person showing joy grins broadly and raises their arms beside a bicycle-and-sink pair. Another person sits on a bed with their head bowed and shoulders slumped, visibly sad.",
+        "A bright staged scene contains five orange beds arranged across the center-right and, immediately to their left, four green vases grouped together so every vase sits left of the beds. Five pink bicycles are lined up nearby, and five black sinks are placed next to the bicycles so each sink sits adjacent to a bicycle. A small hand-painted sign on a stand reads: \"The bed and bicycle remind me of home.\" Three people show clear emotions: one person stands beside a bicycle and its sink, face pale and clutching their arms in obvious fear; another person sits on an orange bed, smiling and laughing with joy; a third person sits on the floor near the green vases, head bowed and crying in sadness. The composition emphasizes the colored objects and their required positions\u2014vases left of beds and sinks next to bicycles\u2014while keeping the eight-word sign visible.",
+        "A brightly lit, realistic showroom scene featuring five orange beds arranged in a neat row on the right side of the room, with four green vases clearly positioned to the left of the beds. On the left side, five pink bicycles are lined up, and each bicycle has a black sink placed next to it so every bicycle is adjacent to a sink (five black sinks total). Include three people with distinct emotions: one person standing near the bicycles showing fear with wide eyes and raised hands, one person sitting on an orange bed showing joy with a big smile and arms raised, and one person seated by the green vases showing sadness with head bowed and hands covering their face. A visible sign on the wall reads: \"Beds and bicycles must stay apart for safety\". Natural lighting, clear, saturated colors, and a balanced composition so all objects and emotional expressions are clearly visible."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'airplane', 'count': 3, 'color': 'purple'}, {'object': 'donut', 'count': 3, 'color': 'black'}, {'object': 'toothbrush', 'count': 2, 'color': 'white'}. Position the donut(s) on top of the toothbrush(s). Position the donut(s) behind the airplane(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about airplane, toothbrush. Include a person showing fear. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "airplane",
+            "count": 3,
+            "color": "purple"
+          },
+          {
+            "object": "donut",
+            "count": 3,
+            "color": "black"
+          },
+          {
+            "object": "toothbrush",
+            "count": 2,
+            "color": "white"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "donut",
+            "on top of",
+            "toothbrush"
+          ],
+          [
+            "donut",
+            "behind",
+            "airplane"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "airplane",
+            "toothbrush"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A staged scene with three purple airplanes in the foreground, arranged across the middle of the image and gleaming with metallic purple paint. Behind the airplanes, two white toothbrushes are propped up on a table, each toothbrush holding black donuts on top of their bristles \u2014 one toothbrush supports two stacked black donuts and the other supports a single black donut (three black donuts total). The donuts and toothbrushes sit behind the airplanes so the planes partially obscure them. To the right, a person displays clear fear with wide eyes and a hand to their mouth, and to the left another person shows visible disgust, wrinkling their nose and grimacing at the donut-on-toothbrush stacks. A rectangular sign on the wall is clearly legible and reads: \"Airplane toothbrush needs cleaning\". Realistic photographic lighting, shallow depth of field.",
+        "A surreal, well-lit scene shows three purple airplanes hovering in the midground; in the space behind them two white toothbrushes are propped upright, and three black donuts sit on top of the toothbrushes (one toothbrush holds two stacked donuts, the other holds one). A small sign on a nearby wall clearly reads \"Airplane and toothbrush together\". In the foreground a person shows fear \u2014 wide eyes, open mouth, hands raised toward the airplanes \u2014 while a second person shows disgust, wrinkling their nose and turning away from the toothbrush-and-donut arrangement. The composition emphasizes the purple airplanes in front and the white toothbrushes with black donuts behind them, with clear, visible text on the sign.",
+        "An image shows three purple airplanes grouped prominently in the foreground; behind them sit two white toothbrushes with three black donuts balanced on top (one donut on each toothbrush and the third donut stacked atop one of them), so all donuts and toothbrushes are positioned behind the airplanes. A weathered sign nearby reads \"Airplanes avoid toothbrushes today.\" In the middle ground a person recoils in fear, eyes wide and hands raised, while another person grimaces in disgust, turning away and scrunching their nose."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cow', 'count': 1, 'color': 'purple'}, {'object': 'elephant', 'count': 2, 'color': 'black'}. Position the elephant(s) under the cow(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about cow. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "cow",
+            "count": 1,
+            "color": "purple"
+          },
+          {
+            "object": "elephant",
+            "count": 2,
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "elephant",
+            "under",
+            "cow"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "cow"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single purple cow stands balanced on a low wooden platform raised a foot above the ground; directly beneath it two black elephants stand side by side looking up at the cow. A nearby person displays clear anger \u2014 furrowed brow, clenched fists, and a scowling, reddened face directed toward the animals. In the foreground a small wooden sign reads \"Purple cow\" and is the only visible text; outdoor grassy setting, soft daylight and natural shadows.",
+        "One purple cow stands on a small raised wooden platform centered in the frame. Directly beneath the platform two black elephants stand side by side, positioned under the cow and looking up at it. To the right, a person shows anger\u2014furrowed brow, clenched fists, and a scowl\u2014gesturing toward the animals. A weathered sign in the foreground reads \"Purple Cow\" in bold, legible lettering. Soft overcast daylight, grassy field with distant trees, photorealistic detail."
+      ]
+    }
+  ]
+}

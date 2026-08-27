@@ -1,0 +1,162 @@
+{
+  "experiment_id": "color+spatial+size",
+  "timestamp": "2026-02-05T09:45:27.636544",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+size",
+      "skills": [
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'car', 'color': 'yellow'}, {'object': 'baseball bat', 'color': 'brown'}, {'object': 'microwave', 'color': 'pink'}, {'object': 'hair drier', 'color': 'green'}. Position the hair drier(s) behind the baseball bat(s). Position the microwave(s) in front of the car(s). Make the car(s) larger than the microwave(s). Make the hair drier(s) smaller than the baseball bat(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "car",
+            "color": "yellow"
+          },
+          {
+            "object": "baseball bat",
+            "color": "brown"
+          },
+          {
+            "object": "microwave",
+            "color": "pink"
+          },
+          {
+            "object": "hair drier",
+            "color": "green"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "hair drier",
+            "behind",
+            "baseball bat"
+          ],
+          [
+            "microwave",
+            "in front of",
+            "car"
+          ]
+        ],
+        "size_relations": [
+          [
+            "car",
+            "larger",
+            "microwave"
+          ],
+          [
+            "hair drier",
+            "smaller",
+            "baseball bat"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright yellow car sits mid-frame, noticeably larger than a small pink microwave placed directly in front of it. In the foreground a long brown baseball bat stands upright, and a small green hair drier is positioned behind the bat, clearly smaller than the bat. Simple neutral backdrop with soft, even lighting.",
+        "A scene shows a large yellow car parked toward the background, dwarfing a small pink microwave placed in front of it; in the foreground a long brown baseball bat lies across the frame, and a tiny green hair drier sits directly behind the bat, partially obscured by it.",
+        "A large yellow car fills the midground, with a smaller pink microwave sitting directly in front of it. A long brown baseball bat stands nearer the viewer, and a compact green hair drier is positioned behind the bat. The yellow car is noticeably larger than the pink microwave, and the green hair drier is noticeably smaller than the brown baseball bat.",
+        "A scene shows a large yellow car toward the center, a small pink microwave sitting in the foreground directly in front of the car, a long brown baseball bat standing upright in the midground, and a small green hair drier positioned behind the baseball bat (further from the viewer). The yellow car is clearly larger than the pink microwave, and the green hair drier is noticeably smaller than the brown baseball bat.",
+        "A scene with a large yellow car parked toward the rear, clearly larger than the appliances in front of it. A small pink microwave sits in front of the yellow car. A long brown baseball bat stands nearer the viewer, and a tiny green hair drier is positioned directly behind the baseball bat, noticeably smaller than the bat."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+size",
+      "skills": [
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'oven', 'color': 'gray'}, {'object': 'zebra', 'color': 'purple'}, {'object': 'vase', 'color': 'red'}. Position the vase(s) behind the zebra(s). Position the vase(s) under the oven(s). Make the zebra(s) larger than the vase(s). Make the zebra(s) smaller than the oven(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "oven",
+            "color": "gray"
+          },
+          {
+            "object": "zebra",
+            "color": "purple"
+          },
+          {
+            "object": "vase",
+            "color": "red"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "vase",
+            "behind",
+            "zebra"
+          ],
+          [
+            "vase",
+            "under",
+            "oven"
+          ]
+        ],
+        "size_relations": [
+          [
+            "zebra",
+            "larger",
+            "vase"
+          ],
+          [
+            "zebra",
+            "smaller",
+            "oven"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A calm, well-lit scene with a tall gray oven centered in the frame, a purple zebra standing in front of the oven and visibly smaller than it, and a small red vase placed behind the zebra and tucked directly underneath the raised oven; the purple zebra is clearly larger than the red vase while the gray oven towers over both.",
+        "A surreal interior scene: a large gray oven dominates the back wall, mounted above the floor. In front of it stands a medium-sized purple zebra, its vivid stripes contrasting with the neutral surroundings. A small red vase rests on the floor directly beneath the oven and slightly behind the zebra, partially hidden in depth by the animal. The zebra is clearly larger than the vase but noticeably smaller than the oven; soft, even lighting and a simple uncluttered background emphasize the three elements.",
+        "Centered in the composition is a large gray oven. Directly beneath the oven stands a purple zebra that is smaller than the oven but larger than a small red vase. The small red vase sits behind the purple zebra and is also positioned beneath the oven."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+size",
+      "skills": [
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bowl', 'color': 'pink'}, {'object': 'truck', 'color': 'yellow'}. Position the bowl(s) in front of the truck(s). Make the truck(s) larger than the bowl(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bowl",
+            "color": "pink"
+          },
+          {
+            "object": "truck",
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bowl",
+            "in front of",
+            "truck"
+          ]
+        ],
+        "size_relations": [
+          [
+            "truck",
+            "larger",
+            "bowl"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A small pink ceramic bowl sits prominently in the foreground directly in front of a large bright yellow truck that fills the background, the truck much larger in scale than the bowl.",
+        "A small pink bowl sits in the foreground directly in front of a much larger yellow truck, the bright yellow vehicle occupying the background and towering over the delicate pink bowl."
+      ]
+    }
+  ]
+}

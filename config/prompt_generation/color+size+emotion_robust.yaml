@@ -1,0 +1,25 @@
+experiment:
+  name: color+size+emotion_robust
+prompt_generation:
+  metadata_config:
+    name: coco
+  skills:
+  - level: hard
+    skills: [color, size, emotion]
+    robustness: [typos, consistency]
+    k: 5
+  - level: medium
+    skills: [color, size, emotion]
+    robustness: [typos, consistency]
+    k: 3
+  - level: easy
+    skills: [color, size, emotion]
+    robustness: [typos, consistency]
+    k: 2
+  llm_model:
+    name: openai
+    model: gpt-5-mini
+    temperature: 1
+  samples_per_skill: 1
+output:
+  file: outputs/prompts/color+size+emotion_robust.json

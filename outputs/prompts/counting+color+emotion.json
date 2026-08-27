@@ -1,0 +1,121 @@
+{
+  "experiment_id": "counting+color+emotion",
+  "timestamp": "2026-02-04T16:12:39.053537",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'mouse', 'count': 5, 'color': 'pink'}, {'object': 'horse', 'count': 4, 'color': 'red'}, {'object': 'baseball glove', 'count': 5, 'color': 'brown'}, {'object': 'traffic light', 'count': 4, 'color': 'blue'}. Include a person showing disgust. Include a person showing anticipation. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "anticipation",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "mouse",
+            "count": 5,
+            "color": "pink"
+          },
+          {
+            "object": "horse",
+            "count": 4,
+            "color": "red"
+          },
+          {
+            "object": "baseball glove",
+            "count": 5,
+            "color": "brown"
+          },
+          {
+            "object": "traffic light",
+            "count": 4,
+            "color": "blue"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal urban street scene at dusk with cinematic lighting: four blue traffic lights glow above an intersection, their cool light reflecting on wet pavement; four red horses stand in a row near the curb, calm and slightly surreal against the city backdrop; five pink mice scurry across the sidewalk and between five well-worn brown baseball gloves scattered on the ground. Three people are clearly visible\u2014one recoiling with a grimace and a hand raised in disgust as she watches the mice, another leaning forward on tiptoe with bright eyes and clenched hands showing eager anticipation, and a third seated on a bench with head bowed and damp cheeks portraying deep sadness\u2014captured in a realistic, textured, cinematic style.",
+        "A surreal urban park at dusk populated by five small pink mice scurrying near the fountain, four striking red horses \u2014 like painted steeds wandering calmly between the trees \u2014 and four tall blue traffic lights glowing at the corners of the square; five well-worn brown baseball gloves are scattered around on benches and the grass, one held ready in a teenager\u2019s hand. Nearby a woman turns away with a look of disgust as she wrinkles her nose at the mice, a young man stands on tiptoe with eager, anticipatory eyes and a glove poised to catch an imaginary ball, and an older man sits alone on a bench, shoulders hunched and face downcast in sadness while one brown baseball glove rests on his knee, the blue lights casting a cool glow over the scene.",
+        "A surreal street scene at twilight: five pink mice scurry across the pavement near a row of four red horses standing stoically as if frozen in motion; five well-worn brown baseball gloves are scattered in a loose cluster on the ground, and four tall blue traffic lights glow above the intersection. Nearby, a person recoils with a clear expression of disgust, pinching their nose and turning away from the mice; another person stands at the curb, leaning forward with clenched hands and an eager, anticipatory smile; a third person sits on a bench, hunched and looking down, eyes glistening with quiet sadness.",
+        "A whimsical urban scene: five small pink mice scurry across the sidewalk and weave around five worn brown baseball gloves tossed on a bench; four glossy red horses stand calmly in a cobblestone plaza near four blue traffic lights mounted on steel poles at the corners. In the foreground a woman pinches her nose and recoils in disgust as a mouse scampers past her shoe; nearby a young man leans forward on the bench, hands clasped, face lit with eager anticipation as he watches one of the red horses; a child sits on the curb, head bowed, shoulders slumped and tears on their cheeks showing clear sadness. Soft late-afternoon light, muted city colors, playful yet slightly surreal atmosphere.",
+        "A vivid, slightly surreal street scene at golden hour: five pink mice scurry across the wet cobblestones near the curb, while four red horses stand calmly in a row behind them, bridled but without riders. Five brown baseball gloves lie arranged in a loose circle on the pavement as if abandoned, and four blue traffic lights mounted on tall black poles illuminate the scene with a soft cyan glow. On the left, a woman recoils with a look of disgust, her nose wrinkled and one hand raised to push something away; in the center, a young man leans forward with eager anticipation, eyes bright and hands clasped; on the right, an older person sits on a low bench with slumped shoulders and a tearful, sad expression. Warm low sunlight casts long shadows and the overall composition mixes whimsy with emotional tension."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'sink', 'count': 3, 'color': 'white'}, {'object': 'bird', 'count': 2, 'color': 'brown'}, {'object': 'handbag', 'count': 3, 'color': 'gray'}. Include a person showing anticipation. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "sink",
+            "count": 3,
+            "color": "white"
+          },
+          {
+            "object": "bird",
+            "count": 2,
+            "color": "brown"
+          },
+          {
+            "object": "handbag",
+            "count": 3,
+            "color": "gray"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "Three white sinks sit side by side against a tiled wall, each basin topped with one of three gray handbags, while two brown birds perch nearby\u2014one on the faucet of the left sink and one on the rim of the middle sink. In the foreground a woman stands with hands gently clasped and a hopeful, anticipatory expression, while beside her a man leans against the wall with hunched shoulders and tearful eyes, clearly overcome with sadness.",
+        "A brightly lit interior with three white sinks lined up along a tiled counter, two brown birds perched\u2014one on a faucet and one on the windowsill\u2014and three gray handbags neatly arranged on the counter and hanging from nearby hooks; in the foreground a person leans forward with a hopeful, anticipatory expression, hands clasped and eyes bright, while another person stands a few feet away with slumped shoulders and tearful eyes, clearly showing sadness.",
+        "A softly lit interior scene features three white sinks lined up against a tiled wall, each with gleaming chrome faucets; nearby, three gray handbags rest in a neat row on a wooden bench. Two brown birds perch nearby\u2014one on the rim of a sink and the other on the bench\u2014pecking curiously. A woman stands near the center with eyes wide, leaning forward and clasping her hands to her chest in eager anticipation, while across from her a man sits on a low stool, shoulders hunched and head bowed, his face wet with tears and marked by quiet sadness; warm afternoon light casts gentle shadows and lends the scene a bittersweet, contemplative mood."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cake', 'count': 2, 'color': 'green'}, {'object': 'remote', 'count': 2, 'color': 'yellow'}. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "cake",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "remote",
+            "count": 2,
+            "color": "yellow"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "On a cozy wooden table sit two small green cakes side by side, and two bright yellow remotes: one resting on the table and the other held out by a person who sits beside the cakes. The person smiles warmly, with relaxed shoulders, open palms and soft eye contact toward the unseen recipient, their expression and posture clearly conveying trust and openness.",
+        "An intimate living-room scene: a young woman sits on a soft sofa, looking up with a warm, trusting smile and open palms toward someone off-frame; on the low coffee table in front of her sit two bright yellow remote controls placed side by side, and two small frosted green cakes on matching plates, their icing gleaming in the afternoon light; warm, cozy lighting, shallow depth of field, modern home decor with plants and framed photos in the blurred background."
+      ]
+    }
+  ]
+}

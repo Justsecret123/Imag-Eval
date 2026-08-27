@@ -1,0 +1,144 @@
+{
+  "experiment_id": "counting+color+emotion+text_robust",
+  "timestamp": "2026-02-05T10:54:04.542162",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'spoon', 'count': 5, 'color': 'purple'}, {'object': 'boat', 'count': 5, 'color': 'green'}, {'object': 'parking meter', 'count': 4, 'color': 'pink'}, {'object': 'carrot', 'count': 4, 'color': 'yellow'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about boat, parking meter. Include a person showing trust. Include a person showing joy. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "joy",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "spoon",
+            "count": 5,
+            "color": "purple"
+          },
+          {
+            "object": "boat",
+            "count": 5,
+            "color": "green"
+          },
+          {
+            "object": "parking meter",
+            "count": 4,
+            "color": "pink"
+          },
+          {
+            "object": "carrot",
+            "count": 4,
+            "color": "yellow"
+          }
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "boat",
+            "parking meter"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A colorful harbor market scene: five small green boats bob gently at the quay while four pink parking meters stand aligned along the dock; a wooden sign nailed to a post reads \"Green boats dock pink meters control parking\". Five purple spoons hang from a nearby vendor's stall, catching the sun, and a basket on the table holds four bright yellow carrots. Three people show clear emotions \u2014 a woman placing her hand on a friend's shoulder with a trusting, calm expression, a laughing man holding a purple spoon in joyful delight, and a young passerby with wide eyes and an open mouth, visibly surprised as he points toward the boats. Reflections ripple in the water and warm light falls across the busy scene.",
+        "A vivid harbor market scene: five little green boats bob gently at the kai while four pink parkin meters stand in a row along the dock; a wooden sign naled to a post reads \"Green boats dock pink meters kontrol parking\". Five purple spoones hang from a nearby vendor's stall, catching sunlite, and a basket on the table holds four bright yellow carrots. Three people display clear emotions \u2014 a woman rests her hand on a friend's shoulder with a trusting, calm expression, a laughing man clutchs a purple spoon in joyful delight, and a young passerby with wide eyes and an open mouth points toward the boats in visable surprise. Reflections ripple in the water as warm light falls across the busy scene.",
+        "A coloful harbor market scene: five small green boats bobs gentley at the quay while four pink parking meters stand alignd along the dock; a wooden sign naled to a post reads \"Green boats dock pink meters contorl parking\". Five purple spoons dangle from a nearby vendor's stall, catching the sun, and a basket on the table holds four bright yellow carots. Three people display clear emotions \u2014 a woman resting her hand on a friend's shoulder with a trusting, calm expression, a laughing man holding a purple spoon in joyful delight, and a young passerby, wide-eyed and mouth agape, visibly suprised as he points toward the boats. Relections ripple in the water and warm light falls across the busy sceen.",
+        "A colorful harbur market scene: five small green boates bob gently at the quay while four pink parking metres stand aligned along the dock; a wooden sign nailed to a post reads \"Green boats dock pink meters control parking\". Five purple spoons hang from a nearby vendor's stall, catching the sun, and a basket on the table holds four bright yellow carrots. Three people show clear emotions \u2014 a woman placing her hand on a friend's shoulder with a trusting, calm expresssion, a laughing man holding a purple spoon in joyful delight, and a young passerby with wide eyes and an open mouth, visably surprised as he points toward the boats. Reflections ripple in the water and warm light falls across the busy scene.",
+        "A vivid harbor market scene: five small green boats bob gently at the qauy while four pink parking meters stand in a neat row along the dock; a wooden sign nailed to a post reads \"Green boats dock pink meters control parkng\". Five purpel spoons dangle from a nearby vendor's stall, catching the sun, and a basket on the table holds four bright yelow carrots. Three people show clear emotions \u2014 a woman placing her hand on a friend's shoulder with a trusing, calm expression, a laughing man holding a purpel spoon in joyful delight, and a young passerby with wide eyes and an open mouth, visibly surprised as he points toward the boats. Reflections ripple in the water and warm light falls across the buisy scene."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'mouse', 'count': 2, 'color': 'red'}, {'object': 'couch', 'count': 2, 'color': 'brown'}, {'object': 'scissors', 'count': 3, 'color': 'gray'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about couch, mouse. Include a person showing joy. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "mouse",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "couch",
+            "count": 2,
+            "color": "brown"
+          },
+          {
+            "object": "scissors",
+            "count": 3,
+            "color": "gray"
+          }
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "couch",
+            "mouse"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright living-room scene with two brown couches facing each other, each couch detailed with soft cushions and wooden legs; two small red mice, one perched on the left couch cushion and the other peeking out from the fold of the right couch, their fur vivid and glossy. Three gray scissors lie clearly visible on the low coffee table between the couches and one more pair slightly overlapping a magazine on the floor, all three metallic blades catching the light. A framed sign on the wall reads Couch and mouse together. On the left couch a person shows pure joy, smiling broadly with eyes crinkled and arms raised in a delighted gesture, while near the right couch another person reels back with a look of disgust, nose wrinkled and mouth turned down as they step away from the mice; the room is warmly lit, with small household details like a rug, a potted plant, and scattered papers to give a lived-in feeling.",
+        "Bright livng-room scene with two brown couchs facing each other, each outfitted with plush cushions and wooden legs. Two small red mice \u2014 one sitting on the left couch cushion, the other peeking from a fold of the right couch \u2014 their fur bright and glossy. Three gray pairs of scisors are plainly visible on the low coffee table between the sofas, with a fourth pair partly overlapping a magazine on the floor; all the metal blades catch the light. A framed sign on the wall says \"Couch and mouse together.\" On the left couch a person exudes pure joy, smiling widely with eyes crinkled and arms raised in delight, while by the right couch another person recoils in disgust, nose wrinkled and mouth turned down as they step away from the mice. The room is warmly lit, with small household touches \u2014 a rug, a potted plant, and scattered papers \u2014 to give a lived-in feeling.",
+        "A bright living room scene shows two brown couches facing each other, each with soft cushions and wooden legs; two tiny red mices \u2014 one sitting on the left couch cushion and the other peeking from a fold of the right couch \u2014 their fur vivid and glossy. Three gray scisors lie plainly on the low coffee table between the sofas and another pair slightly overlaps a magazine on the floor, all their metallic blades catching the light. A framed sign on the wall reads Couch and mouse together. On the left couch a person radiates pure joy, grinning with eyes crinkled and arms lifted in delight, while by the right couch another person recoils in disgust, nose wrinkled and mouth downturned as they step away from the mice; the room is warmly lit, with small household touches like a rug, a potted plant, and scattered papers giving it a livd-in feeling."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'train', 'count': 2, 'color': 'brown'}, {'object': 'refrigerator', 'count': 1, 'color': 'green'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about refrigerator. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "train",
+            "count": 2,
+            "color": "brown"
+          },
+          {
+            "object": "refrigerator",
+            "count": 1,
+            "color": "green"
+          }
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "refrigerator"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bustling station scene features two brown trains on adjacent tracks and, oddly, a single green refrigerator standing on the platform; a nearby person grimaces in disgust, nose wrinkled and hand raised toward the appliance; a small sticky note on the refrigerator clearly reads \"Rotten green refrigerator\".",
+        "At a bustling station two brown trains sit on adjecent tracks and, oddly, a single green refridgerator stands on the platform; a nearby person grimaces in disgust, their noze wrinkled and one hand raised toward the appliance; a small sticky note on the refridgerator clearly reads \"Rotten green refrigerator\"."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+
+
+Error for config config/prompt_generation/counting+color+spatial+emotion_robust.yaml.
+
+Error for config config/prompt_generation/emotion+text.yaml.
+
+Error for config config/prompt_generation/counting+color+size+emotion.yaml.
+
+Error for config config/prompt_generation/counting+color.yaml.
+
+Error for config config/prompt_generation/color+emotion.yaml.

@@ -1,0 +1,163 @@
+{
+  "experiment_id": "counting+color+size+text_robust",
+  "timestamp": "2026-02-05T10:13:08.184434",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'airplane', 'count': 5, 'color': 'black'}, {'object': 'baseball bat', 'count': 4, 'color': 'purple'}, {'object': 'tennis racket', 'count': 5, 'color': 'brown'}, {'object': 'laptop', 'count': 4, 'color': 'pink'}. Make the tennis racket(s) smaller than the airplane(s). Make the baseball bat(s) larger than the laptop(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about laptop, tennis racket. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "airplane",
+            "count": 5,
+            "color": "black"
+          },
+          {
+            "object": "baseball bat",
+            "count": 4,
+            "color": "purple"
+          },
+          {
+            "object": "tennis racket",
+            "count": 5,
+            "color": "brown"
+          },
+          {
+            "object": "laptop",
+            "count": 4,
+            "color": "pink"
+          }
+        ],
+        "size_relations": [
+          [
+            "tennis racket",
+            "smaller",
+            "airplane"
+          ],
+          [
+            "baseball bat",
+            "larger",
+            "laptop"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "laptop",
+            "tennis racket"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A staged scene containing five black airplanes, four purple baseball bats, five brown tennis rackets, and four pink laptops. The five black airplanes are relatively large and dominate the upper area; the five brown tennis rackets are rendered smaller than the airplanes so their size is clearly less. Each of the four purple baseball bats is noticeably larger than each pink laptop. Arrange the objects so the counts and colors are obvious and evenly spaced. Include a clearly visible sign in the image that displays exactly these seven words: Laptop tennis racket both need protective foam",
+        "Create a staged scene containing five black airplaines, four purple basebal bats, five brown tennis rackets, and four pink laptops. The five black airplaines should be relatviely large and dominate the upper area; the five brown tennis rackets are rendered smaller than the airplaines so their size is clearly less. Each of the four purple basebal bats is noticebly larger than each pink laptop. Arrange the objects so the counts and colros are obvious and evenly spaced. Include a clearly visible sign in the image that displays exactly these seven words: Laptop tennis racket both need protective foam",
+        "A composed sceen featuring five black airplanes, four purpel baseball bats, five brown tennis rackets, and four pink laptops. The five black airplanes are relatively large and dominate the upper area; the five brown tennis rackets are rendered smaller than the airplanes so their size is clearly less. Each of the four purpel baseball bats is noticeably larger than each pink laptop. Arrange the objects so the counts and colors are obvious and evenly spaced. Include a clearly visible sign in the image that displays exactly these seven words: Laptop tennis racket both need protective foam",
+        "A staged sceen containing five black airplanes, four purple baseball batts, five brown tenis rackets, and four pink laptops. The five black airplanes are relatively large and dominate the upper area; the five brown tennis rackets are rendered smaller than the airplanes so their size is clearly less. Each of the four purple baseball bats is noticeably larger than each pink laptop. Arrange the objects so the counts and colors are obviuos and evenly spced. Include a clearly visible sign in the image that displays exactly these seven words: Laptop tennis racket both need protective foam",
+        "A staged sceen containing five black airplanes, four purpel baseball bats, five brown tennis rackets, and four pink laptops. The five black airplanes should be relatively large and dominate the upper area; the five brown tennis rackets should be rendered smaller than the airplanes so their size is clearly less. Each of the four purpel baseball bats must be noticably larger than each pink laptop. Arrange the objects so the counts and colors are obvious and evenly spaced. Include a clearly visible sign in the image that displays exactly these seven words: Laptop tennis racket both need protective foam"
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cake', 'count': 3, 'color': 'gray'}, {'object': 'boat', 'count': 2, 'color': 'red'}, {'object': 'baseball bat', 'count': 3, 'color': 'blue'}. Make the boat(s) larger than the baseball bat(s). Make the boat(s) smaller than the cake(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about cake, baseball bat. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cake",
+            "count": 3,
+            "color": "gray"
+          },
+          {
+            "object": "boat",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "baseball bat",
+            "count": 3,
+            "color": "blue"
+          }
+        ],
+        "size_relations": [
+          [
+            "boat",
+            "larger",
+            "baseball bat"
+          ],
+          [
+            "boat",
+            "smaller",
+            "cake"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "cake",
+            "baseball bat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A composed scene with three gray cakes arranged on a table, two red boats nearby, and three blue baseball bats positioned close by; the red boats are larger than the blue baseball bats but smaller than the gray cakes. A small hand-lettered sign leaning against a cake reads \"Cake and baseball bat\" in clear black letters. Soft natural light, neutral background.",
+        "A still-life scene of three gray cakes arranged on a table, flanked by two red boats and three blue baseball bats placed nearby; the red boats are larger than the blue baseball bats but smaller than the gray cakes. A small hand-lettered sign leanning against one cake reads \"Cake and baseball bat\" in clear blak letters. Soft natural light and a neutral backround.",
+        "A still-life setup showing three gray cakes arranged on a table, two red boats positioned close neaby, and three blue basebal bats placed nearby; the red boats are bigger than the blue bats but smaller than the gray cakes. A small hand letered sign leaning against one cake reads \"Cake and baseball bat\" in clear black letters. Soft natural light, neutral background."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'skis', 'count': 1, 'color': 'gray'}, {'object': 'baseball glove', 'count': 2, 'color': 'brown'}. Make the skis(s) smaller than the baseball glove(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about baseball glove. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "skis",
+            "count": 1,
+            "color": "gray"
+          },
+          {
+            "object": "baseball glove",
+            "count": 2,
+            "color": "brown"
+          }
+        ],
+        "size_relations": [
+          [
+            "skis",
+            "smaller",
+            "baseball glove"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "baseball glove"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "One compact gray ski rests on a sun-faded wooden bench, noticeably smaller than two large brown leather baseball gloves placed side by side; the gloves show worn stitching and scuff marks while the single gray ski looks slim and toy-like next to them. A small white label taped to the bench between the gloves reads Glove.",
+        "A compact gray ski lies on a sun-faded wooden bench, clearly much smaller than two large brown lether baseball gloves set side by side; the gloves show worn stiching and scuff marks, while the lone gray ski looks slim and almost toy-like next to them. A small white label taped to the bench betwen the gloves reads Glove."
+      ]
+    }
+  ]
+}

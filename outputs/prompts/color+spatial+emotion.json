@@ -1,0 +1,143 @@
+{
+  "experiment_id": "color+spatial+emotion",
+  "timestamp": "2026-02-05T10:33:43.533116",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'chair', 'color': 'black'}, {'object': 'parking meter', 'color': 'orange'}, {'object': 'sandwich', 'color': 'green'}, {'object': 'remote', 'color': 'purple'}. Position the parking meter(s) next to the sandwich(s). Position the chair(s) under the remote(s). Include a person showing anticipation. Include a person showing disgust. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "disgust",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "chair",
+            "color": "black"
+          },
+          {
+            "object": "parking meter",
+            "color": "orange"
+          },
+          {
+            "object": "sandwich",
+            "color": "green"
+          },
+          {
+            "object": "remote",
+            "color": "purple"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "parking meter",
+            "next to",
+            "sandwich"
+          ],
+          [
+            "chair",
+            "under",
+            "remote"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A sidewalk scene featuring a single black chair placed directly under a purple remote mounted above it; nearby an orange parking meter stands next to a bright green sandwich sitting on the curb. In the foreground three people display distinct emotions: one looks forward with eager anticipation toward the green sandwich, another turns away with a look of disgust as they wrinkle their nose at the sandwich, and a third person stands a few steps back with wide eyes and a terrified expression as if fearful of the purple remote above the chair.",
+        "A vivid street scene: a bright orange parking meter stands directly beside a vivid green sandwich resting on a low crate, while a black chair sits directly beneath a suspended purple remote hanging from a hook above it. Nearby three people display clear emotions \u2014 one person clasping their hands and leaning forward in eager anticipation, another turning away with a curled lip and a look of disgust, and a third standing a few steps back with wide eyes and a terrified expression. The composition emphasizes the orange parking meter next to the green sandwich and the black chair under the purple remote.",
+        "A cinematic city sidewalk scene: a bright orange parking meter stands directly next to a vivid green sandwich placed on a low wooden crate, the two objects clearly adjacent; nearby a black chair sits directly beneath a suspended purple remote hanging above it. Three people animate the moment \u2014 a woman leaning forward with an eager, anticipatory expression, eyes fixed on the green sandwich; a man recoiling with visible disgust, nose wrinkled and mouth turned down as he pushes something away; and another person stepping backward in fear, wide-eyed with hands raised, staring up at the purple remote over the black chair. Warm afternoon light, realistic textures, shallow depth of field, high-resolution detail.",
+        "A street-scene composition shows a vivid tableau: a single purple remote is hovering or mounted above a lone black chair so the chair sits directly under the remote, and nearby an orange parking meter stands next to a bright green sandwich placed on the curb. Three people populate the scene \u2014 one person leans forward with hands clasped and a tense, anticipatory expression; another recoils with a scrunched nose and curled lip, clearly showing disgust; a third person stands a step back with wide eyes and raised shoulders, face turned pale in fear, all reacting to the unusual arrangement of objects.",
+        "A realistic street-scene: a glossy black chair sits beneath a bright purple remote control mounted on a hook just above it. An orange parking meter stands directly beside a striking green sandwich wrapped in green paper on the curb. Three people occupy the small scene: a woman leaning forward with a hopeful, eager expression showing clear anticipation as she reaches toward the sandwich; a man pulling back with a twisted mouth and raised hand, face contorted in disgust as he glares at the green sandwich; and a teenager stepping away with wide eyes and trembling hands, face pale and open-mouthed in fear as they stare at the remote above the chair. The colored objects\u2014black chair, purple remote over it, orange parking meter next to the green sandwich\u2014are the visual anchors in an otherwise neutral urban background."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'keyboard', 'color': 'orange'}, {'object': 'boat', 'color': 'green'}, {'object': 'book', 'color': 'blue'}. Position the keyboard(s) in front of the boat(s). Position the keyboard(s) above the book(s). Include a person showing joy. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "keyboard",
+            "color": "orange"
+          },
+          {
+            "object": "boat",
+            "color": "green"
+          },
+          {
+            "object": "book",
+            "color": "blue"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "keyboard",
+            "in front of",
+            "boat"
+          ],
+          [
+            "keyboard",
+            "above",
+            "book"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright orange keyboard sits prominently in the foreground, positioned slightly above and clearly in front of a small green boat that rests a little farther back; beneath them a large blue book lies open on a table so the keyboard is visibly above the book. To the left, a person beams with joy, arms raised toward the keyboard, while to the right another person stands nearby the boat, shoulders slumped and face downcast, showing sadness. Soft natural light and a shallow depth of field emphasize the contrast between the two figures.",
+        "A vibrant scene showing an orange keyboard positioned in the foreground, directly in front of a green boat and resting on top of a blue book; the green boat sits slightly behind the keyboard on calm water while the blue book lies beneath the keyboard on a weathered wooden dock. To the left, a person radiates joy with an open smile and raised arms, eyes bright, and to the right another person displays clear sadness with slumped shoulders and a bowed head, a tear on their cheek. Soft natural light, gentle reflections on the water, and a calm, slightly overcast sky create a contemplative atmosphere.",
+        "A vivid scene of a small harbor where several glossy orange keyboards float in the foreground, each keyboard positioned directly in front of a line of green boats bobbing gently on the water; every orange keyboard hovers just above stacks of bright blue books resting on the boats' decks or on the shoreline. To the left, a person expresses clear joy with a wide smile and arms raised toward the sky, warm sunlight highlighting their face; to the right, a second person appears distinctly sad, shoulders hunched and eyes downcast while holding a blue book. Soft, natural lighting, gentle reflections on the water, and a painterly, slightly surreal mood tie the composition together."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'airplane', 'color': 'orange'}, {'object': 'orange', 'color': 'pink'}. Position the orange(s) to the right of the airplane(s). Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "airplane",
+            "color": "orange"
+          },
+          {
+            "object": "orange",
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "orange",
+            "to the right of",
+            "airplane"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright orange airplane sits on the left of the frame, and to its right is a small cluster of glossy pink oranges; nearby, a person stands slightly forward-leaning with hands clasped, eyes wide and a hopeful, expectant smile, clearly showing anticipation as they watch the scene.",
+        "An orange airplane sits on the left side of the scene, and to its right a small cluster of glossy pink oranges rests on the tarmac; in the foreground a person faces the airplane with wide eyes, leaning forward and clasping their hands in clear anticipation."
+      ]
+    }
+  ]
+}

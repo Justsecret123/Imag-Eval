@@ -1,0 +1,139 @@
+{
+  "experiment_id": "size+text",
+  "timestamp": "2026-02-04T16:04:04.297727",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_size+text",
+      "skills": [
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'cup'}, {'object': 'laptop'}, {'object': 'toothbrush'}, {'object': 'scissors'}. Make the toothbrush(s) larger than the cup(s). Make the laptop(s) smaller than the scissors(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about scissors, cup. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cup"
+          },
+          {
+            "object": "laptop"
+          },
+          {
+            "object": "toothbrush"
+          },
+          {
+            "object": "scissors"
+          }
+        ],
+        "size_relations": [
+          [
+            "toothbrush",
+            "larger",
+            "cup"
+          ],
+          [
+            "laptop",
+            "smaller",
+            "scissors"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "scissors",
+            "cup"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tidy desk scene: a small ceramic cup sits beside an oversized toothbrush (the toothbrush is noticeably larger than the cup). A large pair of scissors dominates the foreground, with a slim laptop placed nearby that is clearly smaller than the scissors. On a yellow sticky note pinned to the corkboard behind the desk, visible text reads \"Do not place scissors near the cup, please.\"",
+        "On a cluttered wooden desk a small ceramic cup nestles beside an oversized toothbrush that towers above the cup; a large metal pair of scissors lies nearby, noticeably bigger than a compact laptop tucked next to them. A yellow sticky note on the laptop screen reads: \"Scissors are sharp; keep the cup safely distant.\"",
+        "A bright, realistic tabletop scene featuring a small ceramic cup next to a toothbrush that is noticeably larger and taller than the cup, a pair of oversized scissors that tower over a compact laptop which is visibly smaller than the scissors; a yellow sticky note on the wall behind them displays the message: \"Keep scissors away from cup to prevent accidents.\" No other visible text appears in the scene.",
+        "A tidy desktop scene: an oversized pair of scissors towers over a compact laptop, a large toothbrush leans against a small ceramic cup, and a yellow sticky note beside them reads \"Do not place scissors near cup; safety first.\"",
+        "A tidy wooden desk displays a small paper cup, an oversized toothbrush standing upright beside it, a large pair of scissors propped open, and a compact laptop tucked nearby; the toothbrush is noticeably larger than the cup, and the scissors are clearly larger than the laptop. A taped note on the corkboard reads \"Keep scissors away from the cup at all\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_size+text",
+      "skills": [
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'scissors'}, {'object': 'suitcase'}, {'object': 'bird'}. Make the suitcase(s) smaller than the bird(s). Make the suitcase(s) larger than the scissors(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about bird, scissors. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "scissors"
+          },
+          {
+            "object": "suitcase"
+          },
+          {
+            "object": "bird"
+          }
+        ],
+        "size_relations": [
+          [
+            "suitcase",
+            "smaller",
+            "bird"
+          ],
+          [
+            "suitcase",
+            "larger",
+            "scissors"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "bird",
+            "scissors"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A brightly colored bird dominates the scene, perched just behind a small vintage suitcase that is noticeably smaller than the bird but clearly larger than a tiny pair of scissors lying beside it. A small handwritten note taped to the suitcase reads \"Bird watches scissors; don't cut feathers.\"",
+        "A vibrant photograph shows a large tropical bird standing on a low stool, towering over two compact suitcases that are noticeably smaller than the bird but clearly larger than a small open pair of scissors placed beside them; a taped note on one suitcase reads \"Keep bird and scissors safely apart.\"",
+        "A bright windowsill scene: a vivid green parrot stands taller than a compact vintage leather suitcase beside it \u2014 the suitcase is noticeably smaller than the bird but clearly larger than the delicate silver scissors lying on the table. A small laminated sign propped against the suitcase reads \"Do not use scissors on bird.\" Soft afternoon light casts long shadows and a few scattered feathers across the wooden surface."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_size+text",
+      "skills": [
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'traffic light'}, {'object': 'spoon'}. Make the spoon(s) larger than the traffic light(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about spoon. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "traffic light"
+          },
+          {
+            "object": "spoon"
+          }
+        ],
+        "size_relations": [
+          [
+            "spoon",
+            "larger",
+            "traffic light"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "spoon"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A photorealistic urban street scene at golden hour featuring a standard three-light traffic light on a black pole at the corner and three oversized polished metal spoons standing nearby as if sculptural monuments, each spoon noticeably larger and taller than the traffic light and casting long shadows; the spoons' reflective surfaces mirror the warm sky and surrounding buildings. A small rectangular metal sign bolted to the pole clearly reads Giant Spoon in bold black letters (only those two words). Wide-angle perspective, crisp focus on the traffic light and spoons, soft bokeh background, natural color tones, and dramatic warm lighting.",
+        "A surreal urban scene where a single oversized polished silver spoon, several times taller than a nearby standard traffic light, towers on a city sidewalk; the spoon leans slightly and reflects warm late-afternoon sunlight, while the short traffic light with red, yellow, and green lenses sits dwarfed beside it. A small metal plaque at the spoon\u2019s base bears the two-word label Giant Spoon. The composition is high-resolution and realistic, with wet pavement reflecting the spoon and light, soft bokeh background of distant buildings and muted pedestrians, and a low camera angle emphasizing the spoon\u2019s huge scale."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "experiment_id": "color+text_robust",
+  "timestamp": "2026-02-04T16:55:45.433630",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+text",
+      "skills": [
+        "color",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'toothbrush', 'color': 'gray'}, {'object': 'dog', 'color': 'purple'}, {'object': 'banana', 'color': 'blue'}, {'object': 'suitcase', 'color': 'pink'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about toothbrush, banana. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "toothbrush",
+            "color": "gray"
+          },
+          {
+            "object": "dog",
+            "color": "purple"
+          },
+          {
+            "object": "banana",
+            "color": "blue"
+          },
+          {
+            "object": "suitcase",
+            "color": "pink"
+          }
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "toothbrush",
+            "banana"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A whimsical still-life scene: a small pink suitcase sits on a wooden bench, a fluffy purple dog perched loyally on top, a sleek gray toothbrush resting beside the suitcase, and a bright blue banana lying next to the toothbrush. A small paper note attached to the suitcase reads \"Blue banana, gray toothbrush: an odd traveling pair\". Soft warm light, shallow depth of field, gentle shadows, and a cozy travel vignette.",
+        "A whimsical still-life scene: a small pink suitcase rests on a wooden benche, topped by a flufy purple dog perched loyaly on top; a sleek gray toothbrsh lies beside the case and a bright blue banana reclines next to it. A tiny paper note attached to the suitcase reads \"Blue banana, gray toothbrush: an odd travling pair\". Soft warm light, shallow depth of field, gentle shadows, and a cozy travel vignette.",
+        "A whimsical still-life scene reimagined: a tiny pink suitcase sits on a worn wooden bench, a fluffy purple dog loyaly perched atop it, a sleek gray toothbrusj resting next to the case, and a bright blue banana lying beside the toothbrush. A small paper note pinned to the suitcase reads \"Blue banana, gray toothbrush: an odd traveling pair\". Warm, soft light, shallow depth of field, gentle shadows, and a cozy travel vignete.",
+        "A playful still-life scene: a small pink suitecase sits on a worn wooden bench, a flufy purple dog perched loyally on top, a sleek grey toothbrush resting beside the case, and a bright blue bananna lying next to the brush. A tiny paper note tacked to the suitcase reads \"Blue banana, gray toothbrush: an odd travelig pair\". Soft warm light, shallow depth-of-field, gentle shadows, and a cozy travel vignette.",
+        "A whimsical still-life tableau: a small pink suitcase sits on a wooden benche, with a fluffly purpel dog perched loyaly on top; a sleek gray toothbrusch lies beside the case and a brigt blue bananna rests next to it. A tiny paper note atached to the suitcase reads \"Blue banana, gray toothbrush: an odd traveling pair\". Soft warm light, shallow depth of feild, gentle shadows and a cozy travle vignette."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+text",
+      "skills": [
+        "color",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'toothbrush', 'color': 'blue'}, {'object': 'keyboard', 'color': 'gray'}, {'object': 'truck', 'color': 'yellow'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about truck, toothbrush. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "toothbrush",
+            "color": "blue"
+          },
+          {
+            "object": "keyboard",
+            "color": "gray"
+          },
+          {
+            "object": "truck",
+            "color": "yellow"
+          }
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "truck",
+            "toothbrush"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tidy desktop scene shows a blue toothbrush standing upright in a ceramic cup beside a gray computer keyboard, with a small yellow toy truck parked on the desk nearby. A bright sticky note attached to the keyboard bears the visible four-word message \"Yellow truck blue toothbrush\".",
+        "A tidy desktop shows a blue toothbrsh standing upright in a cermaic cup beside a gray computer keyboard, with a small yelow toy truck parked on the desk neaby. A bright sticky note attached to the keyboard bears the visible four-word message \"Yellow truck blue toothbrush\".",
+        "A neat desk scene shows a blue toothbrush standing upright in a cermaic cup beside a gray computer keyboard, with a small yellow toy truck parked on the desk nearby. A brigt sticky note attached to the keyboard bears the visible four-word message \"Yellow truck blue toothbrush\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+text",
+      "skills": [
+        "color",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'fire hydrant', 'color': 'orange'}, {'object': 'refrigerator', 'color': 'gray'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about refrigerator. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "fire hydrant",
+            "color": "orange"
+          },
+          {
+            "object": "refrigerator",
+            "color": "gray"
+          }
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "refrigerator"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A photorealistic street scene featuring an orange fire hydrant in the foreground and a standalone gray refrigerator leaning against a worn brick wall; a small label on the refrigerator door reads \"Gray Refrigerator\". Soft afternoon light, realistic textures and wear, natural shadows, shallow depth of field, high-detail, no other visible text.",
+        "Photorealistic street scene with an orange fire-hydrant in the forground and a standalone gray refrigerator leaning against a worn brick wall; a small labal on the refrigerator door reads \"Gray Refrigerator\". Soft afternooon light, realistic textures and weaar, natural shadows, shallow depth of field, high-detail, no other visible text."
+      ]
+    }
+  ]
+}

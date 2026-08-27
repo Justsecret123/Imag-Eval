@@ -1,0 +1,22 @@
+experiment:
+  name: counting+color+spatial+emotion+text
+prompt_generation:
+  metadata_config:
+    name: coco
+  skills:
+  - level: hard
+    skills: [counting, color, spatial, emotion, text]
+    k: 5
+  - level: medium
+    skills: [counting, color, spatial, emotion, text]
+    k: 3
+  - level: easy
+    skills: [counting, color, spatial, emotion, text]
+    k: 2
+  llm_model:
+    name: openai
+    model: gpt-5-mini
+    temperature: 1
+  samples_per_skill: 1
+output:
+  file: outputs/prompts/counting+color+spatial+emotion+text.json

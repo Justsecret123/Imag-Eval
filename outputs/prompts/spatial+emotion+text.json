@@ -1,0 +1,154 @@
+{
+  "experiment_id": "spatial+emotion+text",
+  "timestamp": "2026-02-05T09:54:41.350923",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+emotion+text",
+      "skills": [
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'toothbrush'}, {'object': 'clock'}, {'object': 'giraffe'}, {'object': 'dining table'}. Position the giraffe(s) behind the clock(s). Position the dining table(s) on top of the toothbrush(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about giraffe, toothbrush. Include a person showing disgust. Include a person showing sadness. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "sadness",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "toothbrush"
+          },
+          {
+            "object": "clock"
+          },
+          {
+            "object": "giraffe"
+          },
+          {
+            "object": "dining table"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "giraffe",
+            "behind",
+            "clock"
+          ],
+          [
+            "dining table",
+            "on top of",
+            "toothbrush"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "giraffe",
+            "toothbrush"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A surreal domestic scene: a tall giraffe stands directly behind a large round clock that occupies the middle of the room, its neck and head peeking out from behind the clock face. A wooden dining table is oddly balanced on top of an oversized horizontal toothbrush on the floor, supporting mismatched plates and cups. A small handwritten sign taped to the clock reads \"This giraffe brushes teeth with a tiny toothbrush.\" Nearby three people react\u2014one woman recoils in disgust, wrinkling her nose; a young man sits hunched with tears, showing sadness; and an older man glares with clenched jaw and fists, clearly angry.",
+        "A surreal dining room scene: a giant electric toothbrush lies horizontally on the floor, and a wooden dining table is precariously balanced on top of the toothbrush. An ornate grandfather clock stands in front of a tall giraffe so the giraffe is clearly positioned behind the clock, its long neck and head peeking out above and around the clock. A small sign taped to the wall beside the table reads: \"Giraffe toothbrush belongs to giraffe, do not borrow\". Three people are in the room showing distinct emotions \u2014 a woman recoiling with obvious disgust, a young man sitting at the table with tears and a sorrowful, sad expression, and another person standing nearby with a clenched jaw and an angry glare.",
+        "In a surreal dining room, a wooden dining table sits on top of three oversized colorful toothbrushes that act like stilts. A tall giraffe peeks from behind a large round wall clock in the foreground, its head and neck visible over the clock's edge. A small paper sign taped to the table reads: \"Giraffe needs its own yellow toothbrush, not yours\". Three people stand around: one recoils in disgust with a scrunched face as she reaches toward the toothbrush-supports; another sits at the table with tears and a bowed head, clearly sad; and a third paces angrily with clenched fists and furrowed brows, shouting at the giraffe.",
+        "A surreal interior: a wooden dining table is perched directly on top of an oversized toothbrush lying across the tiled floor, its legs balanced awkwardly on the bristles. In the foreground a large round wall clock sits with a tall giraffe standing behind the clock, peeking over it so only the giraffe's long neck and head are visible. A small paper note taped beside the clock displays the text \"Giraffe hates sharing a toothbrush with a friend.\" Three people react to the scene: a woman near the table recoils in disgust, hands partially covering her face; a younger man at the table looks down with tears, showing deep sadness; and a third person near the doorway clenches their jaw and fists, face flushed with anger.",
+        "A surreal kitchen scene: a wooden dining table is precariously balanced on top of a giant striped toothbrush lying across the floor; a large round wall clock sits in front of a tall giraffe, with the giraffe standing directly behind the clock so only its neck and head peek over the clock's rim. A yellow note taped to the clock reads \"Do not use the giraffe toothbrush on babies\". Three people react in the foreground \u2014 one woman recoiling with a look of disgust, a man hunched over crying in obvious sadness, and another person clenching their jaw and fists, visibly angry \u2014 while the toothbrush, the dining table, the clock, and the giraffe remain clearly visible and arranged as described."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+emotion+text",
+      "skills": [
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'mouse'}, {'object': 'sandwich'}, {'object': 'backpack'}. Position the mouse(s) under the sandwich(s). Position the mouse(s) next to the backpack(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about mouse, sandwich. Include a person showing joy. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "mouse"
+          },
+          {
+            "object": "sandwich"
+          },
+          {
+            "object": "backpack"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "mouse",
+            "under",
+            "sandwich"
+          ],
+          [
+            "mouse",
+            "next to",
+            "backpack"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "mouse",
+            "sandwich"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright park picnic scene: a smiling woman laughing with joy stands nearby, and a young man leans forward with hands clasped in clear anticipation. On a checkered blanket a sandwich sits on a small plate; tucked directly underneath it a small gray mouse peeks out, positioned right next to a blue backpack's strap. A little handwritten note propped against the plate is clearly visible and reads: \"Mouse under sandwich, please leave it\".",
+        "A sunny picnic scene at a wooden bench: a half-eaten sandwich sits on a plate and directly beneath the sandwich a small gray mouse peeks out, positioned right next to a blue backpack leaning against the bench. Nearby a joyful woman laughs with delight, hands raised and smiling broadly, while a young person leans forward in clear anticipation, eyes wide and hands clasped, watching the food. A small handwritten note pinned to the backpack reads: \"Mouse beside sandwich, hungry and hopeful.\"",
+        "An outdoor picnic scene: a small gray mouse peeks out from directly under a stacked sandwich, sitting right next to a worn canvas backpack; a paper note taped to the backpack reads \"Mouse near sandwich tiny hungry friend\". A young woman nearby throws her head back laughing in pure joy, while her companion leans forward with hands clasped, wearing an expectant, anticipatory smile as they watch the mouse and sandwiches. Crumbs scatter on the blanket and the mouse\u2019s whiskers twitch beneath the bread."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+emotion+text",
+      "skills": [
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'dog'}, {'object': 'donut'}. Position the donut(s) below the dog(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about dog. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "dog"
+          },
+          {
+            "object": "donut"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "donut",
+            "below",
+            "dog"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "dog"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A golden retriever sits alert on the front porch, a chocolate-glazed donut with sprinkles placed on the step directly below the dog; a weathered wooden sign on the fence clearly reads \"Beware of Dog\"; a neighbor stands nearby with a reddened face, clenched fists, and a furious scowl, showing obvious anger as warm afternoon light casts soft shadows across the scene.",
+        "A medium-sized brown dog sits on a low wooden bench at center, wearing a small sign on its collar that reads \"Loyal brown dog\"; directly below the bench on the floor is a plate of glazed donuts, and to the right a person stands showing clear anger\u2014furrowed brows, clenched jaw, and an accusing finger pointed at the dog\u2014warm indoor light, realistic detail."
+      ]
+    }
+  ]
+}

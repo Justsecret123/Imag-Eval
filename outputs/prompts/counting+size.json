@@ -1,0 +1,128 @@
+{
+  "experiment_id": "counting+size",
+  "timestamp": "2026-02-05T11:46:28.032877",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+size",
+      "skills": [
+        "counting",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'cake', 'count': 4}, {'object': 'horse', 'count': 5}, {'object': 'sink', 'count': 5}, {'object': 'potted plant', 'count': 5}. Make the potted plant(s) larger than the sink(s). Make the horse(s) smaller than the cake(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cake",
+            "count": 4
+          },
+          {
+            "object": "horse",
+            "count": 5
+          },
+          {
+            "object": "sink",
+            "count": 5
+          },
+          {
+            "object": "potted plant",
+            "count": 5
+          }
+        ],
+        "size_relations": [
+          [
+            "potted plant",
+            "larger",
+            "sink"
+          ],
+          [
+            "horse",
+            "smaller",
+            "cake"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A whimsical scene shows four large cakes on stands, each cake visibly bigger than the five tiny horses scattered around the table and floor; five polished sinks are lined up along a counter, and five potted plants sit beside them\u2014the potted plants are noticeably taller and larger than the sinks, clearly emphasizing that the plants are larger than the sinks while the horses remain smaller than the cakes.",
+        "A whimsical, photorealistic kitchen scene containing four large decorated cakes on a wooden island, five small toy-sized horses noticeably smaller than the cakes scattered and grazing around the cake bases, five white porcelain sinks mounted along the tiled back counter, and five oversized potted plants each substantially larger than the sinks with broad green leaves rising above and overhanging the fixtures; warm morning light, soft shadows, detailed textures of frosting, ceramic, chrome, and glossy foliage.",
+        "A surreal still life scene: four large, ornate cakes sit on a long table, each considerably bigger than five tiny, toy-sized horses clustered around them\u2014there are five horses in total, all noticeably smaller than the cakes. Scattered nearby are five compact sinks, low and understated, and five oversized, lush potted plants that tower above and clearly dwarf the sinks. Bright, even lighting casts soft shadows from the large plants onto the sinks and highlights the contrast in scale between the miniature horses and the imposing cakes.",
+        "A whimsical interior scene with four large layered cakes arranged on a central wooden table, five small horses (toy-sized) scattered around and clearly smaller than the cakes, five compact sinks mounted along one wall, and five potted plants with tall, leafy canopies that are noticeably larger than the sinks; warm natural lighting and soft shadows, balanced composition.",
+        "An image depicts 4 cakes arranged on a central table, 5 horses scattered around the scene that are noticeably smaller than the cakes, 5 sinks mounted along a tiled wall, and 5 potted plants placed nearby that are substantially larger than the sinks."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+size",
+      "skills": [
+        "counting",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'skis', 'count': 3}, {'object': 'skateboard', 'count': 2}, {'object': 'remote', 'count': 3}. Make the skis(s) larger than the remote(s). Make the skis(s) smaller than the skateboard(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "skis",
+            "count": 3
+          },
+          {
+            "object": "skateboard",
+            "count": 2
+          },
+          {
+            "object": "remote",
+            "count": 3
+          }
+        ],
+        "size_relations": [
+          [
+            "skis",
+            "larger",
+            "remote"
+          ],
+          [
+            "skis",
+            "smaller",
+            "skateboard"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A clean scene shows three skis standing upright against a backdrop, two skateboards placed side by side and noticeably larger, and three small remote controls scattered in front; the skis are visibly larger than the remotes but smaller than the skateboards.",
+        "A scene showing three skis, two skateboards, and three remote controls: two full-size skateboards are the largest items lying on the floor, three medium-sized skis (clearly larger than the remotes but smaller than the skateboards) lean together against a nearby wall, and three small remote controls rest on a low table in front of the skis.",
+        "A realistic still-life scene showing exactly two skateboards, three skis, and three remote controls: two large skateboards lie side by side as the largest objects in the frame with colorful decks and worn grip tape; three medium-length skis are arranged in a slight fan in front of the skateboards, each ski clearly larger than the remotes but noticeably shorter and narrower than the skateboards; three small handheld remotes are scattered in the foreground, compact and much smaller than the skis. Soft natural light, warm wooden floor background, realistic textures, subtle shadows, shallow depth of field."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+size",
+      "skills": [
+        "counting",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'train', 'count': 1}, {'object': 'wine glass', 'count': 2}. Make the train(s) smaller than the wine glass(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "train",
+            "count": 1
+          },
+          {
+            "object": "wine glass",
+            "count": 2
+          }
+        ],
+        "size_relations": [
+          [
+            "train",
+            "smaller",
+            "wine glass"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Surreal photorealistic scene: two oversized crystal wine glasses tower over a single miniature vintage steam train that is tiny in comparison, the small train sits between and beneath the two glasses on a reflective dark wooden surface, warm studio lighting, shallow depth of field, crisp reflections and refractions in the glass, subtle bokeh background, high detail, cinematic composition.",
+        "A surreal still life: a single tiny steam train, only a few inches long and noticeably smaller than two tall crystal wine glasses standing beside it\u2014one filled with red wine, the other clear\u2014sitting on a polished wooden table, bathed in warm late-afternoon light that casts soft reflections and a shallow depth of field."
+      ]
+    }
+  ]
+}

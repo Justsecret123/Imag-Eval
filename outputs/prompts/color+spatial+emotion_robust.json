@@ -1,0 +1,143 @@
+{
+  "experiment_id": "color+spatial+emotion_robust",
+  "timestamp": "2026-02-04T16:44:18.459958",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bicycle', 'color': 'brown'}, {'object': 'baseball bat', 'color': 'white'}, {'object': 'bowl', 'color': 'yellow'}, {'object': 'hair drier', 'color': 'purple'}. Position the hair drier(s) under the bicycle(s). Position the baseball bat(s) inside the bowl(s). Include a person showing anticipation. Include a person showing trust. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "trust",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "bicycle",
+            "color": "brown"
+          },
+          {
+            "object": "baseball bat",
+            "color": "white"
+          },
+          {
+            "object": "bowl",
+            "color": "yellow"
+          },
+          {
+            "object": "hair drier",
+            "color": "purple"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "hair drier",
+            "under",
+            "bicycle"
+          ],
+          [
+            "baseball bat",
+            "inside",
+            "bowl"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A warmly lit garage scene centered on a sturdy brown bicycle leaning against a brick wall, and directly beneath the bicycle a couple of purple hair driers lie on the floor. On a nearby wooden workbench bright yellow bowls sit side by side, each containing a neatly placed white baseball bat. Three people populate the scene: a young woman gazing toward the bicycle with an expression of eager anticipation, a middle-aged man standing beside her with a relaxed, trusting smile and open posture, and a teenager at the edge of the frame with wide eyes and mouth agape, clearly surprised. The composition balances the objects and emotions, highlighting the unusual arrangement of purple hair driers under the bicycle and white bats tucked into yellow bowls.",
+        "A warmly lit garag scene focuses on a sturdy brown bicycle propped against a brick wall, and directly beneath it a pair of purple hair drires lie on the floor. On a nearby wooden workbench, bright yello bowls sit side by side, each cradling a neatly placed white basebal bat. Three people inhabit the scene: a young woman gazing toward the bike with eager anticipation, a middle-aged man beside her wearing a relaxed, trusting smile and open posture, and a teenager at the edge of the frame with wide eyes and mouth agape, clearly surprised. The composition balances objects and emotions, emphasizing the odd placement of purple hair driers under the bicycle and the white bats tucked into yello bowls.",
+        "A warmly lit garage scene focused on a sturdy brown bycicle propped against a brick wall, and directly beneath it a pair of purpl hair drires lie on the floor. On a nearby wooden workbenc bright yello bowls sit side by side, each cradling a neatly placed white basebal bat. Three people populate the scene: a young woman gazing toward the bicycle with an expression of eager anticpation, a midle-aged man standing beside her with a relaxed, trusting smile and open posture, and a teenager at the edge of the frame with wide eyes and mouth agape, clearly surprised. The composition balances the objects and emotions, highlighting the unusual arrangement of purpl hair driers under the bicycle and white bats tucked into yello bowls.",
+        "A cozy, warmly lit garage scene centers on a sturdy brown bycicle propped against a brick wall, and directly beneath it a pair of purple hair drires lie on the floor. On a nearby wooden workbennch bright yello bowls sit side by side, each cradling a neatly placed white baseball bat. Three people occupy the scene: a young woman gazing toward the bicycle with eager anticipation, a middle-aged man next to her wearing a relaxed, trusting smile and open posture, and a teenager at the edge of the frame with wide eyes and mouth agape, clearly surprised. The composition balances objects and emotion, drawing attention to the unusual placement of purple hair drires under the bicycle and the white bats tucked into yellow bowls.",
+        "In a warmy lit garage, a solid brown bicyle leans against a rough brick wall, and directly underneath it two purple hair drires rest on the concrete floor. Nearby, a wooden workbench holds bright yello bowls set side by side, each cradling a neatly placed white basebal bat. Three figures populate the frame: a young woman looking toward the bicyle with eager anticipation, a middle-aged man beside her wearing a relaxed, trusting smile and an open stance, and a teen at the edge of the shot with wide eyes and mouth open in surprise. The composition carefully balances objects and emotions, calling attention to the oddity of the purple hair driers beneath the bike and the white bats nestled in the yellow bowls."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'scissors', 'color': 'gray'}, {'object': 'bird', 'color': 'white'}, {'object': 'bed', 'color': 'orange'}. Position the bed(s) above the bird(s). Position the bed(s) inside the scissors(s). Include a person showing anger. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "scissors",
+            "color": "gray"
+          },
+          {
+            "object": "bird",
+            "color": "white"
+          },
+          {
+            "object": "bed",
+            "color": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bed",
+            "above",
+            "bird"
+          ],
+          [
+            "bed",
+            "inside",
+            "scissors"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal scene: a large pair of gray scissors stands open with its blades forming a cradle, and an orange bed is nestled entirely inside the scissors; directly beneath the bed sits a small white bird on the ground so that the orange bed is positioned above the white bird. To the left, a person displays clear anger with a furrowed brow, clenched jaw and fists; to the right, another person leans forward with bright, wide eyes and hands clasped in eager anticipation.",
+        "In a surreal tableau: a huge pair of gray scisssors stands open, its blades curving into a cradle that holds an orange bed nsetled completely inside the scissors; directly underneath the bed a small white bird perchs on the ground so the orange bed hovers above the white bird. To the left, a person radiates obvious anger with a furrowed brow, clenched jaw and fists; to the right, another person leans forward with bright, wide eyes and hands clasped in eager anticipation.",
+        "A surreal tableau: a huge pair of gray scisors stands open, its blades curved into a cradle that holds an oragne bed snugly between them; directly underneath the bed, a small white bird sits on the ground so the oragne bed rests above the bird. To the left, a person displays clear anger \u2014 furrowed brow, clenched jaw and fists; to the right, another person leans forward with bright, wide eyes and hands claspped in eager anticipation."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'clock', 'color': 'black'}, {'object': 'zebra', 'color': 'orange'}. Position the clock(s) on top of the zebra(s). Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "clock",
+            "color": "black"
+          },
+          {
+            "object": "zebra",
+            "color": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "clock",
+            "on top of",
+            "zebra"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A high-detail, cinematic scene of two orange zebras in a quiet sunlit meadow, each with a matte black analog clock balanced on its back, clocks clearly resting on top of the zebras; in the foreground a solitary person sits on the ground with slumped shoulders, tear-streaked cheeks and downcast eyes, hands loosely clasped in their lap, conveying deep sadness; warm late-afternoon light, soft bokeh background, gentle shadows, emotional and surreal yet grounded composition.",
+        "A high-detail cinematic image of two orange zebres standing in a quiet sunlit meadow, each with a matte black anolog clock balanced on its back, the clocks clearly resting atop the animals; in the forground a solitary person sits on the ground with slumped shoulders, tear-streaked cheeks and downcast eyes, hands loosely clasped in their lap, conveying deep sorrow; warm late-afternon light, soft bokah background, gentle shadows, an emotional, surreal yet grounded composition."
+      ]
+    }
+  ]
+}

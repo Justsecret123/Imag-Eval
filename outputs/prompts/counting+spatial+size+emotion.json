@@ -1,0 +1,177 @@
+{
+  "experiment_id": "counting+spatial+size+emotion",
+  "timestamp": "2026-02-05T11:43:32.007849",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'toaster', 'count': 4}, {'object': 'chair', 'count': 5}, {'object': 'remote', 'count': 4}, {'object': 'baseball glove', 'count': 5}. Position the baseball glove(s) under the chair(s). Position the remote(s) next to the toaster(s). Make the remote(s) smaller than the chair(s). Make the baseball glove(s) larger than the toaster(s). Include a person showing joy. Include a person showing sadness. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "sadness",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "toaster",
+            "count": 4
+          },
+          {
+            "object": "chair",
+            "count": 5
+          },
+          {
+            "object": "remote",
+            "count": 4
+          },
+          {
+            "object": "baseball glove",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "baseball glove",
+            "under",
+            "chair"
+          ],
+          [
+            "remote",
+            "next to",
+            "toaster"
+          ]
+        ],
+        "size_relations": [
+          [
+            "remote",
+            "smaller",
+            "chair"
+          ],
+          [
+            "baseball glove",
+            "larger",
+            "toaster"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright living-room scene with five chairs arranged across the space. Directly beneath each chair sits a baseball glove \u2014 five gloves in total \u2014 and each glove is noticeably larger than the toasters in the scene. Four toasters are placed nearby, and each toaster has a compact remote sitting immediately next to it; there are four remotes in total and they are visibly smaller than the chairs. Three people occupy the room: one person is beaming with joy, another person looks clearly sad, and a third person displays a calm, trusting expression.",
+        "A well-lit room scene with five chairs arranged in a semi-circle; directly beneath each chair sits a baseball glove, five gloves in total, each baseball glove noticeably larger than the toasters in the room. Four toasters are lined up on a low table along the back wall, and next to each toaster sits a small remote control\u2014four remotes in all\u2014each remote visibly smaller than the chairs. Three people are present: one person showing joy, smiling broadly with raised arms; one person showing sadness, slumped with a downcast expression; and one person showing trust, offering a calm, open gaze and a gentle, reassuring hand extended toward another.",
+        "A bright living room scene featuring four toasters lined up on a kitchen counter and four small remotes placed beside each toaster; the remotes are visibly smaller than the nearby chairs. Five chairs are arranged in a loose semicircle in the middle of the room, and beneath each chair sits a single baseball glove\u2014there are five gloves in total and each glove is noticeably larger than the toasters. A joyful person stands near the chairs, smiling broadly with arms raised in celebration; a sad person sits on one of the chairs with slumped shoulders and a downcast expression, wiping a tear; a trusting person stands between the sad and joyful figures, gently offering a hand in a warm, open gesture and looking at each of them with calm, reassuring eyes.",
+        "A detailed indoor scene containing 4 toasters and 4 remotes, with each remote placed next to a toaster; the remotes are noticeably smaller than the chairs in the room. There are 5 chairs arranged across the space, and under each chair sits a large baseball glove \u2014 five gloves in total \u2014 each baseball glove clearly larger than any of the toasters. Three distinct people are present: one person visibly showing joy, another person visibly showing sadness, and a third person visibly showing trust, all naturally integrated into the scene.",
+        "A carefully arranged interior scene: five chairs are placed across the room, each with a single baseball glove resting directly underneath it (five gloves total); each glove is noticeably larger than the toasters in the room. Four toasters sit together on a side counter, and each toaster has a small remote placed directly next to it (four toasters and four remotes total); the remotes are clearly smaller than the chairs. Three people are in the scene \u2014 one person showing joy with a wide smile and raised arms, another person showing sadness with slumped shoulders and a downcast gaze, and a third person showing trust, leaning gently on a friend with a calm, open expression \u2014 all visible within the same composition that highlights the five chairs with gloves beneath them and the four toasters with remotes beside them."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'sports ball', 'count': 3}, {'object': 'toothbrush', 'count': 3}, {'object': 'car', 'count': 2}. Position the sports ball(s) behind the car(s). Position the sports ball(s) under the toothbrush(s). Make the car(s) smaller than the toothbrush(s). Make the car(s) larger than the sports ball(s). Include a person showing sadness. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "sports ball",
+            "count": 3
+          },
+          {
+            "object": "toothbrush",
+            "count": 3
+          },
+          {
+            "object": "car",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "sports ball",
+            "behind",
+            "car"
+          ],
+          [
+            "sports ball",
+            "under",
+            "toothbrush"
+          ]
+        ],
+        "size_relations": [
+          [
+            "car",
+            "smaller",
+            "toothbrush"
+          ],
+          [
+            "car",
+            "larger",
+            "sports ball"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A staged scene contains three small sports balls clustered on the ground, all positioned behind two mid-sized cars and each sitting directly underneath one of three oversized toothbrushes that hang or stand above them. The three toothbrushes are noticeably larger than the two cars, and the cars are clearly bigger than the sports balls. The two cars sit side by side in the middle distance, partially obscuring the balls behind them; each toothbrush aligns vertically above a ball. Nearby are two people: one person with teary eyes and a sorrowful expression showing sadness, and another person close by with wide eyes and an open mouth, body tense and showing fear.",
+        "A surreal, quietly lit scene shows two small cars in the foreground and three sports balls placed directly behind them; the three balls (a soccer ball, a basketball, and a tennis ball) sit lower in the composition so they are clearly under three oversized toothbrushes positioned above them. The three toothbrushes are noticeably larger than the two cars, while the cars are noticeably larger than the sports balls, making the size hierarchy toothbrushes > cars > balls obvious. To one side, a person stands with a sorrowful, downcast expression, and nearby another person recoils with a terrified, wide-eyed look and hands raised in fear.",
+        "An image shows two small cars in the foreground, with three sports balls positioned behind those cars and directly beneath three toothbrushes suspended above them. The three toothbrushes are noticeably larger than the two cars, and the two cars are noticeably larger than the three sports balls. A person on the left displays clear sadness, shoulders slumped and tears in their eyes, while a person on the right shows fear, eyes wide and hands raised in alarm. The scene emphasizes the relative sizes (toothbrushes largest, cars medium, sports balls smallest) and the specified spatial relationships (cars in front, sports balls behind the cars and under the toothbrushes)."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'vase', 'count': 1}, {'object': 'truck', 'count': 2}. Position the truck(s) to the right of the vase(s). Make the truck(s) smaller than the vase(s). Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "vase",
+            "count": 1
+          },
+          {
+            "object": "truck",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "truck",
+            "to the right of",
+            "vase"
+          ]
+        ],
+        "size_relations": [
+          [
+            "truck",
+            "smaller",
+            "vase"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A single large decorative ceramic vase sits slightly left of center in the frame; to the right of the vase are two much smaller toy-sized trucks placed side by side, clearly smaller than the vase. A person stands near the vase with a relaxed, trusting expression\u2014eyes gently closed and one hand lightly resting on the vase as if relying on it for support\u2014conveying a sense of trust. Soft natural light and a neutral background emphasize the scale difference and the calm mood.",
+        "A large elegant ceramic vase sits in the left foreground; to its right, two small trucks\u2014toy-sized and clearly smaller than the vase\u2014are parked side by side. A person stands beside the vase with a relaxed, trusting smile and eyes gently closed, one hand lightly resting on the vase in a gesture of trust."
+      ]
+    }
+  ]
+}

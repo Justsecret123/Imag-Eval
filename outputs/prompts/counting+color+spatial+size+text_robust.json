@@ -1,0 +1,197 @@
+{
+  "experiment_id": "counting+color+spatial+size+text_robust",
+  "timestamp": "2026-02-05T10:16:17.961298",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'person', 'count': 5, 'color': 'pink'}, {'object': 'kite', 'count': 4, 'color': 'brown'}, {'object': 'dog', 'count': 4, 'color': 'white'}, {'object': 'umbrella', 'count': 4, 'color': 'black'}. Position the kite(s) to the left of the dog(s). Position the person(s) to the right of the umbrella(s). Make the person(s) larger than the dog(s). Make the kite(s) smaller than the umbrella(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about dog, kite. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "person",
+            "count": 5,
+            "color": "pink"
+          },
+          {
+            "object": "kite",
+            "count": 4,
+            "color": "brown"
+          },
+          {
+            "object": "dog",
+            "count": 4,
+            "color": "white"
+          },
+          {
+            "object": "umbrella",
+            "count": 4,
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "kite",
+            "to the left of",
+            "dog"
+          ],
+          [
+            "person",
+            "to the right of",
+            "umbrella"
+          ]
+        ],
+        "size_relations": [
+          [
+            "person",
+            "larger",
+            "dog"
+          ],
+          [
+            "kite",
+            "smaller",
+            "umbrella"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "dog",
+            "kite"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A sunny park scene shows five people dressed in pink, each noticeably larger in scale than four white dogs clustered nearby. Four small brown kites float in the sky to the left of the four white dogs and are visibly smaller than four black umbrellas placed lower in the scene. The four black umbrellas sit to the left of the five pink people, so every person is positioned to the right of the umbrellas. A visible wooden sign in the foreground reads \"White dog loves brown kite flying high\".",
+        "On a suny park afternoon five peple wearing pink appear noticeably larger than four white dogs clustered nearby. To the left of the four white dogs, four small brown kites float in the sky and are visibily smaller than four black umbrellas placed lower in the scene. The four black umbrellas sit to the left of the five pink people, so every person is positioned to the right of the umbrellas. A visible wooden sign in the foreground reads \"White dog loves brown kite flying high\".",
+        "A sunny park scene shows five peopl dressed in pink who are noticably larger in scale than four white dogs clustered nearby. Four small brown kites float in the sky to the left of the four white dogs and are visbly smaller than four black umbrellas placed lower in the scene. The four black umbrellas sit to the left of the five pink people, so every person is positioned to the right of the umbrellas. A visible wooden sign in the forground reads \"White dog loves brown kite flying high\".",
+        "Bright park setting depicts five peple in pink, each noticeably larger in scale than four white dogs clustered nearby. Four small brown kites float in the sky to the left of the four white dogs and are visably smaller than four black umrellas placed lower in the scene. The four black umrellas sit to the left of the five pink people, so every person is positioned to the right of the umbrellas. A visible wooden sign in the forground reads \"White dog loves brown kite flying high\".",
+        "On a sunny park day five peple wearing pink stand noticeably larger than a cluster of four white dogs nearby. To the left of those white dogs four small brown kites drift in the sky; the kites are clearly smaller than four black umbrellas positioned lower in the scene. Those four black umbrellas are placed to the left of the five pink people, so each person lies to the rigth of the umbrellas. In the foreground a wooden sign is visable that reads \"White dog loves brown kite flying high\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'backpack', 'count': 2, 'color': 'red'}, {'object': 'teddy bear', 'count': 3, 'color': 'purple'}, {'object': 'sports ball', 'count': 2, 'color': 'blue'}. Position the teddy bear(s) behind the sports ball(s). Position the teddy bear(s) next to the backpack(s). Make the sports ball(s) smaller than the backpack(s). Make the sports ball(s) larger than the teddy bear(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about teddy bear, sports ball. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "backpack",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "teddy bear",
+            "count": 3,
+            "color": "purple"
+          },
+          {
+            "object": "sports ball",
+            "count": 2,
+            "color": "blue"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "teddy bear",
+            "behind",
+            "sports ball"
+          ],
+          [
+            "teddy bear",
+            "next to",
+            "backpack"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sports ball",
+            "smaller",
+            "backpack"
+          ],
+          [
+            "sports ball",
+            "larger",
+            "teddy bear"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "teddy bear",
+            "sports ball"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An image shows two red backpacks, three purple teddy bears, and two blue sports balls. The three purple teddy bears are positioned behind the two blue sports balls and are placed next to the red backpacks so the bears sit adjacent to the packs while remaining behind the balls. The blue sports balls are smaller than the red backpacks but slightly larger than the purple teddy bears, making the backpacks the largest items, the balls medium-sized, and the teddy bears the smallest. A small sign in the scene reads: \"Teddy bear and sports ball\"",
+        "An image depicts two red backpaks, three purple teddy bears, and two blue sports balls. The three purple teddy bears are positioned behind the two blue sports balls and set next to the red backpaks so the bears sit adjacent to the packs while staying behind the balls. The blue sports balls are smaller than the red backpaks but slightly larger than the purple teddy beairs, making the backpaks the largest items, the balls medium-sized, and the teddy bears the smallest. A small sign in the scene reads: \"Teddy bear and sports ball\"",
+        "An image shows two red backpaks, three purple teddy beears, and two blue sports balls. The three purple teddy beears are positioned behind the two blue sports balls and are placed next to the red backpaks so the bears sit adjecent to the packs while remaining behind the balls. The blue sports balls are smaller than the red backpaks but slightly larger than the purple teddy beears, making the backpaks the largest items, the balls medium-sized, and the teddy beears the smallest. A small sign in the scene reads: \"Teddy beear and sports ball\""
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+size+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'snowboard', 'count': 1, 'color': 'blue'}, {'object': 'sink', 'count': 2, 'color': 'gray'}. Position the sink(s) behind the snowboard(s). Make the sink(s) smaller than the snowboard(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about snowboard. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "snowboard",
+            "count": 1,
+            "color": "blue"
+          },
+          {
+            "object": "sink",
+            "count": 2,
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "sink",
+            "behind",
+            "snowboard"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sink",
+            "smaller",
+            "snowboard"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "snowboard"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single blue snowboard dominates the foreground, upright and filling much of the frame. Directly behind it, two small gray sinks are mounted on a tiled wall, clearly smaller than the snowboard and positioned behind it. A small white label attached to the front of the snowboard reads \"Snowboard\". The scene is lit with soft natural light and a neutral background so the blue snowboard and gray sinks stand out.",
+        "A lone blue snowboard dominates the front of the shot, standing upright and taking up most of the frame. Directly behind it, two small gray sinkes are affixed to a tiled wall, noticeably smaller and set behind the board. A tiny white lable stuck to the front of the snowboard reads \"Snowboard\". The scene is bathed in sofft natural light against a neutral backdrop so the blue board and gray sinks visibly pop."
+      ]
+    }
+  ]
+}

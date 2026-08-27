@@ -1,0 +1,162 @@
+{
+  "experiment_id": "color+spatial+size_robust",
+  "timestamp": "2026-02-04T16:21:09.682005",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+size",
+      "skills": [
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'pizza', 'color': 'white'}, {'object': 'toothbrush', 'color': 'yellow'}, {'object': 'sink', 'color': 'gray'}, {'object': 'handbag', 'color': 'brown'}. Position the sink(s) below the pizza(s). Position the toothbrush(s) to the left of the handbag(s). Make the handbag(s) smaller than the sink(s). Make the toothbrush(s) larger than the pizza(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "pizza",
+            "color": "white"
+          },
+          {
+            "object": "toothbrush",
+            "color": "yellow"
+          },
+          {
+            "object": "sink",
+            "color": "gray"
+          },
+          {
+            "object": "handbag",
+            "color": "brown"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "sink",
+            "below",
+            "pizza"
+          ],
+          [
+            "toothbrush",
+            "to the left of",
+            "handbag"
+          ]
+        ],
+        "size_relations": [
+          [
+            "handbag",
+            "smaller",
+            "sink"
+          ],
+          [
+            "toothbrush",
+            "larger",
+            "pizza"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A scene with white pizzas near the top of the frame and gray sinks positioned below the pizzas; bright yellow toothbrushes placed to the left of small brown handbags, with the brown handbags noticeably smaller than the gray sinks and the yellow toothbrushes noticeably larger than the white pizzas.",
+        "An image showing whit pizzas clustered near the top of the frame, with greay sinks set beneath them; bright yelow toothbrushes arranged to the left of small brown handbgs, the brown handbgs clearly much smaller than the greay sinks and the yelow toothbrushes markedly larger than the whit pizzas.",
+        "White pizzzas sit near the top of the frame, with gray sinks positoned below them; bright yello toothbrushes placed to the left of small brown hangbags, the brown hangbags noticeably smaller than the gray sinks and the yellow toothbrushes noticeably larger than the white pizzzas.",
+        "A scene showing white pizzes arranged near the top of the frame, with gray sinks positioned below; bright yellow toothbrushes placed to the left of small brown handbgs, the brown handbgs noticably smaller than the gray sinks and the yellow toothbrushes clearly larger than the white pizzas.",
+        "An image showing white pizzas near the top of the frame with gray sinks positioned below them; bright yelow toothbrushes placed to the left of small brown hanbags, with the brown hanbags noticeably smaller than the gray sinks and the yelow toothbruses noticeably larger than the white pizzas."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+size",
+      "skills": [
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'zebra', 'color': 'gray'}, {'object': 'frisbee', 'color': 'red'}, {'object': 'skateboard', 'color': 'black'}. Position the skateboard(s) in front of the zebra(s). Position the skateboard(s) under the frisbee(s). Make the skateboard(s) larger than the zebra(s). Make the skateboard(s) smaller than the frisbee(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "zebra",
+            "color": "gray"
+          },
+          {
+            "object": "frisbee",
+            "color": "red"
+          },
+          {
+            "object": "skateboard",
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "skateboard",
+            "in front of",
+            "zebra"
+          ],
+          [
+            "skateboard",
+            "under",
+            "frisbee"
+          ]
+        ],
+        "size_relations": [
+          [
+            "skateboard",
+            "larger",
+            "zebra"
+          ],
+          [
+            "skateboard",
+            "smaller",
+            "frisbee"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A gray zebra stands slightly behind a large black skateboard that is positioned in front of it; the skateboard is noticeably larger than the zebra but smaller than a bright red frisbee that hovers directly above and slightly overlapping the skateboard.",
+        "A grey zebra stands slighlty behind a large black skateboard positoned in front of it; the skateboard is noticebly larger than the zebra but smaller than a bright red frisbee that hovers directly above and slightly overlappng the skateboard.",
+        "A gray zebra stands just behind a large black skateboad positioned in front of it; the skateboad is noticebly larger than the zebra but smaller than a bright red frizbee that hovers directly above and sligtly overlapping the skateboad."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+size",
+      "skills": [
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'donut', 'color': 'purple'}, {'object': 'wine glass', 'color': 'black'}. Position the wine glass(s) below the donut(s). Make the donut(s) larger than the wine glass(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "donut",
+            "color": "purple"
+          },
+          {
+            "object": "wine glass",
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "wine glass",
+            "below",
+            "donut"
+          ]
+        ],
+        "size_relations": [
+          [
+            "donut",
+            "larger",
+            "wine glass"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A large purple donut dominates the upper part of the frame, noticeably larger than a small black wine glass positioned directly below it; the purple donut features glossy frosting and subtle texture while the black wine glass sits centered beneath, both casting soft shadows on a clean neutral background.",
+        "In the upper area of the frame a large purple donut domnates the scene, significantly bigger than a small black wine glass posistioned directly beneath it; the donut sports glossy frosting and a subtle texture, while the black wine glass sits centered below, both casting soft shadows on a clean, neutral bakcground."
+      ]
+    }
+  ]
+}

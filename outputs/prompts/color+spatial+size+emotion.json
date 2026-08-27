@@ -1,0 +1,177 @@
+{
+  "experiment_id": "color+spatial+size+emotion",
+  "timestamp": "2026-02-05T11:02:57.394013",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+size+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'toothbrush', 'color': 'blue'}, {'object': 'bird', 'color': 'black'}, {'object': 'airplane', 'color': 'yellow'}, {'object': 'teddy bear', 'color': 'brown'}. Position the toothbrush(s) behind the bird(s). Position the airplane(s) in front of the teddy bear(s). Make the teddy bear(s) smaller than the airplane(s). Make the toothbrush(s) larger than the bird(s). Include a person showing trust. Include a person showing anger. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "anger",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "toothbrush",
+            "color": "blue"
+          },
+          {
+            "object": "bird",
+            "color": "black"
+          },
+          {
+            "object": "airplane",
+            "color": "yellow"
+          },
+          {
+            "object": "teddy bear",
+            "color": "brown"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "toothbrush",
+            "behind",
+            "bird"
+          ],
+          [
+            "airplane",
+            "in front of",
+            "teddy bear"
+          ]
+        ],
+        "size_relations": [
+          [
+            "teddy bear",
+            "smaller",
+            "airplane"
+          ],
+          [
+            "toothbrush",
+            "larger",
+            "bird"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, slightly surreal park scene: oversized blue toothbrushes loom behind tiny black birds perched on a low fence, the toothbrushes noticeably larger than the birds; in the foreground several shiny yellow airplanes hover and fly just ahead of small brown teddy bears, the airplanes clearly larger than the teddy bears and positioned in front of them. Nearby, a woman with a warm, trusting smile gently reaches toward one of the tiny birds, a man with a furrowed brow and clenched jaw stands with an angry expression, and a child with wide eyes and an open mouth looks on in surprise.",
+        "A vivid scene in a sunlit park: a cluster of small black birds pecks at the grass in the middle ground, with several large blue toothbrushes positioned just behind them so the toothbrushes are visibly larger than the birds. In the sky above and slightly to the right, a bright yellow airplane hovers in front of a small brown teddy bear resting on a bench, the teddy bear noticeably smaller than the airplane. Nearby three people display clear emotions: one person with a gentle, open expression and soft smile showing trust, another with clenched jaw and furrowed brow showing anger, and a third with wide eyes and raised eyebrows showing surprise.",
+        "A composed scene: a small black bird perches on a low branch in the midground while, positioned slightly farther back and to the left, a large blue toothbrush sits behind the bird and is noticeably larger than it; in the foreground a bright yellow airplane hovers just in front of a tiny brown teddy bear, the airplane clearly larger than the teddy. Three people populate the scene: one person offers a warm, trusting smile and extends a hand in a handshake gesture, a second person scowls with furrowed brows and a clenched jaw showing anger, and a third person stands with wide eyes and hands raised to their face in visible surprise. Natural daylight and soft shadows keep the focus on the colored objects and the emotional expressions.",
+        "A vivid scene shows a bright yellow airplane low in the foreground, positioned directly in front of a small brown teddy bear so the airplane appears noticeably larger and the teddy bear diminutive; nearby a large blue toothbrush sits behind a small black bird, the oversized toothbrush looming from behind while the little black bird perches in front. To the left a person gazes with a trusting, warm smile and clasped hands; to the right another person stands with a reddened face and crossed arms, clearly angry; in the center a third person looks stunned, wide-eyed and hand to mouth in surprise.",
+        "A composed scene shows a small black bird perched midground with an oversized blue toothbrush placed directly behind it so the toothbrush is larger and sits farther back; in the foreground a bright yellow airplane flies slightly in front of a small brown teddy bear so the teddy bear is noticeably smaller and partially behind the airplane. Three people share the frame: one person with a warm, trusting expression and relaxed posture looking toward the bird and toothbrush, a second person visibly angry with furrowed brows and a clenched jaw, and a third person plainly surprised with wide eyes and an open mouth reacting to the airplane and teddy bear. The colors and relative sizes are clear: blue toothbrush behind a black bird, yellow airplane in front of a brown teddy bear, toothbrush larger than the bird, teddy bear smaller than the airplane."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+size+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'remote', 'color': 'brown'}, {'object': 'horse', 'color': 'pink'}, {'object': 'carrot', 'color': 'green'}. Position the remote(s) on top of the carrot(s). Position the remote(s) under the horse(s). Make the remote(s) smaller than the horse(s). Make the remote(s) larger than the carrot(s). Include a person showing joy. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "remote",
+            "color": "brown"
+          },
+          {
+            "object": "horse",
+            "color": "pink"
+          },
+          {
+            "object": "carrot",
+            "color": "green"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "remote",
+            "on top of",
+            "carrot"
+          ],
+          [
+            "remote",
+            "under",
+            "horse"
+          ]
+        ],
+        "size_relations": [
+          [
+            "remote",
+            "smaller",
+            "horse"
+          ],
+          [
+            "remote",
+            "larger",
+            "carrot"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A whimsical, sunlit scene in a grassy meadow: a large pink horse stands with one hoof slightly raised, and directly beneath it rests a medium brown remote control sitting on top of a small green carrot. The brown remote is noticeably smaller than the pink horse but clearly larger than the green carrot. To the left, a person beams with joy, arms raised and smiling broadly; to the right, another person looks downcast and sad, wiping away a tear. Soft, natural lighting and a bright, slightly surreal color palette.",
+        "A vivid, slightly surreal scene showing a large pink horse standing over a small brown remote control that sits directly on top of a tiny green carrot; the brown remote is clearly smaller than the pink horse but noticeably larger than the green carrot. In the foreground a person expresses pure joy with arms raised and a wide smile, and nearby another person sits hunched, face wet with tears, clearly showing sadness. Bright, natural light, crisp details, and saturated colors emphasize the contrast between the playful pink horse, the brown remote, and the green carrot.",
+        "A clear scene showing several small green carrots, each topped by a medium brown remote that is visibly larger than the carrot beneath it; above each remote a large pink horse stands or looms, so the remotes sit on top of the green carrots and are positioned directly under the pink horses, with the horses noticeably larger than the remotes and the remotes noticeably larger than the carrots. To the left, a person expresses joy with a broad smile and raised arms; to the right, a person expresses sadness with a downcast face and slumped shoulders. The composition emphasizes the size relationships (pink horses largest, brown remotes medium, green carrots smallest) and the vertical stacking (carrot \u2192 remote \u2192 horse)."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+size+emotion",
+      "skills": [
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'horse', 'color': 'blue'}, {'object': 'toilet', 'color': 'pink'}. Position the toilet(s) behind the horse(s). Make the horse(s) larger than the toilet(s). Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "horse",
+            "color": "blue"
+          },
+          {
+            "object": "toilet",
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "toilet",
+            "behind",
+            "horse"
+          ]
+        ],
+        "size_relations": [
+          [
+            "horse",
+            "larger",
+            "toilet"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A large blue horse dominates the foreground, noticeably bigger than a small pink toilet placed directly behind it; a nearby person displays clear anger with a scowling face, furrowed brows, and clenched fists, set against a simple neutral background to emphasize the vivid colors.",
+        "A surreal outdoor scene featuring a single large blue horse standing prominently in the foreground with a vivid cobalt coat; directly behind the horse, a smaller pastel pink toilet is positioned a few feet back, clearly smaller than the horse. Nearby, a person displays clear anger\u2014furrowed brows, clenched jaw, tense posture, and a raised hand as if shouting\u2014directed toward the scene. The background is simple and uncluttered to emphasize the contrast between the oversized blue horse, the pink toilet behind it, and the angry person."
+      ]
+    }
+  ]
+}

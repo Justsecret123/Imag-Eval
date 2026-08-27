@@ -1,0 +1,151 @@
+{
+  "experiment_id": "color+size+text",
+  "timestamp": "2026-02-05T09:05:22.965896",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+size+text",
+      "skills": [
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'scissors', 'color': 'orange'}, {'object': 'sink', 'color': 'pink'}, {'object': 'bottle', 'color': 'black'}, {'object': 'cake', 'color': 'yellow'}. Make the sink(s) larger than the scissors(s). Make the bottle(s) smaller than the cake(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about sink, bottle. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "scissors",
+            "color": "orange"
+          },
+          {
+            "object": "sink",
+            "color": "pink"
+          },
+          {
+            "object": "bottle",
+            "color": "black"
+          },
+          {
+            "object": "cake",
+            "color": "yellow"
+          }
+        ],
+        "size_relations": [
+          [
+            "sink",
+            "larger",
+            "scissors"
+          ],
+          [
+            "bottle",
+            "smaller",
+            "cake"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "sink",
+            "bottle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An overhead still-life: a large pink sink fills the background and is clearly larger than a small pair of orange scissors perched on its rim. A bright yellow cake sits on a plate in the foreground, with a tiny black bottle beside it that is noticeably smaller than the cake. A taped note on the sink shows the visible text: Pink sink, black bottle need cleaning.",
+        "A bright, realistic still-life scene: a large pink sink dominates the left side of the image, clearly larger than a pair of small orange scissors placed nearby on the counter. To the right, a tall yellow cake on a stand towers over a small black bottle sitting next to it\u2014the bottle is noticeably smaller than the cake. A handwritten sign propped against the cake displays the visible text: Check pink sink and black bottle. Soft natural lighting, sharp details, and true-to-life textures.",
+        "A clean, slightly stylized kitchen countertop scene, softly lit with warm daylight and gentle shadows. A large pink sink is installed in the counter and is noticeably larger than a pair of bright orange scissors lying nearby on the countertop. To the right, a round yellow cake on a white plate dominates a small black bottle placed next to it; the black bottle is clearly smaller than the yellow cake. A small white note taped to the faucet reads: \"Check pink sink and black bottle\". Keep the objects solid, saturated colors as specified (orange scissors, pink sink, black bottle, yellow cake), minimal clutter, realistic materials, soft reflections, and no other visible text.",
+        "A bright kitchen scene with a large pink sink dominating the counter, clearly larger than a nearby pair of small orange scissors. A small black bottle sits beside a large yellow cake, the bottle noticeably smaller than the cake. A small paper sign propped on the backsplash reads \"Keep sink and bottle clean daily\".",
+        "A bright, homey scene: a large pink sink dominates the countertop, noticeably bigger than the small orange scissors lying nearby. Beside the sink sits a small black bottle, clearly smaller than a plump yellow cake on a plate. A laminated note taped above the sink reads \"Check sink and bottle before use\". The orange scissors' handles pop against the pastel sink, while the cake's sunny yellow icing catches the light."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+size+text",
+      "skills": [
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'fork', 'color': 'blue'}, {'object': 'airplane', 'color': 'white'}, {'object': 'keyboard', 'color': 'purple'}. Make the keyboard(s) larger than the fork(s). Make the keyboard(s) smaller than the airplane(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about fork, keyboard. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "fork",
+            "color": "blue"
+          },
+          {
+            "object": "airplane",
+            "color": "white"
+          },
+          {
+            "object": "keyboard",
+            "color": "purple"
+          }
+        ],
+        "size_relations": [
+          [
+            "keyboard",
+            "larger",
+            "fork"
+          ],
+          [
+            "keyboard",
+            "smaller",
+            "airplane"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "fork",
+            "keyboard"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A vivid scene showing a small cluster of blue forks and a large purple keyboard on a wooden table in the foreground; the keyboard is noticeably larger than the forks but still smaller than the white airplane filling the sky in the background. The white airplane dominates the upper frame, clearly larger in scale than the purple keyboard. The purple keyboard sits centered, its keys catching soft studio light, with two blue forks lying beside it and appearing smaller in comparison. A small white card propped against the keyboard bears the clear text: \"Fork and keyboard colors compared\". Soft natural lighting, shallow depth of field, clean minimalist composition.",
+        "An image shows a slender blue fork resting on a wooden tabletop next to a compact purple keyboard; the keyboard is noticeably larger than the fork but clearly smaller than a sleek white airplane that fills the sky in the background. A small sticky note on the tabletop bears the five-word text: \"Blue fork meets purple keyboard\". Soft daylight creates gentle shadows across the scene.",
+        "A stylized scene shows a large white airplane dominating the sky in the background, with a mid-ground purple keyboard sitting on a wooden table that is clearly larger than a small blue fork lying beside it \u2014 the keyboard is noticeably smaller than the airplane. A small paper sign propped against the keyboard displays the visible five-word text: \"Blue fork and purple keyboard\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+size+text",
+      "skills": [
+        "color",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'train', 'color': 'white'}, {'object': 'hair drier', 'color': 'purple'}. Make the hair drier(s) smaller than the train(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about train. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "train",
+            "color": "white"
+          },
+          {
+            "object": "hair drier",
+            "color": "purple"
+          }
+        ],
+        "size_relations": [
+          [
+            "hair drier",
+            "smaller",
+            "train"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "train"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A long white train occupies the station platform, its glossy exterior reflecting sunlight. On a nearby bench sits a small purple hair drier, noticeably much smaller than the train. Above the tracks a platform sign reads \"White Train\".",
+        "A bright station scene featuring a sleek white train filling the middle ground; in the foreground a small purple hair drier, about the size of a hand, rests on a bench and is clearly much smaller than the train. A simple rectangular sign above the platform displays the two-word message \"White Train\" in bold letters."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "experiment_id": "color+emotion+text",
+  "timestamp": "2026-02-05T09:49:15.939460",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+emotion+text",
+      "skills": [
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bicycle', 'color': 'red'}, {'object': 'chair', 'color': 'white'}, {'object': 'broccoli', 'color': 'green'}, {'object': 'cat', 'color': 'gray'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about chair, bicycle. Include a person showing fear. Include a person showing surprise. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "surprise",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "bicycle",
+            "color": "red"
+          },
+          {
+            "object": "chair",
+            "color": "white"
+          },
+          {
+            "object": "broccoli",
+            "color": "green"
+          },
+          {
+            "object": "cat",
+            "color": "gray"
+          }
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "chair",
+            "bicycle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A street-side scene: a bright red bicycle leans against a weathered white chair, and a small printed sign attached to the chair reads \"White chair, red bicycle: please do not move\". A reusable grocery bag sits nearby with a head of vibrant green broccoli poking out, and a plump gray cat is curled on the chair seat, tail wrapped around its paws. Three people populate the scene \u2014 a woman near the bicycle clutching her chest and trembling in obvious fear, a teenager with wide eyes and hands thrown up showing surprise, and an older man seated on the curb with bowed shoulders and tears on his face, clearly sad.",
+        "A cluttered living-room scene: a red bicycle leans against a wall beside a simple white chair, a small handwritten sign taped to the chair reads \"Chair and bicycle should not be separated, please.\" A steaming bowl of green broccoli sits on a low table while a gray cat curls at the chair's foot. Three people react dramatically: a woman near the door freezes in fear, clutching her coat; a young man by the window gasps in surprise, hands raised to his mouth; and an older woman on the sofa bows her head, tears tracing her cheeks in sorrow.",
+        "A sunlit narrow courtyard scene: a bright red bicycle leans against a clean white chair with a small handwritten note taped to the chair that reads: This chair and bicycle belong to my neighbor. A bowl of fresh green broccoli sits on a nearby wooden table; a plump gray cat perches on the chair's back, watching. Three people are visible: a young woman near the bicycle recoils in fear with wide eyes and raised hands, a teenage boy beside the table shows surprise with hands to his mouth and an open expression, and an older man sits on a low step with slumped shoulders and a tearful, sad face. The sign's eight-word message about the chair and bicycle is clearly legible in the scene.",
+        "A bustling outdoor market tableau: a red bicycle leans against a chipped white chair beside a small wooden table holding a plate of bright green broccoli, and a sleepy gray cat curls on the chair's seat. A handmade sign propped on the table reads \"White chair, red bicycle: please do not touch\". Nearby three people react\u2014one clasps their hands to their mouth in fear, another stands frozen with wide eyes in surprise, and a third sits on the curb, shoulders hunched and face wet with sadness.",
+        "A cluttered front porch scene: a red bicycle leans against a weathered white chair next to a small table holding a bowl of green broccoli, while a gray cat perches on the chair watching intently. A handwritten sign propped by the bicycle reads: \"Chair and bicycle need fixing, please help us\". Three people are in the frame\u2014one backing away with wide eyes and raised hands showing fear, another nearby with mouth agape showing surprise, and a third sitting on the steps with tears on their cheeks showing sadness."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+emotion+text",
+      "skills": [
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'baseball bat', 'color': 'orange'}, {'object': 'zebra', 'color': 'green'}, {'object': 'kite', 'color': 'red'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about zebra, baseball bat. Include a person showing disgust. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "baseball bat",
+            "color": "orange"
+          },
+          {
+            "object": "zebra",
+            "color": "green"
+          },
+          {
+            "object": "kite",
+            "color": "red"
+          }
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "zebra",
+            "baseball bat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright, realistic park scene: a green zebra stands on a sunlit lawn, its stripes vivid and emerald, while an orange baseball bat with scuffed paint leans against a low white picket fence nearby. A red kite is tangled high in a tree above, its tail fluttering; a wooden sign on the fence clearly reads \"Zebra fears orange bat\". To the left, a woman shows disgust \u2014 nose wrinkled, lips curled, hand raised as if recoiling \u2014 and to the right a man shows joy, laughing with arms raised and eyes shining, holding a kite string. Soft afternoon light, shallow depth of field, candid moment.",
+        "A surreal park scene: a green zebra with dark green stripes stands beside an orange baseball bat propped against a wooden bench while a bright red kite soars overhead on a long string. A small handwritten sign on the bench reads \"Zebra dislikes orange bat\". Nearby a woman displays clear disgust, turning away with a scrunched face and hand over her nose, while a man nearby shows pure joy, laughing and beaming as he holds the kite string.",
+        "In a sunny park, a surreal green zebra grazes near a wooden bench where an orange baseball bat leans against the slats. A child, beaming with joy, runs beside a bright red kite fluttering overhead, while a nearby man wrinkles his nose and turns away in disgust. Tucked on the bench is a small handwritten sign that reads \"Zebra avoids orange bat\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+emotion+text",
+      "skills": [
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'keyboard', 'color': 'gray'}, {'object': 'skis', 'color': 'blue'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about keyboard. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "keyboard",
+            "color": "gray"
+          },
+          {
+            "object": "skis",
+            "color": "blue"
+          }
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "keyboard"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "In a cozy, sunlit studio a gray keyboard rests on a wooden desk beside a closed laptop, while a pair of blue skis lean against the wall; a person stands nearby, hands clasped and eyes bright with anticipation, and a small sticky note on the monitor plainly reads \"Gray keyboard ready\".",
+        "A bright studio scene features a gray keyboard centered on a wooden desk, a small sticky note propped against the monitor clearly reading \"New gray keyboard\"; a young person stands beside the desk, leaning forward with clasped hands and a hopeful, anticipatory expression, while a pair of blue skis leans against the wall in the background, sunlight streaming through a window and soft shadows falling across the keyboard."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "experiment_id": "color+spatial+emotion+text_robust",
+  "timestamp": "2026-02-05T10:27:32.836189",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'person', 'color': 'brown'}, {'object': 'bed', 'color': 'purple'}, {'object': 'cup', 'color': 'yellow'}, {'object': 'stop sign', 'color': 'orange'}. Position the person(s) inside the stop sign(s). Position the cup(s) to the right of the bed(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about stop sign, person. Include a person showing trust. Include a person showing anticipation. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "anticipation",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "person",
+            "color": "brown"
+          },
+          {
+            "object": "bed",
+            "color": "purple"
+          },
+          {
+            "object": "cup",
+            "color": "yellow"
+          },
+          {
+            "object": "stop sign",
+            "color": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "person",
+            "inside",
+            "stop sign"
+          ],
+          [
+            "cup",
+            "to the right of",
+            "bed"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "stop sign",
+            "person"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Three orange stop signs each frame a brown person standing inside: one brown person looks trusting with an open, relaxed posture and gentle smile, another brown person leans forward with eager eyes and clasped hands showing anticipation, and a third brown person has downcast eyes and slumped shoulders showing sadness. One orange stop sign bears a clear label that reads \"Stop sign protects the person; please wait.\" Nearby is a purple bed with a yellow cup placed immediately to the bed\u2019s right on a small table, making the arrangement of brown people inside orange stop signs, the purple bed, and the yellow cup obvious.",
+        "Three orange stop signs, each framing a brown person, depict different moods: one brown person stands with an open, relxed posture and a gentle smile conveying trust, a second leans forward with eager eyes and hands clasped in anticipation, and a third has slumped shoulders and downcast eyes showing sadness. One orange stop sign bears a clear labal that reads \"Stop sign protects the person; please wait.\" Nearby is a purple bed with a small table imediately to the bed\u2019s right holding a yellow cup, making the arrangement of the brown people inside the orange stop signs, the purple bed, and the yellow cup obvious.",
+        "Three orange stop signs each surround a brown person standing inside: one brown person appears trusting with an open, relaxed posture and a gentle smile; another leans forward with eager eyes and clasped hands, clearly anticipating; the third has downcast eyes and slumped shoulders, showing sadness. One of the orange stop signs bears a clear label that reads \"Stop sign protects the person; please wait.\" Nearby is a purple bed, and immediately to the bed's right on a small table sits a yellow cup, making the arrangment of the brown figurs inside orange stop signs, the purple bed, and the yellow cup obviuos.",
+        "Three oragne stop signs each enclose a brown person standing inside: one brown person looks trusting with an open, relexed posture and gentle smile, another brown person leans forward with eager eyes and clasped hands showing anticipation, and a third has downcast eyes and slumped shoulders showing sadness. One oragne stop sign bears a clear label that reads \"Stop sign protects the peerson; plese wait.\" Nearby is a purple bed with a yellow cup placed immediately to the bed's right on a small table, making the arrangment of the brown people inside the oragne stop signs, the purple bed, and the yellow cup obviuos.",
+        "Three orange stop signs each frame a brown person standing inside: one brown person looks trusting with an open, relxed posture and gentle smile, another brown person leans forward with eager eyes and claspped hands showing anticipation, and a third brown person has downcast eyes and slumped shoudlers showing sadness. One orange stop sign bears a clear label that reads \"Stop sign protects the person; please wait.\" Nearby is a purple bed with a yellow cup placed immediatly to the bed\u2019s right on a small table, making the arrangement of brown people inside orange stop signs, the purple bed, and the yellow cup obviosly apparent."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'orange', 'color': 'red'}, {'object': 'donut', 'color': 'orange'}, {'object': 'horse', 'color': 'black'}. Position the orange(s) below the donut(s). Position the orange(s) in front of the horse(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about orange, horse. Include a person showing fear. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "orange",
+            "color": "red"
+          },
+          {
+            "object": "donut",
+            "color": "orange"
+          },
+          {
+            "object": "horse",
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "orange",
+            "below",
+            "donut"
+          ],
+          [
+            "orange",
+            "in front of",
+            "horse"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "orange",
+            "horse"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright market scene shows glossy red oranges arranged on a low wooden plate in the foreground, positioned directly below a stack of orange-frosted donuts sitting on a glass cake stand. The red oranges sit in front of two black horses standing by a weathered fence, partially obscured by the fruit. To the left, a woman clutches her hands to her face, eyes wide and showing fear; to the right, a man sits hunched on a crate with tears on his cheek, clearly sad. A small handwritten sign on the fence reads \"Red orange before black horse\".",
+        "A vibrant market tableau features glossy red orenges arranged on a low wooden plate in the forground, directly beneath a stack of orange-frosted donuts displayed on a glass cake stand. The red orenges sit before two black horces by a weathered fence, partly hidden behind the fruit. To the left, a womon clasps her hands to her face, eyes wide with fear; to the right, a man hunched on a crate wipes tears from his cheek, cleerly sad. A small handwritten sign on the fence reads \"Red orange before black horse\".",
+        "A bright sunlit market scene shows glosy red oranges artfully arranged on a low wooden plate in the foreground, set directly beneath a stack of orange-frosted donuts diplayed on a glass cake stand. The red oranges sit in front of two black horses loitering by a weathered fence, partly obscured by the fruit. To the left, a woman clutches her hands to her face, eyes wide in fear; to the right, a man is hunched on a crate with tears on his cheek, clearly visably sad. A small handwriten sign nailed to the fence reads \"Red orange before black horse\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'spoon', 'color': 'pink'}, {'object': 'suitcase', 'color': 'red'}. Position the suitcase(s) next to the spoon(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about suitcase. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "spoon",
+            "color": "pink"
+          },
+          {
+            "object": "suitcase",
+            "color": "red"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "suitcase",
+            "next to",
+            "spoon"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "suitcase"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A surprised person stands behind a table, eyes wide and mouth open. On the table a glossy pink spoon lies with a small red suitcase placed directly beside it; a white luggage tag attached to the suitcase displays a single word: Suitcase. Soft, focused lighting highlights the pink spoon, the red suitcase, and the startled person against a softly blurred background.",
+        "A suprised person stands behind a table, eyes wide and mouth agape. On the table lies a glossy pink spoon with a small red suitcase set right beside it; a white lugggae tag tied to the case bears a single word: Suitcsae. Soft, focused lighting brings out the pink spoon, the red luggage and the startled figure against a gently blurred backgroud."
+      ]
+    }
+  ]
+}

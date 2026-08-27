@@ -1,0 +1,165 @@
+{
+  "experiment_id": "spatial+size+emotion",
+  "timestamp": "2026-02-05T10:47:24.002218",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+size+emotion",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'truck'}, {'object': 'snowboard'}, {'object': 'cake'}, {'object': 'bottle'}. Position the snowboard(s) to the left of the cake(s). Position the truck(s) to the right of the bottle(s). Make the cake(s) larger than the snowboard(s). Make the bottle(s) smaller than the truck(s). Include a person showing surprise. Include a person showing anticipation. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "anticipation",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "truck"
+          },
+          {
+            "object": "snowboard"
+          },
+          {
+            "object": "cake"
+          },
+          {
+            "object": "bottle"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "snowboard",
+            "to the left of",
+            "cake"
+          ],
+          [
+            "truck",
+            "to the right of",
+            "bottle"
+          ]
+        ],
+        "size_relations": [
+          [
+            "cake",
+            "larger",
+            "snowboard"
+          ],
+          [
+            "bottle",
+            "smaller",
+            "truck"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A festive outdoor scene: a large multi-tiered cake sits on a wooden table, and a snowboard is positioned to the left of the cake; the cake is noticeably larger than the snowboard. A small glass bottle rests on a nearby bench, and a rugged pickup truck is parked to the right of the bottle, the truck much larger than the bottle. Three people react to the scene: one shows surprise with wide eyes and an open mouth, another leans forward with eager anticipation, and a third beams with joyful laughter. Snow-dusted ground, scattered party decorations, and warm evening light complete the composition.",
+        "A winter celebration scene in a snowy resort parking area: on the far left two slender snowboards lean against a low fence, and immediately to their right sits a large, three-tiered cake that dwarfs the boards. To the right of the cake a row of small glass bottles lies on a picnic blanket, and on the far right a sturdy pickup truck is parked clearly larger than the bottles. A person standing beside the cake looks overtly surprised, eyes wide and mouth open; another person near the snowboards leans forward with hands clasped in eager anticipation; a third person by the truck is laughing with arms raised in joy.",
+        "A vivid outdoor scene arranged left to right: a single snowboard leans against a low fence to the left of a large, multi-tiered cake that clearly dwarfs the narrow board; to the right of the cake sits a small glass bottle, and farther to the right a sturdy pickup truck parked on the edge of the scene \u2014 the bottle is noticeably smaller than the truck. Three people animate the moment: a person beside the cake covers their mouth in surprise, another leans forward toward the cake with an eager, anticipatory expression, and a third stands by the truck, beaming with joy and throwing their arms up in celebration.",
+        "A wide, brightly lit scene arranged left to right: on the far left a single snowboard rests propped against a low fence; directly to its right sits a large, celebratory cake that is noticeably bigger than the snowboard. To the right of the cake is a small cluster of bottles, each markedly smaller than the nearby vehicle; to the right of those bottles is a big pickup truck parked so the truck is clearly to the right of the bottles. In the foreground three people react: one by the snowboard looks surprised, mouth open and eyes wide; another by the cake looks full of anticipation, hands clasped and leaning forward eagerly; and a third near the truck beams with joy, arms raised in a jubilant smile.",
+        "A lively scene composed left-to-right: at the far left a compact snowboard propped against a backdrop; immediately to its right sits a large multi-tiered celebration cake that is noticeably larger than the snowboard. Toward the right side of the frame a small glass bottle rests on a low table, and directly to the right of the bottle stands a big rugged pickup truck that is clearly much larger than the bottle. Three people interact among these objects: one person beside the cake with eyes wide and hands to their face in surprise, a second person leaning forward toward the cake with clasped hands and an eager, anticipatory expression, and a third person nearby with a broad smile and arms raised in joy. The composition emphasizes the relative positions and sizes: the snowboard is left of the cake, the cake is larger than the snowboard, the bottle is left of the truck, and the truck is larger than the bottle."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+size+emotion",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'baseball bat'}, {'object': 'backpack'}, {'object': 'tie'}. Position the baseball bat(s) next to the backpack(s). Position the baseball bat(s) above the tie(s). Make the baseball bat(s) smaller than the tie(s). Make the baseball bat(s) larger than the backpack(s). Include a person showing anger. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "baseball bat"
+          },
+          {
+            "object": "backpack"
+          },
+          {
+            "object": "tie"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "baseball bat",
+            "next to",
+            "backpack"
+          ],
+          [
+            "baseball bat",
+            "above",
+            "tie"
+          ]
+        ],
+        "size_relations": [
+          [
+            "baseball bat",
+            "smaller",
+            "tie"
+          ],
+          [
+            "baseball bat",
+            "larger",
+            "backpack"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A compact wooden baseball bat leans against a shelf, positioned directly next to a small school backpack and hanging above a long silk tie that drapes down beneath it; the bat is noticeably shorter than the tie yet clearly larger than the backpack. Nearby, a young man glares angrily with a clenched jaw and furrowed brow, while across from him a woman recoils, wide-eyed and hands raised in fear.",
+        "A tense interior scene: an angry man with a reddened face, furrowed brow and clenched fists glares across the room at a frightened young woman recoiling with wide eyes and raised hands. Between them on the rug lie two oversized neckties, draped and stretched out so they read as larger and longer than the other objects. Two wooden baseball bats are propped, leaning next to two small backpacks; the bats sit beside the backpacks and extend above the ties, the bats clearly larger than the compact backpacks but noticeably smaller in length and presence than the oversized ties. Low, dramatic lighting throws sharp shadows across the angry person\u2019s tense posture and the fearful person\u2019s trembling form.",
+        "A tense indoor scene: a compact baseball bat rests immediately next to a very small, worn backpack on a low table; the bat sits slightly above and beside an oversized silk tie draped over the table edge \u2014 the bat is clearly smaller than the large tie but noticeably larger than the tiny backpack. In the foreground one person glares with flushed cheeks, clenched jaw and a furrowed brow, visibly angry; a second person stands a few feet away with wide eyes, hunched shoulders and trembling hands, clearly frightened."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+size+emotion",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'cell phone'}, {'object': 'traffic light'}. Position the cell phone(s) to the right of the traffic light(s). Make the traffic light(s) smaller than the cell phone(s). Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "cell phone"
+          },
+          {
+            "object": "traffic light"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cell phone",
+            "to the right of",
+            "traffic light"
+          ]
+        ],
+        "size_relations": [
+          [
+            "traffic light",
+            "smaller",
+            "cell phone"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A cinematic urban scene at dusk: on the left a small, distant traffic light appears tiny against the skyline, its red glow muted; to the right, dominating the foreground, an oversized cell phone with a bright, glowing screen faces the viewer. A solitary person stands beside the large phone, shoulders slumped and head bowed, tears on their cheeks and a clearly sorrowful expression as they stare at the screen. Soft streetlights and shallow depth of field emphasize the size contrast and the person's sadness.",
+        "A cinematic urban scene: a large modern cell phone dominates the right side of the frame, its bright screen glowing and reflecting on wet pavement, while a much smaller traffic light hangs to the left of the phone, clearly smaller in scale with the red signal illuminated; between and slightly behind them stands a person showing sadness\u2014shoulders hunched, head bowed, eyes downcast and a single tear on their cheek\u2014soft, muted color tones, shallow depth of field, moody overcast lighting, subtle reflections and gentle bokeh from distant streetlights."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "experiment_id": "size+emotion+text_robust",
+  "timestamp": "2026-02-05T09:07:33.955903",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_size+emotion+text",
+      "skills": [
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'traffic light'}, {'object': 'hot dog'}, {'object': 'chair'}, {'object': 'book'}. Make the chair(s) larger than the traffic light(s). Make the book(s) smaller than the hot dog(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about hot dog, book. Include a person showing surprise. Include a person showing trust. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "trust",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "traffic light"
+          },
+          {
+            "object": "hot dog"
+          },
+          {
+            "object": "chair"
+          },
+          {
+            "object": "book"
+          }
+        ],
+        "size_relations": [
+          [
+            "chair",
+            "larger",
+            "traffic light"
+          ],
+          [
+            "book",
+            "smaller",
+            "hot dog"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "hot dog",
+            "book"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A whimsical urban scene with two oversized armchairs on the sidewalk that dwarf a nearby traffic light at the corner. A colorful hot dog cart displays a large hot dog on the counter, noticeably larger than a small paperback book lying palm-sized beside it. A hand-painted chalkboard sign beside the cart reads: Hot dog, book: two pleasures, one perfect pairing. A young woman stands with her hand to her mouth, eyes wide in surprise; the vendor smiles warmly with open palms, showing trust; and a teenager leans forward, eyes bright, showing anticipation.",
+        "A whimsical city scene shows two oversized armchairs parked on the sidewalk, their scale making the nearby traffic light at the corner look tiny. A colurful hot dog cart displays an enormous hot dog on its counter, noticeably bigger than a palm sized paperback book lying beside it. A hand-painted chalkbord proclaims: Hot dog, book: two pleasures, one perfect pairing. A young woman clasps her hand to her mouth, eyes wide with surprise; the vendor grins warmely with open palms in a gesture of trust; and a teenager leans forward, eyes bright with eager anticipation.",
+        "A whimsical urban scene shows two oversized armchairs on the sidelwalk at the corner, dwarfing a nearby traffic light. A coloful hot dog cart displays a huge hot dog on the counter, noticeably larger than a small paperback book lying palmsized beside it. A hand-painted chalkboard sign next to the cart proclaims: Hot dog, book: two pleasures, one perfct pairing. A young woman stands with her hand to her mouth, eyes wide in surprise; the vendor smiles warmley with open palms, conveying trust; and a teenager leans forward, eyes bright with anticipation.",
+        "On a whimsical city corner two enormous armchairs sit on the sidewalk, so oversized they dwarf the nearby trafffic light at the intersection. A bright, colourfull hot dog cart shows off a huge hot dog resting on the counter, clearly much larger than a palm-sized paperback book lying next to it; a hand-painted chalkbord sign proclaims: Hot dog, book: two pleasures, one perfekt pairing. A young woman clasps her hand to her mouth, eyes wide with surprise; the vendor beams with open palms in a warm, trusting smile; and a teenager leans forward, eyes alight with eager anticipation.",
+        "In a whimsical city corner two oversized armchairs sit on the sidewalk, dwarfing a nearby traffic light at the intersection. A bright, colorful hot dog cart displays a huge hot dog on the counter \u2014 noticeably larger than a palm-sized paperbak book lying beside it. A hand-painted chalkboard sign next to the cart reads: Hot dog, book: two pleasures, one perfecct pairing. A young woman stands with her hand to her mouth, eyes wide in surprise; the vendor smiles warmly with open pams, radiating trust; and a teenager leans forward, eyes bright with anticipaion."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_size+emotion+text",
+      "skills": [
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'donut'}, {'object': 'parking meter'}, {'object': 'toothbrush'}. Make the parking meter(s) larger than the donut(s). Make the parking meter(s) smaller than the toothbrush(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about toothbrush, parking meter. Include a person showing surprise. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "donut"
+          },
+          {
+            "object": "parking meter"
+          },
+          {
+            "object": "toothbrush"
+          }
+        ],
+        "size_relations": [
+          [
+            "parking meter",
+            "larger",
+            "donut"
+          ],
+          [
+            "parking meter",
+            "smaller",
+            "toothbrush"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "toothbrush",
+            "parking meter"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A quirky street scene: a comically oversized toothbrush towers over a row of mid-sized parking meters, and each parking meter is clearly larger than the tiny donuts scattered on the curb. A hand-lettered label affixed to one parking meter reads \"Toothbrush over parking meter, always\". A young woman nearby stands with eyes wide and mouth open in surprise as she points up at the giant toothbrush, while a man at the closest meter frowns, his face flushed and jaw clenched in anger, shaking his fist toward the sign; urban details like the meters' coin slots, glazed donut sprinkles, and the toothbrush's bristles are visible.",
+        "A whimsical urban tableau: an absurdly large toothbrush looms above a line of mid-sized parking meters, each meter noticeably bigger than the tiny dounts scattered along the curb. A hand-lettered tag afixed to one meter reads \"Toothbrush over parking meter, alwyas\". Nearby a young woman gapes, eyes wide and mouth open, pointing up at the enormous toothbrush, while the man at the nearest metre scowls, his face flushed and jaw clenched with anger as he shakes his fist toward the sign. Street-level details like the meters' coin slots, the glazed donut sprinkles, and the toothbrush brisltes are clearly visible.",
+        "A quirkey street scene where a comically enormous toothbrush looms over a row of mid-sized parking meters \u2014 each meter clearly bigger than the tiny donuts strewn along the curb. A hand-lettered label attached to one meter says \"Toothbrush over parking meter, alaways\". A young woman stands close by with eyes wide and mouth agape, pointing up at the giant toothbrush, while a man at the nearest meter scowls, his face flushed and jaw clenched, shaking his fist toward the sign; urban details like the meters' coin slots, glazed donut sprinkles, and the toothbrush's bristels are all visible."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_size+emotion+text",
+      "skills": [
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'toilet'}, {'object': 'carrot'}. Make the carrot(s) larger than the toilet(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about carrot. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "toilet"
+          },
+          {
+            "object": "carrot"
+          }
+        ],
+        "size_relations": [
+          [
+            "carrot",
+            "larger",
+            "toilet"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "carrot"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A surreal scene: a giant, bright orange carrot towers over a small white toilet, the carrot clearly several times larger than the toilet. A lone person sits beside the toilet with their head bowed, shoulders slumped and tears on their face, showing deep sadness. A battered cardboard sign taped to the carrot reads \"Save the Carrot\" in bold black letters, the only visible text in the image.",
+        "A surreal tableau: an enormous, vivid orange carrrot looms over a tiny white toilette, the vegetable many times the size of the fixture. Beside the toilet a lone person sits with their head bowed and shoulders hunched, tears on their face conveying profound sadnesss. A battred cardboard sign taped to the carrot proclaims \"Save the Carrot\" in bold black letters, the only visible text in the image."
+      ]
+    }
+  ]
+}

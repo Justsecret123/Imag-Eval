@@ -1,0 +1,117 @@
+{
+  "experiment_id": "counting+text_robust",
+  "timestamp": "2026-02-05T12:07:57.261217",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+text",
+      "skills": [
+        "counting",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'stop sign', 'count': 4}, {'object': 'horse', 'count': 5}, {'object': 'elephant', 'count': 4}, {'object': 'laptop', 'count': 5}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about stop sign, elephant. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "stop sign",
+            "count": 4
+          },
+          {
+            "object": "horse",
+            "count": 5
+          },
+          {
+            "object": "elephant",
+            "count": 4
+          },
+          {
+            "object": "laptop",
+            "count": 5
+          }
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "stop sign",
+            "elephant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A whimsical outdoor scene showing exactly four red octagonal stop signs at a rural crossroads, five horses grazing in the nearby field, four elephants calmly walking across the road, and five open laptops arranged on a picnic table with glowing screens; one of the stop signs displays a clear yellow placard with the visible seven-word message: \"Stop sign: elephants crossing; proceed with caution\".",
+        "A playful outdoor tableau at a rurl crossroads featuring exactly four red octagonal stop signs, five horses grazng in a nearby field, four elephants calmy ambling across the road, and five open laptops arranged on a picnic tble with glwoing screens; one of the stop signs shows a clear yellow placard bearing the visible seven-word message: \"Stop sign: elephants crossing; proceed with caution\".",
+        "A whimsical outdor scene at a rual crossroads showing exactly four red octoganal stop signs, five horses grazing in the nearby field, four elephants calmly walking across the road, and five open laptops arranged on a picnik table with glowing screns; one of the stop signs displays a clear yellow placard with the visible seven-word message: \"Stop sign: elephants crossing; proceed with caution\".",
+        "A fanciful outdoor tablou with exactly four red octagonal stop signs placed at a rural crossroads, five horses quietly grazing in the adjecent fieald, four elephants calmly sauntering across the roadway, and five open laptops with glwoing screens arranged on a picnic table; one of the stop signs bears a bright yellow placard displaying the seven-word message: \"Stop sign: elephants crossing; proceed with caution\".",
+        "A whimsical outdoor scene at a rual crossroads showing exactly four red octagonal stop signs, five horses grazzing in the nearby field, four elephents calmly walking across the road, and five open laptops arranged on a picnic table with glowing screns; one of the stop signs displays a clear yellow placard with the visible seven-word message: \"Stop sign: elephants crossing; proceed with caution\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+text",
+      "skills": [
+        "counting",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'stop sign', 'count': 3}, {'object': 'zebra', 'count': 2}, {'object': 'laptop', 'count': 2}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about stop sign, laptop. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "stop sign",
+            "count": 3
+          },
+          {
+            "object": "zebra",
+            "count": 2
+          },
+          {
+            "object": "laptop",
+            "count": 2
+          }
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "stop sign",
+            "laptop"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A sunlit street scene with three red octagonal stop signs on poles\u2014one prominently in the foreground, one to the left, and one farther back. Two zebras stand calmly on the grassy verge near a crosswalk, their black-and-white stripes contrasting with the pavement. Two open laptops are placed on a nearby bench, keyboards visible. A small white note taped to the central stop sign reads: \"Stop sign and laptop: safety first.\" The image juxtaposes urban signage, wildlife, and everyday technology.",
+        "Sunlit street scene with three red octagonal stop signs on poles \u2014 one large in the foreground, one to the left, and one farther back. Two zebras stand calmly on the grassy verg near a crosswalk, their black-and-white stripes contrasting with the pavement. Two open laptops rest on a nearby bench, keyboads visible. A small white note taped to the central stop sign reads: \"Stop sign and laptop: safety first.\" The image juxtaposes urban signage, wildlife, and everyday techonology.",
+        "A sunlit street scene shows three red octoganal stop signs on poles\u2014one prominent in the forground, one to the left, and one set farther back. Two zebras stand calmly on the grasy verge by a crosswalk, their black-and-white stripes contrasting with the pavemant. Two open laptos rest on a nearby bench with keybords visible. A small white note taped to the central stop sign reads: \"Stop sign and laptop: safety first.\" The image paires urban signage, wildlife, and everyday tecnology."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+text",
+      "skills": [
+        "counting",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'remote', 'count': 1}, {'object': 'toothbrush', 'count': 2}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about toothbrush. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "remote",
+            "count": 1
+          },
+          {
+            "object": "toothbrush",
+            "count": 2
+          }
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "toothbrush"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A close-up of a bathroom sink counter in soft morning light: a single black TV remote rests on a folded white hand towel beside two toothbrushes (one blue, one pink) standing upright in a clear glass holder; a small adhesive label on the mirror above them shows the single word \"Toothbrush\". Water droplets on the counter and subtle reflections on white tile add a lived-in, intimate feel.",
+        "Tight close-up of a bathroom sink countertop in soft mornig light: a lone black TV remtoe lies on a neatly folded white hand towel beside two toothbrushes (one blue, one pink) standing upright in a clear glass holder; a small adhesive label on the mirror above reads the single word \"Toothbrush\". Water droplets on the counter and faint reflections on white tile give a lived-in, intimate atmospere."
+      ]
+    }
+  ]
+}

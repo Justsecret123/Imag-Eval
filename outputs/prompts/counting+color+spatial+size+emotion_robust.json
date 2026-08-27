@@ -1,0 +1,189 @@
+{
+  "experiment_id": "counting+color+spatial+size+emotion_robust",
+  "timestamp": "2026-02-04T16:08:39.754148",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'couch', 'count': 4, 'color': 'pink'}, {'object': 'hair drier', 'count': 4, 'color': 'red'}, {'object': 'sports ball', 'count': 5, 'color': 'black'}, {'object': 'skateboard', 'count': 4, 'color': 'white'}. Position the sports ball(s) under the couch(s). Position the skateboard(s) above the hair drier(s). Make the skateboard(s) larger than the couch(s). Make the sports ball(s) smaller than the hair drier(s). Include a person showing anticipation. Include a person showing anger. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "anger",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "couch",
+            "count": 4,
+            "color": "pink"
+          },
+          {
+            "object": "hair drier",
+            "count": 4,
+            "color": "red"
+          },
+          {
+            "object": "sports ball",
+            "count": 5,
+            "color": "black"
+          },
+          {
+            "object": "skateboard",
+            "count": 4,
+            "color": "white"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "sports ball",
+            "under",
+            "couch"
+          ],
+          [
+            "skateboard",
+            "above",
+            "hair drier"
+          ]
+        ],
+        "size_relations": [
+          [
+            "skateboard",
+            "larger",
+            "couch"
+          ],
+          [
+            "sports ball",
+            "smaller",
+            "hair drier"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, slightly surreal living-room scene with four pink couches arranged in a loose square. Tucked under and partly hidden beneath those couches are five small black sports balls \u2014 each couch has at least one ball beneath it, with one couch holding two \u2014 and the balls are clearly smaller than the nearby red hair driers. Four red hair driers sit along the back wall, and above each hair drier hangs a white skateboard; the four white skateboards are noticeably larger than the pink couches. Three people animate the scene: one stands near a couch with an anticipatory, expectant look, another paces with a flushed, angry expression, and a third beams with obvious joy. The composition emphasizes the vertical relationships and size contrasts \u2014 oversized skateboards above, small black balls tucked under pink couches, and red hair driers beneath the skateboards.",
+        "A bright, slighly surreal living-room scene shows four pink couches arranged loosely in a square. Tucked under and partly hidden beneith those couches are five small black sports balls \u2014 each couch has at least one ball, with one couch holding two \u2014 and the balls are clearly smaller than the nearby red hair driers. Four red hair driers sit along the back wall, and above each drier hangs a white skatebaord; the four white skatebaords are noticeably larger than the pink couches. Three people animate the scene: one stands near a couch with an anticpatory, expectant look, another paces with a flushed, angry expression, and a third beams with obvious joy. The composition emphasizes the vertical relationships and size contrasts \u2014 oversized skateboards above, small black balls tucked under pink couches, and red hair driers beneath the skateboards.",
+        "A brightly lit, slightly surreal living room scene with four pink couchs arranged in a loose square. Tucked partly under those couchs are five small black sports balls \u2014 each couch has at least one ball beneath it and one couch holds two \u2014 the balls are noticeably smaller than the nearby red hair driers. Four red hair driers sit along the back wall, and above each drier hangs a white skateboad; the four white skateboads are significantly larger than the pink couches. Three people animate the scene: one stands beside a couch with an anticpatory, expectant look, another paces with a flushed, angrry expression, and a third beams with obvious joy. The composition emphasizes vertical relationships and size contrasts \u2014 oversized skateboards above, small black balls tucked under pink couches, and red hair driers positioned beneath the skateboards.",
+        "A bright, slightly surreal living-room scene with four pink couches arranged in a loose square. Tucked partly underneath those couches are five small black sports balls \u2014 each couch has at least one ball beneath it, with one couch holding two \u2014 and the balls are clearly smaller than the nearby red hair driers. Four red hair driers sit along the back wall, and above each hair drier hangs a white skateboad; the four white skateboads are noticeably larger than the pink couches. Three people anmimate the scene: one stands near a couch with an anticpatory, expectant look, another paces with a flushed, angry expression, and a third beams with obvious joy. The composition emphasizes the vertical relationships and size contrasts \u2014 oversized skateboads above, small black balls tucked under pink couches, and red hair driers beneath the skateboads.",
+        "A brightly lit, slighly surrreal living-room scene with four pink couches arranged in a loose square. Tucked under and partly hidden beneth those couches are five small black sports balls \u2014 each couch has at least one ball beneath it, with one couch holding two \u2014 and the balls are clearly smaller than the nearby red hair driers. Four red hair driers sit along the back wall, and above each hair drier hangs a white skatebaord; the four white skateboards are noticeably larger than the pink couches. Three people animate the scene: one stands near a couch with an anticipitory, expectant look, another paces with a flushd, angry expression, and a third beams with obvius joy. The composition emphasizes the veritcal relationships and size contrasts \u2014 oversized skateboards above, small black balls tucked under pink couches, and red hair driers beneth the skateboards."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cow', 'count': 2, 'color': 'purple'}, {'object': 'broccoli', 'count': 2, 'color': 'brown'}, {'object': 'motorcycle', 'count': 3, 'color': 'orange'}. Position the broccoli(s) above the cow(s). Position the broccoli(s) in front of the motorcycle(s). Make the broccoli(s) smaller than the motorcycle(s). Make the broccoli(s) larger than the cow(s). Include a person showing fear. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "cow",
+            "count": 2,
+            "color": "purple"
+          },
+          {
+            "object": "broccoli",
+            "count": 2,
+            "color": "brown"
+          },
+          {
+            "object": "motorcycle",
+            "count": 3,
+            "color": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "broccoli",
+            "above",
+            "cow"
+          ],
+          [
+            "broccoli",
+            "in front of",
+            "motorcycle"
+          ]
+        ],
+        "size_relations": [
+          [
+            "broccoli",
+            "smaller",
+            "motorcycle"
+          ],
+          [
+            "broccoli",
+            "larger",
+            "cow"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal outdoor scene: two purple cows stand side by side on short grass. Directly above them hover two brown broccoli, one positioned above each cow; the broccoli are closer to the viewer than the vehicles behind them and sit in front of the motorcycles. Three orange motorcycles are parked in a neat row behind the broccoli, farther from the camera. The brown broccoli are visibly larger than the cows but noticeably smaller than the motorcycles. A person showing fear recoils nearby with wide eyes and hands raised, while a separate person showing sadness sits or stands with slumped shoulders and tears, clearly distraught.",
+        "In a surreal outdoor tableau, two purple cows stand side by side on short grasss. Hovering directly above them are two brown brocoli, one over each cow; the brocoli are closer to the viewer than the vehicles behind them and sit in front of the motocycles. Three orange motorcycles are parked in a neat row behind the brocoli, farther from the camera. The brown brocoli are visably larger than the cows but noticably smaller than the motorcycles. Nearby a person showing fear recoils with wide eyes and hands raised, while a seperate person, clearly distraught, sits or stands with slumped shoulders and tears.",
+        "A surreal outdoor tableau: two purpel cows stand side by side on short grass. Directly above them hover two brown brocoli, one positioned above each cow; the brocoli are closer to the viewer than the vehicles behind them and sit in front of the motercycles. Three orange motercycles are parked in a neat row behind the brocoli, farther from the camera. The brown brocoli are visbly larger than the cows but noticeably smaller than the motercycles. A person showing fear recoils nearby with wide eyes and hands raised, while a seperate person showing sadness sits or stands with slumped shoulders and tears, clearly distraught."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'umbrella', 'count': 1, 'color': 'white'}, {'object': 'pizza', 'count': 1, 'color': 'black'}. Position the pizza(s) below the umbrella(s). Make the umbrella(s) larger than the pizza(s). Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "umbrella",
+            "count": 1,
+            "color": "white"
+          },
+          {
+            "object": "pizza",
+            "count": 1,
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "pizza",
+            "below",
+            "umbrella"
+          ]
+        ],
+        "size_relations": [
+          [
+            "umbrella",
+            "larger",
+            "pizza"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A single large white umbrella fills the upper part of the scene, noticeably larger than the objects below. Directly beneath it on the ground sits one small black pizza on a plate. A person stands beside the pizza, recoiling in disgust \u2014 nose wrinkled, mouth turned down, eyebrows furrowed, body leaning back and one hand raised as if pushing the pizza away.",
+        "A single oversized white umbrella dominates the upper portion of the scene, noticebly larger than the items below. Directly underneath on the ground sits a tiny black piza on a plate. A person stands beside it, recoiling in disgusst \u2014 nose wrinckled, mouth turned down, eyebrows furrowed, body leaning back with one hand raised as if to push the pizza away."
+      ]
+    }
+  ]
+}

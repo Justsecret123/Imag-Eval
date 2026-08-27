@@ -1,0 +1,212 @@
+{
+  "experiment_id": "all_skills_robust",
+  "timestamp": "2026-02-05T12:09:56.127968",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'horse', 'count': 5, 'color': 'pink'}, {'object': 'car', 'count': 4, 'color': 'blue'}, {'object': 'cat', 'count': 4, 'color': 'black'}, {'object': 'zebra', 'count': 5, 'color': 'yellow'}. Position the zebra(s) on top of the car(s). Position the cat(s) above the horse(s). Make the zebra(s) larger than the horse(s). Make the cat(s) smaller than the car(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about car, cat. Include a person showing surprise. Include a person showing joy. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "joy",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "horse",
+            "count": 5,
+            "color": "pink"
+          },
+          {
+            "object": "car",
+            "count": 4,
+            "color": "blue"
+          },
+          {
+            "object": "cat",
+            "count": 4,
+            "color": "black"
+          },
+          {
+            "object": "zebra",
+            "count": 5,
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "zebra",
+            "on top of",
+            "car"
+          ],
+          [
+            "cat",
+            "above",
+            "horse"
+          ]
+        ],
+        "size_relations": [
+          [
+            "zebra",
+            "larger",
+            "horse"
+          ],
+          [
+            "cat",
+            "smaller",
+            "car"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "car",
+            "cat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A playful, surreal scene: five pink horses stand on the ground in a loose line, and four bright blue cars are parked nearby with all five yellow zebras perched and balancing on the cars\u2019 roofs (some cars carry two zebras), the zebras noticeably larger than the horses. Four small black cats, each clearly smaller than the cars, sit and leap directly above the five pink horses on a low beam and in midair, visibly positioned above them. A hand-painted sign in the foreground reads exactly: \"Blue car and black cat are unlikely friends\". Three distinct people react to the scene \u2014 one person with eyes wide and hand to mouth showing surprise, another person grinning with arms raised showing joy, and a third person stepping back with a terrified, fearful expression \u2014 with bright, clear lighting and vivid color contrasts (pink horses, blue cars, black cats, yellow zebras).",
+        "A whimsical, surreal tableau: five pink horses stand on the ground in a loose line while four bright blue cars sit nearby, bearing five yellow zebras balancin on the cars\u2019 roofs (some cars carry two zebras); the zebras are noticeably larger than the horses. Four small black cats \u2014 each clearly smaller than the cars \u2014 sit and leap directly above the five pink horses on a low beam and in midair, visbly positioned over them. A hand-painted sign in the foreground reads exactly: \"Blue car and black cat are unlikely friends\". Three distinct peole react to the spectacle \u2014 one with eyes wide and hand to mouth in surprise, another grinning with arms raised in joy, and a third stepping back with a terrified, fearful expresion \u2014 all set in bright, clear lighting with vivid color contrast (pink horses, blue cars, black cats, yellow zebras).",
+        "A playful, surreal tableau: five pink horses stand loosely in a line on the ground while four bright blue cars are parked nearby and all five yellow zebras are perched and balencing on the cars' roofs (some cars carry two zebras), the zebras noticeably larger than the horses. Four small black cats, each clearly smaller than the cars, sit and leap directly above the five pink horses on a low beam and in midair, visibly positoned above them. A hand-painted sign in the foregroud reads exactly: \"Blue car and black cat are unlikely friends\". Three distinct people react to the scene \u2014 one person with eyes wide and hand to mouth showing surprise, anohter person grinning with arms raised in joy, and a third stepping back with a terrified, fearful expression \u2014 with bright, clear lighting and vivid color contrasts (pink horses, blue cars, black cats, yellow zebras).",
+        "A playful, surreal scene: five pink horses stand in a loose line on the ground while four bright blue cars are parked nearby, and all five yellow zebras are perched and balnacing on the cars\u2019 roofs (some cars carry two zebras), the zebras noticeably larger than the horses. Four small black cats, each clearly smaller than the cars, sit on a low beam and leap in midair directly above the five pink horses, visibly positiond above them. A handpainted sign in the foreground reads exactly: \"Blue car and black cat are unlikely friends\". Three distinct people react to teh scene \u2014 one person with eyes wide and a hand to mouth in surprize, another person grinning with arms raised in joy, and a third person stepping back with a terrified, fearful expression \u2014 with bright, clear lighting and vivid color contrasts (pink horses, blue cars, black cats, yellow zebras).",
+        "A playful, surrreal tableau: five pink horses stand on the ground in a loose line, while four bright blue cars are parked nearby and all five yellow zeebras are perched and balancingg on the cars' roofs (some cars carry two zebras), the zebras noticeably larger than the horses. Four small black cats, each clearly smaller than the cars, sit and leap directly above the five pink horses on a low beam and in midair, visibly positoned above them. A hand-panted sign in the foregound reads exactly: \"Blue car and black cat are unlikely friends\". Three distinct people react to the scene \u2014 one person with eyes wide and hand to mouth showing surprise, another grinning with arms raised showing joy, and a third stepping back with a terrified, fearful expression \u2014 with bright, clear lighting and vivid colour contrasts (pink horses, blue cars, black cats, yellow zebras)."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'stop sign', 'count': 3, 'color': 'white'}, {'object': 'baseball glove', 'count': 2, 'color': 'blue'}, {'object': 'sheep', 'count': 3, 'color': 'yellow'}. Position the sheep(s) above the stop sign(s). Position the sheep(s) inside the baseball glove(s). Make the baseball glove(s) larger than the sheep(s). Make the baseball glove(s) smaller than the stop sign(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about stop sign, sheep. Include a person showing anger. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "stop sign",
+            "count": 3,
+            "color": "white"
+          },
+          {
+            "object": "baseball glove",
+            "count": 2,
+            "color": "blue"
+          },
+          {
+            "object": "sheep",
+            "count": 3,
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "sheep",
+            "above",
+            "stop sign"
+          ],
+          [
+            "sheep",
+            "inside",
+            "baseball glove"
+          ]
+        ],
+        "size_relations": [
+          [
+            "baseball glove",
+            "larger",
+            "sheep"
+          ],
+          [
+            "baseball glove",
+            "smaller",
+            "stop sign"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "stop sign",
+            "sheep"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Three large white stop signs dominate the scene, clearly the biggest objects in the frame. Above them hover three small yellow sheep, all cradled inside two blue baseball gloves \u2014 one glove holds two sheep while the other holds the third; the gloves are noticeably larger than the sheep but are smaller than the stop signs. A small laminated note pinned to a nearby pole reads: \"Stop sign watches over the sheep\". A person with clenched fists and a scowling face shows clear anger, while another person nearby recoils with wide eyes and a fearful expression.",
+        "Three oversized white stop signs dominate the scene, clearly the largest objects in the frame. Above them float three tiny yellow sheeps, cradled inside two blue baseball glovves \u2014 one glove holds two of them while the other holds the third; the gloves are visibly bigger than the sheep but still smaller than the stop signs. A small laminted note pinned to a nearby pole reads: \"Stop sign watchs over the sheep\". One person, fists clenched and face twisted in a scowl, radiates clear anger, while another nearby recoils with wide eyes and a fearful expression.",
+        "In the frame three oversized white stop signs dominate the scene \u2014 they're clearly the biggest objets in view. Hovering above them are three tiny yellow sheep, all snug inside two blue baseball gloves: one glove cradles two sheep while the other holds the single third; the glvoes are noticeably larger than the sheeps but still smaller than the stop signs. A small laminted note pinned to a nearby pole reads: \"Stop sign watches over the sheep\". A person with clenched fists and a scowling face exudes anger, while another nearby recoils with wide eyes and a fearfull expression."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'airplane', 'count': 1, 'color': 'yellow'}, {'object': 'sink', 'count': 2, 'color': 'black'}. Position the airplane(s) next to the sink(s). Make the airplane(s) larger than the sink(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about airplane. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "airplane",
+            "count": 1,
+            "color": "yellow"
+          },
+          {
+            "object": "sink",
+            "count": 2,
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "airplane",
+            "next to",
+            "sink"
+          ]
+        ],
+        "size_relations": [
+          [
+            "airplane",
+            "larger",
+            "sink"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "airplane"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single large yellow airplane sits directly beside two small black sinks, the airplane noticeably larger than both sinks; a person nearby shows clear anger, scowling and pointing at the airplane. On a small sign above the sinks is visible text that reads \"Yellow airplane\" and no other words.",
+        "A large lone yellow airplaine is positioned right beside two small black sinks, the airplaine clearly much larger than the sinks; a nearby persson is visibly angry, scowling and pointing at the plane. Above the sinks a small sign displays the words \"Yellow airplane\" and no other text."
+      ]
+    }
+  ]
+}

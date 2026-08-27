@@ -1,0 +1,185 @@
+{
+  "experiment_id": "counting+spatial+size+text_robust",
+  "timestamp": "2026-02-05T10:58:14.239459",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+size+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'baseball glove', 'count': 5}, {'object': 'bottle', 'count': 4}, {'object': 'couch', 'count': 5}, {'object': 'mouse', 'count': 5}. Position the mouse(s) above the bottle(s). Position the baseball glove(s) inside the couch(s). Make the baseball glove(s) larger than the couch(s). Make the bottle(s) smaller than the mouse(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about baseball glove, bottle. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "baseball glove",
+            "count": 5
+          },
+          {
+            "object": "bottle",
+            "count": 4
+          },
+          {
+            "object": "couch",
+            "count": 5
+          },
+          {
+            "object": "mouse",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "mouse",
+            "above",
+            "bottle"
+          ],
+          [
+            "baseball glove",
+            "inside",
+            "couch"
+          ]
+        ],
+        "size_relations": [
+          [
+            "baseball glove",
+            "larger",
+            "couch"
+          ],
+          [
+            "bottle",
+            "smaller",
+            "mouse"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "baseball glove",
+            "bottle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A high-resolution photorealistic interior scene showing five couches arranged across a living room. Each couch contains a single oversized baseball glove (five baseball gloves total) that is noticeably larger than the couch and is nestled inside the cushions. Four small bottles (four total) sit on a coffee table, and five mice (five total) are positioned above the bottles so that each bottle has at least one mouse perched over it and one bottle has two mice stacked above it; the bottles are clearly smaller than the mice. A visible wall sign reads: Baseball glove protects; bottle holds water for players. Soft natural light, detailed textures of leather, fabric, glass, and fur, shallow depth of field, photorealistic.",
+        "Ultra-high-resolution photorealstic interior of a living room with five couches aranged across the space. Each couch contains a single oversized baseball glvoe (five glvoes total) that is noticeably larger than the couch and nesteld into the cushions. A low coffee table holds four small bottlles (four total); five mice are positioned above the bottles so that each bottle has at least one mouse perched on it and one bottle supports two mice stacked on top; the bottles are clearly smaller than the mice. A visible wall sign reads: Baseball glove protects; bottle holds water for players. Soft natural light, detailed textures of leather, fabric, glass, and fur, shallow depth of field, photorealistic.",
+        "High-resolution photorealistic interior of a living room with five couches arranged across the space. Each couch holds a single oversized baseball glvoe (five glvoes total), each noticeably larger than the couch and nestled in the cushions. On the coffee table sit four small botlles (four total). Above the botlles are five mices (five total), positioned so that each bottle has at least one mouse perched over it and one bottle has two mice stacked above it; the bottles are clearly smaller than the mice. A visible wall sign reads: Baseball glove protects; bottle holds water for players. Soft natural light, detailed textures of leather, fabric, glass, and fur, shallow depth of field, photorealstic.",
+        "A high-resolution photorrealistic interior shot of a living room with five couches spread across the space; each couch cradles one oversized baseball glove (five gloves total), each glove noticeably larger than the couch and nestled into the cushions. A central coffee table holds four small bottles, and above those bottles sit five mices arranged so every bottle has at least one mouse perched over it and one bottle supports a stack of two mice; the bottles are clearly smaller than the mice. A visble wall sign reads: Baseball glove protects; bottle holds water for players. Soft natural light, richly detailed textures of leather, fabric, glass, and fur, shallow depth of field, photorealistic.",
+        "High-resolution interior scene of a living room with five couches arranged across the space. Each couch contains a single oversized baseball glove (five baseball gloves total), each glove noticeably larger than its couch and nesteld into the cushions. A cofee table holds four small bottles (four total), and five mice (five total) are positioned above the bottles so that every bottle has at least one mouse perched on it and one bottle has two mice stacked above it; the bottles are clearly smaller than the mice. A visible wall sign reads: Baseball glove protects; bottle holds water for players. Soft natural light, richly detailed textures of leather, fabric, glass, and fur, shallow depth of field, photorealstic."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+size+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'hair drier', 'count': 2}, {'object': 'tennis racket', 'count': 3}, {'object': 'oven', 'count': 2}. Position the oven(s) above the tennis racket(s). Position the oven(s) behind the hair drier(s). Make the hair drier(s) larger than the oven(s). Make the hair drier(s) smaller than the tennis racket(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about oven, tennis racket. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "hair drier",
+            "count": 2
+          },
+          {
+            "object": "tennis racket",
+            "count": 3
+          },
+          {
+            "object": "oven",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "oven",
+            "above",
+            "tennis racket"
+          ],
+          [
+            "oven",
+            "behind",
+            "hair drier"
+          ]
+        ],
+        "size_relations": [
+          [
+            "hair drier",
+            "larger",
+            "oven"
+          ],
+          [
+            "hair drier",
+            "smaller",
+            "tennis racket"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "oven",
+            "tennis racket"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "In the foreground two hair driers sit side by side, each larger than the ovens but smaller than the tennis rackets. Behind them, two small ovens are mounted on a high shelf and positioned above three large tennis rackets that lean against the lower wall, so the ovens are directly above the rackets and behind the hair driers. A small sign on the shelf reads \"Oven and tennis racket\".",
+        "Two hair driers sit next to each other in the foreground, each one bigger than the ovens yet smaler than the tennis rackits. Behind them, two small ovens are mounted on a high shelv and posistioned above three large tennis rackets leaning against the lower wall, so the ovens rest directly above the rackets and behind the hair driers. A small sign on the shelf reads \"Oven and tennis racket\".",
+        "At the front a pair of hair driyres sit side by side, each larger than the small ovns but smaller than the tenis rakets. Behind them two compact ovens are mounted on a high shlef and sit directly above three large tenis rakets leaning against the lower wall, so the ovens are positioned above the rakets and behind the hair driyres. A small sign on the shelf reads \"Oven and tennis racket\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+size+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'fork', 'count': 1}, {'object': 'tv', 'count': 2}. Position the fork(s) below the tv(s). Make the fork(s) larger than the tv(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about fork. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "fork",
+            "count": 1
+          },
+          {
+            "object": "tv",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "fork",
+            "below",
+            "tv"
+          ]
+        ],
+        "size_relations": [
+          [
+            "fork",
+            "larger",
+            "tv"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "fork"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A clean, minimalist scene with two small television sets mounted side by side near the top of a plain wall and a single oversized fork positioned directly below them, substantially larger than each TV. The TVs show blank screens with no text or logos. A small label attached to the fork's base contains exactly one word written on it: fork. No other visible text appears anywhere in the image.",
+        "A tidy, minimalist composition featuring two tiny televisons mounted side-by-side near the upper part of a plian wall, and a single oversized fork placed directly beneath them, much larger than either TV. Both TVs display blank screens with no text or logos. A small lable affixed to the fork's base contains exaclty one word: fork. No other visible text appears anywhere in the image."
+      ]
+    }
+  ]
+}

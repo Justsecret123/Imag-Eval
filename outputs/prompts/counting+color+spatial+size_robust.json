@@ -1,0 +1,174 @@
+{
+  "experiment_id": "counting+color+spatial+size_robust",
+  "timestamp": "2026-02-05T12:18:55.744988",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+size",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'elephant', 'count': 5, 'color': 'yellow'}, {'object': 'book', 'count': 4, 'color': 'gray'}, {'object': 'skateboard', 'count': 4, 'color': 'blue'}, {'object': 'scissors', 'count': 4, 'color': 'brown'}. Position the elephant(s) in front of the scissors(s). Position the skateboard(s) under the book(s). Make the book(s) larger than the skateboard(s). Make the scissors(s) smaller than the elephant(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "elephant",
+            "count": 5,
+            "color": "yellow"
+          },
+          {
+            "object": "book",
+            "count": 4,
+            "color": "gray"
+          },
+          {
+            "object": "skateboard",
+            "count": 4,
+            "color": "blue"
+          },
+          {
+            "object": "scissors",
+            "count": 4,
+            "color": "brown"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "elephant",
+            "in front of",
+            "scissors"
+          ],
+          [
+            "skateboard",
+            "under",
+            "book"
+          ]
+        ],
+        "size_relations": [
+          [
+            "book",
+            "larger",
+            "skateboard"
+          ],
+          [
+            "scissors",
+            "smaller",
+            "elephant"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Five yellow elephants stand in the foreground, each noticeably larger than four small brown scissors placed directly behind them. Four gray books, each larger than the skateboards, rest above and are supported by four blue skateboards positioned directly beneath the books.",
+        "In the foreground five yelow elephants stand, each clearly bigger than the four small brown scisors placed directly behind them. Above them rest four gray books, each larger than the skateboards, supported by four blue skateboards positioned directly beneeth the books.",
+        "In the front are five yellow elefants, each clearly bigger than the four small brown scisors set just behind them. Above them rest four gray bokks, each larger than the skatebords, and they are suported by four blue skatebords positioned directly under the bokks.",
+        "In the foreground five yelow elephants stand, each clearly larger than four tiny brown scisscors placed directly behind them. Above them rest four gray books, each larger than the skatebaords, supported by four blue skateboards positioned right beneath the books.",
+        "In the foreground, five yellow elephants stand, each clearly visbly larger than four small brown scisors placed directly behind them. Above them, four gray books \u2014 each bigger than the skatebaords \u2014 rest, supported by four blue skatebaords positioned right beneath the books."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+size",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'backpack', 'count': 3, 'color': 'blue'}, {'object': 'tv', 'count': 2, 'color': 'white'}, {'object': 'dining table', 'count': 3, 'color': 'black'}. Position the dining table(s) to the left of the tv(s). Position the dining table(s) inside the backpack(s). Make the dining table(s) larger than the tv(s). Make the dining table(s) smaller than the backpack(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "backpack",
+            "count": 3,
+            "color": "blue"
+          },
+          {
+            "object": "tv",
+            "count": 2,
+            "color": "white"
+          },
+          {
+            "object": "dining table",
+            "count": 3,
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "dining table",
+            "to the left of",
+            "tv"
+          ],
+          [
+            "dining table",
+            "inside",
+            "backpack"
+          ]
+        ],
+        "size_relations": [
+          [
+            "dining table",
+            "larger",
+            "tv"
+          ],
+          [
+            "dining table",
+            "smaller",
+            "backpack"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Three blue backpacks are arranged on the left, each open and containing one black dining table; there are three black dining tables in total, each of which is noticeably larger than the two white TVs but still small enough to fit inside and be smaller than its enclosing blue backpack. To the right of these backpacks and their contained tables are two white TVs, both positioned to the right of every dining table.",
+        "On the left sit three open blue backpaks, each holding a single black dinning table; there are three black tables in total, each noticably larger than the two white TVs but still small enough to fit inside and remain smaller than its enclosing blue backpak. To the right of these backpaks and their contained tables are two white TVs, both posiitoned to the right of every dining table.",
+        "On the left are three blue backpaks, all unziped and each containing a single black dining table; there are three black dining tables in total, each clearly larger than the two white TVs but still small enough to fit inside and remian smaller than its enclosing blue backpak. To the right of these packs and their contained tables sit two white TVs, both posistioned to the right of every dining table."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+size",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'potted plant', 'count': 2, 'color': 'yellow'}, {'object': 'hair drier', 'count': 1, 'color': 'blue'}. Position the potted plant(s) below the hair drier(s). Make the hair drier(s) larger than the potted plant(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "potted plant",
+            "count": 2,
+            "color": "yellow"
+          },
+          {
+            "object": "hair drier",
+            "count": 1,
+            "color": "blue"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "potted plant",
+            "below",
+            "hair drier"
+          ]
+        ],
+        "size_relations": [
+          [
+            "hair drier",
+            "larger",
+            "potted plant"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A single large blue hair drier occupies the top of the image, noticeably larger than two smaller yellow potted plants arranged side by side below it.",
+        "Perched at the top of the image is a singe oversized blue hair drier, visibily larger than the two smaller yellow potted plants lined up side by side below it."
+      ]
+    }
+  ]
+}

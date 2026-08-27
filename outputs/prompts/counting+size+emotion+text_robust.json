@@ -1,0 +1,166 @@
+{
+  "experiment_id": "counting+size+emotion+text_robust",
+  "timestamp": "2026-02-04T16:23:14.654737",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+size+emotion+text",
+      "skills": [
+        "counting",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'vase', 'count': 4}, {'object': 'dining table', 'count': 4}, {'object': 'frisbee', 'count': 4}, {'object': 'tennis racket', 'count': 5}. Make the tennis racket(s) smaller than the vase(s). Make the frisbee(s) larger than the dining table(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about tennis racket, frisbee. Include a person showing disgust. Include a person showing sadness. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "sadness",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "vase",
+            "count": 4
+          },
+          {
+            "object": "dining table",
+            "count": 4
+          },
+          {
+            "object": "frisbee",
+            "count": 4
+          },
+          {
+            "object": "tennis racket",
+            "count": 5
+          }
+        ],
+        "size_relations": [
+          [
+            "tennis racket",
+            "smaller",
+            "vase"
+          ],
+          [
+            "frisbee",
+            "larger",
+            "dining table"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "tennis racket",
+            "frisbee"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A realistic interior scene that contains four wooden dining tables arranged across the floor, four oversized decorative ceramic vases placed near the center of the room, four giant frisbees each noticeably larger in diameter than the dining tables, and five unusually small tennis rackets that are visibly smaller than the vases. The five small tennis rackets are scattered around the bases of the vases and on the floor; the four large frisbees lean against walls and hang like oversized art pieces above the tables. On the back wall a clear sign reads: \"Tennis racket, frisbee: Do not mix\". Three people are in the frame showing distinct emotions: one person recoiling with obvious disgust, another seated with tears and a bowed head showing sadness, and a third standing with clenched fists and a reddened face showing anger. Soft natural light, realistic photographic detail, medium-wide composition.",
+        "A photorealistic interior shot shows four wooden dinig tables spaced across the floor, with four oversized decorative cermaic vases placed near the center of the room. Four giant frisbees, each noticeably larger in diameter than the dining tables, lean against the walls and also hang like oversized art pieces above the tables. Five unusually small tennis rackets, visibly smaller than the vases, are scatered around the bases of the vases and on the floor. On the back wall a clear sign reads: \"Tennis racket, frisbee: Do not mix\". Three people are in the frame displaying distinct emotions: one recoiling in obvious disgust, another seated with tears and a bowed head showing sadness, and a third standing with clenched fists and a reddened face showing anger. Soft natural light, realistic photographic detail, medium-wide composition.",
+        "A lifelike interior scene showing four wooden dinning tables arranged across the floor, four oversized decorative cermaic vases placed near the center of the room, four giant frisbees each noticeably larger in diameter than the dining tables, and five unusually small tennis rackets that are visably smaller than the vases. The five small tennis rackets are scattered around the bases of the vases and on the floor; the four large frisbees lean against walls and hang like oversized art pieces above the tables. On the back wall a clear sign reads: \"Tennis racket, frisbee: Do not mix\". Three people are in the frame showing distinct emotions: one person recoiling with obvious disgust, another seated with teers and a bowed head showing sadness, and a third standing with clenched fists and a reddened face showing anger. Soft natural light, realistic photographic detail, medium-wide composition.",
+        "A realistic interior scene featuring four wooden dining tables spaced across the floor, with four oversized decorative ceramnic vases grouped near the center of the room. Four giant frisbees, each noticeably larger in diammeter than the dining tables, sit alongside five unusually small tenis rackets that are visibly smaller than the vases. The five tiny rackets are scattered around the bases of the vases and on the floor; the four large frisbees lean against the walls and hang like oversized art pieces above the tables. On the back wall a clear sign reads: \"Tennis racket, frisbee: Do not mix\". Three people are in the frame showing distinct emotions: one person recoiling with obvious disgusst, another seated with tears and a bowed hed showing sadness, and a third standing with clenched fists and a reddened face showing anger. Soft natural light, realistic photographic detail, medium-wide composition.",
+        "A realistic interior shot featuring four wooden dining tables spread across the floor, four oversized decorative cermaic vases clustered near the room's center, four giant frisbees each significantly larger in diameter than the tables, and five unusually small tenis rackets that are visibly smaller than the vases. The five tiny tennis rackets lie scattered around the bases of the vases and on the floor; the four large frisbees lean against the walls and hang like oversized art pieces above the tables. On the back wall a clear sign reads: \"Tennis racket, frisbee: Do not mix\". Three people appear in the frame with distinct emotions: one person recolling with obvious disgust, another seated with tears and a bowed head conveying sadness, and a third standing with clenched fists and a reddened face showing anger. Soft natural light, realistic photographic detail, medium-wide composition."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+size+emotion+text",
+      "skills": [
+        "counting",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'cat', 'count': 2}, {'object': 'mouse', 'count': 2}, {'object': 'hair drier', 'count': 3}. Make the mouse(s) larger than the hair drier(s). Make the mouse(s) smaller than the cat(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about hair drier, cat. Include a person showing fear. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "cat",
+            "count": 2
+          },
+          {
+            "object": "mouse",
+            "count": 2
+          },
+          {
+            "object": "hair drier",
+            "count": 3
+          }
+        ],
+        "size_relations": [
+          [
+            "mouse",
+            "larger",
+            "hair drier"
+          ],
+          [
+            "mouse",
+            "smaller",
+            "cat"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "hair drier",
+            "cat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A domestic scene showing 2 cats, 2 mice, and 3 hair driers arranged across a kitchen floor: the cats are the largest animals, lounging on a low sofa, the two mice are medium-sized and clearly larger than the three small hair driers scattered nearby but still smaller than the cats. One person at the doorway shows fear, backing away with wide eyes and a hand over their mouth; another person kneels beside a cat, smiling and reaching out in a trusting, gentle gesture. A crumpled note taped to the cabinet displays the visible text \"Hair drier scares cat\".",
+        "A cozy kitchen floor scene with 2 cats, 2 mice, and 3 small hair driers arranged across the room: the cats are the largest animals, louging on a low sofa; the two mice are medium-sized, noticeably larger than the three tiny hair driers scatered nearby but still smaller than the cats. At the dooorway one person looks frighened, backing away with wide eyes and a hand over their mouth; another person kneels beside a cat, smiling and reaching out in a trusting, gentle gesture. A crumpled note taped to the cabinet displays the visble text \"Hair drier scares cat\".",
+        "A home kitchen scene with two cats, two mice and three hair driers spread across the kitchen floar: the cats are the largest animals, lounged on a low sofa, while the two mice are medum-sized and clearly bigger than the three small hair driers scattered nearby but still smaller than the cats. At the doorway one person is backing away in fear, with wide eyes and a hand over thier mouth; another person kneels beside a cat, smiling and reaching out in a gentle, trusting gesture. A crumpled note taped to the cabinet displays the visible text \"Hair drier scares cat\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+size+emotion+text",
+      "skills": [
+        "counting",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'cow', 'count': 2}, {'object': 'keyboard', 'count': 1}. Make the keyboard(s) larger than the cow(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about cow. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "cow",
+            "count": 2
+          },
+          {
+            "object": "keyboard",
+            "count": 1
+          }
+        ],
+        "size_relations": [
+          [
+            "keyboard",
+            "larger",
+            "cow"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "cow"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A staged outdoor scene showing two cows and a single oversized computer keyboard that dwarfs them \u2014 the keyboard is clearly larger than both cows and fills much of the foreground. A person stands nearby making a disgusted face, nose wrinkled and hand raised as if recoiling. A weathered wooden sign propped against a fence reads \"Cows are disgusting\".",
+        "A staged outdoor tableau with two cows flanking a single oveersized computer keyboard that dwarfs them \u2014 the keyboard is obviously larger than both animals and domintes much of the foreground. A person stands nearby making a disgusted face, nose wrinkled and hand raised as if recoiling. A weathered wooden sign propped against a fence reads \"Cows are disguisting\"."
+      ]
+    }
+  ]
+}

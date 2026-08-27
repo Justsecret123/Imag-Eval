@@ -1,0 +1,22 @@
+experiment:
+  name: color+size
+prompt_generation:
+  metadata_config:
+    name: coco
+  skills:
+  - level: hard
+    skills: [color, size]
+    k: 5
+  - level: medium
+    skills: [color, size]
+    k: 3
+  - level: easy
+    skills: [color, size]
+    k: 2
+  llm_model:
+    name: openai
+    model: gpt-5-mini
+    temperature: 1
+  samples_per_skill: 1
+output:
+  file: outputs/prompts/color+size.json

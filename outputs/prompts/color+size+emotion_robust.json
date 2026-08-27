@@ -1,0 +1,143 @@
+{
+  "experiment_id": "color+size+emotion_robust",
+  "timestamp": "2026-02-05T11:05:50.242721",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+size+emotion",
+      "skills": [
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bear', 'color': 'white'}, {'object': 'donut', 'color': 'yellow'}, {'object': 'dining table', 'color': 'purple'}, {'object': 'toaster', 'color': 'green'}. Make the dining table(s) smaller than the toaster(s). Make the donut(s) larger than the bear(s). Include a person showing trust. Include a person showing sadness. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "sadness",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "bear",
+            "color": "white"
+          },
+          {
+            "object": "donut",
+            "color": "yellow"
+          },
+          {
+            "object": "dining table",
+            "color": "purple"
+          },
+          {
+            "object": "toaster",
+            "color": "green"
+          }
+        ],
+        "size_relations": [
+          [
+            "dining table",
+            "smaller",
+            "toaster"
+          ],
+          [
+            "donut",
+            "larger",
+            "bear"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal, whimsical diner scene: oversized yellow donuts loom in the foreground, each donut much larger than the small white bears curled near them, the bears looking delicate and downscaled beside the towering pastries. Scattered around are tiny purple dining tables deliberately miniature in scale \u2014 clearly smaller than the large green toasters that sit beside and behind them, the toasters looming like appliances magnified into sculptures. Three people occupy the midground: a person with soft, open eyes and a gentle smile holding out a hand in a gesture of trust toward a bear; a second person seated with shoulders hunched and a tearful expression of sadness, face partly in their hands; and a third person recoiling slightly with a wrinkled nose and curled lip, showing clear disgust as they glance at a glaze on one of the donuts. Warm, directional light highlights the glossy yellow of the donuts, the clean white fur of the bears, the vibrant purple tables and glossy green toasters, creating a dreamlike, slightly playful yet emotionally complex composition.",
+        "A surreal, whimsical diner tableau where oversized yellow dounuts dominate the foreground, each pastry towering over tiny white bears curled up close to thier bases \u2014 the bears look fragile and comically downscaled next to the mammoth sweets. Tiny purple dinning tables are scattered around on purpose, obviously smaller than the large green toasters that sit beside and behind them, the toasters looming like everyday appliances blown up into sculptural forms. In the midground three people form a quiet triad: one person with soft, open eyes and a gentle smile reaches out a hand in a gesture of trust toward a bear; a second sits with hunched shoulders, partly covering a tearful, sad face with their hands; a third recoils slightly, nose wrinkled and lip curled in clear disgust as they glance at a shiny glase on one of the donuts. Warm, directional light skims the glossy yellow surfaces of the pastries, the clean white fur of the bears, the vivid purple tables and the glossy green toasters, giving the scene a dreamlike, slightly playful yet emotionally complex mood.",
+        "A surreal, whimsical diner scene: oversized yellow donuts loom in the foreground, each donut much larger than the small white bears curled near them, the bears looking delicate and downscaled beside the towering pastries. Scattered around are tiny purple dining tables, deliberately miniaturee in scale \u2014 clearly smaller than the large green toasters that sit beside and behind them, the toasters looming like appliances magnified into sculptures. In the midground three people occupy the space: one person with soft, open eyes and a gentle smile holds out a hand in a gesture of trust toward a bear; a second person sits with hunched shoulders and a tearful expression, their face partly in their hands; and a third person recoils slightly, nose wrinkled and lip curled in clear disgust as they glance at a glazy spot on one of the donuts. Warm, directional light highlights the glossy yellow of the pastries, the clean white fur of the bears, the vibrant purple tables and the shiny green toasters, creating a dreamlike, slightly playful yet emotionally complex compostion.",
+        "An otherworldly, whimiscal diner scene: oversized yellow dounuts loom in the forground, each dounut far larger than the small white bears curled beside them, the bears looking delicate and downscaled beside the towering pastries. Scattered about are tiny purple dining tables, delibrately minature in scale\u2014clearly smaller than the large green toasters that sit beside and behind them, the toasters looming like everyday appliances magnified into sculptures. Three people occupy the midground: one with soft, open eyes and a gentle smile extending a hand in a gesture of trust toward a bear; a second seated with hunched shoulders and a tearful expression, their face partly buried in their hands; and a third recoiling slightly, nose wrinkled and lip curled in clear disgusst as they glance at a glaze on one of the donuts. Warm directional light picks out the glossy yellow of the dounuts, the clean white fur of the bears, the vibrant purple tables and the glosy green toasters, creating a dreamlike, slightly playful yet emotionally complex composition.",
+        "A surreal, whimsical diner scene: oversized yellow donuts tower in the foreground, each donut much larger than the tiny white bears curled near them, the bears looking delicate and downscaled beside the towering prastries. Scattered around are tiny purple dining tables deliberately miniature in scale \u2014 clearly smaler than the large green toasters that sit beside and behind them, the toasters looming like appliances magnified into sculptures. Three people occupy the midground: a person with soft, open eyes and a gentle smile holding out a hand in a gesture of trust toward a bear; a second person seated with shoulders hunched and a tearful expression of sadness, face partly in their hands; and a third person recoiling slightly with a wrinkled nose and curled lip, showing clear disgust as they glance at a glaze on one of the donuts. Warm, directional light highlights the glosy yellow of the donuts, the clean white fur of the bears, the vibrant purple tables and glossy green toasters, creating a dreamlike, slightly playful yet emotionally complex compisition."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+size+emotion",
+      "skills": [
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'kite', 'color': 'blue'}, {'object': 'donut', 'color': 'pink'}, {'object': 'carrot', 'color': 'green'}. Make the donut(s) larger than the kite(s). Make the donut(s) smaller than the carrot(s). Include a person showing joy. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "kite",
+            "color": "blue"
+          },
+          {
+            "object": "donut",
+            "color": "pink"
+          },
+          {
+            "object": "carrot",
+            "color": "green"
+          }
+        ],
+        "size_relations": [
+          [
+            "donut",
+            "larger",
+            "kite"
+          ],
+          [
+            "donut",
+            "smaller",
+            "carrot"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Sunlit park scene: a small blue kite flutters low in the breeze while a pink donut sits on a picnic blanket \u2014 noticeably larger than the little blue kite but clearly smaller than a tall green carrot sculpture standing nearby. A young woman beams with joy, arms raised and laughing as she watches the kite, and her friend stands close with eyes softly closed and head resting on her shoulder, a relaxed posture that shows trust.",
+        "Sunlit park scene: a tiny blue kite drifts low in the breez, while a pink dounut rests on a picnic blanket \u2014 bigger than the little blue kite but still smaller than a tall green carrot sculpture standing nearby. A young woman beams with joy, arms lifted and laughing as she watches the kite, and her frend stands close with eyes gently closed and head resting on her shoulder, a relaxed posture that conveys trust.",
+        "A sunlit park scene: a tiny blue kite fluters low in the breeze while a pink doughnut sits on a picnik blanket \u2014 noticeably larger than the little blue kite but clearly smaller than a tall green carrot sculpture standing nearby. A young woman beams with joy, arms raised and laughing as she watches the kite, and her friend stands close with eyes softly closed and head resting on her shoulder, a relaxed posture that shows trustng."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+size+emotion",
+      "skills": [
+        "color",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'chair', 'color': 'blue'}, {'object': 'motorcycle', 'color': 'green'}. Make the motorcycle(s) larger than the chair(s). Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "chair",
+            "color": "blue"
+          },
+          {
+            "object": "motorcycle",
+            "color": "green"
+          }
+        ],
+        "size_relations": [
+          [
+            "motorcycle",
+            "larger",
+            "chair"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A realistic street scene: a shiny green motorcycle dominates the foreground, noticeably larger than a small blue chair placed nearby; a person stands beside them with an eager, anticipatory expression\u2014leaning forward, hands slightly raised, eyes bright\u2014ready to ride, with warm late-afternoon light and subtle shadows.",
+        "Realistic street scene: a glossy green motorcyle fills the foreground, clearly larger than a small blue chair sitting nearby. A person stands beside it with an eager, exspectant expression\u2014leaning forward, hands slightly raised, eyes brite\u2014poised to ride in warm late-afternoon light with soft, subtle shadows."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "experiment_id": "counting+color+emotion+text",
+  "timestamp": "2026-02-05T12:12:17.632291",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bird', 'count': 5, 'color': 'green'}, {'object': 'skateboard', 'count': 4, 'color': 'pink'}, {'object': 'laptop', 'count': 4, 'color': 'white'}, {'object': 'motorcycle', 'count': 5, 'color': 'gray'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about skateboard, motorcycle. Include a person showing trust. Include a person showing joy. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "joy",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "bird",
+            "count": 5,
+            "color": "green"
+          },
+          {
+            "object": "skateboard",
+            "count": 4,
+            "color": "pink"
+          },
+          {
+            "object": "laptop",
+            "count": 4,
+            "color": "white"
+          },
+          {
+            "object": "motorcycle",
+            "count": 5,
+            "color": "gray"
+          }
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "skateboard",
+            "motorcycle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A lively city park scene at midday: five green birds perch and flutter across a low wooden fence, a lamp post, and the picnic table. Five gray motorcycles are parked in a neat row along the curb. Four pink skateboards rest against a bench and lie scattered on the walkway. Four white laptops are open\u2014two on a picnic table and two on a nearby blanket. A small hand-painted wooden sign by the path reads Skateboards and motorcycles race through the park. Three people are visible: one places a hand on another's shoulder conveying trust, one laughs exuberantly with open arms in pure joy, and one stands with wide eyes and raised hands showing surprise. Bright, natural light, candid composition, warm tones, slight shallow depth of field.",
+        "A bustling urban rooftop scene shows 5 green birds perched along a railing while 4 pink skateboards lean against a graffiti-covered wall. Four white laptops sit open on a long table nearby as 5 gray motorcycles are parked in a neat row below. A large painted sign above the wall reads \"Skateboard meets motorcycle in thrilling urban freedom\". Three people populate the scene: one reaching out with open hands and a steady gaze showing trust, another throwing their head back laughing with joy, and a third with wide eyes and hands to their cheeks showing surprise.",
+        "A lively urban scene with five green birds perched along an overhead wire and on a park bench; four pink skateboards propped against a low wall; four white laptops open on a caf\u00e9 table; and five gray motorcycles lined up on the curb. A clear sign next to the motorcycles displays the seven-word message: \"Skateboard, motorcycle riders unite for safer streets.\" Nearby, a person gently clasps another\u2019s hand and leans forward with a calm, steady expression conveying trust; a second person stands on the bench, laughing with arms raised in pure joy; a third person, walking past the caf\u00e9, pauses with wide eyes and hands at their mouth in surprise. The composition balances the colorful objects and animals with human emotion, the sign text clearly readable in the midground.",
+        "An open urban plaza scene shows five green birds hopping along a low wall while four pink skateboards lean against a mural and four white laptops sit open on a wooden table; five gray motorcycles are parked in a neat row along the curb. A painted sign in the background reads \"Skateboards and motorcycles: ride fast, ride safe\". Three people are nearby: one person with a calm, open expression and relaxed posture showing trust as they hand a helmet to a friend, another person laughing with hands raised showing pure joy, and a third person stepping back with wide eyes and a hand to their mouth showing surprise. The composition is bright and candid, with the colorful boards and birds contrasting against the metallic motorcycles and sleek laptops.",
+        "A lively urban plaza scene at golden hour: five green birds perch along a low brick wall and on a lamppost, and four pink skateboards lean against a bench where a joyful young woman throws her arms up and laughs beside them; four white laptops sit open on a long table under a canopy, each displaying different code and sketches; five gray motorcycles are neatly parked in a row along the curb, with a person showing trust shaking hands confidently with a mechanic near the nearest bike, making steady eye contact and a calm smile; another person, nearby, shows surprise with wide eyes and a hand over their mouth as a bird swoops down; a weathered wooden sign above the bench clearly reads \"Skateboard beats motorcycle in freedom and agility\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'clock', 'count': 3, 'color': 'yellow'}, {'object': 'airplane', 'count': 2, 'color': 'green'}, {'object': 'hot dog', 'count': 2, 'color': 'white'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about airplane, clock. Include a person showing disgust. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "clock",
+            "count": 3,
+            "color": "yellow"
+          },
+          {
+            "object": "airplane",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "hot dog",
+            "count": 2,
+            "color": "white"
+          }
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "airplane",
+            "clock"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Photorealistic scene in a busy airport lounge: three bright yellow clocks mounted on a wall in clear view, two small green model airplanes suspended from the ceiling, and two white hot dogs sitting on a tray on a nearby counter; a paper sign on a bulletin board reads \"Airplane arrival times match the clocks\"; a woman standing by the counter displays disgust with a wrinkled nose and crossed arms, while a man nearby expresses trust with a calm smile and open palms toward the sign; natural daylight, shallow depth of field, balanced composition.",
+        "A bright, slightly surreal caf\u00e9 scene: three yellow wall clocks hang above the counter, each showing a different time; two small green model airplanes dangle from the ceiling by strings; two white hot dogs sit on plates at a nearby table. A printed sign by the clocks reads \"Airplane delays; clocks keep perfect time.\" A woman at the table shows disgust as she pushes a white hot dog away, while a man nearby gazes at the yellow clocks with a gentle, trusting smile, reaching out reassuringly.",
+        "A vivid scene shows three yellow clocks mounted in a row on a sunlit wall, two green model airplanes suspended from the ceiling, and two white hot dogs on a plate at a small wooden table. A poster on the wall reads Airplane outruns clock time always flies. At the table a woman recoils and makes a face of clear disgust as she pokes at one of the white hot dogs, while a man beside her looks calm and smiles with an expression of trust, leaning in reassuringly."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cell phone', 'count': 1, 'color': 'red'}, {'object': 'oven', 'count': 2, 'color': 'brown'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about oven. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "cell phone",
+            "count": 1,
+            "color": "red"
+          },
+          {
+            "object": "oven",
+            "count": 2,
+            "color": "brown"
+          }
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "oven"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright home kitchen scene featuring two brown ovens side by side; both oven doors are clearly visible. A person stands nearby showing anticipation\u2014leaning forward slightly with hands clasped and a hopeful, expectant smile. A single red cell phone rests face up on the counter. A yellow sticky note attached to one oven reads \"Clean the oven\", the three-word message clearly legible.",
+        "A cozy kitchen scene with exactly two brown ovens built side by side into the wall and one red cell phone lying face-up on the counter. A person stands nearby showing clear anticipation\u2014leaning forward slightly, hands clasped, eyes wide and smiling as they watch the ovens. A small sticky note affixed to one oven door is the only visible text in the scene and reads: Oven preheating now."
+      ]
+    }
+  ]
+}

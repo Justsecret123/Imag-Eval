@@ -1,0 +1,139 @@
+{
+  "experiment_id": "spatial+text_robust",
+  "timestamp": "2026-02-05T12:02:01.207151",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+text",
+      "skills": [
+        "spatial",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'laptop'}, {'object': 'handbag'}, {'object': 'dog'}, {'object': 'airplane'}. Position the dog(s) below the laptop(s). Position the handbag(s) behind the airplane(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about handbag, laptop. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "laptop"
+          },
+          {
+            "object": "handbag"
+          },
+          {
+            "object": "dog"
+          },
+          {
+            "object": "airplane"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "dog",
+            "below",
+            "laptop"
+          ],
+          [
+            "handbag",
+            "behind",
+            "airplane"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "handbag",
+            "laptop"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A warm indoor scene shows a closed laptop sitting on a low wooden table, a relaxed brown dog lying directly beneath the table and therefore below the laptop; nearby a small model airplane sits on the table while a leather handbag is positioned behind the airplane; a small sticky note on the laptop screen reads 'Handbag and laptop travel together daily'",
+        "An inviting indoor scene: a closed laptap sits on a low wooden table, and a relxed brown dog is lying directly under the table, therefore beneath the laptap; nearby a small model airplane rests on the table, with a lether hand bag placed behind it; a small sticky note on the laptap screen reads 'Handbag and laptop travel together daily'.",
+        "A cozzy indoor scene features a closed laptop sitting on a low wooden table, with a relxed brown dog lying directly beneath the table and therefore under the laptop; nearby a small model airplane rests on the table while a leather hangbag is positioned behind the plane; a small stcky note on the laptop screen reads 'Handbag and laptop travel together daily'",
+        "A cozy indoor scene shows a closed laptop resting on a low wodden table; a relaxed brown dog lies directly beneath the table and therefore under the laptop. Nearby a tiny model airplane sits on the table, with a lether handbag placed behind it; a small stcky note on the laptop screen reads 'Handbag and laptop travel together daily'",
+        "A cozzy indoor scene shows a closed laptop resting on a low wooden table, a relaxed brown dog lying directly beneath the table and therefore below the laptop; nearby a smal model airplane sits on the table while a leather handbag is positioned just behind the airplane; a small sticky note on the laptop screen reads 'Handbag and laptop trvel together daily'"
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+text",
+      "skills": [
+        "spatial",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'sandwich'}, {'object': 'elephant'}, {'object': 'bus'}. Position the elephant(s) below the sandwich(s). Position the elephant(s) to the left of the bus(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about elephant, bus. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "sandwich"
+          },
+          {
+            "object": "elephant"
+          },
+          {
+            "object": "bus"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "elephant",
+            "below",
+            "sandwich"
+          ],
+          [
+            "elephant",
+            "to the left of",
+            "bus"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "elephant",
+            "bus"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An image showing a large sandwich near the top of the frame; below it sits a friendly gray elephant positioned to the left of a bright yellow city bus on the right. The elephant holds a small wooden sign that reads \"Elephant loves the bus\". No other visible text appears in the scene.",
+        "A picture featuring a large sandwich near teh upper edge of the frame; below it a friendy gray elephant sits to the left of a bright yello city bus on the right. The elephant holds a small wooden sign that reads \"Elephant loves the bus\". No other visible text appears in the scene.",
+        "An image of a largge sandwich near the top of the frame; beaneath it a friendly gray elephant is positioned to the left of a bright yelow city buss on the right. The elephant holds a small wooden sign that reads \"Elephant loves the bus\". No other visible txt appears in the scene."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+text",
+      "skills": [
+        "spatial",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'handbag'}, {'object': 'remote'}. Position the remote(s) below the handbag(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about handbag. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "handbag"
+          },
+          {
+            "object": "remote"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "remote",
+            "below",
+            "handbag"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "handbag"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A photorealistic image showing a stylish tan leather handbag centered on a light wooden tabletop, with a black remote control placed directly below the handbag and slightly overlapping its shadow. A small paper tag attached to the handbag clearly reads \"Genuine leather handbag\". Soft natural window light from the left, shallow depth of field, neutral blurred background, high detail, realistic textures and shadows.",
+        "Photorealistic image of a stylish tan lether handbag centered on a light wooden tabletop, with a black remtoe control placed directly below the handbag and slightly overlapping its shadw. A small paper tag attached to the handbag clearly reads \"Genuine leather handbag\". Soft natural window light from the left, shallow depth of field, neutral blurred background, high detal, realistic textures and shadows."
+      ]
+    }
+  ]
+}

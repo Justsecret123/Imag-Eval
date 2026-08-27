@@ -1,0 +1,131 @@
+{
+  "experiment_id": "size+emotion_robust",
+  "timestamp": "2026-02-05T11:41:57.114195",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_size+emotion",
+      "skills": [
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'handbag'}, {'object': 'parking meter'}, {'object': 'bowl'}, {'object': 'sheep'}. Make the sheep(s) smaller than the parking meter(s). Make the bowl(s) larger than the handbag(s). Include a person showing trust. Include a person showing anticipation. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "anticipation",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "handbag"
+          },
+          {
+            "object": "parking meter"
+          },
+          {
+            "object": "bowl"
+          },
+          {
+            "object": "sheep"
+          }
+        ],
+        "size_relations": [
+          [
+            "sheep",
+            "smaller",
+            "parking meter"
+          ],
+          [
+            "bowl",
+            "larger",
+            "handbag"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A sunlit urban sidewalk scene: two vintage parking meters stand taller than a small sheep that grazes at their base, the sheep noticeably smaller than the meters; a large ceramic bowl sits on a nearby bench, clearly bigger than the leather handbag placed beside it. Three people are in the frame \u2014 a woman with a calm, trusting expression gently resting her hand on a companion's shoulder; a young man leaning forward with clasped hands and bright eyes, radiating anticipation; and another person laughing, face lit with pure joy \u2014 all framed against soft city buildings and warm afternoon light.",
+        "A sunlit urban sidewalk: a pair of vintage parking meters tower over a smaler sheep grazing at their base \u2014 the sheep clearly much smaller than the meters. On a nearby bench rests a large cermaic bowl, visibly bigger than the leather hanbag placed beside it. Three people share the frame: a woman with a calm, trusting expression gently resting her hand on a companion's shoulder; a young man leaning forward with clasped hands and bright eyes, full of anticipation; and another person laughing, their face lit with pure joy \u2014 all set against soft city buildings and warm afternoon light.",
+        "A sun-drenched city sidewalk: two old-fashioned parking meters tower over a tiny sheep nibbling at the base \u2014 the sheep clearly much smaller than the meters. On a nearby bench a large ceramic bowl sits, noticeably bigger than the leather hanbag placed beside it. Three people share the frame: a woman with a calm, trusting expression gently resting her hand on a compaion's shoulder; a young man leaning forward with clasped hands and bright, expectant eyes, radiating anicipation; and another person laughing, their face lit with pure joy. All framed against soft city buildings bathed in warm afternoon light.",
+        "A sunlit urban sidewalk: two old-fashioned parking meters tower over a tiny sheep grazing at their feet \u2014 teh sheep much smaller than the meters. On a nearby bench a large cermaic bowl dwarfs a leathar handbag set beside it. Three people fill the frame: a woman with a calm, trusting expression gently resting her hand on a companion's shoulder; a young man leaning forward with clasped hands and bright eyes, full of anticipatoin; and another person laughing, face alight with pure joy, all set against soft city buildings and warm afternoon light.",
+        "A sunlit city sidewalk scene: two vintage parking meters rise above a tiny sheep nibbling at their base, the sheep markedly smaller than the meters; a large cermaic bowl rests on a nearby bench, visibly larger than the leather handbagg placed beside it. Three people occupy the frame \u2014 a womn with a calm, trusting expression gently laying her hand on a companion's shoulder; a young man leaning forward with clasped hands and bright eyes, exuding anticipation; and another person laughing, face alight with pure joy \u2014 all set against soft urban buildings and warm afternoon light."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_size+emotion",
+      "skills": [
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'carrot'}, {'object': 'cat'}, {'object': 'teddy bear'}. Make the teddy bear(s) smaller than the carrot(s). Make the teddy bear(s) larger than the cat(s). Include a person showing sadness. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "carrot"
+          },
+          {
+            "object": "cat"
+          },
+          {
+            "object": "teddy bear"
+          }
+        ],
+        "size_relations": [
+          [
+            "teddy bear",
+            "smaller",
+            "carrot"
+          ],
+          [
+            "teddy bear",
+            "larger",
+            "cat"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright backyard scene centered on a rustic wooden table where three oversized, vividly orange carrots dominate the composition \u2014 each carrot noticeably taller and bulkier than the toys and animals nearby. Perched beside and partly leaning against those carrots are a few medium plush teddy bears, clearly smaller than the carrots but substantially larger than the animals at their feet. Curled up and snuffling around the teddy bears are very small kittens, tiny compared with the plush bears. To the left, a young woman stands with tears in her eyes and a trembling lip, clutching one of the kittens to her chest and radiating quiet sadness. To the right, a man grimaces and wrinkles his nose in disgust, recoiling slightly as he points toward a muddy carrot tip. Soft morning light falls across the scene, highlighting the size contrasts between the large carrots, the medium teddy bears, and the small cats, with scattered toy stuffing and a few fallen carrot greens on the table.",
+        "In a bright backyard scene centered on a rustic wooden table, three oversized, vividly oragne carrots dominate the frame \u2014 each carrot noticeably taller and bulkier than the toys and animals nearby. Perched beside and partly leaning against the carrots are a few medium plush teddy bares, clearly smaller than the carrots but substantially larger than the animals at their feet. Curled up and snufling around the teddies are very small kittnes, tiny compared with the plush bears. To the left, a young woman stands with tears in her eyes and a trembeling lip, clutching one of the kittens to her chest and radiating quiet sadness. To the right, a man grimaces and wrinkles his nose in disgust, recoiling slightly as he points toward a muddy carort tip. Soft morning light falls across the scene, highlighting the size contrasts between the large carrots, the medium teddy bears, and the small cats, with scattered toy stuffing and a few fallen carrot greens on the table.",
+        "A bright sunlit backyard centers on a weathered wooden table where three oversized, vividely orange carrots dominate the view \u2014 each carrot noticeably taller and bulkier than the toys and animals nearby. Beside them and leaning against their sides sit a few medium plushh teddy bears, clearly smaller than the carrots but substantially larger than the creatures at their feet. Very small kittens are curled up and snuffling around the plush bears, tiny compared with the soft stuffed toys. To the left a young woman stands with tears in her eyes and a trembling lip, clutching one of the kittens to her chest and radiating quiet sadness. To the right a man grimaces and wrinkles his nose in disgust, recoiling slightly as he points toward a muddy carrot tip. Soft morning light falls across the scene, highligting the size contrasts between the large carrots, the medium teddy bears, and the small cats, with scattered toy stuffing and a few fallen carrot greens on the table."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_size+emotion",
+      "skills": [
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'sink'}, {'object': 'skis'}. Make the skis(s) larger than the sink(s). Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "sink"
+          },
+          {
+            "object": "skis"
+          }
+        ],
+        "size_relations": [
+          [
+            "skis",
+            "larger",
+            "sink"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, whimsical scene in a compact alpine lodge bathroom: a joyful young woman stands center frame, laughing with her arms raised and an open-mouthed smile, cheeks flushed and eyes sparkling. Behind her, a pair of long wooden skis lean against the wall, dramatically oversized and clearly dwarfing the tiny white porcelain sink below\u2014 the skis tower above the mirror and cast soft shadows, their grain and old wax marks crisply detailed. The small wall-mounted sink with a vintage chrome faucet sits in the foreground, intentionally small compared to the towering skis. Warm golden light from a frosted window bathes wood-paneled walls and a few scattered towels and snow boots on the floor, creating a cozy, playful atmosphere. Photorealistic, shallow depth of field, rich textures on the skis and porcelain, natural, candid moment of joy.",
+        "In a cozy, compact alpine-lodge bathroom a gleeful young woman fills the centre of the frame, laughing with her arms thrown up, open mouthed smile, cheeks flushed and eyes sparkling. Behind her a pair of long wooden skis lean against the wall, dramaticly oversized and clearly dwarfing the tiny white porceline sink below \u2014 the skis tower above the mirror and cast soft shadows, their wood grain and old wax marks crisply detailed. The smal wall-mounted sink with a vintage chrome faucet sits in the foreground, intentionally tiny beside the towering skis. Warm golden light from a frosted window bathes wood-paneled walls and a few strewn towels and snow boots on the floor, creating a cosy, playful atmosphere. Photorealistic, shallow depth of field, rich textures on the skis and porcelain, natural candid moment of joy."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "experiment_id": "spatial+size+text_robust",
+  "timestamp": "2026-02-05T11:45:19.922332",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+size+text",
+      "skills": [
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bus'}, {'object': 'clock'}, {'object': 'cake'}, {'object': 'kite'}. Position the cake(s) inside the clock(s). Position the kite(s) in front of the bus(s). Make the cake(s) smaller than the kite(s). Make the clock(s) larger than the bus(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about cake, kite. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bus"
+          },
+          {
+            "object": "clock"
+          },
+          {
+            "object": "cake"
+          },
+          {
+            "object": "kite"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cake",
+            "inside",
+            "clock"
+          ],
+          [
+            "kite",
+            "in front of",
+            "bus"
+          ]
+        ],
+        "size_relations": [
+          [
+            "cake",
+            "smaller",
+            "kite"
+          ],
+          [
+            "clock",
+            "larger",
+            "bus"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "cake",
+            "kite"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A city street scene features an oversized round clock mounted high on a brick building; its large glass face encloses a tiny frosted cake perched on the inner ledge, the clock towering over a parked city bus below. A brightly colored kite, much larger than the cake, floats directly in front of the bus in the foreground. The small single-tier cake with a candle is clearly dwarfed by the kite's broad sail. Nearby a chalkboard sign reads: \"Kite flies high, cake waits to celebrate\"",
+        "A busy city street scene shows a huge round clock fixed high on a brik building; behind its large glass face sits a tiny frosted cake on the inner ledge, the clock looming over a parked city bus below. In the foregound a brightly colored kite\u2014much larger than the cake\u2014hovers directly in front of the bus. The singel-tier cake with a candle is clearly dwarfed by the kite's broad sail. Nearby a chalkbord sign reads: \"Kite flies high, cake waits to celbrate\"",
+        "On a city street an oversized round clock is mounted high on a brick facade; behind its large glass face a tiny froested single-tier cake with a candle sits on the inner ledge, the clock towering over a parked city bus below. A brightly colored kite, much larger than the cake, floats directly in front of the bus in the foreground, its broad sail making the small cake seem deminutive. Nearby a chalkboard sign reads: \"Kite flys high, cake waits to celebrate\"",
+        "On a city street an oversized round clock is mounted high on a brick building; its large glass face encloses a tiny frostetd cake perched on the inner ledge, the clock looming over a parked city bus below. A briteley colored kite, much bigger than the cake, floats directly in front of the bus in the foreground. The small singel-tier cake with a candle is clearly dwarfed by the kite's broad sail. Nearby a chalkbord sign reads: \"Kite flies high, cake waits to celebrate\"",
+        "On a city street an oversized circular clock juts from the upper wall of a brik building; behind its big glass face a tiny frostd cake sits on an inner ledge, the clock looming above a parked city buss. A vivid kite, far bigger than the cake, hangs right in front of the bus in the foregound. The petite, singel-tier cake with a single candle is clearly dwarfed by the kite's wide sail. Nearby a chalkboard sign reads: \"Kite flies high, cake waits to celebrate\""
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+size+text",
+      "skills": [
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'hair drier'}, {'object': 'truck'}, {'object': 'car'}. Position the car(s) to the left of the hair drier(s). Position the car(s) above the truck(s). Make the truck(s) larger than the car(s). Make the truck(s) smaller than the hair drier(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about hair drier, truck. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "hair drier"
+          },
+          {
+            "object": "truck"
+          },
+          {
+            "object": "car"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "car",
+            "to the left of",
+            "hair drier"
+          ],
+          [
+            "car",
+            "above",
+            "truck"
+          ]
+        ],
+        "size_relations": [
+          [
+            "truck",
+            "larger",
+            "car"
+          ],
+          [
+            "truck",
+            "smaller",
+            "hair drier"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "hair drier",
+            "truck"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A giant hair drier dominates the right side of the image. To its left is a small car positioned directly above a medium-sized truck; the truck is clearly larger than the car but noticeably smaller than the oversized hair drier. A weathered sign in the foreground reads \"Hair drier outpaces the truck\".",
+        "A giant hair drier domnates the right side of the image. To its left is a small car positoned directly above a medium-sized truck; the truck is clearly larger than the car but noticably smaller than the oversized hair drier. A weathered sign in the foreground reads \"Hair drier outpaces the truck\".",
+        "On the right, an enourmous hair drier towers over the scene. To its left a tiny car is positioned directly atop a medium-sized truck \u2014 the truck is clearly larger than the car but still noticeably smaller than the oversized hair drier. In the foregrond a weathered sign reads \"Hair drier outpaces the truck\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+size+text",
+      "skills": [
+        "spatial",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'cat'}, {'object': 'vase'}. Position the vase(s) below the cat(s). Make the vase(s) larger than the cat(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about vase. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cat"
+          },
+          {
+            "object": "vase"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "vase",
+            "below",
+            "cat"
+          ]
+        ],
+        "size_relations": [
+          [
+            "vase",
+            "larger",
+            "cat"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "vase"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A small tabby cat sits on a narrow shelf near the top of the frame, looking down; directly below the cat, filling the lower half of the image, stands an oversized ornate ceramic vase that is noticeably taller and wider than the cat, richly patterned and dominant in the foreground; a small paper tag on the vase clearly shows the single word: Vase",
+        "A small tabby cat perches on a narow shelf near the top of the frame, peering down; directly beneath it, occupying the lower half of the image, is an oversized, ornamet ceraminc vase\u2014noticeably taller and wider than the cat, richly patterned and domimant in the foreground; a small papr tag attached to the vase cleerly reads the singel word: Vase"
+      ]
+    }
+  ]
+}

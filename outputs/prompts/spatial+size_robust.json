@@ -1,0 +1,150 @@
+{
+  "experiment_id": "spatial+size_robust",
+  "timestamp": "2026-02-05T10:19:39.167399",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+size",
+      "skills": [
+        "spatial",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'person'}, {'object': 'kite'}, {'object': 'zebra'}, {'object': 'orange'}. Position the orange(s) to the left of the kite(s). Position the person(s) to the right of the zebra(s). Make the orange(s) larger than the kite(s). Make the zebra(s) smaller than the person(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "person"
+          },
+          {
+            "object": "kite"
+          },
+          {
+            "object": "zebra"
+          },
+          {
+            "object": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "orange",
+            "to the left of",
+            "kite"
+          ],
+          [
+            "person",
+            "to the right of",
+            "zebra"
+          ]
+        ],
+        "size_relations": [
+          [
+            "orange",
+            "larger",
+            "kite"
+          ],
+          [
+            "zebra",
+            "smaller",
+            "person"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A sunlit scene: on the left a large orange sits to the left of a small colorful kite, and on the right a tall person stands to the right of a small zebra; the orange is noticeably larger than the kite and the zebra is clearly smaller than the person.",
+        "Sun-drenched tableau: to the left a big orange sits left of a tiny colourfull kite, while to the right a tall person stands beside a small zebra; the orange is noticably bigger than the kite and the zebra is clearly smaller than the person.",
+        "In a sunlit setting, on the left a big orange rests beside a small colurful kite, and on the right a tall figre stands beside a tiny zebra; the orange is noticably larger than the kite and the zebra is clearly smaller than the person.",
+        "Sunligt scene: on the left a big oragne sits beside a small colrful kite, and on the right a tall person stands beside a small zebra; the oragne is noticably larger than the kite and the zebra is clearly smaller than the person.",
+        "Sun-drenched tableau: at the left a big orange lies beside a tiny colroful kite, while at the right a tall persorn stands next to a small zebra; the orange is noticably bigger than the kite and the zebra is much smaler than the person."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+size",
+      "skills": [
+        "spatial",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'traffic light'}, {'object': 'toaster'}, {'object': 'refrigerator'}. Position the traffic light(s) to the left of the refrigerator(s). Position the traffic light(s) in front of the toaster(s). Make the toaster(s) smaller than the traffic light(s). Make the toaster(s) larger than the refrigerator(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "traffic light"
+          },
+          {
+            "object": "toaster"
+          },
+          {
+            "object": "refrigerator"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "traffic light",
+            "to the left of",
+            "refrigerator"
+          ],
+          [
+            "traffic light",
+            "in front of",
+            "toaster"
+          ]
+        ],
+        "size_relations": [
+          [
+            "toaster",
+            "smaller",
+            "traffic light"
+          ],
+          [
+            "toaster",
+            "larger",
+            "refrigerator"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A scene with a large traffic light standing to the left of a small refrigerator; the traffic light is positioned in front of a medium-sized toaster, so the toaster sits slightly behind the traffic light and is noticeably smaller than the traffic light but clearly larger than the small refrigerator.",
+        "A scene of a tall traffic sigal standing to the left of a small refridgerator; the traffic sigal is placed in front of a medium-sized toaster, so the toaster sits just behind the sigal, noticebly smaller than the traffic sigal but clearly larger than the little refridgerator.",
+        "An arrangement shows a large traffic light standing to the left of a small refridgerator; the traffic light is placed in front of a meduim-sized toaster, so the toaster sits sligtly behind the traffic light and is visibly smaller than the traffic light but clearly bigger than the small refridgerator."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+size",
+      "skills": [
+        "spatial",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bear'}, {'object': 'cell phone'}. Position the bear(s) to the right of the cell phone(s). Make the bear(s) larger than the cell phone(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bear"
+          },
+          {
+            "object": "cell phone"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bear",
+            "to the right of",
+            "cell phone"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bear",
+            "larger",
+            "cell phone"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "On the left, a small cell phone rests on a sunlit mossy log; to its right, a large brown bear stands, much larger than the phone, towering over the device with dappled forest light filtering through the trees behind them.",
+        "At left, a tiny cel phone lies on a sunlit mosy log; to its right, a big brown bear stands, far larger than the phone, towring over the device as dapled forest light filering through the trees behind them."
+      ]
+    }
+  ]
+}

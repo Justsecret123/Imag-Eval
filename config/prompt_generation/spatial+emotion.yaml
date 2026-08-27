@@ -1,0 +1,22 @@
+experiment:
+  name: spatial+emotion
+prompt_generation:
+  metadata_config:
+    name: coco
+  skills:
+  - level: hard
+    skills: [spatial, emotion]
+    k: 5
+  - level: medium
+    skills: [spatial, emotion]
+    k: 3
+  - level: easy
+    skills: [spatial, emotion]
+    k: 2
+  llm_model:
+    name: openai
+    model: gpt-5-mini
+    temperature: 1
+  samples_per_skill: 1
+output:
+  file: outputs/prompts/spatial+emotion.json

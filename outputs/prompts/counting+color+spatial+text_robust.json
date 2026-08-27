@@ -1,0 +1,163 @@
+{
+  "experiment_id": "counting+color+spatial+text_robust",
+  "timestamp": "2026-02-05T09:58:54.895805",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'handbag', 'count': 4, 'color': 'gray'}, {'object': 'laptop', 'count': 4, 'color': 'black'}, {'object': 'hair drier', 'count': 5, 'color': 'brown'}, {'object': 'bus', 'count': 5, 'color': 'pink'}. Position the bus(s) in front of the handbag(s). Position the hair drier(s) to the left of the laptop(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about handbag, laptop. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "handbag",
+            "count": 4,
+            "color": "gray"
+          },
+          {
+            "object": "laptop",
+            "count": 4,
+            "color": "black"
+          },
+          {
+            "object": "hair drier",
+            "count": 5,
+            "color": "brown"
+          },
+          {
+            "object": "bus",
+            "count": 5,
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bus",
+            "in front of",
+            "handbag"
+          ],
+          [
+            "hair drier",
+            "to the left of",
+            "laptop"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "handbag",
+            "laptop"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An organized display features four gray handbags arranged along the back, with five pink buses positioned in front of them in the foreground. To the right, four black laptops sit on a long table and five brown hair driers are neatly lined up to the left of the laptops. A small printed sign above the table is clearly visible and reads \"Handbag and laptop on sale today\".",
+        "A neat arrangement displays four gray handbags lined along the back, with five pink bussess placed in the foreground in front of them. To the right, four black laptos rest on a long table, and five brown hair driers are neatly lined up to the left of the laptops. A small printed sign above the table is clearly visable and reads \"Handbag and lapto on sale today\".",
+        "A tidy display presents four gray handbgs arranged along the back, with five pink busses set in the foreground before them. To the right, four black laptos sit on a long table and five browm hair driers are neatly lined up to the left of the laptops. A small printed sign above the table is clearly visible and reads \"Handbag and laptpo on sale today\".",
+        "A neatly organzied display features four gray handbags aranged along the back, with five pink buses positioned in front of them in the forground. To the right, four black laptps sit on a long table and five brown hair driers are neatly lined up to the left of the laptops. A small printed sign above the table is clearly visible and reads \"Handbag and laptop on sale today\".",
+        "A neat arrangement shows four gray handbagss lined up along the back, with five pink busses placed in front of them in the foreground. To the right, four black lap tops sit on a long table, and five brown hair dryres are neatly lined up to the left of the laptops. A small printed sign above the table is clearly visible and reads \"Handbag and laptop on sale today\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'boat', 'count': 2, 'color': 'white'}, {'object': 'orange', 'count': 3, 'color': 'red'}, {'object': 'motorcycle', 'count': 3, 'color': 'pink'}. Position the motorcycle(s) to the right of the boat(s). Position the motorcycle(s) above the orange(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about boat, motorcycle. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "boat",
+            "count": 2,
+            "color": "white"
+          },
+          {
+            "object": "orange",
+            "count": 3,
+            "color": "red"
+          },
+          {
+            "object": "motorcycle",
+            "count": 3,
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "motorcycle",
+            "to the right of",
+            "boat"
+          ],
+          [
+            "motorcycle",
+            "above",
+            "orange"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "boat",
+            "motorcycle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor dock scene showing two white boats on the left and three pink motorcycles to their right; the three motorcycles are positioned above three red oranges arranged on the ground below them. A nearby sign shows the visible text: Boat and motorcycle parking only. Bright daylight and gentle water reflections complete the composition.",
+        "A sunny pier scene with two white boats moored at the left and, to their right, three pink moterbikes lined up above three red oragnes placed on the dock beneath them; a nearby sign reads \"Boat and motorcycle parcking only.\" Bright daylight and soft water reflections finish the compositon.",
+        "A dockside outdoor scene with two white boats parked on the left and three pink motercycles to their right; the trio of motercycles sits directly above three red orenges neatly arranged on the ground beneath them. A nearby sign reads: Boat and motorcycle parking only. Bright daylite with soft water reflections finishes the compositon."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'horse', 'count': 2, 'color': 'green'}, {'object': 'handbag', 'count': 1, 'color': 'red'}. Position the handbag(s) under the horse(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about handbag. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "horse",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "handbag",
+            "count": 1,
+            "color": "red"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "handbag",
+            "under",
+            "horse"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "handbag"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Two vivid green horses stand side by side on a grassy field, and a single bright red handbag rests directly beneath them on the ground between their legs. A small label beside the bag bears exactly one word: \"handbag\".",
+        "Two vivid grene horses stand side by side on a grasssy field, and a single bright red handbag rests directly beneith them on the ground between their legs. A small label beside the bag carries exactly one word: \"handbag\"."
+      ]
+    }
+  ]
+}

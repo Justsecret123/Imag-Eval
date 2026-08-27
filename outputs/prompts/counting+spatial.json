@@ -1,0 +1,128 @@
+{
+  "experiment_id": "counting+spatial",
+  "timestamp": "2026-02-04T16:32:20.081152",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial",
+      "skills": [
+        "counting",
+        "spatial"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'carrot', 'count': 4}, {'object': 'sports ball', 'count': 4}, {'object': 'skateboard', 'count': 4}, {'object': 'dining table', 'count': 4}. Position the skateboard(s) to the left of the dining table(s). Position the carrot(s) on top of the sports ball(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "carrot",
+            "count": 4
+          },
+          {
+            "object": "sports ball",
+            "count": 4
+          },
+          {
+            "object": "skateboard",
+            "count": 4
+          },
+          {
+            "object": "dining table",
+            "count": 4
+          }
+        ],
+        "spatial_relations": [
+          [
+            "skateboard",
+            "to the left of",
+            "dining table"
+          ],
+          [
+            "carrot",
+            "on top of",
+            "sports ball"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An image showing four dining tables arranged together with four skateboards positioned to the left of the tables; nearby are four sports balls, each with a single carrot balanced on top.",
+        "An image of four dining tables with four skateboards positioned to the left of the tables (one skateboard immediately left of each table); also present are four sports balls, each topped by a single carrot balanced on it (four carrots total).",
+        "A scene with four dining tables arranged across the image, each table having a skateboard placed to its left, and four sports balls positioned in front of the tables with a carrot balanced on top of each ball.",
+        "Four dining tables are arranged in a row on the right side of the scene, and each table has a skateboard positioned immediately to its left; in front of each table there is a sports ball with a carrot balanced on top of it, for a total of four dining tables, four skateboards, four sports balls, and four carrots.",
+        "A scene containing four dining tables evenly spaced across the midground with a skateboard placed immediately to the left of each table (four skateboards, each left of a dining table), and in the foreground four sports balls arranged in a row with a single carrot balanced on top of each ball (four sports balls each topped by one carrot)."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial",
+      "skills": [
+        "counting",
+        "spatial"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'kite', 'count': 3}, {'object': 'wine glass', 'count': 3}, {'object': 'scissors', 'count': 2}. Position the wine glass(s) behind the kite(s). Position the wine glass(s) under the scissors(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "kite",
+            "count": 3
+          },
+          {
+            "object": "wine glass",
+            "count": 3
+          },
+          {
+            "object": "scissors",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "wine glass",
+            "behind",
+            "kite"
+          ],
+          [
+            "wine glass",
+            "under",
+            "scissors"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An image showing three kites in the foreground, with three wine glasses placed behind the kites and directly beneath two scissors hovering above them.",
+        "Three colorful kites sit in the foreground, with three clear wine glasses placed directly behind the kites and collectively positioned beneath two scissors suspended overhead.",
+        "Three colorful kites fill the foreground, arranged across the center of the scene; three wine glasses sit behind the kites and slightly lower in the composition so they are under two scissors positioned near the top of the frame, with the glasses partially obscured by the kites and the two scissors hovering above them."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial",
+      "skills": [
+        "counting",
+        "spatial"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'scissors', 'count': 1}, {'object': 'traffic light', 'count': 2}. Position the traffic light(s) behind the scissors(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "scissors",
+            "count": 1
+          },
+          {
+            "object": "traffic light",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "traffic light",
+            "behind",
+            "scissors"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A close-up of a single pair of scissors resting on a tabletop in the foreground, sharply focused, with two traffic lights positioned behind it in the mid-background\u2014standing side by side and slightly out of focus\u2014one showing a red light and the other showing a green light, all lit by soft, diffuse daylight.",
+        "A close-up scene shows a single pair of metal scissors in the foreground, resting on a worn wooden surface; directly behind the scissors, two traffic lights on poles rise in the background, slightly out of focus, their signals visible against an urban street backdrop."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "experiment_id": "counting+size_robust",
+  "timestamp": "2026-02-04T16:57:08.908595",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+size",
+      "skills": [
+        "counting",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'hair drier', 'count': 4}, {'object': 'book', 'count': 5}, {'object': 'cow', 'count': 4}, {'object': 'toilet', 'count': 5}. Make the book(s) smaller than the cow(s). Make the hair drier(s) larger than the toilet(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "hair drier",
+            "count": 4
+          },
+          {
+            "object": "book",
+            "count": 5
+          },
+          {
+            "object": "cow",
+            "count": 4
+          },
+          {
+            "object": "toilet",
+            "count": 5
+          }
+        ],
+        "size_relations": [
+          [
+            "book",
+            "smaller",
+            "cow"
+          ],
+          [
+            "hair drier",
+            "larger",
+            "toilet"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal scene shows four cows grazing in a sunlit meadow beside five small books scattered on the grass \u2014 each book clearly much smaller than the cows. Nearby are five white toilets arranged in a loose cluster, and four oversized hair driers loom above them, each hair drier noticeably larger than the toilets, emphasizing the strange scale contrasts between animals, appliances, books, and bathroom fixtures.",
+        "In a surreal tableau, four cows graze in a sunlit meadow beside five tiny boks scattered on teh grass \u2014 each book clearly much smaller than the cows. Nearby, five white toilets form a loose cluster, and four oversized hair drires loom above them, each noticeably larger than the toilets, highlighting the strange scale contrasts between animals, appliances, boks, and bathroom fixtures.",
+        "A surreal tableau shows four cows grazzing in a sunlit meadwo beside five tiny boks scaterred on the grass \u2014 each book clearly much smaller than the cows. Nearby are five white toiletts arranged in a loose clustr, and four oversized hair driyers loom above them, each hair driyer noticeably larger than the toiletts, emphasizing the strange scale contrasts between animals, appliances, boks, and bathrom fixtures.",
+        "A strange, surreal scene: four cows graze in a sunlit meadow beside five tiny bokks scattered on the grass \u2014 each book plainly far smaller than the cows. Nearby five white toiletts sit in a loose cluster, while four huge hair dryres loom above them, each one noticeably bigger than the toilets, heightening the odd scale contrasts between animals, appliances, books, and bathroom fixtures.",
+        "A surreal tableau depicts four cows quietly grazzing in a sunlit medow beside five tiny bokks strewn across the grass \u2014 each bokk clearly much smaller than the cows. Nearby, five white toiletts sit in a loose cluster, and four oversized hair driers loom above them, each hair drier noticeably larger than the toiletts, emphasizing the strange scale contrasts between animals, appliances, bokks, and bathroom fixtures."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+size",
+      "skills": [
+        "counting",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'dining table', 'count': 3}, {'object': 'hair drier', 'count': 2}, {'object': 'bowl', 'count': 2}. Make the bowl(s) larger than the dining table(s). Make the bowl(s) smaller than the hair drier(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "dining table",
+            "count": 3
+          },
+          {
+            "object": "hair drier",
+            "count": 2
+          },
+          {
+            "object": "bowl",
+            "count": 2
+          }
+        ],
+        "size_relations": [
+          [
+            "bowl",
+            "larger",
+            "dining table"
+          ],
+          [
+            "bowl",
+            "smaller",
+            "hair drier"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Three small dining tables are arranged across the foreground, two bowls sit nearby that are noticeably larger than each dining table yet still smaller than two very large hair driers standing behind them; in total there are 3 dining tables, 2 hair driers, and 2 bowls.",
+        "In the foregraund three small dining tables are spread across the front, with two bowls placed nearby that are noticeably larger than each table yet still smaller than the pair of very large hair driyers standing behind them; in totel there are 3 dining tables, 2 hair driyers, and 2 bowls.",
+        "Across the foreground three small dining tabels are arranged; two bowls sit nearby that are noitceably larger than each tabel yet still smaller than two very large hair driers standing behind them. In total there are 3 dining tabels, 2 hair driers, and 2 bowls."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+size",
+      "skills": [
+        "counting",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'broccoli', 'count': 1}, {'object': 'dining table', 'count': 1}. Make the dining table(s) larger than the broccoli(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "broccoli",
+            "count": 1
+          },
+          {
+            "object": "dining table",
+            "count": 1
+          }
+        ],
+        "size_relations": [
+          [
+            "dining table",
+            "larger",
+            "broccoli"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A single head of broccoli sits alone near the center of a large wooden dining table, the table dominating the scene with visible grain and sturdy legs and appearing much larger than the small green broccoli, bathed in soft natural light.",
+        "One lone head of brocolli rests near the centre of a vast wooden dinning table, the table filling the frame with visible grain and sturdy leggs and dwarfing the small green vegetable, all bathed in soft natural light."
+      ]
+    }
+  ]
+}

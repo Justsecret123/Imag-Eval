@@ -1,0 +1,106 @@
+{
+  "experiment_id": "counting+color",
+  "timestamp": "2026-05-04T16:55:17.176502",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color",
+      "skills": [
+        "counting",
+        "color"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'toothbrush', 'count': 5, 'color': 'white'}, {'object': 'dog', 'count': 5, 'color': 'gray'}, {'object': 'snowboard', 'count': 4, 'color': 'green'}, {'object': 'boat', 'count': 5, 'color': 'purple'}. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "toothbrush",
+            "count": 5,
+            "color": "white"
+          },
+          {
+            "object": "dog",
+            "count": 5,
+            "color": "gray"
+          },
+          {
+            "object": "snowboard",
+            "count": 4,
+            "color": "green"
+          },
+          {
+            "object": "boat",
+            "count": 5,
+            "color": "purple"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal coastal scene at golden hour featuring five white toothbrushes stuck upright in the sand like tiny markers, five playful gray dogs romping between them, four green snowboards propped against a nearby driftwood rack, and five purple boats gently bobbing at the water's edge, warm soft light and subtle reflections on wet sand.",
+        "A surreal seaside scene at golden hour: five purple boats bob gently in the shallow water near the shoreline, while five gray dogs romp and chase each other across the wet sand. Four green snowboards are propped upright against a weathered lifeguard tower, their neon edges catching the light. Scattered on a nearby driftwood log and partially buried in the sand are five white toothbrushes arranged like small flags, their clean white bristles contrasting with the warm sand and cool sea.",
+        "A bright, whimsical seaside scene: five purple boats bob gently in the sunlit water beside a weathered dock, while four green snowboards lean in a neat cluster against the dock's posts; on the pebbled shore five gray dogs romp and play together, and five white toothbrushes lie in a tidy row on the wooden planks, their bristles glinting in the light.",
+        "A whimsical coastal scene with five white toothbrushes planted upright in the sand like tiny markers, five gray dogs frolicking together along the shoreline, four green snowboards propped against a driftwood fence, and five purple boats bobbing gently in the calm water just offshore under a soft golden light.",
+        "A whimsical seaside tableau at golden hour: five purple boats bob gently on calm water near the shore, four green snowboards are scattered\u2014two propped upright against driftwood and two lying across the sand\u2014and five gray dogs of varying breeds romp and play along the tideline, weaving between the boats and inspecting the snowboards; five white toothbrushes are stuck upright in the sand like tiny flags, their bristles catching the warm light; pastel sky, glimmering reflections on the water, and soft footprints in the sand complete the surreal, playful composition."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color",
+      "skills": [
+        "counting",
+        "color"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'keyboard', 'count': 2, 'color': 'purple'}, {'object': 'chair', 'count': 2, 'color': 'white'}, {'object': 'fork', 'count': 2, 'color': 'blue'}. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "keyboard",
+            "count": 2,
+            "color": "purple"
+          },
+          {
+            "object": "chair",
+            "count": 2,
+            "color": "white"
+          },
+          {
+            "object": "fork",
+            "count": 2,
+            "color": "blue"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A minimalist scene on a pale background shows two purple keyboards placed side by side in the foreground, two blue forks positioned neatly in front of them, and two white chairs set behind, all arranged symmetrically.",
+        "A clean, modern interior scene featuring two vibrant purple keyboards sitting side by side on a pale wooden table, two crisp white chairs facing the table opposite each other, and two glossy blue forks neatly placed nearby on a folded napkin; soft natural light from a nearby window casts gentle shadows and highlights the contrasting colors against a neutral background.",
+        "A bright, modern scene shows two sleek purple computer keyboards placed side by side on a light wood desk, two simple white chairs tucked neatly beneath it, and two glossy blue forks lying parallel on a small matching tabletop, creating a clean, color-coordinated composition."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color",
+      "skills": [
+        "counting",
+        "color"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'snowboard', 'count': 2, 'color': 'green'}, {'object': 'handbag', 'count': 2, 'color': 'gray'}. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "snowboard",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "handbag",
+            "count": 2,
+            "color": "gray"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A crisp, stylish scene showing two bright green snowboards propped upright in the snow while two sleek gray handbags sit side by side on a nearby bench, the muted winter light and soft falling snow creating a calm contrast between the vibrant boards and the neutral accessories.",
+        "A clean, modern scene bathed in soft natural light featuring two sleek green snowboards leaning side by side against a warm wooden wall, their glossy surfaces catching subtle reflections, and two minimalist gray handbags neatly displayed\u2014one on a low shelf and one perched on a nearby stool\u2014creating a balanced, stylish retail vignette with neutral tones and gentle shadows."
+      ]
+    }
+  ]
+}

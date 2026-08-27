@@ -1,0 +1,178 @@
+{
+  "experiment_id": "counting+color+spatial+emotion+text_robust",
+  "timestamp": "2026-02-05T11:54:28.968492",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'umbrella', 'count': 5, 'color': 'white'}, {'object': 'toaster', 'count': 4, 'color': 'purple'}, {'object': 'potted plant', 'count': 5, 'color': 'blue'}, {'object': 'wine glass', 'count': 4, 'color': 'pink'}. Position the umbrella(s) to the right of the toaster(s). Position the potted plant(s) on top of the wine glass(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about potted plant, toaster. Include a person showing anger. Include a person showing surprise. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "surprise",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "umbrella",
+            "count": 5,
+            "color": "white"
+          },
+          {
+            "object": "toaster",
+            "count": 4,
+            "color": "purple"
+          },
+          {
+            "object": "potted plant",
+            "count": 5,
+            "color": "blue"
+          },
+          {
+            "object": "wine glass",
+            "count": 4,
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "umbrella",
+            "to the right of",
+            "toaster"
+          ],
+          [
+            "potted plant",
+            "on top of",
+            "wine glass"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "potted plant",
+            "toaster"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Four purple toasters sit in a neat row on the left, and five white umbrellas stand grouped to their right. On a low table nearby four pink wine glasses each support a blue potted plant, and a fifth blue potted plant balances on the rims of two glasses so that all five plants are on the pink wine glasses. A small hand-lettered sign propped against a toaster is clearly visible and reads: \"Potted plants versus purple toasters: dangerous\". Three people watch the odd display \u2014 one clenches their fists and glares in anger, another recoils with wide-eyed surprise, and a third laughs with joyful delight.",
+        "On the left, four purpel toasters are lined up neatly, and to their right five white umbrelas stand clustered together. Nearby, a low table holds four pink wine glasses, each cradling a blue potted plant, while a fifth blue plant teeters on the rims of two glasses so that all five plants end up sitting on the pink wine glasses. Propped against one toaster is a small hand-lettered sign that's easy to read: \"Potted plants versus purple toasters: dangerous\". Three people watch the curious display \u2014 one clenches their fists and scowls in anger, another recoils with wide-eyed suprise, and a third laughs with joyful delight.",
+        "To the left a neat line of four purpel toasers sits, and to their right five white umrellas stand grouped together. On a low table nearby four pink wine glasses each support a blue potted plant, while a fifth blue potted plant balances on the rims of two glasses so that all five plants sit on the pink wine glasses. A small hand-lettered sighn propped against a toaster is clearly visible and reads: \"Potted plants versus purpel toasers: dangrous\". Three people watch the odd display \u2014 one clenches their fists and glares in anger, another recoils with wide-eyed surprise, and a third laughs with joyful delight.",
+        "Four purple toasters sit in a neet row on the left, while five white umbrellas are clustered to their right. Nearby, on a low table, four pink wine glases each hold a blue potted plant, and a fifth blue potted plant balences on the rims of two glasses so that all five plants rest on the pink wine glases. A small handlettered sign propped against a toaster is clearly visible and reads: \"Potted plants versus purple toasters: dangerous\". Three people watch the odd display \u2014 one clenches their fists and glares in anger, another recoils with wide-eyed surprise, and a third laughs with joyful delight.",
+        "On the left, four purpel toasters are lined up neatly, with five white umrellas clustered to their right. Nearby a low table holds four pink wine glases, each supporting a small blue potted plant, and a fifth blue potted plant is balanced across the rims of two glasses so that all five plants sit on the pink wine glases. A small hand-lettered sign propped against a toaster is clearly visible and reads: \"Potted plants versus purple toasters: dangerous\". Three people watch the odd scene \u2014 one clenches their fists and glares in anger, another recoils with wide-eyed surprise, and a third laughs with joyful delight."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bed', 'count': 2, 'color': 'pink'}, {'object': 'elephant', 'count': 2, 'color': 'green'}, {'object': 'handbag', 'count': 3, 'color': 'yellow'}. Position the elephant(s) to the right of the handbag(s). Position the elephant(s) inside the bed(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about bed, elephant. Include a person showing surprise. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "bed",
+            "count": 2,
+            "color": "pink"
+          },
+          {
+            "object": "elephant",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "handbag",
+            "count": 3,
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "elephant",
+            "to the right of",
+            "handbag"
+          ],
+          [
+            "elephant",
+            "inside",
+            "bed"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "bed",
+            "elephant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A staged scene shows two pink beds side by side, each containing a green elephant, and three yellow handbags arranged to the left so the elephants are to the right of the handbags. A small sign on the wall reads \"Beds hold green elephants\". Nearby, one person stands with mouth open and hands raised in surprise, while another person leans forward, smiling with clasped hands in clear anticipation.",
+        "A theatricly staged vignette shows two pink beds placed side by side, each bed cradling a green elephent; three yellow handbgs are arranged to the left so the elephants sit to their right. A small sign on the wall reads \"Beds hold green elephants\". Nearby, one person stands with mouth agape and hands raised in surprise, while anothr person leans forward, smiling with clasped hands in clear anticpation.",
+        "A stagged scene displays two pink beds side-by-side, each containg a green elephant, and three yellow handbags aranged to the left so the elephants sit to the right of the bags. A small sign on the wall reads \"Beds hold green elephants\". Nearby, one person stands with their mouth open and hands raised in surprise, while another leans forward, smiling with claspped hands in clear anticpation."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'wine glass', 'count': 1, 'color': 'pink'}, {'object': 'cup', 'count': 1, 'color': 'brown'}. Position the wine glass(s) to the left of the cup(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about wine glass. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "wine glass",
+            "count": 1,
+            "color": "pink"
+          },
+          {
+            "object": "cup",
+            "count": 1,
+            "color": "brown"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "wine glass",
+            "to the left of",
+            "cup"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "wine glass"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single pink wine glass sits on the left of a small brown cup on a simple tabletop; a small white tag hanging from the wine glass stem shows the single word \"Cracked\". A person stands behind the table with a disgusted expression \u2014 nose wrinkled, lip curled, hand slightly raised as if recoiling from the glass. Neutral background, natural light, shallow depth of field.",
+        "A lone pink wine glase sits to the left of a small brown cuppe on a plain tabletop; a tiny white tagg dangling from the wine stem reads \"Cracked\". A person stands behind the table with a disgusted expression \u2014 nose wrinkled, lip curled, hand slightly raised as if recoiling from the glass. Neutral background, natural light, shallow depth of field."
+      ]
+    }
+  ]
+}

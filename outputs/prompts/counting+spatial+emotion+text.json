@@ -1,0 +1,166 @@
+{
+  "experiment_id": "counting+spatial+emotion+text",
+  "timestamp": "2026-02-05T11:58:27.801499",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bus', 'count': 4}, {'object': 'elephant', 'count': 5}, {'object': 'chair', 'count': 4}, {'object': 'frisbee', 'count': 4}. Position the elephant(s) under the bus(s). Position the chair(s) on top of the frisbee(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about elephant, frisbee. Include a person showing anticipation. Include a person showing joy. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "joy",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "bus",
+            "count": 4
+          },
+          {
+            "object": "elephant",
+            "count": 5
+          },
+          {
+            "object": "chair",
+            "count": 4
+          },
+          {
+            "object": "frisbee",
+            "count": 4
+          }
+        ],
+        "spatial_relations": [
+          [
+            "elephant",
+            "under",
+            "bus"
+          ],
+          [
+            "chair",
+            "on top of",
+            "frisbee"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "elephant",
+            "frisbee"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor playful scene shows four yellow buses parked in a loose row, each sheltering elephants beneath their open sides: five gray elephants huddle under the four buses (one bus shelters two elephants), trunks raised and gentle bodies visible under the vehicles. Nearby, four bright plastic frisbees lie flat on the ground, and each frisbee supports a simple wooden chair so there are four chairs balanced on four frisbees. A small hand-painted sign on a pole reads the six-word slogan: Elephant loves frisbee and playful teamwork. Three people watch the scene: one person leaning forward with an anticipatory expression, another jumping with pure joy, and a third stepping back with wide-eyed surprise, all bathed in warm late-afternoon light.",
+        "A whimsical street scene shows four brightly colored buses parked in a row. Under and partly sheltered by the buses are five elephants \u2014 one bus shelters two elephants \u2014 all standing directly beneath the vehicles. In the foreground four chairs are carefully balanced on top of four colorful frisbees, each chair sitting squarely on its frisbee. A hand-painted sign propped against a bus reads \"Elephants chase frisbees beneath parked buses\". Three people watch the scene: a woman with hands clasped and wide-eyed anticipation, a smiling man throwing his head back in joyful laughter, and a child with mouth agape showing clear surprise.",
+        "A whimsical outdoor scene: four large buses are parked side by side, and five gentle elephants stand directly under and sheltered by the buses (one bus shelters two elephants). In front of them four colorful frisbees lie flat on the grass, each supporting one simple wooden chair balanced on top (four chairs on four frisbees). Nearby three people show distinct expressions \u2014 one leans forward with hands clasped in anticipation, another throws their head back in joyful laughter, and a third stands with wide eyes and an open mouth in surprise. A hand-painted sign on an easel reads: \"Elephants and frisbees: gentle, playful companions\". The setting is bright and playful, with families watching and soft midday light casting clear shadows.",
+        "A playful outdoor scene shows four parked buses on a grassy lot and five elephants positioned under the buses: one bus shelters two elephants beneath it and the other three buses each have a single elephant standing directly under them. In the foreground four lightweight chairs are each balanced on top of four flat frisbees laid on the grass, one chair centered on each frisbee. A small hand-painted sign nearby clearly reads \"Elephant frisbee fun makes everyone smile\". Three people react to the scene: a young woman leans forward with clasped hands in clear anticipation, a man jumps with arms raised and a wide grin showing pure joy, and a teenager stands with wide eyes and an open mouth in surprised amazement. The elephants look calm and curious around the buses while the chairs-on-frisbees create a whimsical, slightly surreal vignette.",
+        "A lively street scene shows four parked buses with five elephants huddled underneath them \u2014 some elephants peeking from beneath bus doors and one bus sheltering two elephants. In front, four colorful frisbees lie on the pavement, each with a wooden chair carefully balanced on top, one chair per frisbee. A poster on a lamppost reads \"Elephant meets frisbee in joyful play\". Nearby three people react to the odd spectacle: a young woman with clasped hands and a tense smile showing anticipation, an older man laughing openly with a joyful expression, and a teenager with wide eyes and an open mouth showing surprise."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'potted plant', 'count': 3}, {'object': 'hair drier', 'count': 2}, {'object': 'tie', 'count': 2}. Position the tie(s) inside the potted plant(s). Position the tie(s) to the left of the hair drier(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about hair drier, potted plant. Include a person showing disgust. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "potted plant",
+            "count": 3
+          },
+          {
+            "object": "hair drier",
+            "count": 2
+          },
+          {
+            "object": "tie",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "tie",
+            "inside",
+            "potted plant"
+          ],
+          [
+            "tie",
+            "to the left of",
+            "hair drier"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "hair drier",
+            "potted plant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tidy indoor scene shows three potted plants lined left-to-right on a low shelf; two of the pots (the leftmost and center) each contain a necktie tucked into the soil so the ties trail from the pots. To the right of those plants, on a small table, sit two hair driers placed side by side. A small laminated sign clipped to the shelf reads \"Hair drier harms potted plant.\" A person standing by the hair driers grimaces in disgust, covering their nose and pointing, while another person near the plants leans forward with hands clasped, showing eager anticipation.",
+        "Photorealistic scene on a simple wooden table: three potted plants arranged left to right. Two ties are tucked into the soil of the two leftmost pots, each tie draping visibly over the pot rim; the rightmost pot has no tie. Two hair driers are grouped together on the far right of the table so that both ties (inside the plants) are clearly to the left of both hair driers. A small handwritten sign propped in front of the center pot reads: Hair drier meets potted plant. Two people stand behind the table: the person on the left displays clear disgust, nose wrinkled and mouth turned down, looking at the scene; the person on the right displays anticipation, eyebrows raised and hands clasped, looking toward the plants and ties. Soft daylight, shallow depth of field, neutral background.",
+        "A carefully composed indoor scene on a wooden table showing three potted plants in a row; two ties are tucked inside two of the pots (left and middle pots), with those ties clearly positioned to the left of two hair driers that sit on the right side of the table. The two hair driers are visible, compact and modern. A small sign propped near the plants reads exactly: \"Hair drier harms potted plants\". Two people are in frame: a person on the left showing disgust, nose wrinkled and hand raised as if recoiling, and a person on the right showing anticipation, leaning forward with a hopeful smile and clasped hands. Soft natural light, realistic textures, and a shallow depth of field."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'airplane', 'count': 1}, {'object': 'bench', 'count': 1}. Position the bench(s) to the left of the airplane(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about airplane. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "airplane",
+            "count": 1
+          },
+          {
+            "object": "bench",
+            "count": 1
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bench",
+            "to the left of",
+            "airplane"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "airplane"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single airplane sits on the tarmac to the right while a wooden bench is placed to the left in the foreground. A frustrated passenger stands beside the bench, face flushed, fists clenched and clearly angry as he glares at the aircraft. A weathered sign on a nearby kiosk reads \"Plane delayed again\".",
+        "A single small airplane sits on the tarmac to the right, with a solitary wooden bench placed to the left of the airplane; a visibly angry passenger stands next to the bench, face flushed and arms crossed as they glare toward the plane. On the nearby hangar door a bold sign reads \"Airplane needs maintenance\", and a mechanic watches the tense scene as late-afternoon light casts long shadows."
+      ]
+    }
+  ]
+}

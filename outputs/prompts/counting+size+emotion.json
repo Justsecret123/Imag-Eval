@@ -1,0 +1,143 @@
+{
+  "experiment_id": "counting+size+emotion",
+  "timestamp": "2026-02-04T16:31:05.164289",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+size+emotion",
+      "skills": [
+        "counting",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'train', 'count': 5}, {'object': 'baseball bat', 'count': 5}, {'object': 'frisbee', 'count': 4}, {'object': 'bowl', 'count': 4}. Make the bowl(s) smaller than the baseball bat(s). Make the frisbee(s) larger than the train(s). Include a person showing joy. Include a person showing anger. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "anger",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "train",
+            "count": 5
+          },
+          {
+            "object": "baseball bat",
+            "count": 5
+          },
+          {
+            "object": "frisbee",
+            "count": 4
+          },
+          {
+            "object": "bowl",
+            "count": 4
+          }
+        ],
+        "size_relations": [
+          [
+            "bowl",
+            "smaller",
+            "baseball bat"
+          ],
+          [
+            "frisbee",
+            "larger",
+            "train"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A sunny backyard scene: five small model trains lined up on a short patch of track, and four oversized colorful frisbees\u2014each frisbee noticeably larger than the little trains\u2014scattered on the grass. Five wooden baseball bats lean against a low fence, each noticeably taller than the four small ceramic bowls set on the ground nearby so that the bowls look clearly smaller than the bats. Three people animate the scene: a child showing joy jumps with arms raised and a wide grin next to a frisbee, an adult showing anger scowls and points emphatically toward the trains, and another person showing surprise stands with hands over their mouth and wide eyes as they gaze at a frisbee, creating a lively composition with strong emotions and playful scale contrasts.",
+        "A bright, detailed image of five small toy trains arranged on a low table, five wooden baseball bats nearby that are noticeably larger than four small ceramic bowls placed on the same surface, and four oversized frisbees scattered around that are clearly larger than the trains. In the scene three people display distinct emotions: one person is beaming with joy and has their arms raised, another person looks angry with a scowl and crossed arms, and a third person stands with a surprised expression, hands over their mouth. The composition emphasizes the size relationships\u2014bowls smaller than bats and frisbees larger than trains\u2014while showing five trains, five bats, four frisbees, and four bowls.",
+        "A lively outdoor scene: five colorful toy trains arranged in a short line on the grass; five wooden baseball bats leaning against a picnic table; four large frisbees scattered across the lawn, each noticeably larger than the toy trains; four small ceramic bowls placed on a nearby blanket, each clearly smaller than the baseball bats. Three people interact in the scene: one person beaming with joy, laughing and reaching for a frisbee; another person scowling angrily with arms crossed near the bats; a third person frozen in surprise with wide eyes and mouth open, pointing at the trains. Bright daylight, vivid colors, and clear, tactile details.",
+        "A vibrant backyard scene: five small toy trains are lined up on a low track near the grass, and four oversized frisbees\u2014each noticeably larger than the trains\u2014rest nearby; five full-size baseball bats lean together against a fence, and four small bowls sit on a picnic table, clearly smaller than the bats. A joyful young woman jumps and laughs as she tosses one of the large frisbees, a man with clenched jaw and crossed arms stands angrily by the bat rack, and a third person stands with wide eyes and hands over their mouth, visibly surprised as a frisbee sails past the miniature trains.",
+        "An outdoor picnic scene features five small trains lined up on a short track, four oversized frisbees hovering overhead (each frisbee noticeably larger than the trains), five wooden baseball bats leaning against a bench, and four small ceramic bowls on the blanket (each bowl clearly smaller than the bats). Nearby, a joyful woman beams and tosses a frisbee, an angry man stands with arms crossed and a scowl by the bats, and a surprised teenager freezes with hands to their face, mouth agape, staring at the unexpectedly large frisbees over the tiny trains."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+size+emotion",
+      "skills": [
+        "counting",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'banana', 'count': 3}, {'object': 'sink', 'count': 3}, {'object': 'hair drier', 'count': 3}. Make the banana(s) smaller than the hair drier(s). Make the banana(s) larger than the sink(s). Include a person showing anticipation. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "banana",
+            "count": 3
+          },
+          {
+            "object": "sink",
+            "count": 3
+          },
+          {
+            "object": "hair drier",
+            "count": 3
+          }
+        ],
+        "size_relations": [
+          [
+            "banana",
+            "smaller",
+            "hair drier"
+          ],
+          [
+            "banana",
+            "larger",
+            "sink"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright studio bathroom scene featuring three tiny porcelain sinks lined up on a low counter, each sink so small that three ripe yellow bananas placed beside them are clearly larger than the sinks but noticeably smaller than three bulky handheld hair driers arranged nearby. The three bananas are vivid yellow and evenly spaced; the three hair driers are oversized and clunky, in contrasting colors, dominating the counter. Two people stand behind the counter: one leans forward with clasped hands, wide eyes and a hopeful smile showing anticipation; the other stands with arms crossed, a furrowed brow and tight jaw, visibly angry. Soft, directional light emphasizes the size contrasts and the charged, expectant atmosphere.",
+        "An interior scene showing three small chrome sinks lined up on a low counter, three bright yellow bananas that are clearly larger than those tiny sinks but still smaller than the nearby tools, and three hair dryers that are the largest objects in the frame and noticeably bigger than the bananas. The bananas are clustered between the sinks and the hair dryers, their curved shapes intermediate in size so the sinks read as the smallest, the bananas medium, and the hair dryers largest. In the foreground two people react to the arrangement: one leans forward with clasped hands and an eager, anticipatory expression, the other stands with furrowed brows and crossed arms, face flushed with anger. The composition emphasizes the size contrasts and the emotional tension between the two people.",
+        "A surreal bathroom tableau contains three tiny sinks arranged along a tiled wall, three medium-sized yellow bananas perched on a narrow shelf above them, and three oversized hair driers set on the counter. The bananas are visibly larger than the tiny sinks but noticeably smaller than the large hair driers. In the foreground a person leans forward with clasped hands and a hopeful, anticipatory expression, while nearby another person stands with clenched fists and a scowling, angry face; soft morning light casts shadows that emphasize the size differences."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+size+emotion",
+      "skills": [
+        "counting",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'zebra', 'count': 2}, {'object': 'couch', 'count': 1}. Make the zebra(s) larger than the couch(s). Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "zebra",
+            "count": 2
+          },
+          {
+            "object": "couch",
+            "count": 1
+          }
+        ],
+        "size_relations": [
+          [
+            "zebra",
+            "larger",
+            "couch"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal scene shows two oversized zebras \u2014 each clearly much larger than the single small couch \u2014 standing around a lone couch in a sparse room; a person sits on the couch with hunched shoulders, downcast eyes and a tear on their cheek, visibly sad as the giant zebras loom gently nearby.",
+        "Two oversized zebras and a single small couch in a quiet, melancholic scene: two zebras, each noticeably larger than the lone couch (roughly twice the height and length of the couch), stand in a softly lit living-room-like space. A solitary person sits slumped on the couch, head in hands, tears on their face and a visibly sorrowful expression. One zebra gently nuzzles the back of the couch while the other stands protectively nearby, their bold black-and-white stripes dominating the composition. Warm late-afternoon light filters through a nearby window, casting long shadows and a soft, somber atmosphere; muted colors and shallow depth of field emphasize the emotional contrast between the giant animals and the small, grieving person."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "experiment_id": "counting+spatial+size+emotion+text",
+  "timestamp": "2026-02-04T16:15:26.519479",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'keyboard', 'count': 5}, {'object': 'person', 'count': 5}, {'object': 'scissors', 'count': 5}, {'object': 'tv', 'count': 5}. Position the person(s) next to the scissors(s). Position the tv(s) to the right of the keyboard(s). Make the scissors(s) smaller than the person(s). Make the tv(s) larger than the keyboard(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about keyboard, scissors. Include a person showing anger. Include a person showing joy. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "joy",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "keyboard",
+            "count": 5
+          },
+          {
+            "object": "person",
+            "count": 5
+          },
+          {
+            "object": "scissors",
+            "count": 5
+          },
+          {
+            "object": "tv",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "person",
+            "next to",
+            "scissors"
+          ],
+          [
+            "tv",
+            "to the right of",
+            "keyboard"
+          ]
+        ],
+        "size_relations": [
+          [
+            "scissors",
+            "smaller",
+            "person"
+          ],
+          [
+            "tv",
+            "larger",
+            "keyboard"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "keyboard",
+            "scissors"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A well-lit studio scene contains five people, five small pairs of scissors, five keyboards, and five TVs. Five keyboards are arranged in a row on a long table, and directly to the right of that row sit five larger flat-screen TVs \u2014 each TV noticeably larger than the keyboards. Each person stands next to one of the scissors, with the scissors clearly smaller than the people and placed at their sides or on the tabletop. Among the five people, one shows visible anger with clenched fists and a reddened expression, one shows joy with a broad smile and laughter, and one shows sadness with teary eyes and a slumped posture; the remaining two people appear neutral and attentive. A bright wall sign above the table reads: Keep keyboard and scissors separated for safety. The scene keeps all five of each object visible and emphasizes the required size and positional relationships.",
+        "A bright scene shows five people standing along a row of desks. On each desk sits a compact keyboard, and to the right of each keyboard stands a noticeably larger television screen, so there are five keyboards with five larger TVs to their right. Each person is positioned next to a small pair of scissors (the scissors are noticeably smaller than the people); one person angrily clenches a scissor with a flushed face, another laughs with joy while holding a small scissor, a third looks down sadly with teary eyes next to a scissor, and two others stand neutrally next to their scissors. A laminated sign on the wall reads \"Keyboards and scissors should be kept apart\".",
+        "A bright, organized room contains exactly five keyboards, five televisions, five pairs of scissors, and five people. The five keyboards are arranged in a neat row toward the left of the scene; directly to the right of that row are five large TVs on stands, each television noticeably larger than the keyboards. Five people are positioned next to five small pairs of scissors so that every person stands immediately beside a scissors; each pair of scissors is visibly smaller than the person next to it. One person shows clear anger with a furrowed brow and clenched fists, another shows joy with a big smile and raised arms, and a third shows sadness with slumped shoulders and a tear; the remaining two people are neutral. Above the keyboards there is a laminated safety sign that reads: \"Keep keyboards, scissors separate for safe workspace\".",
+        "A clean studio scene containing five keyboards set in a horizontal row; to the right of each keyboard sits a TV that is noticeably larger than its paired keyboard, so there are five TVs, each positioned to the right of a keyboard. Five people stand in front of the keyboards, and each person is positioned immediately next to one small pair of scissors \u2014 there are five scissors total and each scissors is visibly smaller than the nearby person. One person displays clear anger with a clenched jaw and tense posture, another person beams with joy and a wide smile, a third person looks visibly sad with downcast eyes, and the remaining two people appear neutral. A rectangular wall sign above the keyboards shows the visible seven-word message: \"Handle keyboards gently; scissors cut, keep away!\"",
+        "A brightly lit studio scene contains five keyboards, five people, five pairs of scissors, and five TVs. The five keyboards are arranged across a long table, and to the right of each keyboard is a noticeably larger TV (each TV clearly bigger than its paired keyboard). In front of each keyboard a person stands next to a small pair of scissors (five people and five scissors total); the scissors are visibly smaller than the people and sit beside their respective person. Among the five people one is showing anger with a furrowed brow and clenched fists, one is showing joy with a wide smile and raised arms, and one is showing sadness with downcast eyes and slumped shoulders, while the other two are neutral and focused on tasks. A printed sign on the wall is clearly readable and says: Keyboard and scissors save the day today."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'traffic light', 'count': 2}, {'object': 'apple', 'count': 2}, {'object': 'kite', 'count': 2}. Position the apple(s) to the left of the kite(s). Position the apple(s) under the traffic light(s). Make the apple(s) smaller than the traffic light(s). Make the apple(s) larger than the kite(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about kite, apple. Include a person showing anger. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "traffic light",
+            "count": 2
+          },
+          {
+            "object": "apple",
+            "count": 2
+          },
+          {
+            "object": "kite",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "apple",
+            "to the left of",
+            "kite"
+          ],
+          [
+            "apple",
+            "under",
+            "traffic light"
+          ]
+        ],
+        "size_relations": [
+          [
+            "apple",
+            "smaller",
+            "traffic light"
+          ],
+          [
+            "apple",
+            "larger",
+            "kite"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "kite",
+            "apple"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Two traffic lights stand side by side on metal poles at a street corner. Beneath each traffic light sits an apple\u2014one directly under the left light and one directly under the right\u2014and each apple is positioned to the left of a small kite flying nearby to the right. The apples are noticeably smaller than the traffic lights but clearly larger than the two tiny kites. A rectangular yellow sign attached to the left traffic-light pole reads \"Kite above apple, beware\". A man near the left pole shows anger, furrowing his brow and pointing at the scene, while a woman near the right pole looks surprised, mouth open and hands raised as she watches the kites.",
+        "An outdoor street scene containing two traffic lights. Directly beneath each traffic light sits a single apple (two apples total); each apple is noticeably smaller than the traffic lights but clearly larger than the kites. To the right of each apple hangs a kite (two kites total), so every apple is positioned to the left of its corresponding kite. The kites are the smallest objects with fluttering tails. A visible rectangular sign on a nearby post reads exactly: \"Kite and apple together\". Two people are present: one person near the left traffic light is showing anger (furrowed brow, clenched fists), and another person near the right traffic light is showing surprise (wide eyes, open mouth). The scene is in daylight with all objects and relative sizes clearly visible.",
+        "A street-scene image shows two traffic lights mounted on separate poles. Directly beneath each traffic light sits a red apple (two apples in total), each apple positioned to the left of a small kite and noticeably smaller than its overhead traffic light but larger than the kite beside it. Two small kites float to the right of the apples. A weathered sign near the apples reads \"Apple left of kite\". A man nearby is clearly angry\u2014furrowed brow and clenched jaw\u2014while a woman close by looks surprised, with wide eyes and an open mouth."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'mouse', 'count': 2}, {'object': 'skateboard', 'count': 2}. Position the mouse(s) in front of the skateboard(s). Make the skateboard(s) smaller than the mouse(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about mouse. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "mouse",
+            "count": 2
+          },
+          {
+            "object": "skateboard",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "mouse",
+            "in front of",
+            "skateboard"
+          ]
+        ],
+        "size_relations": [
+          [
+            "skateboard",
+            "smaller",
+            "mouse"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "mouse"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A warm, candid scene featuring two mice standing in the foreground, each positioned directly in front of a tiny skateboard (there are two skateboards behind them and both are noticeably smaller than the mice); a nearby person kneels with open palms and a gentle, trusting smile, leaning forward in a welcoming gesture; a small handmade sign propped on the ground reads \"Mouse\".",
+        "Two curious mice sit in the foreground, each positioned directly in front of a skateboard \u2014 there are two miniature skateboards that are noticeably smaller than the mice. A person kneels nearby with open palms and a warm, trusting smile, leaning forward in a relaxed, welcoming posture to show trust. A small handwritten sign propped beside them displays a single word: Mouse. Soft natural lighting and a shallow depth of field keep the focus on the mice, the tiny skateboards, and the sign; no other visible text appears."
+      ]
+    }
+  ]
+}

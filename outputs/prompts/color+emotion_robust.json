@@ -1,0 +1,109 @@
+{
+  "experiment_id": "color+emotion_robust",
+  "timestamp": "2026-02-05T09:02:41.732654",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+emotion",
+      "skills": [
+        "color",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'couch', 'color': 'brown'}, {'object': 'toaster', 'color': 'pink'}, {'object': 'oven', 'color': 'green'}, {'object': 'remote', 'color': 'yellow'}. Include a person showing disgust. Include a person showing fear. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "fear",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "couch",
+            "color": "brown"
+          },
+          {
+            "object": "toaster",
+            "color": "pink"
+          },
+          {
+            "object": "oven",
+            "color": "green"
+          },
+          {
+            "object": "remote",
+            "color": "yellow"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A cozy open-plan kitchen and living area: a brown couch sits facing the camera with a yellow remote resting on its arm; a pink toaster perches on the countertop nearby and a green oven is built into the kitchen wall behind it. Three people react to a burnt smell\u2014one person on the couch pinches their nose in disgust, a second person near the oven recoils in fear with wide eyes and raised hands, and a third stands between them with clenched fists and a furious, angry expression; soft daylight filters through a window and a faint wisp of smoke drifts from the oven.",
+        "An inviting open-plan kitchen and living space: a brown couch faces the camera with a yellow remote resting on its arm; a pink toaster perchs on the countertop and a green oven is built into the back wall. Three people react to the smell of something burning\u2014one person on the couch pinches their nose in disgust, a second by the oven recolls in fear with wide eyes and raised hands, and a third stands between them with clenched fists and a furiuos, angry expression; soft daylight filters through a window and a thin wisp of smoke drifts from the oven.",
+        "In a cozy open-plan kitchen and living area a brown couch sits facing the camera with a yello remote resting on its arm; a pink toaster perchs on the countertop nearby and a green oven is built into the kitchen wall behind it. Three people react to a burnt smell \u2014 one person on the couch pinchs their nose in disgust, a second person near the oven recoils in fear with wide eyes and raised hands, and a third stands between them with clenched fists and a furios, angry expression; soft daylight filtres through a window and a faint wisp of smok drifts from the oven.",
+        "An open-plan kitchen and living area feels cozy: a brown couch faces the camera with a yelow remote resting on its arm; a pink toaster sits on the countertop nearby and a green oven is built into the kitchen wall behind it. Three people react to the smell of burning\u2014one person on the couch pinces their nose in disgust, a second by the oven recoils in fear with wide eyes and raised hands, and a third stands between them with clenched fists and a furious, angy expression. Soft daylight filters through a window and a faint wisp of smoke drifts from the oven.",
+        "A cozy open-plan kitchen and living space: a brown couch facin the camera with a yelow remote resting on its arm; a pink toster sits on the countertop nearby and a green oven is built into the kitchen wall behind it. Three people react to a burnt smell\u2014one person on the couch pinches their nose in disgust, a second near the oven recoils in fear with wide eyes and raised hands, and a third stands between them with clenched fists and a furious, angry expression. Soft daylight filters through a window and a faint wisp of smoke drifing from the oven."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+emotion",
+      "skills": [
+        "color",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'toothbrush', 'color': 'black'}, {'object': 'teddy bear', 'color': 'purple'}, {'object': 'cup', 'color': 'green'}. Include a person showing sadness. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "toothbrush",
+            "color": "black"
+          },
+          {
+            "object": "teddy bear",
+            "color": "purple"
+          },
+          {
+            "object": "cup",
+            "color": "green"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "In a softly lit bathroom, a person sits on the edge of the bathtub looking sad, tears on their cheeks as they clutch a small purple teddy bear tightly; nearby, another person stands with arms crossed and an angry scowl, clearly upset. On the sink a black toothbrush lies beside a bright green cup, and the tiled background and steam-laced mirror reflect the tense, emotional moment.",
+        "In a softly lit bathrooom, someone sits on the rim of the bathtub looking sad, teers streaking their cheeks as they clutch a small purpel teddy bear tightly; nearby, another person stands with arms crossed and an angry scowll, clearly upset. On the sink a black toothbrush lies beside a brite green cup, and the tiled walls and steam-laced mirror reflect the tense, emotinal moment.",
+        "In a dimly lit bathroom, someone sits on the edge of the tub looking dejected with teers on their cheeks as they clucthing a small purple teddy bear to their chest; nearby, another person stands with arms crossed and an angry scowl, clearly upset. On the sink a black toothbrush rests beside a bright green cup, and the tiled backgroun and steam-laced miror reflect the tense, emotional moment."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+emotion",
+      "skills": [
+        "color",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'sheep', 'color': 'yellow'}, {'object': 'oven', 'color': 'orange'}. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "sheep",
+            "color": "yellow"
+          },
+          {
+            "object": "oven",
+            "color": "orange"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A warm, cozy kitchen scene bathed in soft afternoon light: a fluffy, pale yellow sheep stands calmly beside a retro, glossy orange oven, its wool catching the sun. Kneeling nearby is a person with a peaceful, trusting expression\u2014eyes gently closed and a slight smile\u2014one hand resting over their heart and the other softly stroking the sheep, leaning in as if completely at ease and trusting the quiet moment.",
+        "A warm, cozey kitchen washed in soft afternoon light: a fluffy, pale yelow sheep stands calmly beside a retro, glosy orange oven, its wool catching the sun. Kneeling nearby is a person with a peaceful, trusting expression\u2014eyes gently closed and a slight smile\u2014one hand resting over their heart while the other softly stroking the sheep, leaning in as if completely at ease and savoring the quiet moment."
+      ]
+    }
+  ]
+}

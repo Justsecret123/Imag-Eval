@@ -1,0 +1,109 @@
+{
+  "experiment_id": "counting+emotion_robust",
+  "timestamp": "2026-02-05T10:55:57.273154",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+emotion",
+      "skills": [
+        "counting",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'sandwich', 'count': 4}, {'object': 'bird', 'count': 5}, {'object': 'surfboard', 'count': 4}, {'object': 'refrigerator', 'count': 5}. Include a person showing trust. Include a person showing joy. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "joy",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "sandwich",
+            "count": 4
+          },
+          {
+            "object": "bird",
+            "count": 5
+          },
+          {
+            "object": "surfboard",
+            "count": 4
+          },
+          {
+            "object": "refrigerator",
+            "count": 5
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, surreal beachside scene: five colorful refrigerators stand in a neat row on the sand like an impromptu art installation, and four surfboards lean against a weathered driftwood fence nearby. Five birds \u2014 a mix of seagulls and small shorebirds \u2014 hop and preen atop the refrigerators and surfboards. On a low wooden picnic table in front of them four sandwiches wrapped in paper are arranged on a tray. Three people punctuate the foreground, each clearly expressing a different emotion: a person leaning back against one of the refrigerators with closed eyes and a relaxed smile, visibly showing trust; a person with arms thrown wide and a beaming grin, mid-laugh to show joy; and a person with clenched fists, a furrowed brow and a tight jaw, unmistakably showing anger. The composition contrasts the playful coastal objects \u2014 five refrigerators, four surfboards, four sandwiches and five birds \u2014 with the intimate, charged human emotions in the foreground.",
+        "A bright, surreal beackside tableau: five coloful refrigerators stand in a tidy row on the sand like an impromptu art installation, while four surfboards lean against a weathered driftwood fence a few paces away. Five birds \u2014 seagulls mixed with small shorebirds \u2014 hop and preen across the tops of the refrigerators and surfboards. In front, on a low wooden picnic tabel, four sandwiches wrappd in paper sit on a tray. Three people occupy the foreground, each conveying a distinct emotion: one leaning back against a fridge with closed eyes and a relaxed smile, radiating trust; another with arms flung wide and a beaming grin, caught mid-laugh to show joy; and a third with clenched fists, a furrowed brow and a tight jaw, clearly angry. The composition contrasts the playful coastal objects \u2014 five refrigerators, four surfboards, four sandwiches and five birds \u2014 with the intimate, charged human emotions in the foreground.",
+        "A vivid, slightly surreal beachscene: five coloful fridges lined up like an impromptu outdoor art piece on the sand, while four surfboards rest against a weathered driftwood fence nearby. Five birds \u2014 a mix of seaguls and small shorebirds \u2014 hop and preen across the tops of the fridges and boards. On a low wooden picnic table in front of them, four sandwhiches wrapped in paper sit together on a tray. Three people occupy the foreground, each displaying a distinct emotion: one leaning back against a fridge with eyes closed and a relxed smile, radiating trust; another with arms thrown wide and a beaming grin, mid-laugh, showing pure joy; and a third with clenched fists, a furrowed brow and a tight jaw, clearly angry. The composition contrasts playful coastal objects \u2014 five refrigerators, four surfboards, four sandwiches and five birds \u2014 with the intense, intimate emotions of the figures in the front.",
+        "A bright, surreal beachside scene: five colorful refridgerators stand in a neat row on the sand like an improptu art installation, while four surfbords lean against a wethered driftwood fence nearby. Five birds \u2014 a mix of seaguls and small shorebirds \u2014 hop and preen atop the refridgerators and surfbords. On a low wooden picnic table in front of them four sandwiches wrapped in paper are arranged on a tray. Three people punctuate the foreground, each clearly expressing a different emotion: one leaning back against a refridgerator with closed eyes and a relaxed smile, visibly showing trust; another with arms thrown wide and a beaming grin, mid-laugh to show joy; and a third with clenched fists, a furrowed brow and a tight jaw, unmistakably showing anger. The composition contrasts the playful coastal objects \u2014 five refridgerators, four surfbords, four sandwiches and five birds \u2014 with the intimate, charged human emotions in the foreground.",
+        "A bright, surreal beackside tableau: five colroful refridgerators stand in a tidy row on the sand like an impromptu art installation, while four surfboards lean against a wearthered driftwood fence nearby. Five birds \u2014 a mix of seagulls and small shorebirds \u2014 hop and preen atop the fridges and surfboards. On a low wooden picnic table in front of them four sandwiches wrapped in paper are arranged on a tray. Three people punctuate the foreground, each clearly expressing a different emotion: one person leans back against a refrigerator with closed eyes and a relaxed smile, visibly showing trust; another throws their arms wide with a beaming grin, mid-laugh to convey joy; and a third clenches their fists, with a furrowed brow and tight jaw, unmistakably angry. The composition contrasts the playful coastal objects \u2014 five refrigerators, four surfboards, four sandwiches and five birds \u2014 with the intimate, charged human emotions in the foregound."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+emotion",
+      "skills": [
+        "counting",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'parking meter', 'count': 3}, {'object': 'sheep', 'count': 2}, {'object': 'cake', 'count': 3}. Include a person showing fear. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "parking meter",
+            "count": 3
+          },
+          {
+            "object": "sheep",
+            "count": 2
+          },
+          {
+            "object": "cake",
+            "count": 3
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A daytime city sidewalk scene: three vintage parking meters stand in a row along the curb, two fluffy sheep mill around near the meters nibbling grass, and three decorated cakes rest on a small wooden table by the bench. In the foreground a young woman recoils in clear fear, eyes wide and hands raised as if startled, while beside her a calm man leans in with a gentle smile and an open palm on her arm, radiating trust and reassurance; soft afternoon light and a quiet urban backdrop complete the image.",
+        "A daytime urban sidewalk scene: three vintage parking meters stand in a row along the curb, two flufy sheep mill about near the meters, nibbling at the grass, and three decorted cakes rest on a small wooden table by a bench. In the foreground a young woman recolls in obvious fear, eyes wide and hands raised as if startled, while beside her a calm man leans in with a gentle smile and an open palm on her arm, radiating trust and reassurence; soft afternon light and a quiet urban backdrop complete the scene.",
+        "A daytime city sidewalk scene shows three vintgae parking meters lined up along the curb; two fluffy sheap mill arround them nibbling at the grass, while three decorated cakes sit on a small wooden table by a bench. In the foreground a young woman flinches in clear fear, eyes wide and hands raised as if starteld, and beside her a calm man leans in with a gentle smile and an open palm on her arm, radiating trust and reassurence; soft afternoon light and a quiet urban backdrop finish the image."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+emotion",
+      "skills": [
+        "counting",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'clock', 'count': 1}, {'object': 'frisbee', 'count': 1}. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "clock",
+            "count": 1
+          },
+          {
+            "object": "frisbee",
+            "count": 1
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A sunlit backyard photo of two friends: one person sits on a picnic blanket with eyes closed and a peaceful smile, head tilted back and resting on the other friend's knee in a clear gesture of trust while the second friend gently steadies them. A single bright red frisbee spins midair above the grass (only one frisbee is visible), and a single round wall clock is mounted on the fence behind them, its face clearly showing the time. Warm golden light, candid expressions, and shallow depth of field emphasize the intimate, trusting moment.",
+        "Sunlit bakcyard photo of two frends: one person reclines on a picnic blanket with eyes closed and a peaceful smile, head tilted back and resting on the other friend's knee in a clear gesture of trust while the second frend gentley steadies them. A single bright red frizbee spins midair above the grass (only one frisbee is visible), and a single round wall clock is mounted on the fence behind them, its face clearly showing the time. Warm golden light, candid expressions, and a shallow depth of field emphasize the intimate, trusting moment."
+      ]
+    }
+  ]
+}

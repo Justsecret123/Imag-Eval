@@ -1,0 +1,151 @@
+{
+  "experiment_id": "color+spatial+text_robust",
+  "timestamp": "2026-02-05T11:15:22.218330",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+text",
+      "skills": [
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'orange', 'color': 'gray'}, {'object': 'baseball bat', 'color': 'brown'}, {'object': 'bus', 'color': 'blue'}, {'object': 'oven', 'color': 'yellow'}. Position the bus(s) below the oven(s). Position the baseball bat(s) under the orange(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about oven, orange. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "orange",
+            "color": "gray"
+          },
+          {
+            "object": "baseball bat",
+            "color": "brown"
+          },
+          {
+            "object": "bus",
+            "color": "blue"
+          },
+          {
+            "object": "oven",
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bus",
+            "below",
+            "oven"
+          ],
+          [
+            "baseball bat",
+            "under",
+            "orange"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "oven",
+            "orange"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright yellow oven sits on a high kitchen counter with a small blue bus toy placed directly below it on the lower shelf; a single gray orange rests on a wooden table with a brown baseball bat lying directly underneath the fruit; a paper note taped to the oven door reads \"Oven cooks gray orange into fragrant marmalade\".",
+        "Brigt yellow oven sits on a high kicthen counter with a small bule bus toy placed directly below it on the lower shelf; a single gray orange rests on a wooden table with a brown baseball bat lying directly underneeth the fruit; a paper note taped to the oven door reads \"Oven cooks gray orange into fragnant marmalade\".",
+        "Brigt yellow oven sits on a high kichen counter with a smal blue buss toy placed directly below it on the lower shelv; a single gry orange rests on a wooden table with a brown baseball bat lying directly underneith the fruit; a paper note taped to the oven door reads \"Oven cooks gray orange into fragrent marmalade\".",
+        "A vivid yellow oven perches atop a tall kichen counter; directly beneth it on the lower shelve sits a small bleu toy bus. On a wooden tabel a single gray oragne rests, with a brown baseball bat lying directly underneath the fruit. A paper note taped to the oven door reads, \"Oven cooks gray orange into fragrant marmalade\".",
+        "On a tall kitchen counter stands a vivid yallow oven, and on the lower shelf a tiny blue buss toy is positioned directly beneath it; on a wooden table a single gray orange rests with a brown baseball bat lying just underneath the fruit; a paper note taped to the oven door reads \"Oven cooks gray orange into fragrant marmalde\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+text",
+      "skills": [
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'potted plant', 'color': 'orange'}, {'object': 'couch', 'color': 'blue'}, {'object': 'cell phone', 'color': 'gray'}. Position the couch(s) above the potted plant(s). Position the couch(s) to the right of the cell phone(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about potted plant, couch. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "potted plant",
+            "color": "orange"
+          },
+          {
+            "object": "couch",
+            "color": "blue"
+          },
+          {
+            "object": "cell phone",
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "couch",
+            "above",
+            "potted plant"
+          ],
+          [
+            "couch",
+            "to the right of",
+            "cell phone"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "potted plant",
+            "couch"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A minimalist living-room scene: a gray cell phone rests on a low table at left, and to its right a blue couch sits slightly raised on a shallow platform directly above an orange potted plant beneath it. A small framed sign on the wall above the couch displays the text Orange plant blue couch.",
+        "A minimalist livng-room scene: a grey cel phone rests on a low table at left; to its right a blue couch sits slightly raised on a shallow platform positioned directly above an orange poted plant. A small framed sign on the wall above the couch displays the text Orange plant blue couch.",
+        "Minimalist livng-room: a gray cel phone lies on a low table to the left; to its right a blue couch is slighly elevated on a shallow platform, and directly beneath that platform is an orange potted plant. Above the couch a small framed sign reads \"Orange plant blue couch\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+text",
+      "skills": [
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'potted plant', 'color': 'yellow'}, {'object': 'airplane', 'color': 'brown'}. Position the airplane(s) next to the potted plant(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about potted plant. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "potted plant",
+            "color": "yellow"
+          },
+          {
+            "object": "airplane",
+            "color": "brown"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "airplane",
+            "next to",
+            "potted plant"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "potted plant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright, well-lit scene showing a small yellow potted plant on a wooden desk with a brown model airplane placed directly next to the pot; a neat white label stuck into the soil displays the single word \"Plant\" in black ink.",
+        "An airy, bright scene of a small yelow potted plant resting on a wooden desck, with a brwon model airplane placed immediately beside the pot; a neat white label stuck into the soil shows the single word \"Plant\" in black ink."
+      ]
+    }
+  ]
+}

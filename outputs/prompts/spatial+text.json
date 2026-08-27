@@ -1,0 +1,139 @@
+{
+  "experiment_id": "spatial+text",
+  "timestamp": "2026-02-04T16:34:27.244804",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+text",
+      "skills": [
+        "spatial",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'microwave'}, {'object': 'oven'}, {'object': 'bird'}, {'object': 'teddy bear'}. Position the bird(s) in front of the microwave(s). Position the oven(s) above the teddy bear(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about teddy bear, oven. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "microwave"
+          },
+          {
+            "object": "oven"
+          },
+          {
+            "object": "bird"
+          },
+          {
+            "object": "teddy bear"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bird",
+            "in front of",
+            "microwave"
+          ],
+          [
+            "oven",
+            "above",
+            "teddy bear"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "teddy bear",
+            "oven"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Kitchen scene: a compact microwave sits on the counter with a small bird standing directly in front of it. A wall oven is mounted above a worn teddy bear that sits on the floor beneath the oven. A taped note on the oven door is clearly visible and reads 'Teddy bear should not be placed inside oven'.",
+        "A cozy kitchen scene: a stainless-steel microwave sits on the counter with a small colorful bird standing directly in front of it, looking toward the microwave door. A wall-mounted oven is placed on a shelf above a lower shelf where a plush teddy bear sits, so the oven is visibly above the teddy bear. Warm morning light pours through a nearby window, casting soft shadows; a few jars and a chopping board sit on the counter. A handwritten note taped to the cabinet reads: \"Teddy bear and oven make cozy kitchen memories.\"",
+        "A cozy kitchen scene shows a compact microwave on a counter with a small bird standing directly in front of it, and a built-in oven mounted on the wall just above a plush teddy bear sitting on a lower shelf. A taped note on the oven door reads: Teddy bear near the oven; keep away, please",
+        "A bright kitchen scene shows a countertop microwave with a small bird standing directly in front of its glass door, and another microwave across the counter with a second bird perched in front. Two wall ovens are installed above lower shelves where soft teddy bears sit, each oven positioned directly above a teddy bear. A small handwritten sign on the shelf reads: \"Teddy bear near oven: dry clean, avoid heat.\"",
+        "A cozy kitchen scene: a bright little bird stands in front of a countertop microwave, and directly above a plush teddy bear on a low shelf there is a mounted oven. A taped note on the cabinet displays the text \"Teddy bear stored above the oven for safety\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+text",
+      "skills": [
+        "spatial",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'remote'}, {'object': 'keyboard'}, {'object': 'scissors'}. Position the keyboard(s) inside the scissors(s). Position the keyboard(s) below the remote(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about remote, keyboard. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "remote"
+          },
+          {
+            "object": "keyboard"
+          },
+          {
+            "object": "scissors"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "keyboard",
+            "inside",
+            "scissors"
+          ],
+          [
+            "keyboard",
+            "below",
+            "remote"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "remote",
+            "keyboard"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A crisp photograph shows a TV remote resting near the top edge of a wooden desk, and directly below it a compact keyboard is nestled inside the open blades and circular handles of a large pair of scissors; a small sticky note beside them reads \"Remote and keyboard belong together\".",
+        "A still-life photograph showing a single TV remote hovering above a compact computer keyboard that is cradled inside the open blades of a large pair of scissors; the keyboard sits directly below the remote. The objects rest on a plain wooden table with soft natural light and a neutral background. A small yellow sticky note attached to the scissors displays the handwritten message: Remote and keyboard need batteries. Ensure the remote and keyboard are unbranded and there is no other visible text in the scene.",
+        "On a worn wooden table, an open pair of silver scissors cradles a compact black keyboard inside its blades, and a grey TV remote rests above them so the keyboard sits below the remote; a small sticky note nearby reads \"Remote above keyboard keep together.\""
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+text",
+      "skills": [
+        "spatial",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'airplane'}, {'object': 'orange'}. Position the orange(s) behind the airplane(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about airplane. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "airplane"
+          },
+          {
+            "object": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "orange",
+            "behind",
+            "airplane"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "airplane"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A close-up photograph of a small model airplane in the foreground on a wooden table, with two bright oranges placed directly behind the airplane; warm natural light and shallow depth of field blur the background, and a small white label propped next to the model displays the single word Plane",
+        "A photorealistic image of a single white airplane in sharp focus in the foreground on a sunlit runway, with several bright oranges arranged behind the airplane so the oranges are clearly positioned behind it; a simple wooden sign beside the plane displays the single word Plane as the only visible text in the scene; warm late-afternoon lighting, soft shadows, shallow depth of field, high detail."
+      ]
+    }
+  ]
+}

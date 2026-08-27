@@ -1,0 +1,166 @@
+{
+  "experiment_id": "color+size+emotion+text",
+  "timestamp": "2026-02-05T10:32:15.532414",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+size+emotion+text",
+      "skills": [
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'baseball bat', 'color': 'white'}, {'object': 'hot dog', 'color': 'purple'}, {'object': 'bird', 'color': 'pink'}, {'object': 'elephant', 'color': 'green'}. Make the bird(s) smaller than the elephant(s). Make the baseball bat(s) larger than the hot dog(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about baseball bat, bird. Include a person showing disgust. Include a person showing fear. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "fear",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "baseball bat",
+            "color": "white"
+          },
+          {
+            "object": "hot dog",
+            "color": "purple"
+          },
+          {
+            "object": "bird",
+            "color": "pink"
+          },
+          {
+            "object": "elephant",
+            "color": "green"
+          }
+        ],
+        "size_relations": [
+          [
+            "bird",
+            "smaller",
+            "elephant"
+          ],
+          [
+            "baseball bat",
+            "larger",
+            "hot dog"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "baseball bat",
+            "bird"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A street-scene illustration shows a white baseball bat, propped upright and clearly larger than a nearby purple hot dog on a vendor's cart; a tiny pink bird perches on the bat and is much smaller than a towering green elephant standing beside them. A hand-painted sign on the cart reads \"Baseball bat scares tiny pink bird\". Three onlookers display distinct emotions: a woman on the left twists her face in disgust and pinches her nose, a man behind her cowers in visible fear with wide eyes, and a teenager at the front leans forward with eager anticipation, hands clasped. The scene emphasizes the bright white, purple, pink, and green colors.",
+        "A surreal park scene: a large white baseball bat lies prominently on a picnic table next to a tiny purple hot dog, the bat clearly larger than the hot dog. A small pink bird perches on the broad back of a towering green elephant, the bird visibly much smaller than the elephant. A wooden sign leaning against the table reads \"White baseball bat scares pink bird\". Three onlookers show distinct emotions \u2014 a woman turning away with a look of disgust, a young man recoiling in fear, and an older person leaning forward with hands clasped in eager anticipation \u2014 all set against a bright, whimsical background.",
+        "A brightly lit park scene shows a large white baseball bat leaning against a picnic table, clearly larger than a small purple hot dog resting on a paper plate. A tiny pink bird perches on the broad back of a huge green elephant nearby, the bird noticeably smaller than the elephant. A hand-painted sign on the table reads: \"White bat frightens tiny pink bird\". Three people react around the scene: one person grimaces in disgust, pinching their nose; another recoils with wide eyes, showing fear; and a third leans forward with hands clasped, face flushed with anticipation.",
+        "A busy park tableau: a large green elephant stands left while a tiny pink bird perches on its back, clearly much smaller than the elephant. A long white baseball bat, noticeably larger than a small purple hot dog on a nearby picnic blanket, leans against a bench. A wooden sign nearby reads \"White bat scares the pink bird\". Three people react \u2014 a woman grimacing in disgust at the purple hot dog, a teenager cowering in fear of the looming green elephant, and a child leaning forward in eager anticipation of the white baseball bat. Warm afternoon light casts soft shadows across the scene.",
+        "A whimsical street scene shows a large green elephant standing in the center with a tiny pink bird perched on its head \u2014 the bird is clearly much smaller than the elephant. Nearby a stout white baseball bat rests upright beside a picnic bench and looms over a small purple hot dog sitting on a plate, the baseball bat noticeably larger than the hot dog. Three onlookers react vividly: a woman clutching her nose in disgust, a young man frozen with fear with wide eyes and hands to his mouth, and a teenager leaning forward with eager anticipation. A hand-painted sign propped on the bench reads \"White bat threatens pink bird; beware\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+size+emotion+text",
+      "skills": [
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'person', 'color': 'orange'}, {'object': 'toilet', 'color': 'gray'}, {'object': 'sheep', 'color': 'yellow'}. Make the person(s) larger than the sheep(s). Make the person(s) smaller than the toilet(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about person, toilet. Include a person showing fear. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "person",
+            "color": "orange"
+          },
+          {
+            "object": "toilet",
+            "color": "gray"
+          },
+          {
+            "object": "sheep",
+            "color": "yellow"
+          }
+        ],
+        "size_relations": [
+          [
+            "person",
+            "larger",
+            "sheep"
+          ],
+          [
+            "person",
+            "smaller",
+            "toilet"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "person",
+            "toilet"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A surreal scene shows a gigantic gray toilet towering over two orange people who stand in front of it; the toilet is much larger than the people, and the people are noticeably larger than the small, clustered yellow sheep grazing at their feet. One orange person clutches their hands to their face, eyes wide in fear; the other slumps with shoulders hunched and head bowed, clearly sad. A worn metal sign mounted on the toilet tank displays six words in bold: \"Warning: toilet endangers person, keep distance.\"",
+        "A surreal scene where a massive gray toilet looms in the center, towering over two orange people who are noticeably smaller than the toilet but clearly larger than several tiny yellow sheep gathered around their feet. One orange person shows visible fear with wide eyes and hands raised toward the oversized toilet, while the other orange person shows sadness with slumped shoulders and tears. A weathered sign leaning against the toilet displays clear text that reads \"Person frightened, toilet overwhelms, need help\".",
+        "A cramped bathroom scene centered on a huge gray toilet that towers over two orange-clad people; the orange people are clearly smaller than the enormous toilet but noticeably larger than a pair of tiny yellow sheep grazing near their feet. One orange person recoils with wide eyes and trembling hands, showing fear, while the other slumps forward with tears and a bowed head, showing sadness. A hand-lettered note taped to the wall reads \"Orange person afraid of gray toilet\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+size+emotion+text",
+      "skills": [
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'baseball bat', 'color': 'green'}, {'object': 'wine glass', 'color': 'red'}. Make the baseball bat(s) larger than the wine glass(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about baseball bat. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "baseball bat",
+            "color": "green"
+          },
+          {
+            "object": "wine glass",
+            "color": "red"
+          }
+        ],
+        "size_relations": [
+          [
+            "baseball bat",
+            "larger",
+            "wine glass"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "baseball bat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A well-lit scene shows a large green baseball bat resting across a wooden table, clearly larger than a small red wine glass sitting beside it; the green bat is the visual focus. A person stands next to the table, eyes steady and one hand over their heart\u2014an expression of trust\u2014as they reach to accept the bat. On the wall behind them a small handmade sign reads Trust the bat.",
+        "A bright, candid scene: a large green baseball bat leans upright on a rustic wooden table, clearly larger than a delicate red wine glass sitting nearby; a small paper sign propped against the bat reads \"Green baseball bat\"; a person leans back with eyes closed and a relaxed smile while a friend gently supports their arm, the posture and expression conveying trust."
+      ]
+    }
+  ]
+}

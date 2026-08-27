@@ -1,0 +1,140 @@
+{
+  "experiment_id": "counting+color+spatial",
+  "timestamp": "2026-02-04T16:37:13.692374",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial",
+      "skills": [
+        "counting",
+        "color",
+        "spatial"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'broccoli', 'count': 4, 'color': 'purple'}, {'object': 'bowl', 'count': 4, 'color': 'orange'}, {'object': 'carrot', 'count': 4, 'color': 'white'}, {'object': 'bus', 'count': 5, 'color': 'black'}. Position the bus(s) behind the bowl(s). Position the broccoli(s) on top of the carrot(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "broccoli",
+            "count": 4,
+            "color": "purple"
+          },
+          {
+            "object": "bowl",
+            "count": 4,
+            "color": "orange"
+          },
+          {
+            "object": "carrot",
+            "count": 4,
+            "color": "white"
+          },
+          {
+            "object": "bus",
+            "count": 5,
+            "color": "black"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bus",
+            "behind",
+            "bowl"
+          ],
+          [
+            "broccoli",
+            "on top of",
+            "carrot"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Five black buses are positioned behind four orange bowls; in front of the bowls are four white carrots, each topped by a purple broccoli, for a total of four purple broccolis.",
+        "A surreal still life: four white carrots, each with a purple broccoli placed on top, are arranged in a row in the foreground in front of four bright orange bowls, and five black buses stand lined up behind the bowls in the background.",
+        "A photorealistic scene showing four orange bowls arranged in the foreground, five black buses positioned clearly behind the bowls, and four white carrots laid out on the surface with a vivid purple broccoli floret perched on top of each carrot; soft natural lighting, neutral background, balanced composition.",
+        "A clean, well-lit scene showing four orange bowls arranged in a neat row across the middle of the image, with five black buses positioned directly behind the bowls in the background so the buses are clearly behind the bowls. In the foreground there are four white carrots laid out so each carrot serves as a base, and on top of each carrot sits a purple broccoli head (one purple broccoli perched on each white carrot). The composition emphasizes depth with the bowls in front of the buses and the purple broccoli visibly resting atop the white carrots.",
+        "A clean, well-lit scene featuring four bright orange bowls arranged across the foreground; each bowl holds a white carrot topped by a purple broccoli crown so that the four purple broccolis rest directly on top of the four white carrots. Behind this front row of bowls, five black buses are lined up in the background, positioned behind and slightly above the bowls to create depth, the dark buses providing strong contrast to the vibrant bowls and vegetables."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial",
+      "skills": [
+        "counting",
+        "color",
+        "spatial"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'couch', 'count': 3, 'color': 'gray'}, {'object': 'fire hydrant', 'count': 2, 'color': 'purple'}, {'object': 'bus', 'count': 2, 'color': 'red'}. Position the couch(s) to the left of the fire hydrant(s). Position the couch(s) in front of the bus(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "couch",
+            "count": 3,
+            "color": "gray"
+          },
+          {
+            "object": "fire hydrant",
+            "count": 2,
+            "color": "purple"
+          },
+          {
+            "object": "bus",
+            "count": 2,
+            "color": "red"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "couch",
+            "to the left of",
+            "fire hydrant"
+          ],
+          [
+            "couch",
+            "in front of",
+            "bus"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A scene with three gray couches in the left foreground, arranged side by side and positioned to the left of two purple fire hydrants; the couches sit in front of two red buses parked in the background.",
+        "Three gray couches are positioned to the left of two purple fire hydrants and placed in front of two red buses, with the buses visible behind the couches.",
+        "Three gray couches sit in the foreground, arranged to the left of two purple fire hydrants and directly in front of two red buses parked in the background."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial",
+      "skills": [
+        "counting",
+        "color",
+        "spatial"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'skis', 'count': 2, 'color': 'green'}, {'object': 'tie', 'count': 1, 'color': 'blue'}. Position the tie(s) to the right of the skis(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "skis",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "tie",
+            "count": 1,
+            "color": "blue"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "tie",
+            "to the right of",
+            "skis"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two green skis placed parallel on the left side of the frame, with a single blue necktie positioned to the right of them.",
+        "An image showing two green skis positioned side by side on the left, with a single blue necktie placed to the right of the skis against a neutral background."
+      ]
+    }
+  ]
+}

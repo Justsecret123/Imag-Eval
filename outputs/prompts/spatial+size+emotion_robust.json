@@ -1,0 +1,165 @@
+{
+  "experiment_id": "spatial+size+emotion_robust",
+  "timestamp": "2026-02-05T10:07:42.613569",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+size+emotion",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bear'}, {'object': 'snowboard'}, {'object': 'sports ball'}, {'object': 'oven'}. Position the oven(s) in front of the bear(s). Position the snowboard(s) behind the sports ball(s). Make the sports ball(s) smaller than the bear(s). Make the snowboard(s) larger than the oven(s). Include a person showing surprise. Include a person showing fear. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "fear",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "bear"
+          },
+          {
+            "object": "snowboard"
+          },
+          {
+            "object": "sports ball"
+          },
+          {
+            "object": "oven"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "oven",
+            "in front of",
+            "bear"
+          ],
+          [
+            "snowboard",
+            "behind",
+            "sports ball"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sports ball",
+            "smaller",
+            "bear"
+          ],
+          [
+            "snowboard",
+            "larger",
+            "oven"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A vivid scene: a large brown bear stands toward the rear of the scene, and an old freestanding kitchen oven is placed directly in front of the bear so the oven sits closer to the viewer than the bear. In front of the oven and a bit to the side are small sports balls \u2014 clearly smaller than the bear \u2014 and behind each sports ball are oversized snowboards positioned further back, each snowboard noticeably larger than the nearby oven and set behind the sports balls. In the foreground three people react to the surreal sight: a woman with eyes wide and mouth open in surprise, a man recoiling with hands raised and a face full of fear, and another person with a clenched jaw and furrowed brow showing anger. Natural daylight, realistic textures \u2014 the bear\u2019s fur, the oven\u2019s enamel, the rubber of the balls, and the laminated sheen of the snowboards \u2014 with clear, expressive human faces.",
+        "A vivid scene: a large brown bear stands toward the back of the composition, and an old freestandng kitchen oven is placed directly in front of the bear so the oven sits closer to the viewer than the animal. In front of the oven and slightly off to one side are small sports balls \u2014 clearly much smaller than the bear \u2014 and right behind each ball are oversized snowboards set further back, each snowboard noticeably larger than the nearby oven and positioned behind the sports balls. In the foreground three people react to the surreal sght: a woman with eyes wide and mouth open in surprise, a man recoiling with hands raised and a face full of fear, and another person with a clenched jaw and furrowed brow showing anger. Natural daylight, realistic textures \u2014 the bear's furr, the oven's enamel, the rubber of the balls, and the laminated sheen of the snowboards \u2014 with clear, expressive human faces.",
+        "A vivid scene: a large brown bear stands at the back of the composition, and an old free-standng kitchen oven is placed directly in front of the bear so the oven sits closer to the viewer than the animal. In front of the oven and slightly to one side are small sports balls \u2014 clearly smaler than the bear \u2014 and behind each sports ball, oversized snowboards are positioned further back, each noticably larger than the nearby oven and set behind the balls. In the forground three people react to the surrreal sight: a woman with eyes wide and mouth open in surprise, a man recoiling with hands raisd and a face full of fear, and another person with a clenched jaw and a furrowed brow showing anger. Natural daylight, realistic textures \u2014 the bear\u2019s fur, the oven\u2019s enammel, the rubber of the balls, and the laminted sheen of the snowboards \u2014 with clear, expressive human faces.",
+        "A vivid tableau: a large brown bear stands toward the back of the scene, and an old freestnding kitchen oven is set directly in front of the bear so the oven sits closer to the viewer than the animal. Directly in front of the oven and slightly off to one side are small sports balls \u2014 obviously much smaller than the bear \u2014 and behind each ball, further back in the composition, are oversized snowboards, each board noticeably larger than the nearby oven and positioned behind the sports balls. In the foreground three people react to the surreal sight: a woman with eyes wide and mouth open in surprize, a man recoiling with hands raised and a face full of fear, and another person with a clenched jaw and furrowed brow showing anger. Natural daylight, realistic textures \u2014 the bear\u2019s fur, the oven\u2019s enamel, the rubber of the balls, and the lamnated sheen of the snowboards \u2014 with clear, expressive human faces.",
+        "Vivid tableau: a large brown bear stands toward the back of the scene, and an old standlone kitchen oven is placed directly in front of the bear so the oven sits closer to the viewer than the animal. In front of the oven and slightly off to one side are small sports balls \u2014 clearly much smaller than the bear \u2014 and set behind each ball are oversized snowboards positioned further back, each snowboard noticably larger than the nearby oven and situated behind the sports balls. In the foreground three people react to the surreal sight: a woman with eyes wide and her mouth open in surprise, a man recoiling with hands raised and a face full of fear, and another person with a clenched jaw and furrowed brow showing anger. Natural daylight, realistic textures \u2014 the bear's fur, the oven's enamel, the rubber of the balls, and the laminatted sheen of the snowboards \u2014 with clear, exprssive human faces."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+size+emotion",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'tie'}, {'object': 'skateboard'}, {'object': 'truck'}. Position the skateboard(s) above the tie(s). Position the skateboard(s) under the truck(s). Make the truck(s) smaller than the tie(s). Make the truck(s) larger than the skateboard(s). Include a person showing fear. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "tie"
+          },
+          {
+            "object": "skateboard"
+          },
+          {
+            "object": "truck"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "skateboard",
+            "above",
+            "tie"
+          ],
+          [
+            "skateboard",
+            "under",
+            "truck"
+          ]
+        ],
+        "size_relations": [
+          [
+            "truck",
+            "smaller",
+            "tie"
+          ],
+          [
+            "truck",
+            "larger",
+            "skateboard"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal composition centered on a vertical arrangement of objects: at the bottom a cluster of oversized silk ties (the largest elements), directly above them several small skateboards balanced on the ties (the smallest elements), and just above the skateboards a group of medium-sized trucks hovering \u2014 each truck explicitly sized between the ties and the skateboards (smaller than the ties, larger than the skateboards). To the left of the stack a person recoils in fear with wide eyes and hands raised, and to the right another person stands with mouth agape in visible surprise. Soft neutral background and gentle studio lighting.",
+        "A surreal scene built around a vertical stack of objects: at the base a cluster of oversized silk ties (the biggest elements), directly above them several tiny skatebaords balanced on the ties (the smallest elements), and just above those a group of medium-sized trucks hovvering \u2014 each truck explicitly sized between the ties and the skateboards (smaller than the ties, larger than the skatebaords). To the left of the stack a person recools in fear with wide eyes and raised hands, and to the right another person stands with mouth agape in clear surprise. Soft neutal background and gentle studia lighting.",
+        "A surreal scene centered on a vertical stack of objets: at the bottom a cluster of oversized silk tyes (the largest elements), directly above them several small skateboards balanced atop the tyes (the smallest elements), and just above the skateboards a group of medium-sized trucks hovvering \u2014 each truck cleerly scalled between the ties and the skateboards (smaller than the ties, larger than the skateboards). To the left of the stack a person recoils in fear with wide eyes and hands raised, and to the right another person stands with mouth agape in obvous surprise. Soft neutral background and gentle studio lighting."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+size+emotion",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'mouse'}, {'object': 'traffic light'}. Position the traffic light(s) next to the mouse(s). Make the traffic light(s) larger than the mouse(s). Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "mouse"
+          },
+          {
+            "object": "traffic light"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "traffic light",
+            "next to",
+            "mouse"
+          ]
+        ],
+        "size_relations": [
+          [
+            "traffic light",
+            "larger",
+            "mouse"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A small gray mouse sits on a cracked city sidewalk next to a towering traffic light that looms over it, the traffic signal noticeably larger than the tiny rodent and its red, yellow, and green lenses gleaming; nearby a young adult crouches with hunched shoulders, tears streaming down their face and one hand pressed to their mouth in a gesture of deep sadness as they look toward the mouse, the scene bathed in soft evening light with wet pavement reflecting the traffic light and a quiet urban backdrop.",
+        "A tiny gray mouse sits on a cracked city sidewalk beneath a towering trafffic light that dwarfs it, the signal much larger than the miniscule rodent and its red, yellow and green lensees gleaming; nearby a young adult crouches with hunched sholders, tears streaming down their face and one hand pressed to their mouth in a gesture of deep sadness as they look towards the mouse, the scene bathed in soft evning light with wet pavemant reflecting the traffic light against a quiet urban backdrop."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "experiment_id": "counting+color+size+emotion+text",
+  "timestamp": "2026-02-05T10:25:13.669665",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'person', 'count': 4, 'color': 'orange'}, {'object': 'bowl', 'count': 4, 'color': 'green'}, {'object': 'sheep', 'count': 4, 'color': 'yellow'}, {'object': 'elephant', 'count': 4, 'color': 'black'}. Make the elephant(s) smaller than the person(s). Make the bowl(s) larger than the sheep(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about person, bowl. Include a person showing anger. Include a person showing fear. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "fear",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "person",
+            "count": 4,
+            "color": "orange"
+          },
+          {
+            "object": "bowl",
+            "count": 4,
+            "color": "green"
+          },
+          {
+            "object": "sheep",
+            "count": 4,
+            "color": "yellow"
+          },
+          {
+            "object": "elephant",
+            "count": 4,
+            "color": "black"
+          }
+        ],
+        "size_relations": [
+          [
+            "elephant",
+            "smaller",
+            "person"
+          ],
+          [
+            "bowl",
+            "larger",
+            "sheep"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "person",
+            "bowl"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Four orange people stand among four oversized green bowls, four small yellow sheep, and four small black elephants. The green bowls are visibly larger than the sheep, while the black elephants are much smaller than the people, almost toy-sized. The four orange people display different emotions: one shows anger, one shows fear, one shows surprise, and the fourth is calm. A hand-painted sign nearby reads: Orange person prefers green bowl over sheep",
+        "A bright scene shows four people dressed in orange clustered in a park: one person is shouting angrily while holding a cardboard sign that reads \"Person wants the bowl, not the sheep.\", a second person looks terrified and is backing away, a third person has a surprised expression with wide eyes and raised hands, and the fourth watches calmly. Nearby sit four oversized green bowls, each noticeably larger than the nearby yellow sheep; four small yellow sheep wander between the bowls. Also present are four tiny black elephants, each clearly smaller than the orange people. The composition emphasizes scale relationships (black elephants smaller than people, green bowls larger than yellow sheep) and includes the visible seven-word sign about person and bowl.",
+        "An outdoor scene shows four orange people gathered around four large green bowls and four small yellow sheep, while four black elephants stand nearby and are noticeably smaller than the people. Each green bowl is clearly larger than each yellow sheep, the bowls sitting like shallow basins that dwarf the little sheep. Among the orange people one clenches their fists and scowls in anger, another shrinks back with wide eyes showing fear, a third covers their mouth in surprise, and the fourth watches calmly. A hand-painted sign propped on a post near the group reads \"Orange person, green bowl: an unexpected pairing\".",
+        "A bright outdoor market scene contains four people wearing orange clothing, four large green bowls, four yellow sheep, and four small black elephants. The black elephants are clearly smaller than the humans, standing at about knee height beside them, while the green bowls are oversized compared with the yellow sheep, each bowl larger than a sheep. One orange-clad person is visibly angry with clenched fists and a scowl, another shows fear with wide eyes and a trembling posture, a third displays surprise with hands raised and mouth agape, and the fourth watches calmly. A wooden sign on the stall reads \"Person and bowl fragile, handle with care.\"",
+        "An outdoor scene shows four orange people gathered around four green bowls and four yellow sheep, with four black elephants that are noticeably smaller than the people. The four green bowls are clearly larger than the yellow sheep and sit on the ground near each person. The leftmost orange person clenches their jaw and glares in anger; the second orange person cowers with wide eyes in fear; the third orange person leaps back with hands to their face in surprise; the fourth orange person stands neutral. Scattered behind them are four small black elephants, each smaller than a person and brushing close to the group. A wooden sign propped nearby displays seven words that read: \"Orange people, green bowls shared and respected\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'carrot', 'count': 2, 'color': 'brown'}, {'object': 'umbrella', 'count': 2, 'color': 'red'}, {'object': 'cell phone', 'count': 2, 'color': 'purple'}. Make the carrot(s) smaller than the cell phone(s). Make the carrot(s) larger than the umbrella(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about umbrella, carrot. Include a person showing joy. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "carrot",
+            "count": 2,
+            "color": "brown"
+          },
+          {
+            "object": "umbrella",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "cell phone",
+            "count": 2,
+            "color": "purple"
+          }
+        ],
+        "size_relations": [
+          [
+            "carrot",
+            "smaller",
+            "cell phone"
+          ],
+          [
+            "carrot",
+            "larger",
+            "umbrella"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "umbrella",
+            "carrot"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright, candid scene shows two red umbrellas, two brown carrots, and two purple cell phones arranged on a wooden table; the carrots are smaller than the cell phones but larger than the umbrellas to make the size relationships obvious. A small hand-written sign propped against a cup reads: \"Red umbrellas, brown carrots, two each\". Two people are in the frame \u2014 one person is showing joy with a wide smile and laughter, and another person nearby shows surprise with wide eyes and raised eyebrows.",
+        "A bright, candid scene on a sunlit kitchen table shows two brown carrots, two red umbrellas, and two purple cell phones arranged in a casual still life. The two brown carrots are noticeably smaller than the purple cell phones but clearly larger than the tiny red umbrellas; the purple cell phones are the largest objects, the red umbrellas the smallest. A handmade sign propped against a jar bears the visible text: \"Red umbrella shelters brown carrot today\". Two people stand behind the table \u2014 one beaming with joy, arms raised in delight, and the other with eyes wide and a hand to their mouth in surprise.",
+        "A bright still-life scene shows two brown carrots, two red umbrellas, and two purple cell phones arranged on a wooden table; the two brown carrots are smaller than the two purple cell phones but larger than the two red umbrellas. A small paper sign propped between the objects reads \"Umbrella shelters carrot from the rain.\" Two people are in the frame: one person showing joy with a big smile and raised hands, and another person showing surprise with wide eyes and a hand over their mouth, both looking toward the colorful items."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+size+emotion+text",
+      "skills": [
+        "counting",
+        "color",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'hot dog', 'count': 1, 'color': 'blue'}, {'object': 'bottle', 'count': 2, 'color': 'green'}. Make the hot dog(s) smaller than the bottle(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about hot dog. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "hot dog",
+            "count": 1,
+            "color": "blue"
+          },
+          {
+            "object": "bottle",
+            "count": 2,
+            "color": "green"
+          }
+        ],
+        "size_relations": [
+          [
+            "hot dog",
+            "smaller",
+            "bottle"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "hot dog"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single small blue hot dog sits on a plate and is noticeably smaller than two tall green bottles standing beside it. A person nearby shows sadness with teary eyes and slumped shoulders, gazing at the blue hot dog. A small label on the plate bears the single word Hotdog as the only visible text in the scene.",
+        "A tiny blue hot dog, noticeably smaller than two tall green bottles standing side by side on a table, has a small label on the bun that reads \"HOTDOG\". Nearby, a person with slumped shoulders and tearful eyes looks sad as they gaze at the scene."
+      ]
+    }
+  ]
+}

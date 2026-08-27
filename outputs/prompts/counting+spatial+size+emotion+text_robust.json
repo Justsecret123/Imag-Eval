@@ -1,0 +1,200 @@
+{
+  "experiment_id": "counting+spatial+size+emotion+text_robust",
+  "timestamp": "2026-02-05T12:06:25.999702",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bear', 'count': 5}, {'object': 'cat', 'count': 5}, {'object': 'fire hydrant', 'count': 4}, {'object': 'airplane', 'count': 4}. Position the cat(s) inside the airplane(s). Position the fire hydrant(s) below the bear(s). Make the bear(s) smaller than the cat(s). Make the fire hydrant(s) larger than the airplane(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about airplane, bear. Include a person showing trust. Include a person showing joy. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "joy",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "bear",
+            "count": 5
+          },
+          {
+            "object": "cat",
+            "count": 5
+          },
+          {
+            "object": "fire hydrant",
+            "count": 4
+          },
+          {
+            "object": "airplane",
+            "count": 4
+          }
+        ],
+        "spatial_relations": [
+          [
+            "cat",
+            "inside",
+            "airplane"
+          ],
+          [
+            "fire hydrant",
+            "below",
+            "bear"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bear",
+            "smaller",
+            "cat"
+          ],
+          [
+            "fire hydrant",
+            "larger",
+            "airplane"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "airplane",
+            "bear"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright outdoor scene that contains exactly 5 bears, 5 cats, 4 fire hydrants, and 4 airplanes. Each cat is positioned inside an airplane (with one airplane holding two cats so all 5 cats are inside the 4 airplanes). The 5 bears are rendered noticeably smaller than the cats so the cats look larger than the bears. The 4 fire hydrants are drawn larger than the 4 airplanes and each fire hydrant sits directly below a bear (four hydrants beneath four of the bears). A visible sign in the scene reads exactly: \"Airplane carrying bears treat them gently\". Include three people with clear expressions: one person showing trust (calm, open-palmed gesture toward a bear), one person showing joy (laughing with raised arms), and one person showing disgust (face wrinkled, turning away), all naturally integrated into the composition.",
+        "A bright outdoor scence that contains exactly 5 bears, 5 cats, 4 fire hydrants, and 4 airplanes. Each cat is posistioned inside an airplane (with one airplane holding two cats so all 5 cats are inside the 4 airplanes). The 5 bears are rendered noticeably smaller than the cats so the cats look larger than the bears. The 4 fire hydrants are drawn larger than the 4 airplanes and each fire hydrant sits directly below a bear (four hydrants beneath four of the bears). A legilble sign in the scene reads exactly: \"Airplane carrying bears treat them gently\". Include three people with clear expressions: one person showing trust (calm, open-palmed gesture toward a bear), one person showing joy (laughing with raised arms), and one person showing disgust (face wrinkled, turning away), all naturally integrated into the composition.",
+        "A bright outdoor scene containing exactly 5 bears, 5 cats, 4 fire hydrants, and 4 airplanes. Each cat is posistioned inside an airplane (one airplane holds two catss so all 5 cats are inside the 4 airplanes). The 5 bears are renderd noticeably smaller than the cats so the cats appear larger than the bears. The 4 fire hydrants are drawn larger than the 4 airplanes and each hydrant sits directly below a bear (four hydrants beneath four of the bears). A visible sign in the scene reads exactly: \"Airplane carrying bears treat them gently\". Include three people with clear expressions: one showing trust (calm, open-palmed gesture toward a bear), one showing joy (laughing with raised arms), and one showing disgust (face wrinkeld, turning away), all naturally integreted into the composition.",
+        "A bright outdoor scence showing exactly 5 bears, 5 cats, 4 fire hydrants, and 4 airplanes. Arrange the cats so each cat is positioned inside an airplane (one airplane holds two cats so all 5 cats are contained in the 4 airplanes). The 5 bears should be rendered noticebly smaller than the cats so the cats appear larger than the bears. The 4 fire hydrants are drawn largger than the 4 airplanes and each hydrant sits directly below a bear (four hydrants beneath four of the bears). Include a visible sign that reads exactly: \"Airplane carrying bears treat them gently\". Add three people with clear, distinct expressions naturally integreated into the composition: one person showing trust (calm, open-palmed gesture toward a bear), one person showing joy (laughing with raised arms), and one person showing disgust (face wrinkled, turning away).",
+        "A bright outdoor scnee that contains exactly 5 bears, 5 cats, 4 fire hydrants, and 4 airplanes. Each cat is positoned inside an airplane (with one airplane holding two cats so all 5 cats are inside the 4 airplanes). The 5 bears are rendered noticably smaller than the cats so the cats look larger than the bears. The 4 fire hydrants are drawn larger than the 4 airplanes and each fire hydrant sits directly below a bear (four hydrants beneath four of the bears). A visible sign in the scene reads exactly: \"Airplane carrying bears treat them gently\". Include three people with clear expressions: one person showing trust (calm, open-palmed gesture toward a bear), one person showing joy (laughing with raised arms), and one person showing disgust (face wrinkled, turning away), all naturally intergrated into the composition."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'potted plant', 'count': 3}, {'object': 'vase', 'count': 2}, {'object': 'tennis racket', 'count': 2}. Position the tennis racket(s) below the vase(s). Position the tennis racket(s) above the potted plant(s). Make the vase(s) larger than the potted plant(s). Make the vase(s) smaller than the tennis racket(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about tennis racket, vase. Include a person showing sadness. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "potted plant",
+            "count": 3
+          },
+          {
+            "object": "vase",
+            "count": 2
+          },
+          {
+            "object": "tennis racket",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "tennis racket",
+            "below",
+            "vase"
+          ],
+          [
+            "tennis racket",
+            "above",
+            "potted plant"
+          ]
+        ],
+        "size_relations": [
+          [
+            "vase",
+            "larger",
+            "potted plant"
+          ],
+          [
+            "vase",
+            "smaller",
+            "tennis racket"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "tennis racket",
+            "vase"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tidy interior scene shows two large tennis rackets dominating the middle of the frame, each one visibly larger than the other objects; they hang or lean on a mid-level ledge directly below two medium-sized decorative vases and directly above three small potted plants on the floor. The two vases are clearly bigger than the potted plants but noticeably smaller than the rackets. A small handwritten sign attached to the ledge reads \"Keep rackets off vases\". A woman standing on the left displays sadness with tears and a bowed head, while a man on the right shows fear, eyes wide and hands raised.",
+        "A neat interior shot centers on two oversized tennis rackets that dominate the middle of the frame, each one visably larger than the other objects; they lean against a mid-level ledge directly below two meduim decorative vases and directly above three small potted plants on the floor. The two vases are clearly bigger than the potted plants but noticeably smaller than the rackets. A small handwriten sign attached to the ledge reads \"Keep rackets off vases\". A woman standing on the left shows sadnes with tears and a bowed headd, while a man on the righht on the right appears fearful, eyes wide and hands raised.",
+        "A tidy interior scene features two large tennis rackets dominating the center of the frame, each noticeably larger than the other objects; they hang or lean on a midlevel ledge directly below two medium-sized decorative vases and directly above three small potted plnts on the floor. The two vases are clearly bigger than the potted plnts but noticeably smaller than the rackts. A small handwritten sign attached to the ledge reads \"Keep rackets off vases\". A womman standing on the left displays sadness with tears and a bowed head, while a man on the right shows feer, eyes wide and hands raised."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+size+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'apple', 'count': 1}, {'object': 'bicycle', 'count': 2}. Position the bicycle(s) to the left of the apple(s). Make the bicycle(s) larger than the apple(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about apple. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "apple",
+            "count": 1
+          },
+          {
+            "object": "bicycle",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bicycle",
+            "to the left of",
+            "apple"
+          ]
+        ],
+        "size_relations": [
+          [
+            "bicycle",
+            "larger",
+            "apple"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "apple"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Two large bicycles stand to the left of a single small red apple; the bicycles are noticeably larger than the apple. The apple sits on a wooden table with a small hand-painted sign beside it that reads Juicy red apple. A smiling person stands nearby, hand over their heart and leaning slightly forward with warm eye contact, clearly showing trust.",
+        "Two oversized bicycles are posistioned to the left of a tiney red apple; the bikes tower over the apple. The apple rests on a wooden table beside a small hand-painted sign that reads Juicy red apple. A smiling person stands nearby, hand over their hart and leaning slightly forward with warm eye contact, clearly showing trust."
+      ]
+    }
+  ]
+}

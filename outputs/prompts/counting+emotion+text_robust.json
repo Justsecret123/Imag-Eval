@@ -1,0 +1,132 @@
+{
+  "experiment_id": "counting+emotion+text_robust",
+  "timestamp": "2026-02-04T16:46:34.124573",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+emotion+text",
+      "skills": [
+        "counting",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'hot dog', 'count': 5}, {'object': 'bus', 'count': 4}, {'object': 'person', 'count': 4}, {'object': 'cow', 'count': 4}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about person, bus. Include a person showing anger. Include a person showing fear. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "fear",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "hot dog",
+            "count": 5
+          },
+          {
+            "object": "bus",
+            "count": 4
+          },
+          {
+            "object": "person",
+            "count": 4
+          },
+          {
+            "object": "cow",
+            "count": 4
+          }
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "person",
+            "bus"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bustling urban scene shows four yellow buses lined up along a curb while four cows wander across the street between them. Four people populate the foreground: one woman angrily waving her fist at a bus, one man pressed against a fence with a frightened expression, one young person beaming with joy while holding a hot dog, and a fourth person calmly taking photos. Five hot dogs sit on a vendor tray and a nearby picnic table. A prominent billboard above the street displays a sign that reads \"Person behind bus makes crowd gasp\" capturing the tense, surreal interaction between the people, buses, and cows.",
+        "A bustling urban scence features four yellow busses parked along a curb while four cows wandar across the street between them. In the forground are four people: a woman angrily waving her fist at a bus, a man pressed against a fence with a frightend expression, a young person beeming with joy while holding a hot dog, and a fourth person calmy taking photos. Five hot dogs sit on a vendor tray and on a nearby picnic table. A prominent billbord above the street displays a sign that reads \"Person behind bus makes crowd gasp\", capturing the tense, surreal interaction between the people, buses, and cows.",
+        "A lively city sceen shows four yelow buses parked along the curb as four cows amble across the road between them. In the foreground are four people: a woman angrily shaking her fist at a bus, a man pressed aganist a fence with a frightened expression, a young person beaming with joy while holding a hot dog, and a fourth person calmly snaping photos. Five hot dogs sit on a vendor tray and on a nearby picnic table. A large billboard above the street displays the sign \"Person behind bus makes crowd gasp\", highlighting the tense, surreal interaction between the people, buses, and cows.",
+        "An energetic city scene with four yellow buses parked in a row along the kerb as four cows meander across the streeet between the vehicles. In the forground there are four people: a womam shaking her fist angrily at a bus, a man pinned to a fence with a feard expression, a young person grinning widely while holding a hot dog, and another person calmly snaping photos. Five hot dogs sit on a vendor tray and on a nearby picnic table. A large billboard above the street procaliming \"Person behind bus makes crowd gasp\", highlighting the tense, surreal interaction between the people, buses, and cows.",
+        "A bustling city street shows four yellow buses lined up along the curb while four cows wander across the street between them. In the foreground four peopl are visible: a woman angrily waving her fist at a bus, a man pressed against a fence with a frightened expression, a young person beaming with joy while holding a hot dog, and a fourth person calmly taking pictuers. Five hot dogs sit on a vendor tray and on a nearby picnic table. A prominent billboard above the street displays a sign that reads \"Person behind bus makes crowd gasp,\" capturing the tense, surreal interaction between the people, buses, and cows."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+emotion+text",
+      "skills": [
+        "counting",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'laptop', 'count': 3}, {'object': 'baseball glove', 'count': 3}, {'object': 'hot dog', 'count': 3}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about laptop, baseball glove. Include a person showing disgust. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "laptop",
+            "count": 3
+          },
+          {
+            "object": "baseball glove",
+            "count": 3
+          },
+          {
+            "object": "hot dog",
+            "count": 3
+          }
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "laptop",
+            "baseball glove"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A realistic scene at a cluttered caf\u00e9 table showing three laptops open and powered, three worn baseball gloves laid out beside them, and three hot dogs on paper plates scattered between the devices; a yellow sticky note on the center laptop screen reads \"Keep laptop away from baseball glove\". Behind the table two people react strongly \u2014 one person with a disgusted expression, wrinkled nose and turned-away face pushing a hot dog away, and another person with a fearful expression, wide eyes and hands raised as if startled; natural daylight, candid photographic style, textured leather gloves, glossy screens, and steam rising from the hot dogs.",
+        "A realistic scene at a clutered cafe table with three laptaps open and powered, three worn basebal gloves laid out beside them, and three hot dogs on paper plates scatered between the devices; a yellow sticky note on the center laptap screen reads \"Keep laptop away from baseball glove\". Behind the table two people react strongly \u2014 one person with a disgusted expression, wrinkeld nose and a turned-away face pushing a hot dog away, and another person with a fearful expression, wide eyes and hands raised as if startled; natural daylight, canddid photographic style, textured leather gloves, glossy screens, and steam rising from the hot dogs.",
+        "A photorealstic scene at a cluttered cafee table with three laptops open and powered, three worn baseball gloves laid out beside them, and three hot dogs on paper plates scattered among the devices; a yellow sticky note on the center laptop screen reads \"Keep laptop away from baseball glove\". Behind the table two people react strongly \u2014 one with a disgusted expression, wrinkled nose and turned-away face pushing a hot dog away, and another with a fearful expression, wide eyes and hands raised as if startled; natural daylight, candid photographic style, texured leather gloves, glossy screens, and steam rising from the hot dogs."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+emotion+text",
+      "skills": [
+        "counting",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'apple', 'count': 2}, {'object': 'sink', 'count': 2}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about apple. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "apple",
+            "count": 2
+          },
+          {
+            "object": "sink",
+            "count": 2
+          }
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "apple"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright home kitchen scene shows two stainless-steel sinks side by side under a tiled backsplash, with two glossy red apples on the countertop \u2014 one beside each sink. A surprised woman stands between them, hands raised to her mouth and eyes wide in shock. Taped to the backsplash is a small handwritten note that reads \"Apple is delicious\".",
+        "A bright home kitchen scene depicts two stainles-steel sinks side-by-side beneath a tiled backsplah, with two glossy red apples on the countertop \u2014 one placed beside each sink. A suprised woman stands between them, hands raised to her mouth and eyes wide in shock. Taped to the backsplah is a small handwritten note that reads \"Apple is delcious\"."
+      ]
+    }
+  ]
+}

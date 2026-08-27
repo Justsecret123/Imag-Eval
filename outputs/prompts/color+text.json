@@ -1,0 +1,117 @@
+{
+  "experiment_id": "color+text",
+  "timestamp": "2026-02-04T16:17:39.353642",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+text",
+      "skills": [
+        "color",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'carrot', 'color': 'red'}, {'object': 'couch', 'color': 'gray'}, {'object': 'cake', 'color': 'green'}, {'object': 'chair', 'color': 'black'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about couch, carrot. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "carrot",
+            "color": "red"
+          },
+          {
+            "object": "couch",
+            "color": "gray"
+          },
+          {
+            "object": "cake",
+            "color": "green"
+          },
+          {
+            "object": "chair",
+            "color": "black"
+          }
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "couch",
+            "carrot"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A cozy living room scene showing a gray couch with a single red carrot resting on one cushion, a black chair beside a low wooden coffee table, and a small green-frosted cake on the table. A small handwritten note propped on the table reads \"Gray couch loves the red carrot\". Soft natural light, shallow depth of field, warm tones.",
+        "A cozy living-room scene shows a sleek gray couch with a bright red carrot casually placed on one cushion, a small round green-frosted cake on the coffee table, and a simple black wooden chair tucked nearby; a hand-lettered sign propped on the arm reads \"Red carrot rests beside gray couch\".",
+        "A cozy living room scene: a red carrot rests on a gray couch, a green-frosted cake sits on the coffee table, and a black wooden chair stands nearby; a small handwritten note taped to the couch reads \"Gray couch adores red carrot today\".",
+        "A bright living room scene shows a gray couch with a single red carrot resting on one cushion, a small green cake on a side table, and a sleek black chair nearby; a handwritten sign taped to the couch reads \"Red carrot rests on gray couch.\"",
+        "An intimate living-room scene showing a modern gray couch with a single striking red carrot resting on one cushion, a vibrant green frosted cake on the coffee table, and a simple black wooden chair nearby. A small white note taped to the couch arm clearly reads: Gray couch loves the red carrot. Soft natural light, shallow depth of field, warm cozy atmosphere."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+text",
+      "skills": [
+        "color",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'broccoli', 'color': 'blue'}, {'object': 'cat', 'color': 'purple'}, {'object': 'sheep', 'color': 'black'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about broccoli, cat. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "broccoli",
+            "color": "blue"
+          },
+          {
+            "object": "cat",
+            "color": "purple"
+          },
+          {
+            "object": "sheep",
+            "color": "black"
+          }
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "broccoli",
+            "cat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A whimsical still-life scene on a rustic wooden table: a vibrant blue head of broccoli sits beside a relaxed purple cat, while a calm black sheep stands nearby. Warm window light casts soft shadows and highlights the textured broccoli florets, the cat\u2019s velvety fur, and the sheep\u2019s wool; shallow depth of field and cozy kitchen background. A small chalkboard sign propped in front of the broccoli, written in white chalk, reads: Blue broccoli loves purple cat.",
+        "A whimsical outdoor still-life: a large head of broccoli painted bright blue sits on a wooden crate, a sleek purple cat lounges curled at its base, and a fluffy black sheep grazes a few steps away. In the foreground a rustic chalkboard sign clearly displays the only visible text in the scene: \"Blue broccoli purple cat together\". Warm late-afternoon sunlight, soft shadows, shallow depth of field, high detail, painterly-photorealistic style, natural textures.",
+        "A whimsical still-life scene shows a vibrant blue broccoli sitting on a rustic wooden table beside a curious purple cat that bats gently at its florets, while a fluffy black sheep stands calmly in the soft-focus background; warm golden afternoon light casts gentle shadows and highlights the unusual colors. A small chalkboard sign propped next to the broccoli reads \"Broccoli for purple cat friends\". The composition is playful and detailed, with visible wood grain, textured wool, and glossy cat fur, capturing a surreal yet cozy atmosphere."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+text",
+      "skills": [
+        "color",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'bird', 'color': 'red'}, {'object': 'cat', 'color': 'pink'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about cat. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bird",
+            "color": "red"
+          },
+          {
+            "object": "cat",
+            "color": "pink"
+          }
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "cat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A sunlit backyard scene: a plump pink cat lounges contentedly on a wooden bench while a small red bird perches on the bench's back; a handwritten sign propped beside the cat reads \"Pink Cat\" in black ink, with scattered potted plants and a soft blanket completing the warm, intimate composition.",
+        "A cozy sunlit scene of a vivid red bird perched on a weathered picket fence beside a soft pink cat curled on a wooden step; a small hand-painted sign hanging from the fence reads \"pink cat\"."
+      ]
+    }
+  ]
+}

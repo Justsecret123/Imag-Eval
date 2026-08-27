@@ -1,0 +1,120 @@
+{
+  "experiment_id": "emotion+text_robust",
+  "timestamp": "2026-02-04T16:29:27.132015",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_emotion+text",
+      "skills": [
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'chair'}, {'object': 'broccoli'}, {'object': 'toothbrush'}, {'object': 'tv'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about chair, tv. Include a person showing surprise. Include a person showing disgust. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "disgust",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "chair"
+          },
+          {
+            "object": "broccoli"
+          },
+          {
+            "object": "toothbrush"
+          },
+          {
+            "object": "tv"
+          }
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "chair",
+            "tv"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A lively living-room scene: a worn wooden chair sits near a low TV stand; taped to the wall above them is a small hand-lettered sign that reads \"Chair and TV belong on opposite sides\". A woman steps back with a surprised, wide-eyed expression as she points toward the sign; a man beside her wrinkles his nose in disgust while inspecting a half-eaten stalk of broccoli on a plate; a teenager leaning on the chair looks at the others with a calm, trusting smile while holding a toothbrush in one hand. The TV screen is visible in the background and the toothbrush, broccoli, chair, and TV are clearly placed in the foreground.",
+        "A livley living-room scene: a worn wooden chair sits beside a low TV stand; taped to the wall above them is a small hand-letterd sign that reads \"Chair and TV belong on opposite sides\". A woman recoils with a suprised, wide-eyed expression as she points at the sign; a man next to her wrinkles his nose in disgus while inspecting a half-eaten stalk of brocoli on a plate; a teenager leaning against the chair looks at the others with a calm, trusting smile while holding a toothbrsh in one hand. The TV screen is visible in the background and the toothbrush, brocoli, chair, and TV are clearly placed in the foreground.",
+        "A livley living-room tableau: a worn wooden chair sits beside a low TV stand; taped to the wall above them is a small hand-lettered sign that reads \"Chair and TV belong on opposite sides\". A woman jumps back with a surprised, wide-eyed expression as she points toward the sign; a man beside her wrinkes his nose in disgust while inspecting a half-eaten stalk of brocolli on a plate; a teenager leaning on the chair looks at the others with a calm, trusting smile while holding a toothbrsh in one hand. The TV screen is visible in the background and the toothbrsh, brocolli, chair, and TV are clearly placed in the foreground.",
+        "In a livng-room scene a worn wooden chair sits beside a low TV stand; taped to the wall above them is a small hand-letterd sign that reads \"Chair and TV belong on opposite sides\". A woman steps back with a surprised, wide-eyed expression as she points toward the sign; a man beside her wrinckles his nose in disgust while inspecting a half-eaten stalk of broccoli on a plate; a teenager leaning on the chair looks at the others with a calm, trusting smile while holding a toothbrush in one hand. The TV screen is visible in the background and the toothbrush, broccoli, chair, and TV are clearly placed in the foreground.",
+        "A livley living-room scene: a worn wooden chair sits beside a low TV stand; taped to the wall above them is a small hand-lettered sign that reads \"Chair and TV belong on opposite sides\". A woman steps back with a surprised, wide-eyed expression as she points toward the sign; a man beside her wrinckles his nose in disgust while inspecting a half-eaten stalk of brocolli on a plate; a teenager leaning on the chair looks at the others with a calm, trusting smile while holding a toothbrusch in one hand. The TV screen is visible in the background and the toothbrusch, brocolli, chair, and TV are clearly placed in the foreground."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_emotion+text",
+      "skills": [
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bowl'}, {'object': 'teddy bear'}, {'object': 'broccoli'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about teddy bear, bowl. Include a person showing fear. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "bowl"
+          },
+          {
+            "object": "teddy bear"
+          },
+          {
+            "object": "broccoli"
+          }
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "teddy bear",
+            "bowl"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A cluttered kitchen table scene shows a small stuffed teddy bear sitting beside a white ceramic bowl filled with a few bright green broccoli florets; a yellow sticky note on the bowl reads \"Teddy bear beside the bowl\". Nearby a woman recoils in fear, eyes wide and mouth open, while a man across the table stands with hands raised and an expression of surprise, eyebrows high; warm afternoon light streams through a window, casting soft shadows across the bear, bowl, and scattered utensils.",
+        "A messy kitchen table holds a small stuffed teddy bear seated beside a white ceramic bowl piled with a few bright green brocoli florets; a yellow sticky note on the rim reads \"Teddy bear besde the bowl.\" Nearby a woman recoils in fear, eyes wide and mouth open, while a man across the table stands with his hands rased, eyebrows high in surprise; warm afternnoon light pours through a window, casting soft shadows over the bear, bowl, and scattered utensils.",
+        "A messy kitchen table is strewn with utensils and a small stuffed teddy sitting next to a white ceramc bowl holding a couple of bright green broccoli floretts; a yellow stcky note on the rim reads \"Teddy bear beside the bowl\". Nearby a woman recoils in fear, eyes wide and mouth agape, while a man across the table stands with his hands raised and eyebrows arched in surprise; warm afternon light pours through the window, casting gentle shadows over the bear, bowl, and scattered cutlery."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_emotion+text",
+      "skills": [
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'scissors'}, {'object': 'truck'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about truck. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "scissors"
+          },
+          {
+            "object": "truck"
+          }
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "truck"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A sunlit loading dock: a pair of scissors lies open on a wooden bench in the foreground beside packing materials, and a blue delivery truck is parked a few feet away with a single cardboard sign taped to its rear door that reads \"TRUCK\". A young woman stands near the vehicle, leaning forward with hands clasped and a bright, expectant smile, clearly showing anticipation as she watches the driver prepare to unload.",
+        "Sun-drenched loading dock scene: an open pair of scisssors lies on a worn wooden benck in the foreground beside packing materials, while a blue delivery truck is parked a few feets away with a single cardbord sign tapied to its rear door that reads \"TRUCK\". A young woman stands near the vehicle, leaning forward with her hands clasped and a bright, expectant smile, clearly showing anticipation as she watches the driver prepare to unload."
+      ]
+    }
+  ]
+}

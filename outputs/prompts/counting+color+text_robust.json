@@ -1,0 +1,129 @@
+{
+  "experiment_id": "counting+color+text_robust",
+  "timestamp": "2026-02-05T12:04:28.955838",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+text",
+      "skills": [
+        "counting",
+        "color",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cell phone', 'count': 4, 'color': 'blue'}, {'object': 'baseball glove', 'count': 5, 'color': 'purple'}, {'object': 'bicycle', 'count': 5, 'color': 'gray'}, {'object': 'cake', 'count': 5, 'color': 'orange'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about cake, bicycle. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cell phone",
+            "count": 4,
+            "color": "blue"
+          },
+          {
+            "object": "baseball glove",
+            "count": 5,
+            "color": "purple"
+          },
+          {
+            "object": "bicycle",
+            "count": 5,
+            "color": "gray"
+          },
+          {
+            "object": "cake",
+            "count": 5,
+            "color": "orange"
+          }
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "cake",
+            "bicycle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor community fair scene displays five orange cakes neatly arranged on a wooden table, five gray bicycles lined up on a bike rack nearby, five purple baseball gloves hanging from a pegboard, and four blue cell phones resting on a nearby bench. A small handwritten sign on the table reads \"Orange cake and gray bicycle celebrate together\". Soft afternoon light and colorful bunting complete the scene.",
+        "An outdoor community fair scene with five orange caks neatly arranged on a wooden table, five gray bicycels lined up on a bike rack nearby, five purple baseball gloves hangin from a pegboard, and four blue cel phones resting on a nearby bench. A small handwriten sign on the table reads \"Orange cake and gray bicycle celebrate together\". Soft afternoon light and colorful bunting complete the scene.",
+        "At an outdoor community fair, five oragne cakes are neatly arraged on a wooden table, with five gray bicycles parked in a rack nearby; five purple baseball gloves dangle from a pegbard, and four blue cell phones rest on a nearby bench. A small handwritten sign on the table reads \"Orange cake and gray bicycle celebrate togethr\". Soft afternoon light and colorful bunting complete the scene.",
+        "At an outdoor community fair, five orange cakes are neatly arranged on a wooden table, five gray bicycles stand lined up on a bike rack nearby, and five purple baseball gloves hang from a pegboard, while four blue cell phones rest on a nearby bench. A small handwriten sign on the table reads \"Oragne cake and gray bicyle celabrate together\". Soft afternoon light and colorful bunting complete the scene.",
+        "At an outdoor community fair, five orange cakes sit neatly on a wooden table, five gray bicycles are lined up on a nearby bike rack, and five purple baseball gloves hang from a pegboard, while four blue cell phones rest on a bench beside them. A small handwriten sign on the table reads \"Orange cake and gray bicycle celabrate togther\". Soft afternoon light and colourfull bunting complete the scene."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+text",
+      "skills": [
+        "counting",
+        "color",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'donut', 'count': 3, 'color': 'blue'}, {'object': 'surfboard', 'count': 3, 'color': 'black'}, {'object': 'mouse', 'count': 2, 'color': 'orange'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about donut, mouse. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "donut",
+            "count": 3,
+            "color": "blue"
+          },
+          {
+            "object": "surfboard",
+            "count": 3,
+            "color": "black"
+          },
+          {
+            "object": "mouse",
+            "count": 2,
+            "color": "orange"
+          }
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "donut",
+            "mouse"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A sunny beach scene shows three bright blue donuts arranged on a striped picnic blanket while two curious orange mice sniff and gently nibble at them, and three sleek black surfboards are propped upright in the sand behind the setup; a small wooden sign beside the blanket clearly reads \"Blue donut shared by mouse friends\".",
+        "On a sunlit beach, three brigt blue donouts sit on a striped picnick blanket as two curous orange mice sniff and softly nibble at them, with three sleek black sufarboards stood upright in the sand behind the spread; a small wooden sign next to the blanket plainly reads \"Blue donut shered by mouse frends\".",
+        "A sunlit beach tableau features three vivid blue dounuts arranged on a striped picnic cloth, two inqusitive orange mices sniffing and gently nibbling at them, while three glosy black surfboards are propped upright in the sand behind the scene; a small wooden sign beside the blanket clearly reads \"Blue donut shared by mouse friends\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+text",
+      "skills": [
+        "counting",
+        "color",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'traffic light', 'count': 1, 'color': 'gray'}, {'object': 'bicycle', 'count': 1, 'color': 'red'}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about bicycle. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "traffic light",
+            "count": 1,
+            "color": "gray"
+          },
+          {
+            "object": "bicycle",
+            "count": 1,
+            "color": "red"
+          }
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "bicycle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A quiet street scene showing one gray traffic light and one red bicycle parked against a metal railing; a small rectangular sign beside the bicycle clearly reads \"Bicycle Parking\".",
+        "A quiet street scene featuring a single gray trafic light and one red bicylce parked against a metal raling; a small rectangual sign beside the bicycle clearly reads \"Bicycle Parking\"."
+      ]
+    }
+  ]
+}

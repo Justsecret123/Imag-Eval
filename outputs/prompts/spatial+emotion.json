@@ -1,0 +1,131 @@
+{
+  "experiment_id": "spatial+emotion",
+  "timestamp": "2026-02-05T10:43:58.221517",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+emotion",
+      "skills": [
+        "spatial",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'toaster'}, {'object': 'keyboard'}, {'object': 'spoon'}, {'object': 'banana'}. Position the toaster(s) on top of the keyboard(s). Position the spoon(s) next to the banana(s). Include a person showing anticipation. Include a person showing disgust. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "disgust",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "toaster"
+          },
+          {
+            "object": "keyboard"
+          },
+          {
+            "object": "spoon"
+          },
+          {
+            "object": "banana"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "toaster",
+            "on top of",
+            "keyboard"
+          ],
+          [
+            "spoon",
+            "next to",
+            "banana"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, slightly surreal kitchen-office scene: on a cluttered wooden desk by a sunlit window, a shiny chrome toaster sits directly on top of a full-size computer keyboard, its base covering the keys and a cord trailing to a nearby outlet; a small retro toaster perches on a compact mechanical keyboard a little to the side. On the table in front, a ceramic plate holds a ripe yellow banana with a polished metal spoon resting right next to it, the spoon\u2019s handle pointing toward the viewer, and a second spoon lies beside a second banana nearby. Three people occupy the scene: a young woman at the left leans forward with clasped hands and a bright, eager smile, eyes wide in anticipation; a man in the center recoils slightly with a look of disgust, nose wrinkled and mouth turned down as he gestures toward the toaster-on-keyboard; a person on the right stands frozen with mouth open and raised brows in clear surprise, one hand lifted to their chest. Soft morning light streams through the window, casting warm highlights on the chrome and fruit, with a blended background of office shelves and kitchen tiles that emphasizes the odd juxtaposition.",
+        "A bright, slightly absurd scene centered on a long table: several chrome toasters are balanced directly on top of computer keyboards that lie flat across the table, their levers down and a few crumbs visible around them. To one side, a cluster of ripe bananas sits on small plates, each banana accompanied by a spoon placed neatly next to it. Three people stand around the table \u2014 one leaning forward with a hopeful, anticipatory smile and eager eyes, another recoiling with a clear look of disgust, nose wrinkled and lips pulled back, and a third caught mid-step with hands lifted and mouth open in surprise. Soft morning light fills the room, casual clothing and scattered mugs and papers give the scene a whimsical, everyday feel.",
+        "A bright, slightly quirky indoor scene centered on a wooden table: a metallic toaster is perched on top of a black computer keyboard placed in the middle of the table. To the right of that toaster-on-keyboard pair sits a ripe yellow banana with a small stainless-steel spoon resting directly next to it on a folded napkin. Three people react to the odd tableau\u2014on the left, a person showing anticipation leans forward with bright eyes and clasped hands, as if eager to take the banana; in the center, a person showing disgust recoils from the toaster-on-keyboard, nose wrinkled and one hand raised in rejection; on the right, a person showing surprise stands slightly back with eyebrows high and mouth open, hands lifted in a startled gesture. Soft natural light from a nearby window, gentle shadows, and a slightly shallow depth of field give the image a candid, humorous feel.",
+        "A bright, slightly surreal kitchen-office hybrid scene: two computer keyboards sit on a wooden table, each with a metal toaster balanced directly on top of the keys; nearby, two ripe yellow bananas lie on a small plate, with teaspoons placed immediately beside each banana. Three people stand behind the table in a row: on the left, a young woman leans forward, hands clasped, face lit with eager anticipation; in the center, a middle-aged man recoils with one hand raised, nose wrinkled and mouth twisted in clear disgust; on the right, a teenager pauses mid-step, eyes wide and mouth open in surprise. Soft natural light from a side window casts gentle shadows; use a medium-wide, eye-level shot with shallow depth of field to keep focus on the odd arrangement of toasters balanced on keyboards and the spoons sitting next to the bananas, while capturing the three expressive faces.",
+        "A quirky indoor scene: a cluttered wooden table against a softly lit kitchen-office backdrop holds two computer keyboards with chrome toasters sitting on top of them, one toaster mid-pop with a slice of toast visible. On a nearby plate rest two ripe bananas with two metal spoons lying neatly beside them. Three people crowd the table \u2014 a young woman at the center leans forward with clasped hands and a bright, expectant smile showing anticipation; a middle-aged man to her left wrinkles his nose, mouth twisted in disgust and stepping back; a teenager to the right has wide eyes and a hand over his mouth, clearly surprised. Natural daylight from a window highlights the unusual arrangement, warm tones, shallow depth of field, candid photographic style."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+emotion",
+      "skills": [
+        "spatial",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'toaster'}, {'object': 'skis'}, {'object': 'banana'}. Position the toaster(s) under the banana(s). Position the toaster(s) below the skis(s). Include a person showing surprise. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "toaster"
+          },
+          {
+            "object": "skis"
+          },
+          {
+            "object": "banana"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "toaster",
+            "under",
+            "banana"
+          ],
+          [
+            "toaster",
+            "below",
+            "skis"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, slightly surreal kitchen scene: two chrome toasters sit on a wooden counter directly beneath a cluster of ripe yellow bananas suspended from a hook \u2014 the toasters are clearly under the bananas and also positioned below a pair of crossed alpine skis mounted horizontally on the wall above them. To the left, a young woman shows surprise, eyes wide and mouth open, stepping back with one hand raised; to the right, a young man leans forward with an eager smile and clasped hands, showing anticipation. Warm morning light from a window highlights the gleam on the toasters, the texture of the bananas, and the skis' vibrant stripes; shallow depth of field, realistic photographic style.",
+        "A whimsical indoor scene: a pair of wooden skis mounted high on the wall near the ceiling, and directly beneath them a cluster of bright yellow bananas hanging from a hook; positioned under the bananas and visibly below the skis is a shiny chrome toaster on a small table (with a second toaster beside it). In the foreground, a person with wide eyes, raised eyebrows, and an open mouth clearly shows surprise, while next to them another person leans forward slightly, hands clasped and smiling with eager anticipation as they watch the toaster area.",
+        "A bright, slightly surreal kitchen scene: a row of shiny toasters sits on a counter directly beneath a bunch of hanging bananas, and both the toasters and bananas are positioned below a pair of skis mounted high on the wall. In the foreground two people react \u2014 one with wide-eyed surprise, mouth open and hands raised, the other leaning forward with eager anticipation, a slight smile and hands clasped. Soft daylight, clean modern kitchen, playful, humorous composition."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+emotion",
+      "skills": [
+        "spatial",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'cake'}, {'object': 'train'}. Position the train(s) in front of the cake(s). Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "cake"
+          },
+          {
+            "object": "train"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "train",
+            "in front of",
+            "cake"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A whimsical, high-detail photograph of a brightly decorated three-tier birthday cake set on a wooden table, with a small vintage toy train placed in front of the cake on a short track in the foreground; a young woman stands beside the table, leaning forward with wide eyes and hands covering her mouth in a clear expression of surprise. Warm window light highlights the glossy frosting, colorful sprinkles, and the painted metal of the train; shallow depth of field keeps the train and the woman's face sharp while gently blurring the background, creating a cozy, celebratory mood.",
+        "A photorealistic scene of a small vintage toy train on tracks positioned clearly in front of a decorated two-tier birthday cake on a wooden table, the train in the foreground and the cake behind it with lit candles and frosting flowers; a person to the side with wide eyes, raised brows, and hands brought to their mouth in a classic surprised gesture, looking directly at the train and cake; soft natural window light, shallow depth of field that keeps the train and the person's surprised expression sharply in focus while the cake is slightly softer, warm festive colors and subtle party decorations in the background."
+      ]
+    }
+  ]
+}

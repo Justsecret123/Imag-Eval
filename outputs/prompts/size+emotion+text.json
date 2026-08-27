@@ -1,0 +1,154 @@
+{
+  "experiment_id": "size+emotion+text",
+  "timestamp": "2026-02-04T16:42:34.537849",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_size+emotion+text",
+      "skills": [
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bed'}, {'object': 'potted plant'}, {'object': 'sheep'}, {'object': 'toilet'}. Make the toilet(s) smaller than the potted plant(s). Make the bed(s) larger than the sheep(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about sheep, bed. Include a person showing joy. Include a person showing surprise. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "surprise",
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "bed"
+          },
+          {
+            "object": "potted plant"
+          },
+          {
+            "object": "sheep"
+          },
+          {
+            "object": "toilet"
+          }
+        ],
+        "size_relations": [
+          [
+            "toilet",
+            "smaller",
+            "potted plant"
+          ],
+          [
+            "bed",
+            "larger",
+            "sheep"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "sheep",
+            "bed"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An airy bedroom scene centers on a large, cozy bed\u2014clearly bigger than a plump sheep curled up on the floor beside it. Several leafy potted plants sit on shelves and a low table, each noticeably taller than a pair of tiny decorative toilets displayed like knickknacks (the toilets are visibly smaller than the plants). A small hand-painted sign pinned above the bed reads: \"This sheep prefers the bed over grass today.\" Three people populate the room: a smiling person jumping with joy near the foot of the bed, another person frozen with hands to their mouth in surprised astonishment at the sheep, and a third person leaning away with a scrunched face showing disgust near the miniature toilets. The warm, domestic lighting and careful composition emphasize the size differences among bed, sheep, plants, and toilets.",
+        "A cozy bedroom scene shows an oversized wooden bed dwarfing a small white sheep curled at its foot, clearly making the bed much larger than the sheep; nearby a tall leafy potted plant towers over a tiny novelty toilet that is noticeably smaller than the plant. A hand-lettered sign on the headboard reads \"Keep sheep off the bed at night please\". One person sits on the bed beaming with joy, another stands in the doorway with wide-eyed surprise, and a third person wrinkles their nose and pulls a face of disgust while pointing at the sheep.",
+        "In a bright, quirky bedroom-studio a large wooden bed with a rumpled duvet dwarfs a small white sheep curled at its foot. Two tall potted plants stand on a windowsill, their leaves arching over several tiny novelty toilets that are noticeably smaller than the plants. A handwritten sign tacked to the headboard reads \"Sheep love warm beds, not cold stone floors.\" Nearby three people react distinctly: a woman jumping with joy, arms raised and smiling; a man with wide eyes and a hand to his mouth, clearly surprised; and another person recoiling with a grimace of disgust, nose wrinkled as they stare toward the tiny toilets. The scene mixes domestic coziness with absurd scale contrasts and the visible eight-word note about sheep and bed.",
+        "A bright bedroom scene centers on a large bed that clearly dwarfs a small white sheep curled at its foot, accompanied by several tall potted plants that tower over two tiny novelty toilets on the floor, noticeably smaller than the plants. Three people react in the room: a joyful person laughing and hugging a pillow on the bed, a surprised person with wide eyes pointing at the sheep, and a disgusted person grimacing and stepping back from the miniature toilets. A handwritten sign on the wall reads \"Sheep sleeps soundly in the comfortable warm bed\"",
+        "A bright, whimsical bedroom scene centers on a large linen-covered bed that is clearly bigger than the two small sheep lounging beside it. A framed sign above the headboard reads \"Sheep love snuggling in this warm comfy bed.\" Several tall potted plants on the windowsill and floor tower over tiny novelty toilets \u2014 the porcelain toilets are decorative and noticeably smaller than the plants. Three people populate the room: a woman throwing her arms up in joyful laughter, a man with hands on his cheeks showing surprised disbelief, and another person wrinkling their nose and pulling back in disgust, reacting to the tiny toilets while the sheep nibble at soft blankets."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_size+emotion+text",
+      "skills": [
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'toothbrush'}, {'object': 'boat'}, {'object': 'dog'}. Make the boat(s) smaller than the dog(s). Make the boat(s) larger than the toothbrush(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about boat, toothbrush. Include a person showing trust. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "toothbrush"
+          },
+          {
+            "object": "boat"
+          },
+          {
+            "object": "dog"
+          }
+        ],
+        "size_relations": [
+          [
+            "boat",
+            "smaller",
+            "dog"
+          ],
+          [
+            "boat",
+            "larger",
+            "toothbrush"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "boat",
+            "toothbrush"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright park scene shows a large golden retriever sitting beside a shallow pond, clearly dwarfing two small wooden toy boats that bob near the shore; each toy boat is noticeably larger than a small colorful toothbrush lying on the grass. A woman gently rests her hand on the dog's head, her warm smile and direct eye contact expressing trust, while a man standing nearby holds his hand to his mouth with wide eyes, clearly surprised. On a small laminated sign propped on the picnic table the visible text reads: Boat and toothbrush sit together.",
+        "A sunlit backyard tableau shows a large golden retriever sitting on a wooden deck, the dog dwarfing a pair of small model rowboats bobbing in a shallow tub; the boats are clearly bigger than the single colorful toothbrush lying on a nearby towel. A handwritten sign propped against a crate reads: Boat and toothbrush stay clean. A woman rests her hand gently on the dog's shoulder and leans in with a relaxed, trusting smile, while a young man a few feet away stands with eyes wide and mouth open in surprised delight as he points at the tiny boats.",
+        "A sunlit park picnic shows a large golden retriever sitting beside a shallow puddle where several small wooden toy boats float \u2014 the boats are noticeably smaller than the dog but clearly larger than a bright plastic toothbrush lying on the blanket. A small chalkboard sign on the blanket reads \"Boat and toothbrush bring joy\". A child leans trustingly into an adult's reassuring hand, showing trust; across the scene a passerby woman with wide eyes and an open mouth expresses surprise. Warm, candid lighting highlights the size relationships and playful, intimate composition."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_size+emotion+text",
+      "skills": [
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'suitcase'}, {'object': 'clock'}. Make the clock(s) larger than the suitcase(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 1 words written about clock. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "suitcase"
+          },
+          {
+            "object": "clock"
+          }
+        ],
+        "size_relations": [
+          [
+            "clock",
+            "larger",
+            "suitcase"
+          ]
+        ],
+        "text": {
+          "word_count": 1,
+          "objects": [
+            "clock"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A single enormous wall clock dominates the frame, its round face and hands many times larger than a small, scuffed carry-on suitcase sitting beneath it. A mid-30s woman stands to the side, nose wrinkled and mouth curled in disgust as she glares at the clock, one hand resting on the suitcase handle. A torn paper sign tacked beside the clock bears a single bold word: LATE.",
+        "A giant antique wall clock dominates the scene, its oversized face and hands dwarfing a small wheeled suitcase resting on the floor beneath it; a yellow sticky note is taped to the clock glass with the single word \"Time\" written in bold handwriting; nearby a person recoils with clear disgust, nose wrinkled and lip curled as they glare up at the enormous clock, while soft afternoon light casts long shadows across the platform."
+      ]
+    }
+  ]
+}

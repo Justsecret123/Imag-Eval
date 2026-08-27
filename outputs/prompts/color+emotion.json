@@ -1,0 +1,109 @@
+{
+  "experiment_id": "color+emotion",
+  "timestamp": "2026-05-04T16:56:57.562265",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+emotion",
+      "skills": [
+        "color",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'cake', 'color': 'purple'}, {'object': 'frisbee', 'color': 'white'}, {'object': 'bus', 'color': 'green'}, {'object': 'bench', 'color': 'brown'}. Include a person showing surprise. Include a person showing anger. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "anger",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "cake",
+            "color": "purple"
+          },
+          {
+            "object": "frisbee",
+            "color": "white"
+          },
+          {
+            "object": "bus",
+            "color": "green"
+          },
+          {
+            "object": "bench",
+            "color": "brown"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A lively park scene in soft afternoon light: a small round purple cake with frosting and sprinkles sits on a brown wooden bench, a white frisbee arcs through the air toward a group of three people \u2014 one person stepping back with hands raised and eyes wide in surprise, another standing nearby with clenched fists and a scowl of anger, and a third seated on the bench wiping their face with a hand and looking deeply sad; a bright green city bus moves along the street in the background, trees and casual pedestrians framing the moment.",
+        "A lively park scene: a purple cake sits on a brown wooden bench beside a picnic blanket while a white frisbee arcs through the air and a green bus rolls along the street in the background; a young woman nearby with wide eyes and hands raised shows surprise at the frisbee\u2019s unexpected flight, a man by the curb clenches his jaw and shakes a fist in anger toward the bus, and another person sits hunched on the bench with downcast eyes and teary cheeks, clearly sad.",
+        "A lively city park scene at golden hour: in the foreground a brown wooden bench sits beside a picnic blanket where a purple frosted cake rests on a platter, and a white frisbee arcs through the air toward a surprised young woman with hands to her mouth and wide eyes. Behind them a green bus pulls away along the street, and a man near the curb stands with clenched fists and a furious scowl, angrily yelling toward the driver. On the bench an older person sits hunched over, shoulders slumped and a tear tracing their cheek, radiating quiet sadness. Soft warm light, realistic details, expressive faces and natural body language.",
+        "A busy city park scene: a vibrant green bus idles on the street in the background, a purple-frosted cake sits on a picnic table, and a white frisbee arcs through the air above the group. On a brown wooden bench, a woman sits with her head bowed, wiping away tears and clearly saddened. Nearby, a man stands with clenched fists and an angry scowl, confronting someone, while a teenager gasps with wide eyes and hands raised in surprise as they point toward the flying frisbee and the cake, soft afternoon light and expressive faces.",
+        "A lively street-park scene: a round purple cake sits on a picnic blanket near a brown wooden bench as a white frisbee sails through the air and a green bus passes slowly along the road behind them. In the foreground, a person stands with eyes wide and hand to their mouth in obvious surprise, another person glares with clenched fists and an angry expression, and a third person sits on the bench hunched over, wiping tears and clearly displaying sadness."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+emotion",
+      "skills": [
+        "color",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'keyboard', 'color': 'white'}, {'object': 'bottle', 'color': 'gray'}, {'object': 'teddy bear', 'color': 'yellow'}. Include a person showing fear. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "keyboard",
+            "color": "white"
+          },
+          {
+            "object": "bottle",
+            "color": "gray"
+          },
+          {
+            "object": "teddy bear",
+            "color": "yellow"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A brightly lit room shows a cluttered desk with a sleek white keyboard in front of a monitor, a dented gray bottle lying on its side, and a soft yellow teddy bear perched against a stack of books; nearby a young woman recoils, hands to her mouth, her face pale with fear, while a child beside her beams with pure joy, clutching the yellow teddy bear tightly.",
+        "A sunlit living room scene: a white computer keyboard sits on a worn wooden desk beneath a window, a matte gray water bottle stands upright beside it, and a plush yellow teddy bear perches on the arm of a nearby sofa. In the foreground two people react to the same surprising moment \u2014 a young woman recoils in fear, eyes wide and brows raised, one hand covering her mouth while she leans back, shoulders tense; across from her a man beams with joy, laughing openly with arms thrown up and eyes sparkling. Warm late-afternoon light casts soft shadows, scattered papers and a mug on the desk add lived-in detail, and the contrast between the woman's alarm and the man's exuberance gives the scene a charged, cinematic feel.",
+        "A bright, detailed scene in a modern living room: a white keyboard sits on a tidy wooden desk, a matte gray bottle rests on the coffee table, and a cheerful yellow teddy bear is propped on a bookshelf. In the foreground a young woman shows clear fear \u2014 eyes wide, shoulders tense, hand to her mouth, body leaning back as if startled. Nearby a young man expresses pure joy \u2014 smiling broadly, eyes crinkled, arms raised in celebration while seated on the sofa. Warm natural light filters through a window, soft shadows, realistic textures and expressive faces."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+emotion",
+      "skills": [
+        "color",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'hot dog', 'color': 'pink'}, {'object': 'bear', 'color': 'white'}. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "hot dog",
+            "color": "pink"
+          },
+          {
+            "object": "bear",
+            "color": "white"
+          }
+        ]
+      },
+      "synthetic_prompts": [
+        "A cinematic scene on a rain-slick city sidewalk: a terrified person clutches their chest and recoils with wide eyes and an open mouth as a massive white bear looms just a few feet away, its ruffled fur and low growl filling the tense air; a surreal bright pink hot dog \u2014 half-eaten and tossed near the curb beside a lamppost \u2014 adds an unexpected pop of color while blurred neon signs and frozen bystanders frame the encounter.",
+        "A tense, cinematic scene: a large white bear looms at the edge of a foggy clearing while a frightened person in the foreground recoils, eyes wide, mouth open in a gasp and hands raised in alarm; in their outstretched hand is a surreal bubblegum-pink hot dog that contrasts sharply with the bear\u2019s white fur, dramatic side lighting and shallow depth of field emphasizing the fear and odd humor of the moment."
+      ]
+    }
+  ]
+}

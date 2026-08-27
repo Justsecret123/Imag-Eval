@@ -1,0 +1,166 @@
+{
+  "experiment_id": "color+spatial+emotion+text",
+  "timestamp": "2026-02-05T11:23:54.354364",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+spatial+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'toothbrush', 'color': 'pink'}, {'object': 'wine glass', 'color': 'brown'}, {'object': 'umbrella', 'color': 'red'}, {'object': 'hot dog', 'color': 'blue'}. Position the wine glass(s) under the toothbrush(s). Position the umbrella(s) to the left of the hot dog(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about umbrella, toothbrush. Include a person showing sadness. Include a person showing joy. Include a person showing anger. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness",
+          "joy",
+          "anger"
+        ],
+        "objects": [
+          {
+            "object": "toothbrush",
+            "color": "pink"
+          },
+          {
+            "object": "wine glass",
+            "color": "brown"
+          },
+          {
+            "object": "umbrella",
+            "color": "red"
+          },
+          {
+            "object": "hot dog",
+            "color": "blue"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "wine glass",
+            "under",
+            "toothbrush"
+          ],
+          [
+            "umbrella",
+            "to the left of",
+            "hot dog"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "umbrella",
+            "toothbrush"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A brightly lit interior scene centers on colorful objects and three expressive people. A red umbrella sits to the left of a blue hot dog placed on a small plate; nearby a pink toothbrush is mounted on a wall shelf with a brown wine glass positioned directly beneath it. A small paper sign taped to the shelf displays the visible text: \"Umbrella and toothbrush: please stay together\". On the left, a woman looks visibly sad, wiping away tears; in the middle, a man is laughing with joy; on the right, a teenager stands with arms crossed, face flushed with anger.",
+        "A colorful street market scene: a bright red umbrella sits to the left of a vivid blue hot dog on a vendor's tray, while a pink toothbrush hangs on a low wall shelf with a small brown wine glass placed directly under it; a nearby hand-painted sign reads \"Umbrella, toothbrush: don't leave them behind.\" Three people fill the frame\u2014one person wipes tears and looks downward in sadness, another throws their head back laughing in joy, and a third clenches their jaw and fists, scowling with anger\u2014each subtly interacting with the objects (the joyful person points toward the pink toothbrush, the sad person glances at the brown wine glass beneath it, and the angry person glares toward the blue hot dog).",
+        "An outdoor market stall scene: a pink toothbrush displayed on a top shelf with a single brown wine glass placed directly underneath it on the lower shelf; a red umbrella leaning to the left of a blue hot dog on a small plate, clearly arranged so the umbrella is to the left of the hot dog. A hand-painted sign on the shelf reads: Umbrella protects toothbrush keeps teeth clean. In the foreground three people show distinct emotions: a woman wiping tears with a tissue and looking sad, a young man jumping and laughing with joyful expression, and an older man clenching his fists and scowling angrily. Natural daylight, soft shadows, and clear focus on the colored objects and the six-word sign.",
+        "A staged scene features a single pink toothbrush suspended over a brown wine glass with the wine glass positioned directly beneath the toothbrush. Nearby a red umbrella stands immediately to the left of a blue hot dog. Three people appear in the frame: one wiping tears and clearly sad, one laughing with joyful expression, and one scowling angrily with folded arms. A small sign on the table displays the words \"Red umbrella, pink toothbrush, keep dry\".",
+        "A vivid scene set at a small wooden table: a single pink toothbrush hangs vertically above a brown wine glass positioned directly underneath it; a bright red umbrella lies to the left of a striking blue hot dog on a plate, clearly showing the umbrella is left of the hot dog. A small hand-painted sign on the table bears the words \"Umbrella and toothbrush hold faded memories\". Three people are present\u2014one person with tears and a downcast expression showing sadness seated near the toothbrush, another person laughing openly and beaming with joy near the umbrella and hot dog, and a third person standing with clenched fists and a furrowed brow showing anger\u2014each emotion clearly visible on their faces, with warm natural lighting highlighting the colored objects and the spatial relationships."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+spatial+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'stop sign', 'color': 'red'}, {'object': 'bed', 'color': 'black'}, {'object': 'broccoli', 'color': 'purple'}. Position the stop sign(s) behind the bed(s). Position the stop sign(s) next to the broccoli(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about broccoli, stop sign. Include a person showing surprise. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "stop sign",
+            "color": "red"
+          },
+          {
+            "object": "bed",
+            "color": "black"
+          },
+          {
+            "object": "broccoli",
+            "color": "purple"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "stop sign",
+            "behind",
+            "bed"
+          ],
+          [
+            "stop sign",
+            "next to",
+            "broccoli"
+          ]
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "broccoli",
+            "stop sign"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A realistic, well-lit scene in a modern bedroom: a sleek black bed sits in the foreground, centered, with a red octagonal stop sign positioned directly behind the bed so its pole rises up behind the headboard. To the right of the stop sign, a single large purple head of broccoli sits on a small bedside table so that the stop sign is clearly next to the broccoli. A small white note pinned to the stop sign pole reads \"Purple broccoli beside stop\". A woman standing at the foot of the bed shows surprise, hands on her cheeks and eyes wide, while a man sits on the edge of the black bed looking sad, head bowed and a tear on his cheek. Soft natural light from a window, shallow depth of field focusing on the stop sign, purple broccoli, and the two people, subtle home decor in the background.",
+        "Photorealistic interior scene: a black bed centered in a cozy bedroom with a red octagonal stop sign positioned directly behind the headboard so the sign is clearly visible behind the bed. A large, realistic purple broccoli sits on the bedside table and is placed immediately next to the stop sign, touching it. A small paper note is attached to the stop sign and reads exactly: Broccoli meets stop sign. Two people are in the scene \u2014 one person standing by the foot of the bed showing surprise (wide eyes, mouth open, hands slightly raised) and another person sitting on the bed showing sadness (slumped shoulders, downcast eyes, a visible tear). Warm natural indoor lighting, high-detail textures, shallow depth of field, cinematic color grading, realistic proportions and materials.",
+        "A quiet, slightly surreal bedroom scene: a black bed sits center frame, and directly behind the headboard a red stop sign is mounted so it also stands immediately next to a single purple broccoli placed on a small nightstand. A small white note attached to the sign reads \"Broccoli stops at sign\". In the foreground two people react \u2014 one person stands with wide eyes and hands raised in surprise, while another sits on the edge of the bed looking downcast, head bowed and wiping a tear."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+spatial+emotion+text",
+      "skills": [
+        "color",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'orange', 'color': 'gray'}, {'object': 'car', 'color': 'pink'}. Position the orange(s) below the car(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about car. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "orange",
+            "color": "gray"
+          },
+          {
+            "object": "car",
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "orange",
+            "below",
+            "car"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "car"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A joyful young woman laughs and raises her arms in celebration beside a shiny pink car parked on a low platform; directly beneath the car several oranges painted matte gray rest on the ground. A small rectangular sign taped to the car door shows the three-word message \"my pink car\" in bold handwritten letters. Warm afternoon light, shallow depth of field, friendly urban street background.",
+        "A glossy pink car is parked on a quiet street with several gray oranges arranged directly below the car on the pavement; a joyful person stands beside it laughing with arms raised, and a small paper taped to the windshield reads Love this car."
+      ]
+    }
+  ]
+}

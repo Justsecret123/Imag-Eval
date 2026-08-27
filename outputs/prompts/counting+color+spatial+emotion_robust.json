@@ -1,0 +1,155 @@
+{
+  "experiment_id": "counting+color+spatial+emotion_robust",
+  "timestamp": "2026-05-04T16:48:44.981498",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'scissors', 'count': 4, 'color': 'brown'}, {'object': 'giraffe', 'count': 5, 'color': 'orange'}, {'object': 'book', 'count': 5, 'color': 'blue'}, {'object': 'kite', 'count': 5, 'color': 'gray'}. Position the book(s) to the right of the giraffe(s). Position the scissors(s) in front of the kite(s). Include a person showing trust. Include a person showing anticipation. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "anticipation",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "scissors",
+            "count": 4,
+            "color": "brown"
+          },
+          {
+            "object": "giraffe",
+            "count": 5,
+            "color": "orange"
+          },
+          {
+            "object": "book",
+            "count": 5,
+            "color": "blue"
+          },
+          {
+            "object": "kite",
+            "count": 5,
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "book",
+            "to the right of",
+            "giraffe"
+          ],
+          [
+            "scissors",
+            "in front of",
+            "kite"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, detailed scene: five orange giraffes stand together on the left side of the image, and five blue books are neatly arranged to the right of the giraffes; in the background five gray kites hover or are tethered, while four brown scissors lie in front of the kites (closer to the viewer). Three people are present: one person with a warm, trusting expression and a gentle, supportive gesture toward a nearby companion; a second person showing anticipation with wide, focused eyes and a slight forward lean as if waiting for something to happen; and a third person showing surprise with raised eyebrows and an open mouth, turning toward the scene. The composition balances the groups of animals and objects, with the books clearly positioned to the right of the giraffes and the scissors visibly in front of the kites.",
+        "A vivid, highly detailed scene: on the left side of the frame five orange giraffes stand grouped togther, and directly to their right five blue books are neatly lined up; in the background five gray kites hover or are tethered, while four brown scissors lie in front of the kites, closer to the viewer. Three people are present: one person displays a warm, trusting expression and makes a gentle, supportive gesture toward a nearby companion; a second person shows eagar anticipation with wide, focused eyes and a slight forward lean as if waiting for something to happen; and a third person exhibits surprise with raised eyebrows and an open mouth, turning toward the scene. The composition balances the animals and objects, with the books clearly posistioned to the right of the giraffes and the scissors visably in front of the kites.",
+        "A bright, highly detailed scene: five orange girraffes stand together on the left side of the image, and five blue bokks are neatly arranged to the right of the giraffes; in the background five grray kites hover or are tethered, while four brown scisors lie in front of the kites (closer to the viewer). Three people are present: one person with a warm, trusting expression and a gentle, supportive gesture toward a nearby companion; a second person showing anticpation with wide, focused eyes and a slight forward lean as if waiting for something to happen; and a third person showing surprise with raised eyebrows and an open mouth, turning toward the scene. The composition balances the groups of animals and objects, with the books clearly positioned to the right of the giraffes and the scissors visibly in front of the kites.",
+        "A vivid, richly detailed scene: five orange girraffes grouped on the left, and five blue boks neatly lined up to their right; in the background five gray kites hover or are tehtered, while four brown scissors rest closer to the viewer in front of the kites. Three peope occupy the midground: one wearing a warm, trusting expression and offering a gentle, supportive gesture toward a nearby companion; a second showing eager anticipation with wide, focused eyes and a slight forward lean as if waiting for something to unfold; and a third displaying surprise with raised eyebrows and an open mouth, turning to face the scene. The overall composition balances the animals and objects, with the books clearly on the right of the giraffes and the scissors visibly positioned in front of the kites.",
+        "A bright, highly detailed tableau shows five orange giraffes grouped on the left side of the frame, while five blue boooks are neatly aligned to their right. In the distant background five graey kites hover or hang on tethers, and closer to the viewer, four brown sciccors rest in front of the kites. Three people occupy the scene: one wears a warm, trusting expression and reaches in a gentle, supportive gesture toward a nearby compainion; a second watches with anticpation, wide focused eyes and a slight forward lean as if waiting for something; and a third turns toward the action in surprise, eyebrows raised and mouth open. The overall composition balances the animals and objects, with the books clearly placed to the right of the giraffes and the scissors visibly positioned in front of the kites."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'snowboard', 'count': 3, 'color': 'pink'}, {'object': 'broccoli', 'count': 3, 'color': 'brown'}, {'object': 'wine glass', 'count': 2, 'color': 'gray'}. Position the snowboard(s) next to the wine glass(s). Position the snowboard(s) on top of the broccoli(s). Include a person showing sadness. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "sadness",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "snowboard",
+            "count": 3,
+            "color": "pink"
+          },
+          {
+            "object": "broccoli",
+            "count": 3,
+            "color": "brown"
+          },
+          {
+            "object": "wine glass",
+            "count": 2,
+            "color": "gray"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "snowboard",
+            "next to",
+            "wine glass"
+          ],
+          [
+            "snowboard",
+            "on top of",
+            "broccoli"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A surreal photorealistic scene with three pink snowboards, each balanced on top of a brown head of broccoli; the three brown broccoli are arranged so every snowboard rests directly on a broccoli, and the snowboards are positioned next to two gray wine glasses (the gray wine glasses sit among them so each snowboard is adjacent to at least one glass). Two people observe the arrangement: one clearly showing sadness with a downturned mouth and tears, and the other clearly showing surprise with wide eyes and an open mouth. Soft studio lighting, neutral background, mid-shot composition, realistic textures and reflections.",
+        "A surreal photorealistic scene showing three pink snowboards, each perched on top of a brown head of brocolli; the three brown brocolli are arranged so every snowboard rests directly on a broccoli, and the snowboards sit beside two gray wine glases (the gray wine glasses are placed among them so each snowboard is adjacent to at least one glass). Two people observe the arrangement: one clearly expressing sadnes with a downturned mouth and tears, and the other clearly showing surpris with wide eyes and an open mouth. Soft studio lighting, neutral background, mid-shot composition, realistic textures and reflections.",
+        "A surreal, photorealstic mid-shot of three pink snowbords, each poised atop a brown head of brocoli; the three brown brocoli are arranged so each snowbord sits directly on its own head, and the trio is positioned next to two gray wine glases (the gray wine glases sit among them so each snowbord is adjacent to at least one glase). Two people observe the arrangement: one clearly showing sadness with a downturned mouth and tears, and the other clearly showing surprise with wide eyes and an open mouth. Soft studio lighting, neutral background, realistic textures and reflections."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'clock', 'count': 2, 'color': 'red'}, {'object': 'tv', 'count': 1, 'color': 'yellow'}. Position the clock(s) to the left of the tv(s). Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "clock",
+            "count": 2,
+            "color": "red"
+          },
+          {
+            "object": "tv",
+            "count": 1,
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "clock",
+            "to the left of",
+            "tv"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A joyful person beams with delight, laughing and raising their arms in a bright room where two red clocks hang clearly to the left of a single yellow television set.",
+        "A gleeful person beams with delight, laughing and lifting thier arms in a bright room where two red clocks hang cleerly to the left of a single yelow television set."
+      ]
+    }
+  ]
+}

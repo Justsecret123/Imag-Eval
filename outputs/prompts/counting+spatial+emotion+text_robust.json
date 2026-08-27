@@ -1,0 +1,166 @@
+{
+  "experiment_id": "counting+spatial+emotion+text_robust",
+  "timestamp": "2026-02-05T11:18:00.528648",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'chair', 'count': 4}, {'object': 'toaster', 'count': 4}, {'object': 'spoon', 'count': 5}, {'object': 'truck', 'count': 5}. Position the truck(s) under the toaster(s). Position the chair(s) in front of the spoon(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 8 words written about spoon, truck. Include a person showing anticipation. Include a person showing disgust. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "disgust",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "chair",
+            "count": 4
+          },
+          {
+            "object": "toaster",
+            "count": 4
+          },
+          {
+            "object": "spoon",
+            "count": 5
+          },
+          {
+            "object": "truck",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "truck",
+            "under",
+            "toaster"
+          ],
+          [
+            "chair",
+            "in front of",
+            "spoon"
+          ]
+        ],
+        "text": {
+          "word_count": 8,
+          "objects": [
+            "spoon",
+            "truck"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A carefully composed interior scene containing exactly 4 chairs, 4 toasters, 5 spoons, and 5 trucks: four chairs are lined across the foreground, each chair positioned directly in front of five spoons that lie on a low countertop behind them; four toasters sit on a mid-level shelf, and five small trucks are positioned under the toasters (one toaster has two trucks stacked beneath it) so every truck is underneath a toaster. A small paper sign taped to the shelf is clearly visible and reads: \"Spoon and truck deliver unexpected kitchen teamwork today.\" Three people are present: one person standing by the chairs with hands clasped and a bright, expectant smile showing anticipation; a second person recoiling slightly with a wrinkled nose and tightened lips showing disgust; a third person leaning on the counter, making steady eye contact with a relaxed face and open posture showing trust. Warm natural light, realistic textures, and a shallow depth of field.",
+        "A carefully aranged interior scene showing exatly 4 chairs, 4 toasters, 5 spoons, and 5 trucks: four chairs are lined across the foreground, each chair positoned directly in front of the five spoons that lie on a low contertop behind them; four toasters rest on a mid-level shelf and five small trucks sit beneath the toasters (one toaster has two trucks stacked under it), so every truck is underneath a toaster. A small paper sign taped to the shelf is clearly visable and reads: \"Spoon and truck deliver unexpected kitchen teamwork today.\" Three people are present: one person standing by the chairs with hands clasped and a bright, expectant smile showing anticipation; a second person recoels slightly with a wrinkled nose and tightened lips showing disgust; a third person leaning on the counter, making stedy eye contact with a relaxed face and open posture showing trust. Warm natural light, realistic textures, and a shallow depth of field.",
+        "A carefully staged interior scene with exactly 4 chairs, 4 toasters, 5 spoons, and 5 small trucks: four chairs are lined across the foreground, each chair positioned directly in front of the low countertop behind them where five spoons rest; four toasters sit on a mid-level shelf, and five small trucks are arranged under the toasters (one toaster has two trucks stacked beneath it) so every truck is underneath a toaster. A small paper sign taped to the shelf is clearly visable and legible and reads: \"Spoon and truck deliver unexpected kitchen teamwork today.\" Three people occupy the scene: one person standing by the chairs with hands clasped and a bright, expectant smile showing anticipation; a second person recioiling slightly with a wrinkled nose and tightened lips showing disgust; a third person leaning on the counter, holding steady eye contact with a relaxed face and open posture conveying trust. Warm natural light, realistic textures, and a shallow depth of field.",
+        "A carefully composed interior scene containing exactly 4 chairs, 4 toasters, 5 spoons, and 5 trucks: four chairs are lined across the foreground, each chair posistioned directly in front of five spoons that lie on a low countertop behind them; four toasters sit on a mid-level shelf, and five small trucks are positioned under the toasters (one toaster has two trucks stacked beneath it) so every truck is underneath a toaster. A small paper sign taped to the shelf is clearly visble and reads: \"Spoon and truck deliver unexpected kitchen teamwork today.\" Three people are present: one person standing by the chairs with hands clasped and a bright, expectant smile showing an-ticipation; a second person recoilling slightly with a wrinkled nose and tightened lips showing disgust; a third person leaning on the counter, making steady eye contact with a relaxed face and open posture showing trust. Warm natural light, realistic textures, and a shallow depth of field.",
+        "A meticulously arranged interior scene containing exactly 4 chaisrs, 4 toasters, 5 spoons, and 5 trucks. Four chairs are lined across the foreground, each chair positioned directly in front of the five spoons that lie on a low countertop behind them; four toasters rest on a mid-level shelf, and five small trucks are placed underneath the toasters \u2014 one toaster has two trucks stacked beneath it so every truck is underneath a toaster. A small paper sign taped to the shelf is clearly visable and reads: \"Spoon and truck deliver unexpected kitchen teamwork today.\" Three people are present: one person standing by the chairs with hands clasped and a bright, expectant smile showing anticpation; a second person recoiling slightly with a wrinkled nose and tightened lips showing disgust; a third person leaning on the counter, making steady eye contact with a relaxed face and open posture showing trust. Warm natural light, realistic textures, and a shallow depth of field."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'dining table', 'count': 2}, {'object': 'truck', 'count': 2}, {'object': 'orange', 'count': 3}. Position the dining table(s) to the left of the truck(s). Position the dining table(s) above the orange(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about truck, dining table. Include a person showing fear. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "dining table",
+            "count": 2
+          },
+          {
+            "object": "truck",
+            "count": 2
+          },
+          {
+            "object": "orange",
+            "count": 3
+          }
+        ],
+        "spatial_relations": [
+          [
+            "dining table",
+            "to the left of",
+            "truck"
+          ],
+          [
+            "dining table",
+            "above",
+            "orange"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "truck",
+            "dining table"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A realistic scene: on the left two wooden dining tables sit side by side, each slightly elevated so three ripe oranges are positioned directly beneath them in a neat row; to the right of the tables two delivery trucks are parked side by side, facing forward. A nearby sign bears exactly six words, reading: \"Dining tables left of trucks surprising\". In the foreground a person by the trucks recoils with wide eyes and hands raised, clearly showing fear, while another person near the tables smiles calmly and places a reassuring hand on a companion\u2019s shoulder, clearly showing trust. Soft daylight, natural colors, and clear focus so the sign text is legible.",
+        "Photorealistic scene: on the left two wooden dining tables sit side by side, each sligthly raised so three ripe oranges are positioned directly beneath them in a neat row; to the right two delivry trucks are parked side by side, facing forwared. A nearby sign bears exactly six words, reading: \"Dining tables left of trucks surprising\". In the foreground a person by the trucks recoils with wide eyes and hands raised, clearly showing fear, while another person near the tables smiles calmly and puts a rassuring hand on a companions shoulder, clearly showing trust. Soft daylght, natural colors, and clear focus so the sign text is legible.",
+        "Photorealistic scene: on the left, two wooden dining tables sit side by side, each slightly elvated so three ripe oranges are positioned directly beneath them in a neat alinged row; to the right of the tables two delivery trucks are parked side by side, facing forward. A nearby sign bears exactly six words, reading: \"Dining tables left of trucks surprising\". In the foreground a person by the trucks recolls with wide eyes and hands raised, clearly showing fear, while another person near the tables smiles calmly and places a reassuring hand on a companion's shoulder, clearly showing trust. Soft daylight, natural colurs, and clear focus so the sign text is legible."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+emotion+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'laptop', 'count': 2}, {'object': 'handbag', 'count': 1}. Position the handbag(s) under the laptop(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about laptop. Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "laptop",
+            "count": 2
+          },
+          {
+            "object": "handbag",
+            "count": 1
+          }
+        ],
+        "spatial_relations": [
+          [
+            "handbag",
+            "under",
+            "laptop"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "laptop"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Photorealistic scene: two modern laptops sit side by side on a wooden table, both resting on top of a single leather handbag placed directly underneath them so the handbag supports the laptops. A joyful person stands behind the table, smiling broadly with arms raised in a celebratory gesture. On the front laptop there is a small yellow sticky note with the words My favorite laptop written clearly and legibly. Warm natural lighting, shallow depth of field, clean minimal background, high detail.",
+        "Photorealistic scene: two modern laptops sit side by side on a wooden table, both resting on top of a single leather hangbag placed directly underneath them so the bag supports the devices. A joyful person stands behind the table, smilingg broadly with arms raised in a celebratroy gesture. On the front laptp there is a small yellow sticky note with the words My favorite laptop written clearly and legibly. Warm natural lighting, shallow depth of field, clean minimal background, high detail."
+      ]
+    }
+  ]
+}

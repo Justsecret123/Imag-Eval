@@ -1,0 +1,151 @@
+{
+  "experiment_id": "counting+spatial+text",
+  "timestamp": "2026-02-05T10:36:00.985552",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+spatial+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bus', 'count': 4}, {'object': 'tennis racket', 'count': 4}, {'object': 'person', 'count': 4}, {'object': 'clock', 'count': 5}. Position the tennis racket(s) to the left of the bus(s). Position the person(s) next to the clock(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about bus, tennis racket. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bus",
+            "count": 4
+          },
+          {
+            "object": "tennis racket",
+            "count": 4
+          },
+          {
+            "object": "person",
+            "count": 4
+          },
+          {
+            "object": "clock",
+            "count": 5
+          }
+        ],
+        "spatial_relations": [
+          [
+            "tennis racket",
+            "to the left of",
+            "bus"
+          ],
+          [
+            "person",
+            "next to",
+            "clock"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "bus",
+            "tennis racket"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor scene shows four buses lined up on the right side of the image, with four tennis rackets positioned to the left of those buses; four people stand next to clocks (each person beside a different clock) and there are five clocks mounted along a wall showing different times. A nearby sign reads \"Bus, tennis racket notices posted for passengers\".",
+        "An outdoor scene shows four buses lined up along the right side of the frame with four tennis rackets arranged to their left. Four people stand next to four of five large wall clocks mounted along the background, leaving one clock unoccupied. A clear sign mounted above the buses displays the visible text: Bus and tennis racket schedule and maintenance. The composition emphasizes the row of rackets left of the buses and the people beside the clocks.",
+        "An urban scene shows four buses lined up across the middle of the image with four tennis rackets placed immediately to the left of those buses. Five clocks are mounted on a wall above and behind the buses; four people stand next to four of the clocks (one clock remains unoccupied). A small sign in the scene reads: Bus tennis racket area: keep items organized.",
+        "An outdoor display shows four buses lined up on the right side of the frame, and four tennis rackets positioned to the left of the buses, propped against a low railing. Five clocks are mounted in a row across the background; four people stand beside four of those clocks (one clock remains unoccupied), each person appearing to check or point at the clock next to them. A clear sign near the rackets reads: Four buses four tennis rackets sale today",
+        "An image shows four buses parked side by side on the right half of the scene, with four tennis rackets arranged on the left side, directly to the left of the buses; four people each stand next to one of five large wall clocks (one clock remains slightly apart); a nearby sign reads \"Bus and tennis racket use permitted here\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+spatial+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'cup', 'count': 3}, {'object': 'bowl', 'count': 2}, {'object': 'clock', 'count': 3}. Position the bowl(s) on top of the clock(s). Position the bowl(s) below the cup(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about clock, cup. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cup",
+            "count": 3
+          },
+          {
+            "object": "bowl",
+            "count": 2
+          },
+          {
+            "object": "clock",
+            "count": 3
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bowl",
+            "on top of",
+            "clock"
+          ],
+          [
+            "bowl",
+            "below",
+            "cup"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "clock",
+            "cup"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A still-life scene shows three clocks arranged on a worn wooden table; two of the clocks each have a ceramic bowl placed directly on top, and each of those bowls supports a porcelain cup balanced above it, while the third clock sits beside a lone cup so there are three cups in total; a small handwritten sign leaning against the clocks reads \"Clock cup: time and tea.\"",
+        "A carefully composed still life shows three cups arranged along an upper shelf, two bowls placed directly below two of those cups so each bowl sits beneath a cup, and three clocks on a lower ledge with the two bowls resting on top of two clocks while the third clock remains uncovered; a small paper note taped to the shelf displays the visible text \"Clocks and cups keep time\".",
+        "A bright, minimalist photograph of three tabletop clocks arranged on a wooden surface: two clocks each have a ceramic bowl placed directly on top of their faces, and the third clock sits empty to the side. On the first bowl two porcelain cups are stacked one atop the other, and on the second bowl a single cup rests, so both bowls are clearly below and supporting cups. A small paper sign propped against the central clock reads \"Clock and cup stacked here\". Soft natural light and a shallow depth of field emphasize the stacked cups, bowls, and clocks."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+spatial+text",
+      "skills": [
+        "counting",
+        "spatial",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'tennis racket', 'count': 1}, {'object': 'bicycle', 'count': 2}. Position the bicycle(s) to the left of the tennis racket(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about tennis racket. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "tennis racket",
+            "count": 1
+          },
+          {
+            "object": "bicycle",
+            "count": 2
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bicycle",
+            "to the left of",
+            "tennis racket"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "tennis racket"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Two bicycles are parked to the left of a single tennis racket leaning against a wooden fence in a sunny backyard; a small handwritten sign next to the racket reads \"Classic tennis racket\".",
+        "A sunlit alley scene shows two bicycles parked side by side to the left of a single tennis racket propped upright against a wooden fence; a small white tag attached to the racket clearly reads \"Lightweight tennis racket.\" The bicycles have baskets and slightly scuffed paint, casting long shadows on the cobblestone path, while the racket\u2019s strings, grip, and tag are all in clear view."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "experiment_id": "counting+color+size_robust",
+  "timestamp": "2026-02-04T16:50:34.177643",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+size",
+      "skills": [
+        "counting",
+        "color",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'tie', 'count': 5, 'color': 'green'}, {'object': 'toaster', 'count': 4, 'color': 'yellow'}, {'object': 'stop sign', 'count': 4, 'color': 'white'}, {'object': 'cake', 'count': 4, 'color': 'purple'}. Make the tie(s) smaller than the cake(s). Make the toaster(s) larger than the stop sign(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "tie",
+            "count": 5,
+            "color": "green"
+          },
+          {
+            "object": "toaster",
+            "count": 4,
+            "color": "yellow"
+          },
+          {
+            "object": "stop sign",
+            "count": 4,
+            "color": "white"
+          },
+          {
+            "object": "cake",
+            "count": 4,
+            "color": "purple"
+          }
+        ],
+        "size_relations": [
+          [
+            "tie",
+            "smaller",
+            "cake"
+          ],
+          [
+            "toaster",
+            "larger",
+            "stop sign"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, stylized scene showing five small green ties scattered across the foreground, each noticeably smaller than four medium-sized purple cakes arranged together on a central table. In the midground there are four bulky yellow toasters that dominate the space, each clearly larger than the four flat white stop signs placed on the ground nearby. The composition emphasizes the size differences and vivid colors \u2014 small green ties, larger purple cakes, even larger yellow toasters, and compact white stop signs.",
+        "A vivid, stylized scene where five tiny green tyes are scattered across the foreground, each clearly smaller than a cluster of four medium purple cakess displayed on a central table. In the midground, four chunky yellow toassters domiantes the area, each visibly larger than four flat white stop signs lying on the ground nearby. The arrangement highlights the dramatic size relationships and bright hues \u2014 small green tyes, larger purple cakess, even bigger yellow toassters, and compact white stop signs.",
+        "A vivid, stylized composition: five tiny green ties strewn across the foreground, visibly smaler than a group of four medium purpel cakes clustered on a central table. In the midground loom four hefty yellow toasters that overtake the scene, each noticeably bigger than four flat white stop signs lying on the nearby ground. The layout highlights the scale contrast and bright hues \u2014 tiny green ties, medium purple cakes, larger yellow toasters, and compact white stop signs.",
+        "Vivid, stylized composition featuring five tiny green ties strewn across the foreground, each visibely smaller than a clustr of four medium purple cakes set on a central table. In the midle ground stand four chuncky yellow toasters that visually dominate the scene, each markdly bigger than the four flat white stop signs lying on the ground nearby. The arrangement highlights the scale contrasts and bright hues \u2014 small green ties, larger purple cakes, even larger yellow toasters, and compact white stop signs.",
+        "A vivid, stylized scene of five tiny green tyes scattered across the foreground, each clearly smaller than a cluster of four medium purpel cakes arranged on a central table. In the midground there are four chunky yellow toasters that dominate the space, each noticebly larger than the four flat white stop signs placed on the ground nearby. The composition highlights the size contrasts and bright colors \u2014 small green ties, larger purple cakes, even larger yellow toasters, and compact white stop signs."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+size",
+      "skills": [
+        "counting",
+        "color",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'cake', 'count': 3, 'color': 'orange'}, {'object': 'tv', 'count': 3, 'color': 'brown'}, {'object': 'microwave', 'count': 3, 'color': 'green'}. Make the tv(s) smaller than the cake(s). Make the tv(s) larger than the microwave(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "cake",
+            "count": 3,
+            "color": "orange"
+          },
+          {
+            "object": "tv",
+            "count": 3,
+            "color": "brown"
+          },
+          {
+            "object": "microwave",
+            "count": 3,
+            "color": "green"
+          }
+        ],
+        "size_relations": [
+          [
+            "tv",
+            "smaller",
+            "cake"
+          ],
+          [
+            "tv",
+            "larger",
+            "microwave"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An image showing three orange cakes, three brown TVs, and three green microwaves: the three orange cakes are the largest objects, prominently displayed on a wooden table with realistic icing texture, glossy highlights, and subtle crumbs; the three brown televisions are medium-sized\u2014clearly smaller than the cakes but noticeably larger than the microwaves\u2014boxy with dark reflective screens and retro knobs; the three green microwaves are the smallest items, with glossy enamel surfaces and small digital displays. Arrange the cakes in the foreground, the TVs in the midground around and slightly behind the cakes, and the microwaves near the base or background, creating clear size relationships. Soft natural lighting, shallow depth of field, neutral blurred background, vibrant saturated colors, and photorealistic detail.",
+        "Photoreal image of three orange cakes, three brown televisions, and three green microwaves: the three orange cakes are the biggest elements, prominently displayed on a wooden table with realitic icing texture, glossy highlights, and delicate crumbs; the three brown televisons are medium-sized\u2014noticeably smaller than the cakes but clearly larger than the microwaves\u2014boxy with dark reflective screens and retro knobs; the three green microwves are the smallest, featuring glossy enamel surfaces and small digital displays. Place the cakes in the foreground, the TVs in the midground arranged around and slightly behind the cakes, and the microwaves near the base or backgroud so the size relationships read clearly. Soft natural lighting, shallow depth of field, a neutral blurred background, vibrant saturated colors, and finely detailed photoreal rendering.",
+        "A photorealistic scene with three large orange cakes, three medium brown televisons, and three small green micorwaves. The cakes are the biggest objects, placed prominantly on a wooden table with believable icing texture, glossy highlights, and tiny crumbs; the brown TVs are boxy with dark reflective screens and retro knobs, clearly smaller than the cakes but noticeably larger than the micorwaves; the green microwaves are the smallest items, with glossy enamel surfaces and small digital displays. Arrange the cakes in the foreground, the TVs in the midground around and slightly behind the cakes, and the microwaves near the base or background to emphasize clear size relationships. Soft natual lighting, shallow depth of field, neutral blurred background, vibrent saturated colors, and high photorealistic detail."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+size",
+      "skills": [
+        "counting",
+        "color",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'hot dog', 'count': 2, 'color': 'green'}, {'object': 'bench', 'count': 2, 'color': 'brown'}. Make the hot dog(s) smaller than the bench(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "hot dog",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "bench",
+            "count": 2,
+            "color": "brown"
+          }
+        ],
+        "size_relations": [
+          [
+            "hot dog",
+            "smaller",
+            "bench"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A scene showing two small green hot dogs, each noticeably smaller than the two long brown wooden benches that sit behind them.",
+        "An image of two smal green hotdogs, each noticably smaller than the two long brown woodn benches that sit behind them."
+      ]
+    }
+  ]
+}

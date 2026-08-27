@@ -1,0 +1,155 @@
+{
+  "experiment_id": "counting+color+spatial+emotion",
+  "timestamp": "2026-02-05T10:20:55.840008",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bench', 'count': 4, 'color': 'red'}, {'object': 'airplane', 'count': 5, 'color': 'yellow'}, {'object': 'cat', 'count': 4, 'color': 'blue'}, {'object': 'cow', 'count': 4, 'color': 'pink'}. Position the bench(s) to the right of the cow(s). Position the airplane(s) inside the cat(s). Include a person showing surprise. Include a person showing disgust. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "disgust",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "bench",
+            "count": 4,
+            "color": "red"
+          },
+          {
+            "object": "airplane",
+            "count": 5,
+            "color": "yellow"
+          },
+          {
+            "object": "cat",
+            "count": 4,
+            "color": "blue"
+          },
+          {
+            "object": "cow",
+            "count": 4,
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bench",
+            "to the right of",
+            "cow"
+          ],
+          [
+            "airplane",
+            "inside",
+            "cat"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A colorful outdoor scene: four pink cows stand together on the left, and directly to their right are four red benches lined up in a row; nearby are four blue cats arranged in a loose cluster, each cat containing at least one small yellow airplane tucked inside its curled body \u2014 three cats each hold one yellow airplane and the fourth cat holds two, totaling five yellow airplanes. Three people watch the tableau: one with a surprised expression, one showing clear disgust, and one visibly sad.",
+        "A whimsical scene shows four pink cows grouped on the left; immediately to their right sit four red benches arranged in a row. In the center stand four large blue cats, each with a yellow airplane tucked visibly inside them \u2014 five yellow airplanes in total, so one cat holds two little planes. Nearby, three people react to the strange tableau: one person looks surprised with wide eyes, another visibly shows disgust, and a third appears sad, each observing the cows, benches, and the blue cats containing the yellow airplanes.",
+        "A whimsical scene: four pink cows stand together on the left side of the frame, and four red benches are placed directly to the right of those cows in a neat line. Nearby are four blue cats, each with bright yellow airplanes tucked inside its fur so that there are five yellow airplanes in total (one cat holds two airplanes). Three people observe the scene: one person with a clearly surprised expression, another person showing disgust, and a third person looking sad. The composition emphasizes the colorful animals, the red benches to the right of the cows, and the yellow airplanes contained within the blue cats.",
+        "A bright outdoor scene features four pink cows grouped on the left and four red benches positioned to the right of those cows. Nearby are four blue cats, each cradling or surrounding yellow toy airplanes \u2014 five yellow airplanes in total (one cat holds two airplanes). In the foreground three people display distinct reactions: one person looks surprised with wide eyes and an open mouth, another shows disgust with a curled lip and a turned head, and a third appears sad with downcast eyes and slumped shoulders.",
+        "A whimsical, colorful scene: four pink cows stand together on the left side of the image, and to their right are four red benches lined up in a row. Nearby are four blue cats; each cat has at least one small yellow airplane tucked inside it (there are five yellow airplanes in total, so one cat holds two). Three people are visible in the scene: one person with a surprised expression, one person showing disgust, and one person looking sad. The setting is simple and clear so the colored animals, airplanes, benches, and the three emotional expressions are easy to read."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'traffic light', 'count': 2, 'color': 'green'}, {'object': 'chair', 'count': 3, 'color': 'blue'}, {'object': 'motorcycle', 'count': 3, 'color': 'yellow'}. Position the traffic light(s) in front of the motorcycle(s). Position the traffic light(s) under the chair(s). Include a person showing anger. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "traffic light",
+            "count": 2,
+            "color": "green"
+          },
+          {
+            "object": "chair",
+            "count": 3,
+            "color": "blue"
+          },
+          {
+            "object": "motorcycle",
+            "count": 3,
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "traffic light",
+            "in front of",
+            "motorcycle"
+          ],
+          [
+            "traffic light",
+            "under",
+            "chair"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "An urban street scene depicting three blue chairs mounted on a low elevated platform; directly beneath those chairs sit two green traffic lights that stand in front of a row of three yellow motorcycles parked behind them. One person nearby displays clear anger, scowling and gesturing aggressively, while another person shows fear, cowering and wide-eyed. The composition emphasizes the traffic lights under the chairs and between the viewer and the motorcycles, realistic daylight setting.",
+        "A tense urban scene: three yellow motorcycles are parked in a neat row near the back, three blue chairs sit on a raised platform directly above them, and two green traffic lights stand beneath the chairs and slightly in front of the motorcycles so the lights are nearest the viewer while the bikes remain behind. To the left a person with an angry expression clenches their jaw and fists, scowling toward the lights; to the right a second person looks fearful, wide-eyed and recoiling as if startled by the situation.",
+        "A vivid urban scene showing exactly two green traffic lights placed directly in front of three yellow motorcycles; the motorcycles are lined up behind the lights, bright yellow and parked side by side. Above and slightly back from the traffic lights sit three blue chairs arranged as a small overhead cluster, so each green traffic light is beneath the grouping of blue chairs. Nearby, one person displays clear anger \u2014 clenched jaw, furrowed brow, rigid stance and an accusing finger pointed toward the motorcycles \u2014 while another person, a short distance away, shows palpable fear with wide eyes, raised shoulders and hands covering their mouth."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'book', 'count': 1, 'color': 'gray'}, {'object': 'truck', 'count': 1, 'color': 'yellow'}. Position the truck(s) next to the book(s). Include a person showing joy. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy"
+        ],
+        "objects": [
+          {
+            "object": "book",
+            "count": 1,
+            "color": "gray"
+          },
+          {
+            "object": "truck",
+            "count": 1,
+            "color": "yellow"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "truck",
+            "next to",
+            "book"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A sunlit scene featuring a single gray book resting on a wooden table, with a bright yellow truck positioned directly next to the book; nearby a person shows pure joy, smiling broadly and raising their arms in delight as they look at the book and truck, with soft, warm light and a simple, uncluttered background.",
+        "A joyful person, smiling broadly and raising their arms in celebration, stands beside one yellow truck positioned next to one gray book on a simple tabletop surface."
+      ]
+    }
+  ]
+}

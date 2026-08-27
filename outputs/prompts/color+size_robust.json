@@ -1,0 +1,128 @@
+{
+  "experiment_id": "color+size_robust",
+  "timestamp": "2026-02-05T12:03:01.197226",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_color+size",
+      "skills": [
+        "color",
+        "size"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'potted plant', 'color': 'gray'}, {'object': 'fork', 'color': 'yellow'}, {'object': 'clock', 'color': 'white'}, {'object': 'mouse', 'color': 'blue'}. Make the mouse(s) smaller than the clock(s). Make the potted plant(s) larger than the fork(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "potted plant",
+            "color": "gray"
+          },
+          {
+            "object": "fork",
+            "color": "yellow"
+          },
+          {
+            "object": "clock",
+            "color": "white"
+          },
+          {
+            "object": "mouse",
+            "color": "blue"
+          }
+        ],
+        "size_relations": [
+          [
+            "mouse",
+            "smaller",
+            "clock"
+          ],
+          [
+            "potted plant",
+            "larger",
+            "fork"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A quiet tabletop scene: a large gray potted plant sits prominently in the foreground, noticeably larger than a slim yellow fork lying nearby; a white clock hangs on the wall and is much bigger than a small blue mouse scurrying beneath it.",
+        "A calm tabletop arrangement: an oversized gray potted plant dominates the foreground, clearly larger than a slim yelow fork resting nearby; a white clokc hangs on the wall, much bigger than a tiny blue mouse scurryng beneath it.",
+        "A quiet tabletop scene: a large gray planter sits in the foregound, clearly much bigger than a slim yelow fork lying nearby; a white clok hangs on the wall and is noticeably larger than a tiny blue mouse scurying beneath it.",
+        "A calm tabletop scene: a big gray potted plant sits prominant in the forground, clearly larger than a slim yello fork lying close by; a white clok hangs on the wall, far bigger than a tiny blue mouse scurrying beaneath it.",
+        "A serene tabletop scene: a big gray potted plant dominates the forground, clearly much larger than a slim yello fork lying beside it; a white clock mounted on the wall towers over a smal blue mouse scampering underneath."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_color+size",
+      "skills": [
+        "color",
+        "size"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'refrigerator', 'color': 'green'}, {'object': 'bench', 'color': 'black'}, {'object': 'baseball bat', 'color': 'orange'}. Make the baseball bat(s) larger than the bench(s). Make the baseball bat(s) smaller than the refrigerator(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "refrigerator",
+            "color": "green"
+          },
+          {
+            "object": "bench",
+            "color": "black"
+          },
+          {
+            "object": "baseball bat",
+            "color": "orange"
+          }
+        ],
+        "size_relations": [
+          [
+            "baseball bat",
+            "larger",
+            "bench"
+          ],
+          [
+            "baseball bat",
+            "smaller",
+            "refrigerator"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright green refrigerator stands prominently against a neutral wall; in front of it an orange baseball bat leans at an angle, noticeably larger than the low black bench nearby but still smaller than the tall refrigerator.",
+        "A vivid green refridgerator dominates a neutral wall; in front of it an organge baseball bat leans at a slant, clearly larger than the low black benche beside it but still smaller than the tall refridgerator.",
+        "A vivid green refridgerator sits prominant against a neutral wall; in front of it an orange baseball bat leans at a slight angeld, noticably bigger than the low black bench nearby but still smaller than the tall refrigerater."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_color+size",
+      "skills": [
+        "color",
+        "size"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors: {'object': 'couch', 'color': 'pink'}, {'object': 'broccoli', 'color': 'purple'}. Make the couch(s) larger than the broccoli(s). Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "couch",
+            "color": "pink"
+          },
+          {
+            "object": "broccoli",
+            "color": "purple"
+          }
+        ],
+        "size_relations": [
+          [
+            "couch",
+            "larger",
+            "broccoli"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, modern living room dominated by a large pink couch filling much of the foreground, with small purple broccoli florets arranged on a low coffee table in front of it, the broccoli clearly much smaller than the couch, bathed in soft natural light against a neutral background.",
+        "Sunlit contemporary living area centered on a huge pink sofa that takes up most of the foregroud, a low coffee table in front holding tiny purple broccolli floretts, the miniature broccolli visibly much smaller than the couch, all bathed in soft natural light against a neutral backdrop."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "experiment_id": "counting+color+spatial+text",
+  "timestamp": "2026-02-05T11:10:25.495579",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'spoon', 'count': 5, 'color': 'white'}, {'object': 'remote', 'count': 4, 'color': 'brown'}, {'object': 'hair drier', 'count': 5, 'color': 'orange'}, {'object': 'motorcycle', 'count': 4, 'color': 'green'}. Position the motorcycle(s) to the right of the remote(s). Position the hair drier(s) inside the spoon(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about hair drier, motorcycle. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "spoon",
+            "count": 5,
+            "color": "white"
+          },
+          {
+            "object": "remote",
+            "count": 4,
+            "color": "brown"
+          },
+          {
+            "object": "hair drier",
+            "count": 5,
+            "color": "orange"
+          },
+          {
+            "object": "motorcycle",
+            "count": 4,
+            "color": "green"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "motorcycle",
+            "to the right of",
+            "remote"
+          ],
+          [
+            "hair drier",
+            "inside",
+            "spoon"
+          ]
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "hair drier",
+            "motorcycle"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tidy tabletop scene shows five white spoons arranged in a loose fan, each spoon cradling an orange hair drier. To one side, four brown remotes sit in a neat row, and four green motorcycles are positioned to the right of the remotes. A small paper label nearby reads: \"Orange hair driers power green motorcycles safely\"",
+        "An overhead scene shows five white spoons arranged in a loose circle, each spoon cradling an orange hair drier tucked inside its bowl; four brown remotes lie in a neat row, and four green motorcycles are positioned to the right of those remotes. A small paper sign on the table displays the text: Hair drier warms helmet on parked motorcycle",
+        "Five white spoons sit in a shallow curved row, each spoon containing an orange hair drier nestled inside its bowl. Four brown remotes are laid out in a neat line, and four green motorcycles are positioned directly to the right of those remotes, each motorcycle aligned with a corresponding remote. A small rectangular sign nearby displays the words Hair drier in spoon motorcycle right side",
+        "A tabletop still life shows five white spoons, each holding an orange hair drier nested inside; nearby four brown remotes are arranged in a row, and to the right of those remotes four green motorcycles are lined up. A small note in the foreground displays the text: \"Handle orange hair drier, green motorcycle carefully\"",
+        "Five white spoons sit on a table, each containing an orange hair drier, for a total of five orange hair driers. Four brown remotes lie to the left, and four green motorcycles are placed to the right of those remotes. A small paper sign on the table reads: Hair driers inside spoons; motorcycles positioned right."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'bird', 'count': 3, 'color': 'orange'}, {'object': 'mouse', 'count': 3, 'color': 'purple'}, {'object': 'bench', 'count': 3, 'color': 'pink'}. Position the bird(s) under the mouse(s). Position the bird(s) to the right of the bench(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 5 words written about bench, bird. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bird",
+            "count": 3,
+            "color": "orange"
+          },
+          {
+            "object": "mouse",
+            "count": 3,
+            "color": "purple"
+          },
+          {
+            "object": "bench",
+            "count": 3,
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bird",
+            "under",
+            "mouse"
+          ],
+          [
+            "bird",
+            "to the right of",
+            "bench"
+          ]
+        ],
+        "text": {
+          "word_count": 5,
+          "objects": [
+            "bench",
+            "bird"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor composition features three pink benches arranged in a row on the left. To the right of the benches are three orange birds, each bird positioned directly beneath one of three purple mice so that every mouse sits above a bird. A small sign near the benches displays the five-word message: Bench and bird: peaceful companions.",
+        "A bright illustration showing three pink benches lined on the left. To the right of each bench stands one orange bird (three orange birds total), and directly above each orange bird is a purple mouse (three purple mice total) so that each bird is positioned underneath a mouse and to the right of a bench. A small sign attached to the middle bench displays the text: \"Bench and bird coexist nearby\"",
+        "An outdoor scene showing three pink benches aligned together; to the right of the benches are three orange birds, each bird positioned directly beneath a purple mouse (three purple mice perched above the birds). A small sign in the scene reads: Bench, bird: colorful companions nearby"
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+text",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'elephant', 'count': 1, 'color': 'gray'}, {'object': 'suitcase', 'count': 1, 'color': 'purple'}. Position the suitcase(s) behind the elephant(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about elephant. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "elephant",
+            "count": 1,
+            "color": "gray"
+          },
+          {
+            "object": "suitcase",
+            "count": 1,
+            "color": "purple"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "suitcase",
+            "behind",
+            "elephant"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "elephant"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "Photograph of a single gray elephant standing in the foreground with a single purple suitcase placed directly behind the elephant and partially visible; soft natural light, dusty ground, gentle shadows; a small wooden sign planted beside the elephant clearly displays the two-word label \"Gentle Giant\" in bold black letters.",
+        "A single gray elephant stands in a sunlit clearing, facing slightly left, with a small purple suitcase placed directly behind it; a hand-painted wooden sign staked into the ground nearby reads \"Save Elephants\" in bold, clear letters, and the peaceful scene is lit by soft morning light over muted green grasses."
+      ]
+    }
+  ]
+}

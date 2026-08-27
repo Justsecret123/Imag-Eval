@@ -1,0 +1,151 @@
+{
+  "experiment_id": "counting+size+text",
+  "timestamp": "2026-02-05T11:29:13.150854",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+size+text",
+      "skills": [
+        "counting",
+        "size",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'laptop', 'count': 5}, {'object': 'surfboard', 'count': 4}, {'object': 'spoon', 'count': 4}, {'object': 'hot dog', 'count': 5}. Make the hot dog(s) larger than the surfboard(s). Make the spoon(s) smaller than the laptop(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about spoon, laptop. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "laptop",
+            "count": 5
+          },
+          {
+            "object": "surfboard",
+            "count": 4
+          },
+          {
+            "object": "spoon",
+            "count": 4
+          },
+          {
+            "object": "hot dog",
+            "count": 5
+          }
+        ],
+        "size_relations": [
+          [
+            "hot dog",
+            "larger",
+            "surfboard"
+          ],
+          [
+            "spoon",
+            "smaller",
+            "laptop"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "spoon",
+            "laptop"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright studio tableau displays five laptops open and glowing along a long wooden table, four surfboards propped upright against the far wall, four small silver spoons scattered on the table, and five oversized hot dogs placed across the scene; the hot dogs are deliberately larger than the surfboards while each spoon is noticeably smaller than the laptops. A yellow sticky note on one laptop screen reads \"Spoon near laptop: keep handles away\".",
+        "A bright studio scene displays five laptops spread across a long wooden table; four small metal spoons are scattered between them, each noticeably smaller than the laptops. Against the far wall four colorful surfboards lean upright, while five oversized hot dogs sit on low pedestals in front of them, clearly larger than the surfboards. A small standing sign on the table reads \"Spoon and laptop size compared here.\"",
+        "A bright, realistic studio scene featuring five laptops arranged across a long wooden table, four small spoons placed nearby (the spoons are clearly smaller than the laptops), four surfboards leaning against a sunlit wall, and five oversized hot dogs arranged on the floor and table so that each hot dog is visibly larger than the surfboards. A small white sign propped on the table shows the text: \"Spoon beside laptop compare sizes carefully\". Soft natural light, shallow depth of field, tactile textures, and clear, readable lettering on the sign.",
+        "An airy studio scene shows five open laptops arranged across a long wooden table, with four small metal spoons resting beside them \u2014 the spoons noticeably smaller than the laptops. Four colorful surfboards lean against the sunlit wall, and five oversized hot dogs, each larger than a surfboard, lie on low benches and the floor like whimsical props. A small laminated sign taped to the nearest monitor reads: \"Spoon and laptop are communal items\". The composition emphasizes scale contrasts and the exact counts: five laptops, four surfboards, four spoons, and five hot dogs.",
+        "A bright studio scene shows five open laptops arranged across a long wooden table, each one noticeably larger than the small teaspoons placed beside them \u2014 there are exactly four spoons, clearly smaller than the laptops. Against the back wall four colorful surfboards are propped upright, but five oversized hot dogs lie across the floor and lean against the boards, each hot dog visibly larger than the surfboards. A taped note on the wall above the table reads: \"Spoon smaller, laptop larger, compare sizes\"."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+size+text",
+      "skills": [
+        "counting",
+        "size",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'bench', 'count': 3}, {'object': 'pizza', 'count': 2}, {'object': 'frisbee', 'count': 3}. Make the pizza(s) smaller than the bench(s). Make the pizza(s) larger than the frisbee(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about frisbee, pizza. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "bench",
+            "count": 3
+          },
+          {
+            "object": "pizza",
+            "count": 2
+          },
+          {
+            "object": "frisbee",
+            "count": 3
+          }
+        ],
+        "size_relations": [
+          [
+            "pizza",
+            "smaller",
+            "bench"
+          ],
+          [
+            "pizza",
+            "larger",
+            "frisbee"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "frisbee",
+            "pizza"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "An outdoor park scene with three wooden benches aligned along a paved path. Two round pizzas sit on a low picnic table and on one bench seat, noticeably smaller than the benches but larger than the nearby toys. Three colorful frisbees are scattered on the grass in front of the benches, each visibly smaller than the pizzas. A small wooden sign on a post displays the words: Frisbee and pizza make outdoor fun",
+        "A sunny park scene with three wooden benches arranged along a winding path; two pizzas sit on paper plates on two of the benches, each pizza noticeably smaller than the benches but clearly larger than three colorful frisbees scattered on the grass nearby. A small sign on the middle bench reads: \"Frisbees and pizzas: play, eat, share\"",
+        "A bright park scene shows three wooden benches arranged along a paved path, each bench empty except for picnic items; two medium pizzas rest on the middle and right benches and are clearly smaller than the benches (about one third of a bench seat) but noticeably larger than the frisbees; three small frisbees are visible\u2014one lying on the grass, one leaning against a bench leg, and one frozen mid\u2011air as if just thrown. A small laminated sign on a nearby lamppost reads \"Frisbee pizza: toss frisbee then eat\"."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+size+text",
+      "skills": [
+        "counting",
+        "size",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'orange', 'count': 1}, {'object': 'umbrella', 'count': 1}. Make the umbrella(s) smaller than the orange(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about orange. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "objects": [
+          {
+            "object": "orange",
+            "count": 1
+          },
+          {
+            "object": "umbrella",
+            "count": 1
+          }
+        ],
+        "size_relations": [
+          [
+            "umbrella",
+            "smaller",
+            "orange"
+          ]
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "orange"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "On a sunlit wooden table sits a single oversized orange, its bright peel filling most of the frame; beside it lies a tiny closed red umbrella, noticeably smaller than the orange. A small white label propped against the fruit reads \"juicy orange\".",
+        "A minimalist close-up: a single large ripe orange sits centered on a clean white tabletop, its textured peel catching soft natural light and subtle highlights; a single tiny paper cocktail umbrella, clearly much smaller than the fruit, leans against the orange like a thumbnail-sized prop; propped at the orange\u2019s base is a small rectangular label with the two-word text \"Fresh orange\" in plain black type; neutral blurred background, shallow depth of field, warm tones, sharp focus on the orange and the tiny umbrella."
+      ]
+    }
+  ]
+}

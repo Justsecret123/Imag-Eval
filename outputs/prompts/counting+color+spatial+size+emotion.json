@@ -1,0 +1,189 @@
+{
+  "experiment_id": "counting+color+spatial+size+emotion",
+  "timestamp": "2026-02-05T10:42:29.138924",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+color+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'sandwich', 'count': 5, 'color': 'pink'}, {'object': 'teddy bear', 'count': 5, 'color': 'blue'}, {'object': 'apple', 'count': 4, 'color': 'green'}, {'object': 'cell phone', 'count': 5, 'color': 'orange'}. Position the teddy bear(s) on top of the cell phone(s). Position the apple(s) to the left of the sandwich(s). Make the sandwich(s) larger than the teddy bear(s). Make the apple(s) smaller than the cell phone(s). Include a person showing trust. Include a person showing fear. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "trust",
+          "fear",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "sandwich",
+            "count": 5,
+            "color": "pink"
+          },
+          {
+            "object": "teddy bear",
+            "count": 5,
+            "color": "blue"
+          },
+          {
+            "object": "apple",
+            "count": 4,
+            "color": "green"
+          },
+          {
+            "object": "cell phone",
+            "count": 5,
+            "color": "orange"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "teddy bear",
+            "on top of",
+            "cell phone"
+          ],
+          [
+            "apple",
+            "to the left of",
+            "sandwich"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sandwich",
+            "larger",
+            "teddy bear"
+          ],
+          [
+            "apple",
+            "smaller",
+            "cell phone"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A staged still life shows five pink sandwiches, five blue teddy bears, four green apples, and five orange cell phones arranged across a table. Each of the five orange cell phones has a blue teddy bear sitting directly on top of it; the blue teddy bears are noticeably smaller than the surrounding pink sandwiches, and the five pink sandwiches are clearly larger than the bears. To the left of the sandwiches sit four small green apples; the green apples are visibly smaller than the orange cell phones. In the foreground three people express distinct emotions: one person with a warm, open face and relaxed posture conveys trust, another person recoils with wide eyes and tense shoulders showing fear, and a third person leans forward with raised eyebrows and an expectant smile showing anticipation. The scene is brightly lit so colors\u2014pink, blue, green, and orange\u2014are vivid and the size and positional relationships are easy to read.",
+        "An overhead view of a simple tabletop scene: five bright orange cell phones are arranged in a neat row, and on top of each phone sits a small blue teddy bear, so there are five teddy bears perched on five phones. To the right of that row sit five pink sandwiches, each clearly larger than the teddy bears; to the left of the sandwiches are four glossy green apples, the apples noticeably smaller than the orange cell phones. Three people stand or sit behind the table\u2014one with a relaxed, open expression and a gentle smile reaching out toward the objects (showing trust), another with wide eyes and hunched shoulders, recoiling slightly (showing fear), and a third leaning forward with focused eyes and hands clenched in eager expectation (showing anticipation). The composition emphasizes the blue teddy bears perched atop the orange phones and the four green apples positioned to the left of the five larger pink sandwiches.",
+        "A bright, carefully composed tabletop scene: five large pink sandwiches sit in a neat row toward the center-right of a wooden table; to the left of that row there are four small green apples spaced evenly, each positioned clearly to the left of the nearest sandwich. Along the center-left of the table are five orange cell phones laid out side by side, and balanced on top of each orange cell phone is a small blue teddy bear, one teddy per phone. Visually emphasize scale so the pink sandwiches are noticeably larger than the blue teddy bears, and the green apples are visibly smaller than the orange cell phones. Three people are visible around the table: one person with open palms and a soft, relaxed smile conveying trust; another person slightly recoiling with wide eyes and a tense posture showing fear; and a third person leaning forward with hands clasped and raised eyebrows, clearly expressing eager anticipation. The lighting is warm and even, with crisp focus on the colored objects and the three distinct emotional expressions.",
+        "A bright, well-lit scene on a low wooden table: five orange cell phones lie side by side in a neat row, each phone topped by a small blue teddy bear so that there are five bears perched on five phones. To the right of those phones and bears sit five pink sandwiches that are noticeably larger than the teddy bears. To the left of the sandwiches are four green apples, each apple clearly smaller in size than the orange cell phones. Three people frame the arrangement: one person with an open, warm smile and relaxed posture clearly showing trust; another person with wide eyes, a tense body and a hand raised to their mouth showing fear; and a third person leaning forward with bright, expectant eyes and a slight smile showing anticipation. The composition emphasizes the size relationships\u2014sandwiches visibly larger than the blue teddy bears, apples visibly smaller than the orange cell phones\u2014and the emotional expressions of the three people surrounding the objects.",
+        "A well-lit scene on a simple table: five pink sandwiches arranged in a loose row, each sandwich noticeably larger than the stuffed toys; to the right of them five orange cell phones lie flat on the table, and on top of each phone sits one blue teddy bear (five blue teddy bears, one per phone), the teddy bears clearly smaller than the sandwiches. Four small green apples, each visibly smaller than the orange cell phones, are arranged to the left of the five pink sandwiches. Three people are included in the composition: one person showing trust (gentle open-palmed gesture, soft smile, relaxed posture), one person showing fear (wide eyes, tense body, stepping back slightly), and one person showing anticipation (leaning forward, eager expression, hands clasped). The scene should look natural and balanced, with clear spatial relationships: apples to the left of sandwiches, teddy bears sitting on top of cell phones, and the size differences obvious."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+color+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'frisbee', 'count': 3, 'color': 'green'}, {'object': 'boat', 'count': 3, 'color': 'yellow'}, {'object': 'dining table', 'count': 3, 'color': 'pink'}. Position the frisbee(s) above the boat(s). Position the frisbee(s) on top of the dining table(s). Make the frisbee(s) larger than the boat(s). Make the frisbee(s) smaller than the dining table(s). Include a person showing anticipation. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anticipation",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "frisbee",
+            "count": 3,
+            "color": "green"
+          },
+          {
+            "object": "boat",
+            "count": 3,
+            "color": "yellow"
+          },
+          {
+            "object": "dining table",
+            "count": 3,
+            "color": "pink"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "frisbee",
+            "above",
+            "boat"
+          ],
+          [
+            "frisbee",
+            "on top of",
+            "dining table"
+          ]
+        ],
+        "size_relations": [
+          [
+            "frisbee",
+            "larger",
+            "boat"
+          ],
+          [
+            "frisbee",
+            "smaller",
+            "dining table"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "A bright, well-lit scene featuring exactly three pink dining tables arranged evenly in a row, each table large and solid. On top of each pink dining table sits one green frisbee (three green frisbees total); each green frisbee is noticeably larger than the yellow boats but still visibly smaller than its pink table. Directly beneath each table, on the floor and centered under the tabletop, is a single small yellow boat (three yellow boats total), so that every green frisbee sits on top of a pink table and is positioned above the yellow boat below it. Nearby are two people: one person leans forward with wide eyes and clasped hands, smiling in clear anticipation, while the other stands relaxed with a soft, trusting smile and a reassuring hand gently resting on the first person\u2019s shoulder.",
+        "An image showing three pink dining tables, each large and clearly the biggest objects, arranged so they are distinct from one another. On top of each table sits a bright green frisbee \u2014 three green frisbees in total \u2014 each frisbee visibly larger than the yellow boats but noticeably smaller than the pink tables. Directly beneath each frisbee, aligned and visible, is a small yellow boat on the floor, so every frisbee appears above a corresponding boat. Two people are present: one person leaning forward with wide, eager eyes and a slight smile and animated posture that clearly conveys anticipation; another person standing calmly with relaxed shoulders, a soft reassuring smile and an open, steady hand or gentle gesture that communicates trust. The lighting highlights the color contrasts and the size relationships (boats smallest, frisbees mid-sized, tables largest).",
+        "A bright, whimsical scene with three pink dining tables arranged side by side; on top of each table sits a single green frisbee, for a total of three green frisbees. Beneath each table, directly below the corresponding frisbee, rests a small yellow boat \u2014 three yellow boats in total \u2014 so that every frisbee is positioned above a boat. Each green frisbee is noticeably larger than the yellow boat underneath it but clearly smaller than the pink dining table that supports it. Nearby two people watch the arrangement: one person stands at the edge with a wide-eyed, eager expression, leaning forward with hands clasped in anticipation; the other sits calmly beside them with a soft, trusting smile and a hand gently resting on the first person\u2019s shoulder, conveying confidence and trust."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+color+spatial+size+emotion",
+      "skills": [
+        "counting",
+        "color",
+        "spatial",
+        "size",
+        "emotion"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements with specified colors and quantities: {'object': 'sheep', 'count': 2, 'color': 'purple'}, {'object': 'bed', 'count': 2, 'color': 'green'}. Position the bed(s) below the sheep(s). Make the sheep(s) smaller than the bed(s). Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "sheep",
+            "count": 2,
+            "color": "purple"
+          },
+          {
+            "object": "bed",
+            "count": 2,
+            "color": "green"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "bed",
+            "below",
+            "sheep"
+          ]
+        ],
+        "size_relations": [
+          [
+            "sheep",
+            "smaller",
+            "bed"
+          ]
+        ]
+      },
+      "synthetic_prompts": [
+        "Two small purple sheep hover above two large green beds, the beds positioned directly beneath the sheep so each bed sits below a sheep and the sheep are noticeably smaller than the beds; nearby a person stands showing clear fear \u2014 wide eyes, mouth open, hands raised and stepping back as they look up at the tiny purple sheep above the oversized green beds.",
+        "Two small purple sheep are located above two large green beds, the beds positioned directly below the sheep so the sheep appear noticeably smaller than the beds; nearby a person stands showing clear fear, with wide eyes, an open mouth, and tense, raised hands as they look up at the sheep."
+      ]
+    }
+  ]
+}

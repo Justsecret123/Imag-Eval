@@ -1,0 +1,188 @@
+{
+  "experiment_id": "spatial+size+emotion+text",
+  "timestamp": "2026-02-05T12:16:11.224083",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_spatial+size+emotion+text",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'broccoli'}, {'object': 'teddy bear'}, {'object': 'kite'}, {'object': 'frisbee'}. Position the broccoli(s) inside the teddy bear(s). Position the frisbee(s) above the kite(s). Make the teddy bear(s) larger than the broccoli(s). Make the kite(s) smaller than the frisbee(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about frisbee, teddy bear. Include a person showing disgust. Include a person showing joy. Include a person showing trust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust",
+          "joy",
+          "trust"
+        ],
+        "objects": [
+          {
+            "object": "broccoli"
+          },
+          {
+            "object": "teddy bear"
+          },
+          {
+            "object": "kite"
+          },
+          {
+            "object": "frisbee"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "broccoli",
+            "inside",
+            "teddy bear"
+          ],
+          [
+            "frisbee",
+            "above",
+            "kite"
+          ]
+        ],
+        "size_relations": [
+          [
+            "teddy bear",
+            "larger",
+            "broccoli"
+          ],
+          [
+            "kite",
+            "smaller",
+            "frisbee"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "frisbee",
+            "teddy bear"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A bright park scene: two oversized plush teddy bears sit on a picnic blanket, each with several fresh broccoli heads tucked visibly inside their open bellies \u2014 the teddy bears are clearly larger than the broccoli. Nearby a joyful child leaps, smiling widely as they toss a large red frisbee high into the air; directly below and a bit farther away a small, colorful kite flutters near the grass, the kite noticeably smaller than the frisbee and the flying frisbee positioned above the kite. A small wooden sign propped beside the blanket reads exactly: Frisbee and teddy bear spark memories. To the left, a woman shows disgust, nose wrinkled and hand held up in rejection toward a broccoli\u2011peeking bear; to the right, an older man displays trust, gently holding the child's hand and leaning his head toward them in a calm, trusting gesture. The composition emphasizes the broccoli inside the larger teddy bears, and the frisbee(s) visibly above the smaller kite(s).",
+        "In a sunny neighborhood park, a large plush teddy bear sits on a picnic blanket with several small broccoli florets tucked inside its open plush belly, the teddy bear clearly much larger than the pieces of broccoli. A bright red frisbee arcs through the air directly above a deliberately small kite lying on the grass; the frisbee is noticeably larger than the tiny kite. A woman stands nearby with a disgusted expression as she wrinkles her nose at the broccoli peeking from the toy, a young man leaps with pure joy to catch the frisbee, and an older person wearing a trusting, gentle smile accepts a teddy bear being handed to them by a child. A small wooden sign beside the blanket reads \"Frisbee and teddy bear are friends\".",
+        "A bright outdoor scene shows a large stuffed teddy bear seated on a picnic blanket with a fresh head of broccoli tucked visibly inside the teddy bear's open belly\u2014 the teddy is noticeably larger than the broccoli. A colorful frisbee floats in the air directly above a smaller kite fluttering below it, making clear the kite is smaller than the frisbee. Three people stand nearby: one grimacing in disgust and pinching their nose, one beaming with joy and clapping, and a third leaning in with a warm smile and a hand resting gently on the teddy bear to show trust. A small wooden sign on the blanket reads \"Frisbee and teddy bear are friends.\"",
+        "A sunny park scene centers on a large, plush teddy bear sitting on the grass with several small green broccoli florets tucked and peeking out of its open belly and paws, the bear clearly much larger than the tiny broccoli pieces. High above, two oversized colorful frisbees float in the sky directly over a small, lightweight kite that flutters beneath them, the kite noticeably smaller than the frisbees. A hand-painted wooden sign nearby reads, \"Frisbee and teddy bear sharing smiles\". Three people are in the scene: one making a disgusted face and turning away, another beaming with joy and clapping, and a third leaning forward with open palms and a calm, trusting expression. The composition emphasizes scale and placement so the broccoli is inside the teddy bear, the teddy bear is larger than the broccoli, and the frisbees sit above the smaller kite.",
+        "A sunny park scene shows a large plush teddy bear at the center with a small head of broccoli tucked clearly inside its open belly pocket; the teddy bear is noticeably larger than the broccoli. Above and slightly behind the bear, a brightly colored frisbee hovers in midair directly above a much smaller kite, the frisbee clearly bigger than the kite. A small handwritten sign on a nearby picnic table reads: \"Frisbee and teddy bear play together\". Three people are visible: on the left a person wrinkling their nose and grimacing in disgust; on the right a person beaming with joy and clapping; and between them a person with closed eyes and a relaxed smile holding a friend's guiding hand, visibly showing trust. The composition emphasizes the oversized teddy bear with broccoli inside, the frisbee floating above the small kite, and the distinct emotional expressions of disgust, joy, and trust."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_spatial+size+emotion+text",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'bottle'}, {'object': 'scissors'}, {'object': 'apple'}. Position the scissors(s) to the left of the apple(s). Position the scissors(s) inside the bottle(s). Make the apple(s) smaller than the bottle(s). Make the apple(s) larger than the scissors(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 6 words written about bottle, scissors. Include a person showing anger. Include a person showing anticipation. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "anger",
+          "anticipation"
+        ],
+        "objects": [
+          {
+            "object": "bottle"
+          },
+          {
+            "object": "scissors"
+          },
+          {
+            "object": "apple"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "scissors",
+            "to the left of",
+            "apple"
+          ],
+          [
+            "scissors",
+            "inside",
+            "bottle"
+          ]
+        ],
+        "size_relations": [
+          [
+            "apple",
+            "smaller",
+            "bottle"
+          ],
+          [
+            "apple",
+            "larger",
+            "scissors"
+          ]
+        ],
+        "text": {
+          "word_count": 6,
+          "objects": [
+            "bottle",
+            "scissors"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tabletop scene: on the left a clear glass bottle contains a small pair of silver scissors; the bottle (and the scissors inside it) is positioned to the left of two red apples. The apples are visibly smaller than the bottle but noticeably larger than the scissors inside. A small paper label on the table shows the words: \"Bottle contains scissors; handle carefully now\". To the left, a person scowls angrily at the bottle, while on the right another person leans forward with an anticipatory, eager expression.",
+        "A realistic tabletop scene: a clear glass bottle sits on the left with a pair of scissors placed fully inside and visible through the glass; that bottle (and the scissors inside it) is positioned to the left of a single red apple. The apple is noticeably smaller than the bottle but clearly larger than the scissors. A small printed sign propped next to the bottle reads \"Bottle and scissors pose a danger\". Two people stand at the table \u2014 one person on the right showing anger with a furrowed brow and clenched jaw, and another person on the left showing anticipation, leaning forward with wide eyes and clenched hands. Soft natural light, neutral background, shallow depth of field.",
+        "A still-life scene: a tall transparent glass bottle sits on the left and contains a small pair of metal scissors fully inside it; the bottle (the largest object) is positioned to the left of a small red apple. The apple is visibly smaller than the bottle but noticeably larger than the scissors. A white label on the bottle shows exactly six words: \"Bottle contains scissors; scissors are stuck.\" Two people are in the scene \u2014 one person on the right clearly showing anger with a clenched jaw and furrowed brows, and another person near center showing anticipation, leaning forward with wide eyes. Soft neutral background and natural lighting, clear focus on the bottle, scissors, and apple."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_spatial+size+emotion+text",
+      "skills": [
+        "spatial",
+        "size",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements: {'object': 'potted plant'}, {'object': 'bear'}. Position the potted plant(s) on top of the bear(s). Make the potted plant(s) smaller than the bear(s). The image must include visible text (on a sign, note, paper, label, or screen) with exactly 3 words written about bear. Include a person showing fear. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "fear"
+        ],
+        "objects": [
+          {
+            "object": "potted plant"
+          },
+          {
+            "object": "bear"
+          }
+        ],
+        "spatial_relations": [
+          [
+            "potted plant",
+            "on top of",
+            "bear"
+          ]
+        ],
+        "size_relations": [
+          [
+            "potted plant",
+            "smaller",
+            "bear"
+          ]
+        ],
+        "text": {
+          "word_count": 3,
+          "objects": [
+            "bear"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A forest clearing at golden hour: a large brown bear sits on a mossy rock with a small terracotta pot holding a tiny green succulent perched on the bear's broad back \u2014 the potted plant is clearly much smaller than the bear. A terrified hiker nearby recoils in fear, eyes wide and hands raised, stepping backward on the trail. A weathered wooden sign nailed to a tree reads \"Beware the bear\" in simple block letters, and no other visible text appears in the scene.",
+        "A sunlit forest clearing shows a large brown bear walking slowly with a small terracotta potted plant perched on its broad back, the plant clearly much smaller than the bear; in the foreground a person in hiking clothes recoils in obvious fear, eyes wide, mouth open and hands raised as they step backward. A weathered wooden sign planted at chest height reads \"Beware the bear\", placed so the three-word warning is clearly visible. The scene is realistic with detailed fur, clay pot texture, soft dappled light, and natural depth."
+      ]
+    }
+  ]
+}

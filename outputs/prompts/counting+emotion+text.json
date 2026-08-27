@@ -1,0 +1,132 @@
+{
+  "experiment_id": "counting+emotion+text",
+  "timestamp": "2026-02-04T16:11:04.501232",
+  "prompts": [
+    {
+      "id": "prompt_001_hard_counting+emotion+text",
+      "skills": [
+        "counting",
+        "emotion",
+        "text"
+      ],
+      "level": "hard",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'skateboard', 'count': 4}, {'object': 'suitcase', 'count': 5}, {'object': 'sink', 'count': 4}, {'object': 'fork', 'count': 4}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 7 words written about fork, suitcase. Include a person showing surprise. Include a person showing anticipation. Include a person showing sadness. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "surprise",
+          "anticipation",
+          "sadness"
+        ],
+        "objects": [
+          {
+            "object": "skateboard",
+            "count": 4
+          },
+          {
+            "object": "suitcase",
+            "count": 5
+          },
+          {
+            "object": "sink",
+            "count": 4
+          },
+          {
+            "object": "fork",
+            "count": 4
+          }
+        ],
+        "text": {
+          "word_count": 7,
+          "objects": [
+            "fork",
+            "suitcase"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A busy station lost-and-found corner: five suitcases of different colors sit in a neat row beside a low wooden bench; four skateboards lean against a tiled wall nearby; four stainless-steel sinks are mounted under a long mirror, and a clear plastic tray holds four forks beside a stack of papers. A laminated sign above the bench reads \"Forks and suitcases: label before traveling today\". A young woman with wide eyes and hands to her mouth shows surprise as she points at a missing tag; across from her, a teenager leans forward on the bench with clasped hands and a hopeful, anticipatory smile; farther back, an older man sits hunched with shoulders slumped and a damp tissue at his cheek, showing sadness. Soft daylight from a high window casts long shadows across the scene, glinting on suitcase wheels and skateboard trucks.",
+        "An urban lost-and-found scene in a bright community room: four skateboards leaned against a wall, five suitcases clustered by a bench, four sinks along a tiled counter with a small tray holding four forks. A handwritten note taped to the sink cabinet reads \"Fork and suitcase found near blue sinks\". Three people nearby show distinct emotions \u2014 one with wide eyes and raised hands in surprise, another leaning forward with clasped hands and an eager smile in anticipation, and a third seated on the bench looking down with tearful eyes in sadness.",
+        "A bustling hostel kitchen scene: four skateboards lean against a brick pillar near the entrance, five suitcases are lined up by the sunlit window, four stainless-steel sinks sit side by side along the tiled wall, and four forks rest neatly in a ceramic jar on the counter. Three travelers occupy the foreground \u2014 one person freezes with mouth agape in clear surprise, another bites their lip and checks a ticket with an anticipatory, hopeful look, and a third sits slumped on a stool, face downcast and sad. A handwritten sticky note above the sinks displays the visible message: Four forks, five suitcases \u2014 remember to pack.",
+        "In a cluttered lost-and-found room at a small train station, five mismatched suitcases are stacked beside a scuffed counter, four brightly colored skateboards lean against the opposite wall, four stainless steel sinks line one side beneath a row of mirrors, and four forks lie haphazardly on a metal tray. A taped paper sign above the counter clearly reads: \"Fork and suitcase found \u2014 claim at counter\". Nearby three people react to the scene: a young woman clutching a ticket with wide eyes showing surprise, an older man leaning forward with a tense, expectant expression showing anticipation, and a teenage boy slumped on a bench staring down in sadness. The room feels lived-in and slightly chaotic, with natural light spilling through a high window.",
+        "A crowded travel maintenance room contains four skateboards leaning against a low wall, five suitcases piled by a doorway, four stainless sinks mounted along a tiled wall, and four forks neatly laid out on a small folding table. A small laminated note pinned to a bulletin board displays the inventory, reading: \"Forks and suitcases: four and five respectively\". Nearby, a young woman stands with eyes wide and mouth open in surprise as she points at the note; a man beside her leans forward with hands clasped and a hopeful, anticipatory smile; an older person sits on a bench with slumped shoulders and downcast eyes, clearly showing sadness."
+      ]
+    },
+    {
+      "id": "prompt_001_medium_counting+emotion+text",
+      "skills": [
+        "counting",
+        "emotion",
+        "text"
+      ],
+      "level": "medium",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'horse', 'count': 3}, {'object': 'cat', 'count': 3}, {'object': 'vase', 'count': 2}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 4 words written about horse, cat. Include a person showing joy. Include a person showing surprise. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "joy",
+          "surprise"
+        ],
+        "objects": [
+          {
+            "object": "horse",
+            "count": 3
+          },
+          {
+            "object": "cat",
+            "count": 3
+          },
+          {
+            "object": "vase",
+            "count": 2
+          }
+        ],
+        "text": {
+          "word_count": 4,
+          "objects": [
+            "horse",
+            "cat"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A lively outdoor scene shows three horses grazing along a sunlit meadow at the edge of a small village. In the foreground three cats lounge and play around a wooden picnic table where two elegant ceramic vases hold single wildflowers. A chalkboard sign propped on the table clearly reads \"Horses and cats together\". Nearby a woman beams with joy, smiling and raising her arms, while a man beside her stands with eyes wide and hands over his mouth in surprised delight.",
+        "A sunlit farm courtyard shows three horses grazing calmly near a wooden fence, while three cats wander and lounge nearby \u2014 one curled on a windowsill, one perched on a fence post, and one playfully batting at straw. A painted sign on the fence reads \"Horse and Cat Friends\". Two decorative ceramic vases sit on an old table beside a gate. A young woman stands smiling broadly, hands lifted in joy as she watches a kitten jump toward her, and a man nearby looks astonished, mouth open and eyes wide in surprise as a foal nudges his coat.",
+        "A bright outdoor scene shows three horses grazing near a wooden fence and three cats lounging on and around a nearby picnic table; two decorative ceramic vases sit on the table between them. A smiling woman raises her arms in joyful laughter while a man nearby clasps his hands to his cheeks in surprised delight. A small chalkboard propped on the fence displays the sign reading Horse Cat Friends Forever. The mood is warm and playful, with sunlight, greenery, and scattered hay."
+      ]
+    },
+    {
+      "id": "prompt_001_easy_counting+emotion+text",
+      "skills": [
+        "counting",
+        "emotion",
+        "text"
+      ],
+      "level": "easy",
+      "meta_prompt": "Create a natural language text description for an image that contains the following elements and quantities: {'object': 'suitcase', 'count': 1}, {'object': 'cake', 'count': 2}. The image must include visible text (on a sign, note, paper, label, or screen) with exactly 2 words written about cake. Include a person showing disgust. Output ONLY prompt, no comment, no explanations.",
+      "scene": {
+        "emotion": [
+          "disgust"
+        ],
+        "objects": [
+          {
+            "object": "suitcase",
+            "count": 1
+          },
+          {
+            "object": "cake",
+            "count": 2
+          }
+        ],
+        "text": {
+          "word_count": 2,
+          "objects": [
+            "cake"
+          ]
+        }
+      },
+      "synthetic_prompts": [
+        "A tired traveler stands in a small, cluttered kitchen with one rolling suitcase upright by the doorway; on a worn wooden table two cakes rest on separate plates \u2014 a chocolate layer cake and a frosted vanilla cake \u2014 while the traveler recoils in disgust, nose wrinkled, mouth turned down and one hand raised as if pushing them away. A handwritten note propped against the chocolate cake clearly reads \"No Cake\".",
+        "A small, cluttered hostel room with a single worn suitcase propped against the wall and two cakes arranged on a tiny table\u2014one chocolate with glossy frosting and one plain sponge with a thin glaze. A young person stands beside the table, nose scrunched and mouth twisted in disgust, recoiling and raising a hand as if to block a smell. A handwritten sign taped to the table reads \"No cake\". Soft afternoon light filters through the window, casting long shadows across the wooden floor."
+      ]
+    }
+  ]
+}

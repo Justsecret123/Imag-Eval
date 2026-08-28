@@ -22,6 +22,7 @@ Current evaluation settings:
     "image_width": 1024, 
     "image_height": 1024,
     "annotation_type": "manual",
+    "seed": 42,
     "guidance_scale": inferred from the technical paper/model documentation,
     "inference_steps": inferred from the technical paper/model documentation,
   }

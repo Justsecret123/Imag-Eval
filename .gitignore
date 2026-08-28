@@ -17,6 +17,10 @@ experiments/*.png
 complete_*.png
 non_complete_*.png
 *.svg
+*.pkl
+skills_code.csv
+text.csv
+
 data/annotations/*.xlsx
 hallucinations*
 experiments/test scripts/judge_logs.json

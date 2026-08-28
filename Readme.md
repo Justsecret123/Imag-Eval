@@ -4,7 +4,7 @@
 
 # Imag-Eval [EMNLP 2026]
 
-Official repository for the paper "[Imag-Eval A language-grounded framework for interpretable Text-to-Image instruction following evaluation](link_to_the_paper.com)". (MOHAMED SEROUIS et al., EMNLP 2026)
+Official repository for the paper "[Imag-Eval A language-grounded framework for interpretable Text-to-Image instruction following evaluation](link_to_the_paper.com)" (link to come soon). (MOHAMED SEROUIS et al., EMNLP 2026)
 
 **TL;DR:** Imag-Eval is a skill-based evaluation framework for Text-to-Image (T2I) models that measures instruction-following capabilities across compositional visual reasoning skills, while explicitly controlling for prompt complexity and minimizing error propagation during evaluation; we are rying to shift evaluation paradigms towards more controlled increases in complexity.
 
@@ -393,7 +393,7 @@ These resources are intended exclusively for research and non-commercial R&D pur
 
 ## Citation
 
-If you use this framework in your research, please cite:
+If you use our code or benchmark in your research, please cite:
 
 ```bibtex
 [Citation text coming soon]

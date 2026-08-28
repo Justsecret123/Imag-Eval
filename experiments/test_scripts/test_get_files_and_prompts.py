@@ -4,9 +4,30 @@ import json
 from pathlib import Path
 
 
-def extract_info(code_file,file_name:str):
+def extract_info(code_file, file_name: str):
     """
-    Extracts the info from the file name
+    Extract benchmark metadata from an IMAG-EVAL image filename.
+
+    The function parses an image name following the IMAG-EVAL naming
+    convention and retrieves the associated skill combination, difficulty
+    level, prompt identifier, synthetic prompt identifier, and
+    robustness setting. It also maps the extracted skill code to its
+    corresponding skill-combination name using the provided code table.
+
+    Args:
+        code_file (pd.DataFrame): Mapping between skill-combination codes
+            and skill names.
+        file_name (str): Image filename following the IMAG-EVAL naming
+            scheme.
+
+    Returns:
+        tuple:
+            - str: Skill-combination name associated with the image.
+            - str: Prompt difficulty level.
+            - str: Prompt identifier.
+            - str: Synthetic prompt identifier.
+            - bool: Whether the image belongs to a robustness evaluation
+              setting.
     """
 
     # Check if robust in string or not
@@ -33,8 +54,22 @@ def extract_info(code_file,file_name:str):
     return skill_name,level,prompt_number,synthetic_number,robust
 
 
-def get_file_names(model_name:str):
+def get_file_names(model_name: str):
     """
+    Retrieve the list of benchmark images associated with a specific model.
+
+    The function scans the IMAG-EVAL image directory corresponding to the
+    selected model, collects all PNG files, and returns their paths in
+    sorted order. The resulting list can be used for annotation,
+    evaluation, or analysis workflows.
+
+    Args:
+        model_name (str): Name of the model whose generated images should
+            be retrieved.
+
+    Returns:
+        list[str]: Sorted list of image file paths associated with the
+        specified model.
     """
 
     # Retrieving images list
@@ -44,8 +79,31 @@ def get_file_names(model_name:str):
 
     return images_list
 
-def get_images_info(code_file,images_list):
+def get_images_info(code_file, images_list):
     """
+    Extract benchmark metadata for a collection of IMAG-EVAL images.
+
+    The function parses each image filename using the IMAG-EVAL naming
+    convention and gathers the associated metadata, including the skill
+    combination, difficulty level, prompt identifier, synthetic prompt
+    identifier, and robustness setting.
+
+    Args:
+        code_file (pd.DataFrame): Mapping between skill-combination codes
+            and skill names.
+        images_list (list[str]): Collection of image file paths to
+            process.
+
+    Returns:
+        dict: Mapping between image paths and their associated metadata.
+        Each entry contains:
+
+            - `skill_name`: Skill combination associated with the image.
+            - `level`: Prompt difficulty level.
+            - `prompt_number`: Prompt identifier.
+            - `synthetic_prompt`: Synthetic prompt identifier.
+            - `robust`: Whether the image belongs to a robustness
+              evaluation setting.
     """
 
     images_info = dict()
@@ -64,8 +122,24 @@ def get_images_info(code_file,images_list):
     
     return images_info
 
-def get_prompts(images_info:dict):
+def get_prompts(images_info: dict):
     """
+    Retrieve the synthetic prompts associated with a collection of
+    IMAG-EVAL images.
+
+    The function maps each image to its corresponding synthetic prompt by
+    parsing the image metadata, locating the appropriate prompt file, and
+    extracting the prompt variant used to generate the image. Both
+    standard and robustness-evaluation prompts are supported.
+
+    Args:
+        images_info (dict): Mapping between image paths and their
+            associated metadata, including skill combination, difficulty
+            level, synthetic prompt identifier, and robustness setting.
+
+    Returns:
+        dict: Mapping between image paths and their corresponding
+        synthetic prompts.
     """
 
     # Set the matches between levels and 
@@ -98,8 +172,26 @@ def get_prompts(images_info:dict):
     
     return image_matches
 
-def write_results(image_matches:dict,model_name:str):
+def write_results(image_matches: dict, model_name: str):
     """
+    Export image-to-prompt matches for a specific model.
+
+    The function writes two aligned output files: one containing the
+    generated image filenames and another containing the corresponding
+    prompt identifiers. These files can be used for benchmark analysis,
+    manual inspection, or downstream evaluation workflows.
+
+    Existing output files are automatically replaced before writing the
+    new results.
+
+    Args:
+        image_matches (dict): Mapping between image filenames and their
+            associated prompts.
+        model_name (str): Name of the model whose matches are being
+            exported.
+
+    Returns:
+        None: Match files are written to the output directory.
     """
 
     # Set the output names 

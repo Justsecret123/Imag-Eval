@@ -14,10 +14,11 @@ SEED = 42
 
 def load_environment() -> str:
     """
-    Loads the environment from the .env file in os system variables.
-    
-    return: (str) Access token. 
-    
+    Load environment variables from the project's `.env` file.
+
+    Returns:
+        str: Hugging Face access token (`HF_TOKEN`) if available,
+        otherwise `False`.
     """
 
     # Load the environment files
@@ -27,9 +28,21 @@ def load_environment() -> str:
 
     return access_token
 
-def extract_code_and_robust(code_file,file_name:str):
+def extract_code_and_robust(code_file, file_name: str):
     """
-    Extracts the skill code from the file name
+    Extract the skill code and robustness flag from a benchmark file name.
+
+    Args:
+        code_file (pd.DataFrame): DataFrame containing the mapping between
+            skill combinations and their corresponding codes.
+        file_name (str): Name of the file to parse.
+
+    Returns:
+        tuple:
+            - int: Skill code associated with the file. Returns -1 if no
+              matching skill combination is found.
+            - bool: True if the file belongs to a robustness evaluation
+              setting, otherwise False.
     """
 
     # Check if robust in string or not
@@ -45,8 +58,20 @@ def extract_code_and_robust(code_file,file_name:str):
 
     return code,robust
 
-def extract_prompt_info(prompt:dict):
+def extract_prompt_info(prompt: dict):
     """
+    Extract key information from a prompt entry.
+
+    Args:
+        prompt (dict): Prompt dictionary containing metadata and
+            generated prompt variants.
+
+    Returns:
+        tuple:
+            - str: Prompt identifier extracted from the prompt ID.
+            - str: Difficulty level associated with the prompt.
+            - list: Collection of synthetic prompts generated for
+              the corresponding prompt configuration.
     """
 
     # Get the id 
@@ -58,8 +83,34 @@ def extract_prompt_info(prompt:dict):
 
     return prompt_number,prompt_level,synthetic_prompts
 
-def set_output_name(model_name:str,skill_code,prompt_level:str,prompt_number:str, synthetic_prompt_number:int, output_folder_name:str, robust:bool):
+def set_output_name(
+    model_name: str,
+    skill_code,
+    prompt_level: str,
+    prompt_number: str,
+    synthetic_prompt_number: int,
+    output_folder_name: str,
+    robust: bool):
     """
+    Construct the standardized output file path for a generated image.
+
+    The file name follows the IMAG-EVAL naming convention:
+
+        [model]_[skill_code]_[level]_[prompt_number]_[synthetic_prompt_number]
+
+    with an additional `_robust` suffix for robustness-evaluation samples.
+
+    Args:
+        model_name (str): Name of the evaluated model.
+        skill_code (int): Identifier associated with a skill combination.
+        prompt_level (str): Prompt difficulty level (e.g., easy, medium, hard).
+        prompt_number (str): Unique prompt identifier.
+        synthetic_prompt_number (int): Index of the synthetic prompt variant.
+        output_folder_name (str): Destination folder for the generated output.
+        robust (bool): Whether the prompt belongs to the robustness subset.
+
+    Returns:
+        str: Full output file path following the IMAG-EVAL naming scheme.
     """
 
     # Initialize the variable

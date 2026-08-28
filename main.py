@@ -1,10 +1,26 @@
 
 import argparse
 import sys
-import os
 from dotenv import load_dotenv
 
 def main():
+    """
+    Entry point for the IMAG-EVAL command-line interface.
+
+    The function parses user-provided commands and dispatches the
+    corresponding benchmark workflow. Supported commands include prompt
+    generation for a single configuration, prompt generation for all
+    available configurations, and evaluation of generated images.
+
+    The appropriate IMAG-EVAL pipeline is initialized through the
+    `ExperimentRunner` class and executed according to the selected
+    command-line arguments.
+
+    Returns:
+        int: Exit status code. Returns `0` on successful execution and
+        `1` if an error occurs or no valid command is provided.
+    """
+    
     parser = argparse.ArgumentParser(description="T2I Evaluation Framework")
     subparsers = parser.add_subparsers(dest='command', help='Commands')
 

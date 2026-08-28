@@ -29,20 +29,36 @@ LOGS = dict()
 QWEN_VL_FP8_PATH = ""
 
 
-def extract_texts(annotations_file:pd.DataFrame, images_folder:str, device:str, output_file:str, access_token="", text_extraction="qwen-vl"):
-    """_summary_
+def extract_texts(
+    annotations_file: pd.DataFrame,
+    images_folder: str,
+    device: str,
+    output_file: str,
+    access_token: str = "",
+    text_extraction: str = "qwen-vl",
+):
+    """
+    Extract textual content from benchmark images using a vision-language model.
+
+    The function processes all images associated with text-related skill
+    combinations, performs OCR-like text extraction with Qwen3-VL, and
+    stores the predicted text in the annotations dataframe.
 
     Args:
-        annotations_file (pd.DataFrame): _description_
-        images_folder (str): _description_
-        image_model (str): _description_
-        device (str): _description_
-        output_file (str): _description_
-        access_token (str, optional): _description_. Defaults to "".
-        text_extraction (str, optional): _description_. Defaults to "qwen-vl".
+        annotations_file (pd.DataFrame): Annotation dataframe containing
+            image metadata and evaluation fields.
+        images_folder (str): Directory containing the images to process.
+        device (str): Target inference device (e.g., "cuda", "cpu").
+        output_file (str): Path where the updated annotations file will be
+            saved.
+        access_token (str, optional): Hugging Face access token required to
+            download protected models. Defaults to "".
+        text_extraction (str, optional): Text extraction backend to use.
+            Defaults to "qwen-vl".
 
     Returns:
-        _type_: _description_
+        pd.DataFrame: Annotation dataframe updated with the extracted text
+        predictions for all applicable images.
     """
 
     # Qwen-VL extraction
@@ -135,17 +151,36 @@ def extract_texts(annotations_file:pd.DataFrame, images_folder:str, device:str, 
     return annotations_file
 
 
-def extract_objects_yolo(annotations_file:pd.DataFrame, output_file:str, code_file:pd.DataFrame, images_folder:str, detection_model:str):
-    """_summary_
+def extract_objects_yolo(
+    annotations_file: pd.DataFrame,
+    output_file: str,
+    code_file: pd.DataFrame,
+    images_folder: str,
+    detection_model: str,
+):
+    """
+    Extract object detections from benchmark images using a YOLO model and
+    generate Counting annotations.
+
+    For each image associated with a Counting evaluation, the function
+    performs object detection, compares the detected object counts against
+    the expected counts defined in the benchmark rules, and stores the
+    resulting annotations in the dataframe.
 
     Args:
-        annotations_file (pd.DataFrame): _description_
-        code_file (pd.DataFrame): _description_
-        images_folder (str): _description_
-        detection_model (str): _description_
+        annotations_file (pd.DataFrame): Annotation dataframe containing
+            image metadata and evaluation fields.
+        output_file (str): Path where the updated annotations file will
+            be saved.
+        code_file (pd.DataFrame): Mapping between skill combinations and
+            their corresponding benchmark codes.
+        images_folder (str): Directory containing the images to process.
+        detection_model (str): Name of the YOLO detection model to load.
 
     Returns:
-        _type_: _description_
+        pd.DataFrame: Annotation dataframe updated with Counting
+        predictions in the format
+        `instances_generated,instances_required`.
     """
 
 
@@ -204,17 +239,39 @@ def extract_objects_yolo(annotations_file:pd.DataFrame, output_file:str, code_fi
     return annotations_file
 
 
-def extract_sizes(annotations_file:pd.DataFrame, output_file:str, code_file:pd.DataFrame, images_folder:str, detection_model:str):
-    """_summary_
+def extract_sizes(
+    annotations_file: pd.DataFrame,
+    output_file: str,
+    code_file: pd.DataFrame,
+    images_folder: str,
+    detection_model: str,
+):
+    """
+    Evaluate size-related constraints using instance segmentation.
+
+    The function applies a YOLO segmentation model to estimate the area of
+    detected object instances, derives relative size relationships between
+    objects, and compares the predicted relations against the benchmark's
+    ground-truth size rules. The resulting success rate is recorded in the
+    annotations file.
+
+    To avoid error propagation, size evaluations are computed only for
+    objects that are successfully detected and segmented.
 
     Args:
-        annotations_file (pd.DataFrame): _description_
-        code_file (pd.DataFrame): _description_
-        images_folder (str): _description_
-        detection_model (str): _description_
+        annotations_file (pd.DataFrame): Annotation dataframe containing
+            image metadata and evaluation fields.
+        output_file (str): Path where the updated annotations file will
+            be saved.
+        code_file (pd.DataFrame): Mapping between skill combinations and
+            their corresponding benchmark codes.
+        images_folder (str): Directory containing the images to process.
+        detection_model (str): Name of the YOLO segmentation model used
+            for instance extraction.
 
     Returns:
-        _type_: _description_
+        pd.DataFrame: Annotation dataframe updated with Size evaluation
+        scores for all applicable images.
     """
 
     # Load a model
@@ -309,19 +366,47 @@ def extract_sizes(annotations_file:pd.DataFrame, output_file:str, code_file:pd.D
     return annotations_file
 
 
-def extract_spatial_yolo(annotations_file:pd.DataFrame, output_file:str, code_file:pd.DataFrame, images_folder:str, object_detection:str, depth_estimation:str):
-    """_summary_
+def extract_spatial_yolo(
+    annotations_file: pd.DataFrame,
+    output_file: str,
+    code_file: pd.DataFrame,
+    images_folder: str,
+    object_detection: str,
+    depth_estimation: str,
+):
+    """
+    Evaluate spatial relationship constraints using object detection and,
+    when required, monocular depth estimation.
+
+    The function applies a YOLO object detector to localize objects and
+    assess spatial relations such as left/right, above/below, next to,
+    on top of, under, and inside. For depth-dependent relations
+    (e.g., "in front of" and "behind"), an additional depth estimation
+    model is used to infer relative object depths.
+
+    Predicted relationships are compared against the benchmark's
+    ground-truth spatial rules, and a success rate is computed for
+    each image. To avoid error propagation, evaluations are performed
+    only on objects that are successfully detected.
 
     Args:
-        annotations_file (pd.DataFrame): _description_
-        code_file (pd.DataFrame): _description_
-        images_folder (str): _description_
-        object_detection (str): _description_
-        depth_estimation (str): _description_
+        annotations_file (pd.DataFrame): Annotation dataframe containing
+            image metadata and evaluation fields.
+        output_file (str): Path where the updated annotations file will
+            be saved.
+        code_file (pd.DataFrame): Mapping between skill combinations and
+            their corresponding benchmark codes.
+        images_folder (str): Directory containing the images to process.
+        object_detection (str): Name of the YOLO object detection model
+            used for object localization.
+        depth_estimation (str): Name of the depth estimation model used
+            when evaluating depth-dependent spatial relations.
 
     Returns:
-        _type_: _description_
+        pd.DataFrame: Annotation dataframe updated with Spatial
+        Relationship evaluation scores for all applicable images.
     """
+
 
     # Loop through the rows
     for idx,row in annotations_file.iterrows():
@@ -461,22 +546,52 @@ def extract_spatial_yolo(annotations_file:pd.DataFrame, output_file:str, code_fi
     return annotations_file
 
 
-def extract_emotions(annotations_file:pd.DataFrame, output_file:str, code_file:pd.DataFrame, images_folder:str, access_token:str, qwen_path:str, detection_model:str, processor, llm):
-    """_summary_
+def extract_emotions(
+    annotations_file: pd.DataFrame,
+    output_file: str,
+    code_file: pd.DataFrame,
+    images_folder: str,
+    access_token: str,
+    qwen_path: str,
+    detection_model: str,
+    processor,
+    llm,
+):
+    """
+    Evaluate emotion-related constraints using object detection and a
+    vision-language model.
+
+    The function first detects human instances within each image using a
+    YOLO object detector. Detected persons are then cropped and analyzed
+    individually by a vision-language model to identify their expressed
+    emotion. Predicted emotions are compared against the benchmark's
+    ground-truth emotion rules, and an emotion success rate is computed
+    for each image.
+
+    To avoid error propagation, evaluations are only performed when at
+    least one person is successfully detected.
 
     Args:
-        annotations_file (pd.DataFrame): _description_
-        output_file (str): _description_
-        code_file (pd.DataFrame): _description_
-        images_folder (str): _description_
-        access_token (str): _description_
-        qwen_path (str): _description_
-        detection_model (str): _description_
-        processor (_type_): _description_
-        llm (_type_): _description_
+        annotations_file (pd.DataFrame): Annotation dataframe containing
+            image metadata and evaluation fields.
+        output_file (str): Path where the updated annotations file will
+            be saved.
+        code_file (pd.DataFrame): Mapping between skill combinations and
+            their corresponding benchmark codes.
+        images_folder (str): Directory containing the images to process.
+        access_token (str): Hugging Face access token used to access
+            protected models or resources.
+        qwen_path (str): Path or identifier of the Qwen vision-language
+            model.
+        detection_model (str): Name of the YOLO object detection model
+            used to localize human instances.
+        processor: Vision-language processor associated with the selected
+            model.
+        llm: Vision-language model used to classify character emotions.
 
     Returns:
-        _type_: _description_
+        pd.DataFrame: Annotation dataframe updated with Emotion
+        evaluation scores for all applicable images.
     """
 
 
@@ -623,23 +738,54 @@ def extract_emotions(annotations_file:pd.DataFrame, output_file:str, code_file:p
     
     return annotations_file
 
-def extract_colors(annotations_file:pd.DataFrame, code_file:pd.DataFrame, output_file:str, device:str, images_folder:str, access_token:str, qwen_path:str, segmentation_model:str, processor, llm):
-    """_summary_
+def extract_colors(
+    annotations_file: pd.DataFrame,
+    code_file: pd.DataFrame,
+    output_file: str,
+    device: str,
+    images_folder: str,
+    access_token: str,
+    qwen_path: str,
+    segmentation_model: str,
+    processor,
+    llm,
+):
+    """
+    Evaluate color-related constraints using instance segmentation and a
+    vision-language model.
+
+    The function applies a YOLO segmentation model to localize object
+    instances associated with Color evaluation tasks. Each detected object
+    is isolated and analyzed by a vision-language model to predict its
+    dominant color. Predicted colors are then compared against the
+    benchmark's ground-truth color rules, and a success rate is computed
+    for each image.
+
+    To avoid error propagation, color evaluations are performed only on
+    objects that are successfully detected and segmented.
 
     Args:
-        annotations_file (pd.DataFrame): _description_
-        code_file (pd.DataFrame): _description_
-        output_file (str): _description_
-        device (str): _description_
-        images_folder (str): _description_
-        access_token (str): _description_
-        qwen_path (str): _description_
-        segmentation_model (str): _description_
-        processor (_type_): _description_
-        llm (_type_): _description_
+        annotations_file (pd.DataFrame): Annotation dataframe containing
+            image metadata and evaluation fields.
+        code_file (pd.DataFrame): Mapping between skill combinations and
+            their corresponding benchmark codes.
+        output_file (str): Path where the updated annotations file will
+            be saved.
+        device (str): Target inference device (e.g., "cuda", "cpu").
+        images_folder (str): Directory containing the images to process.
+        access_token (str): Hugging Face access token used to access
+            protected models or resources.
+        qwen_path (str): Path or identifier of the vision-language model
+            used for color classification.
+        segmentation_model (str): Name of the YOLO segmentation model
+            used for object localization.
+        processor: Vision-language processor associated with the selected
+            model.
+        llm: Vision-language model used to predict object colors.
 
     Returns:
-        _type_: _description_
+        pd.DataFrame: Annotation dataframe updated with Color evaluation
+        scores for all applicable images.
     """
 
     # Load the object segmentation model
@@ -767,14 +913,44 @@ def extract_colors(annotations_file:pd.DataFrame, code_file:pd.DataFrame, output
     
 
 
-def extract_cohesiveness(annotations_file:pd.DataFrame, output_file:str, images_folder:str, access_token:str, qwen_path:str, processor, llm):
-    """_summary_
+def extract_cohesiveness(
+    annotations_file: pd.DataFrame,
+    output_file: str,
+    images_folder: str,
+    access_token: str,
+    qwen_path: str,
+    processor,
+    llm,
+):
+    """
+    Evaluate image cohesiveness using a vision-language model.
+
+    The function assesses whether generated images exhibit coherent and
+    realistic anatomical and structural properties. For each image, a
+    vision-language model determines whether the scene contains obvious
+    anomalies such as missing or extra body parts, incomplete objects,
+    distorted structures, or physically implausible configurations.
+
+    Predictions are converted into binary cohesiveness annotations
+    ("true" or "false") and stored in the annotations file.
 
     Args:
-        annotations_file (pd.DataFrame): _description_
-        images_folder (str): _description_
-        access_token (str): _description_
-        qwen_path (str): _description_
+        annotations_file (pd.DataFrame): Annotation dataframe containing
+            image metadata and evaluation fields.
+        output_file (str): Path where the updated annotations file will
+            be saved.
+        images_folder (str): Directory containing the images to process.
+        access_token (str): Hugging Face access token used to access
+            protected models or resources.
+        qwen_path (str): Path or identifier of the vision-language model
+            used for cohesiveness evaluation.
+        processor: Vision-language processor associated with the selected
+            model.
+        llm: Vision-language model used to assess image cohesiveness.
+
+    Returns:
+        pd.DataFrame: Annotation dataframe updated with Cohesiveness
+        predictions for all processed images.
     """
 
     # Loop through the rows
@@ -845,7 +1021,15 @@ Output exactly one word: true or false."
 
 
 def free_memory():
-    """_summary_
+    """
+    Release unused system and GPU memory resources.
+
+    The function triggers Python garbage collection and, when CUDA is
+    available, clears cached GPU memory to reduce memory fragmentation
+    and free resources between inference steps.
+
+    This utility is primarily used after model inference to minimize
+    memory consumption during large-scale benchmark evaluations.
     """
 
     gc.collect()
@@ -859,7 +1043,18 @@ def free_memory():
 
 def initialize_parser():
     """
-    Initializes the argument parser. 
+    Create and configure the command-line argument parser used by the
+    automated evaluation pipeline.
+
+    The parser exposes configuration options for model selection,
+    hardware settings, benchmark assets, and evaluation modules such as
+    object detection, depth estimation, text extraction, and emotion
+    recognition.
+
+    Returns:
+        argparse.ArgumentParser: Configured argument parser containing all
+        supported command-line options for running the evaluation
+        pipeline.
     """
 
     # Initializing the parser 

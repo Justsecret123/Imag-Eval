@@ -7,10 +7,43 @@ from prompt_generation.prompt_generation import MetaPromptGeneration, PromptGene
 from datetime import datetime
 
 class ExperimentRunner:
+    """
+    Orchestrate IMAG-EVAL benchmark generation and evaluation workflows.
+
+    This class provides the main entry points for creating benchmark
+    prompts, running large-scale prompt generation experiments, and
+    evaluating generated outputs. It handles configuration loading,
+    component initialization, experiment execution, and result
+    serialization.
+
+    The workflow is designed to support reproducible IMAG-EVAL benchmark
+    creation through YAML configuration files and modular metadata,
+    language-model, and evaluation backends.
+    """
 
     def run_prompt_generation(self, config_path):
-        """Generate synthetic prompts"""
-        print(f"Generating prompts with config: {config_path}")
+        """
+        Generate benchmark prompts from a configuration file.
+
+        The function initializes the metadata generator and language model
+        specified in the configuration, constructs meta-prompts for each
+        skill combination and difficulty level, generates synthetic prompts,
+        and exports the resulting benchmark collection as a JSON file.
+
+        The generated output includes prompt metadata, underlying scene
+        descriptions, skill configurations, and one or more synthetic prompt
+        variants suitable for IMAG-EVAL evaluation.
+
+        Args:
+            config_path (str): Path to the YAML configuration file defining
+                metadata generation, language model settings, skill
+                combinations, difficulty levels, robustness options, and
+                output parameters.
+
+        Returns:
+            None: Generated prompts are written to the output JSON file
+            specified in the configuration.
+        """
 
         with open(config_path, 'r') as f:
             config = yaml.safe_load(f)
@@ -92,7 +125,19 @@ class ExperimentRunner:
     
     def run_prompt_generation_all(self):
         """
-        Generates prompts for all the .yaml files in the config folder.
+        Generate benchmark prompts for all configuration files found in the
+        prompt-generation directory.
+
+        The function iterates through every YAML configuration file, checks
+        whether the corresponding output file already exists, and launches
+        prompt generation only for configurations that have not yet been
+        processed. Errors are reported and recorded in a log file to allow
+        interrupted generation runs to be resumed safely.
+
+        Returns:
+            None: Generated prompts are written to their respective output
+            files, while execution logs are stored for any failed
+            configurations.
         """
 
         # Set the base directory
@@ -127,13 +172,3 @@ class ExperimentRunner:
 
         with open(config_path, 'r') as f:
             config = yaml.safe_load(f)
-
-        # TODO: Add evaluation logic here
-        print("Evaluation completed")
-        """
-        0. Load a specific model, load the eval skills from ArgParser or whatnot
-        1. Loop through the generated images folder
-        2. For each image, evaluate specific skills and write model's response into a file
-        3. Compute metrics
-        4. Write metrics into a file 
-        """

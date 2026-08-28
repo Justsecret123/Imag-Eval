@@ -80,6 +80,9 @@ options:
 
 Based on our experiments, the automated evaluation pipeline achieves performance comparable to human annotation for *Counting, Spatial, Relationships, Size, Emotion,* and *Text* skills. Performance is less reliable for *Cohesiveness*, for which human evaluation remains the recommended approach. Nevertheless, contributions aimed at improving automated assessment are highly encouraged.
 
+> In case you use your own .xlsx files for automated evaluation, your file name should follow the convention: ```[model_name]_[skill_code]_[level]_[prompt_number]_[robust or nothing].png``` and follow the same columns as in the example above.
+
+
 
 #### Important notes 
 
@@ -94,6 +97,8 @@ CUDA Version: 13.0
 If you identify additional compatible configurations that do not introduce workflow regressions, feedback and contributions are welcome.
 
 ### Notebooks 
+
+> **Note:** Please download these .csv and .pkl assets and place them in the locations expected by the notebooks before running the examples provided in the repository.
 
 
 #### .yaml files generator for various-lengths skill combinations: [test_yaml_generation.ipynb](./test_yaml_generation.ipynb)

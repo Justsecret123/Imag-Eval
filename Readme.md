@@ -4,9 +4,9 @@
 
 # Imag-Eval [EMNLP 2026]
 
-Official repository for the paper "[Imag-Eval A language-grounded framework for interpretable Text-to-Image instruction following evaluation](link_to_the_paper.com)". (SEROUIS et al., EMNLP 2026)
+Official repository for the paper "[Imag-Eval A language-grounded framework for interpretable Text-to-Image instruction following evaluation](link_to_the_paper.com)". (MOHAMED SEROUIS et al., EMNLP 2026)
 
-**TL;DR:** Imag-Eval is a skill-based evaluation framework for Text-to-Image (T2I) models that measures instruction-following capabilities across compositional visual reasoning skills, while explicitly controlling for prompt complexity and minimizing error propagation during evaluation.
+**TL;DR:** Imag-Eval is a skill-based evaluation framework for Text-to-Image (T2I) models that measures instruction-following capabilities across compositional visual reasoning skills, while explicitly controlling for prompt complexity and minimizing error propagation during evaluation; we are rying to shift evaluation paradigms towards more controlled increases in complexity.
 
 <details>
  <summary>
@@ -123,7 +123,12 @@ Current evaluation settings:
  <br>
 </details>
 
-> To ensure leaderboard integrity and reproducibility, submissions must include the generated images, generation seed, and all relevant inference parameters. Reported results will be independently verified, and entries whose reproduced results closely match the submitted scores will be added to the leaderboard.
+> To ensure leaderboard integrity and reproducibility, submissions must include the generated images, generation seed, the method used for annotation, and all relevant inference parameters. Reported results will be independently verified, and entries whose reproduced results closely match the submitted scores will be added to the leaderboard.
+
+## 🚀 Recent News
+- **[Aug 2026]** 🎉 IMAG-EVAL has been accepted to **EMNLP 2026**.
+- **[Aug 2026]** 📊 Released the first version of the IMAG-EVAL benchmark, comprising **1,140 prompts**, **8,842 evaluation rules**, and **7 evaluation dimensions**: Counting, Spatial Relations, Size Relations, Color Attribution, Emotion Attribution, Text Rendering, and Cohesiveness.
+- **[Future]** 🌱 Planned extensions include backend support for MPS and AMD, improved extraction pipelines, additional evaluation skills, and expanded leaderboard support.
 
 ## Motivation
 
@@ -371,6 +376,8 @@ We welcome research and engineering contributions that improve the benchmark, ev
   - Additional model integrations
   - Documentation enhancements
 
+This project has been built iteratively, brick by brick, and has been maintained primarily by a single contributor. As a result, occasional mistakes, inconsistencies, or suboptimal implementations may still be present. Contributions, bug reports, and suggestions are always welcome, and all pull requests will be reviewed with great care and attention.
+
 ### Corresponding author
 
 **Ibrahim MOHAMED SEROUIS, PhD.**
@@ -389,5 +396,11 @@ These resources are intended exclusively for research and non-commercial R&D pur
 If you use this framework in your research, please cite:
 
 ```bibtex
-[Add citation information here]
+[Citation text coming soon]
 ```
+
+## Use of AI Assistants
+
+AI assistants were used to help draft and rephrase portions of this README, as well as the docstrings of a small number of functions. All technical decisions, implementations, experiments, and evaluations were designed and reviewed by the author.
+
+While every effort has been made to verify the accuracy of the generated text, occasional inconsistencies or inaccuracies may remain. If you encounter any such issues, please feel free to open an issue or contact me directly.

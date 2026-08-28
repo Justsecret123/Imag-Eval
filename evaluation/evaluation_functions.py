@@ -7,15 +7,26 @@ from evaluation.llm_judge.codes_info import MODELS
 texts = pd.read_csv("../text.csv", encoding="latin1")
 
 
-def compute_WER(row:pd.Series):
-    """Computes the WER for a specific row. 
+def compute_WER(row: pd.Series):
+    """
+    Compute the Word Error Rate (WER) for a benchmark annotation.
+
+    The function matches a generated image with its corresponding target
+    text prompt, retrieves the transcribed text annotation, and computes
+    the Word Error Rate (WER) between the generated and reference texts.
+
+    Images without an associated reference text, missing annotations, or
+    images containing no text are assigned a missing value.
 
     Args:
-        row (pd.Series): _description_
+        row (pd.Series): Annotation row containing image metadata and
+            extracted text predictions.
 
     Returns:
-        _type_: _description_
+        float | numpy.nan: Word Error Rate for the corresponding image.
+        Returns `numpy.nan` when no valid comparison can be performed.
     """
+
     # Initialize the image name
     image_name = dict(row)["Image"]
     # Initialize the WER
@@ -36,7 +47,7 @@ def compute_WER(row:pd.Series):
     # Check if the row has a matching text
     if matching_text!=[]:
         # If the text is N/A
-        if pd.isna(row_text):
+        if pd.isna(row_text) or "There is no text in this image".lower() in row_text.lower().strip():
             WER = np.nan
         else:
             # Compute the wer
@@ -44,14 +55,20 @@ def compute_WER(row:pd.Series):
 
     return WER
 
-def get_level(name:str):
-    """Extract the level of a specific row
+def get_level(name: str):
+    """
+    Extract the difficulty level associated with a benchmark image.
+
+    The function parses an IMAG-EVAL image filename, removes the model
+    identifier and file extension, and retrieves the prompt difficulty
+    level encoded in the standardized naming convention.
 
     Args:
-        name (str): _description_
+        name (str): Image filename following the IMAG-EVAL naming scheme.
 
     Returns:
-        _type_: _description_
+        str: Prompt difficulty level associated with the image
+        (e.g., "easy", "medium", or "hard").
     """
 
     # Initialize the variable
@@ -69,8 +86,21 @@ def get_level(name:str):
     
     return level
 
-def get_skill_code(name:str):
-    """Extracts the skill code from the image name"""
+def get_skill_code(name: str):
+    """
+    Extract the skill-combination code from an IMAG-EVAL image filename.
+
+    The function parses an image name following the IMAG-EVAL naming
+    convention, removes the model identifier and file extension, and
+    retrieves the skill code associated with the evaluated prompt
+    configuration.
+
+    Args:
+        name (str): Image filename following the IMAG-EVAL naming scheme.
+
+    Returns:
+        str: Skill code associated with the image.
+    """
 
     # Initialize the variable
     image_name = name
@@ -88,7 +118,24 @@ def get_skill_code(name:str):
     return skill_code
 
 def compute_mean_accuracy(elements):
-    """Computes the mean accuracy of a list of tuples."""
+    """
+    Compute the mean counting accuracy from an IMAG-EVAL counting annotation.
+
+    Counting annotations are represented as a sequence of
+    `generated,required` pairs separated by semicolons. An object is
+    considered correctly generated when the number of generated instances
+    exactly matches the required count. The final score corresponds to
+    the proportion of correctly generated objects.
+
+    Args:
+        elements (str): Counting annotation string following the
+            IMAG-EVAL format
+            (`generated,required;generated,required;...`).
+
+    Returns:
+        float | numpy.nan: Mean counting accuracy rounded to two decimal
+        places, or `numpy.nan` if the annotation cannot be processed.
+    """
 
     # Initialize the average
     average = np.nan
@@ -122,9 +169,22 @@ def compute_mean_accuracy(elements):
 
     return average
 
-def process_cohesiveness(text:str):
+def process_cohesiveness(text: str):
     """
-    Transforms the text in cohesiveness into booleans.
+    Convert cohesiveness annotations to a standardized boolean format.
+
+    The function normalizes cohesiveness values originating from manual
+    annotations or automated evaluations. It supports textual
+    representations (e.g., "true", "false", "vrai"), boolean values, and
+    numeric encodings (e.g., 1 and 0).
+
+    Args:
+        text (str): Cohesiveness annotation to process.
+
+    Returns:
+        bool | float | int: Normalized boolean value when a valid
+        cohesiveness annotation is provided. Missing values are preserved
+        unchanged.
     """
 
     if not isinstance(text,str):
@@ -137,19 +197,48 @@ def process_cohesiveness(text:str):
         elif (isinstance(text,float) or isinstance(text,int)) and not pd.notna(text):
             return text
 
-    return ("Vrai" in text.strip() or "True" in text.strip()) and pd.notna(text)
+    return ("vrai" in text.strip().lower() or "true" in text.strip().lower()) and pd.notna(text)
 
-def extract_robustness(image_name:str):
-    """Extracts the robustness of the test from the image name.
-    Returns True if any, False not."""
+def extract_robustness(image_name: str):
+    """
+    Determine whether an image belongs to a robustness evaluation setting.
+
+    The function inspects an IMAG-EVAL image filename and checks whether
+    it corresponds to a robustness test case, identified by the presence
+    of the `_robust` suffix in the standardized naming convention.
+
+    Args:
+        image_name (str): Image filename following the IMAG-EVAL naming
+            scheme.
+
+    Returns:
+        bool: True if the image belongs to a robustness evaluation,
+        otherwise False.
+    """
 
     return "robust" in image_name
 
 
-def compute_combinations(annotations:pd.DataFrame, test:str):
+def compute_combinations(annotations: pd.DataFrame, test: str):
     """
-    Computes the best combinations for the specified test.
-    Displays the combinations and returns nothing.
+    Identify and display the best-performing skill combinations for a
+    given evaluation setting.
+
+    The function retrieves the highest-performing configurations for
+    each evaluated skill (Counting, Spatial, Size, Emotion, and Color)
+    as well as the lowest Word Error Rate (WER). It then reports the
+    corresponding skill-combination codes associated with these best
+    results.
+
+    Args:
+        annotations (pd.DataFrame): DataFrame containing benchmark
+            evaluation results and skill scores.
+        test (str): Name of the evaluation setting being analyzed
+            (e.g., a model, difficulty level, or benchmark subset).
+
+    Returns:
+        int: Returns 0 after displaying the best-performing skill
+        combinations.
     """
 
     # Extract the best parameters (values)
@@ -182,6 +271,25 @@ def compute_combinations(annotations:pd.DataFrame, test:str):
 
 
 def majority_or_mean(series):
+    """
+    Aggregate multiple annotations using majority voting when possible.
+
+    The function first checks whether a strict majority exists among the
+    non-missing values. If a majority is found, the majority value is
+    returned. Otherwise, for numeric data, the arithmetic mean is used as
+    an aggregate estimate. If neither condition can be satisfied, a
+    missing value is returned.
+
+    Args:
+        series (pd.Series): Collection of annotations or scores to
+            aggregate.
+
+    Returns:
+        object: Majority value when a strict majority exists, mean value
+        for numeric series without a majority, or `numpy.nan` when no
+        valid aggregation can be computed.
+    """
+    
     # Drop NaN for majority check
     counts = series.value_counts(dropna=True)
     total = len(series.dropna())

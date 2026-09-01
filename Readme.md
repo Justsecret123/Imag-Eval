@@ -1,10 +1,10 @@
 ![Static Badge](https://img.shields.io/badge/Python-3.11.4-brightgreen?style=for-the-badge&logo=Python) ![Static Badge](https://img.shields.io/badge/PyTorch-2.10.0%2Bcu128-brightgreen?style=for-the-badge&logo=Pytorch)
 
-
+> If you use this framework or benchmark in your research, please cite the EMNLP paper rather than the arXiv version.
 
 # Imag-Eval [EMNLP 2026]
 
-Official repository for the paper "[Imag-Eval A language-grounded framework for interpretable Text-to-Image instruction following evaluation](link_to_the_paper.com)" (link to come soon). (MOHAMED SEROUIS et al., EMNLP 2026)
+Official repository for the paper "[Imag-Eval A language-grounded framework for interpretable Text-to-Image instruction following evaluation](https://arxiv.org/abs/2608.29210)". (MOHAMED SEROUIS et al., EMNLP 2026)
 
 **TL;DR:** Imag-Eval is a skill-based evaluation framework for Text-to-Image (T2I) models that measures instruction-following capabilities across compositional visual reasoning skills, while explicitly controlling for prompt complexity and minimizing error propagation during evaluation; we are rying to shift evaluation paradigms towards more controlled increases in complexity.
 
@@ -137,9 +137,11 @@ Existing Text-to-Image benchmarks often conflate prompt length, linguistic compl
 
 ### Core Principles
 
-**1. Controlled prompt complexity:** Instead of comparing arbitrary short and long prompts, additional prompt length is introduced primarily through task-relevant constraints associated with the evaluated skills.
-**2. Multi-factorial compositional difficulty scaling:** We control compositional difficulty by providing tests with various combinations of skills (e.g, color+size vs color+size+emotion+spatial), or by increasing both the number of rules and instances to generate for the same test (e.g, 3 spatial relationships + 3 emotion rules and 3 humans for Hard, but 2 spatial relationships + 2 emotions rules + 1 human for Easy).
-**3. Minimal error propagation:** Evaluation is performed at the rule level whenever possible. For instance, the absence of a generated object does not automatically invalidate unrelated constraints associated with that object, enabling to better pinpoint *where* the model failed.
+**1. Controlled prompt complexity.** Instead of comparing arbitrary short and long prompts, additional prompt length is introduced primarily through task-relevant constraints associated with the evaluated skills.
+
+**2. Multi-factorial compositional difficulty scaling.** We control compositional difficulty by providing tests with various combinations of skills (e.g, color+size vs color+size+emotion+spatial), or by increasing both the number of rules and instances to generate for the same test (e.g, 3 spatial relationships + 3 emotion rules and 3 humans for Hard, but 2 spatial relationships + 2 emotions rules + 1 human for Easy).
+
+**3. Minimal error propagation.** Evaluation is performed at the rule level whenever possible. For instance, the absence of a generated object does not automatically invalidate unrelated constraints associated with that object, enabling to better pinpoint *where* the model failed.
 
 Our experiments, together with an additional analysis of more than 2,000 prompts collected from prior literature, suggest that instruction-following difficulty is primarily driven by the number of grounded constraints and instance bindings rather than prompt length alone.
 
@@ -391,14 +393,6 @@ Multimodal AI Researcher
 The dataset (prompt collections in JSON format), generation scripts, and annotation guidelines are released under the **CC BY-NC 4.0 License** (Creative Commons Attribution-NonCommercial).
 
 These resources are intended exclusively for research and non-commercial R&D purposes.
-
-## Citation
-
-If you use our code or benchmark in your research, please cite:
-
-```bibtex
-[Citation text coming soon]
-```
 
 ## Use of AI Assistants
 

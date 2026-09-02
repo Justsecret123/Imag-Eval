@@ -1,132 +1,25 @@
 ![Static Badge](https://img.shields.io/badge/Python-3.11.4-brightgreen?style=for-the-badge&logo=Python) ![Static Badge](https://img.shields.io/badge/PyTorch-2.10.0%2Bcu128-brightgreen?style=for-the-badge&logo=Pytorch)
 
-> If you use this framework or benchmark in your research, please cite the EMNLP paper rather than the arXiv version.
+
+<div align="center">
 
 # Imag-Eval [EMNLP 2026]
 
-Official repository for the paper "[Imag-Eval A language-grounded framework for interpretable Text-to-Image instruction following evaluation](https://arxiv.org/abs/2608.29210)". (MOHAMED SEROUIS et al., EMNLP 2026)
+**Official repository for the paper "[Imag-Eval A language-grounded framework for interpretable Text-to-Image instruction following evaluation](https://arxiv.org/abs/2608.29210)". (SEROUIS et al., EMNLP 2026)**
+
 
 **TL;DR:** Imag-Eval is a skill-based evaluation framework for Text-to-Image (T2I) models that measures instruction-following capabilities across compositional visual reasoning skills, while explicitly controlling for prompt complexity and minimizing error propagation during evaluation; we are rying to shift evaluation paradigms towards more controlled increases in complexity.
 
-<details>
- <summary>
- <b>Drop-down to show the current leaderboard (Last updated 17/08/2026). </b>
- </summary>
- 
-## 🏆 Image Generation Leaderboard (all skills)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2608.29210) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/JustSecret/Imag-Eval) [![Leaderboard](https://img.shields.io/badge/Leaderboard-Live-6366f1?style=for-the-badge&logo=githubpages&logoColor=white)](https://justsecret123.github.io/imag-eval-leaderboard.io)
 
-Current evaluation settings: 
-```json
-  {
-    "test": "all skills", # Color + Counting + Size + Spatial + Emotion + Text + Cohesiveness,
-    "image_width": 1024, 
-    "image_height": 1024,
-    "annotation_type": "manual",
-    "seed": 42,
-    "guidance_scale": inferred from the technical paper/model documentation,
-    "inference_steps": inferred from the technical paper/model documentation,
-  }
-```
-<table>
-<thead>
-<tr style="background:#eef2ff;">
-<th>Rank</th>
-<th>Model</th>
-<th>Counting</th>
-<th>Spatial</th>
-<th>Size</th>
-<th>Emotion</th>
-<th>Color</th>
-<th>Cohesiveness</th>
-<th>Text (WER ↓)</th>
-</tr>
-</thead>
+</div>
 
-<tbody>
 
-<tr style="background:rgba(255,215,0,0.15);">
-<td>🥇</td>
-<td><strong>Gemini-Flash-3.1-preview</strong></td>
-<td><b>0.70</b></td>
-<td>0.73</td>
-<td><b>0.85</b></td>
-<td><b>0.98</b></td>
-<td>0.96</td>
-<td>0.68</td>
-<td><b>0.29</b></td>
-</tr>
-
-<tr style="background:rgba(192,192,192,0.15);">
-<td>🥈</td>
-<td><strong>Z-Image-Turbo</strong></td>
-<td>0.55</td>
-<td><b>0.79</b></td>
-<td>0.84</td>
-<td>0.80</td>
-<td><b>0.98</b></td>
-<td>0.50</td>
-<td>0.49</td>
-</tr>
-
-<tr style="background:rgba(205,127,50,0.15);">
-<td>🥉</td>
-<td><strong>FLUX 1.0</strong></td>
-<td>0.56</td>
-<td>0.69</td>
-<td>0.62</td>
-<td>0.67</td>
-<td>0.88</td>
-<td>0.76</td>
-<td>2.46</td>
-</tr>
-
-<tr>
-<td>4</td>
-<td>DALL·E 3</td>
-<td>0.42</td>
-<td>0.59</td>
-<td>0.70</td>
-<td>0.28</td>
-<td>0.69</td>
-<td><b>0.99</b></td>
-<td>4.25</td>
-</tr>
-
-<tr>
-<td>5</td>
-<td>Stable Cascade</td>
-<td>0.13</td>
-<td>&lt;0.01</td>
-<td>0.20</td>
-<td>0.10</td>
-<td>0.36</td>
-<td>0.35</td>
-<td>4.31</td>
-</tr>
-
-<tr>
-<td>6</td>
-<td>Stable Diffusion XL</td>
-<td>0.17</td>
-<td>0.34</td>
-<td>0.15</td>
-<td>0.09</td>
-<td>0.16</td>
-<td>0.26</td>
-<td>5.55</td>
-</tr>
-
-</tbody>
-</table>
-
-> *Comprehensive experimental results are available in the paper.*
----
- <br>
-</details>
 
 > To ensure leaderboard integrity and reproducibility, submissions must include the generated images, generation seed, the method used for annotation, and all relevant inference parameters. Reported results will be independently verified, and entries whose reproduced results closely match the submitted scores will be added to the leaderboard.
 
 ## 🚀 Recent News
+- **[Sept 2026]** 🎉 [The official leaderboard](https://justsecret123.github.io/imag-eval-leaderboard.io/) is now available. 
 - **[Aug 2026]** 🎉 IMAG-EVAL has been accepted to **EMNLP 2026**.
 - **[Aug 2026]** 📊 Released the first version of the IMAG-EVAL benchmark, comprising **1,140 prompts**, **8,842 evaluation rules**, and **7 evaluation dimensions**: Counting, Spatial Relations, Size Relations, Color Attribution, Emotion Attribution, Text Rendering, and Cohesiveness.
 - **[Future]** 🌱 Planned extensions include backend support for MPS and AMD, improved extraction pipelines, additional evaluation skills, and expanded leaderboard support.

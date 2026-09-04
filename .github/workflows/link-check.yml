@@ -1,0 +1,37 @@
+# Link Checker
+#
+# This workflow scans Markdown files and other documentation for broken links.
+# It helps ensure that references to papers, datasets, leaderboards,
+# documentation, and external resources remain accessible.
+
+name: "Link Checker"
+
+on:
+  push:
+    branches: ["main"]
+
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+
+      - name: "Check links"
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          args: >
+            --verbose
+            --no-progress
+            --retry-wait-time 5
+            --max-retries 3
+            "./**/*.md"
+            "./website.html"

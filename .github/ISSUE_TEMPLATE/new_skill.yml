@@ -1,0 +1,41 @@
+name: New Evaluation Skill
+description: Propose a new benchmark skill or evaluation dimension.
+title: "[Skill]: "
+labels:
+  - benchmark
+  - research
+body:
+  - type: input
+    id: skill_name
+    attributes:
+      label: Proposed Skill Name
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why should this skill be added?
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example Prompts
+      description: Provide representative prompts.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation Strategy
+      description: How should success/failure be measured?
+
+  - type: textarea
+    id: literature
+    attributes:
+      label: Related Literature
+      description: Papers, datasets, or benchmarks related to the proposal.

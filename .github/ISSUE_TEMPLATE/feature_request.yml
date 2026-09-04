@@ -1,0 +1,39 @@
+name: Feature Request
+description: Suggest a new feature or enhancement.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What limitation or pain point are you experiencing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed improvement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Approaches
+      description: Any alternative solutions you considered?
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected Impact
+      description: How would this improve Imag-Eval?
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Possible Implementation
+      description: Optional implementation ideas.

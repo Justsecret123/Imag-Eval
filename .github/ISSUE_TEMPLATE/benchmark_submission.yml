@@ -1,0 +1,46 @@
+name: Benchmark Submission
+description: Submit benchmark results for leaderboard consideration.
+title: "[Leaderboard]: "
+labels:
+  - leaderboard
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Model Name
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Model Version
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: Inference Setup
+      description: Parameters, scheduler, guidance scale, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: annotation
+    attributes:
+      label: Annotation Methodology
+      description: How were results evaluated?
+    validations:
+      required: true
+
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Artifacts
+      description: Links to images, seeds, logs, or repositories.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes

@@ -1,0 +1,69 @@
+name: Bug Report
+description: Report a reproducible bug or unexpected behavior.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Imag-Eval.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Clearly describe the issue.
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Provide detailed reproduction steps.
+      placeholder: |
+        1. Run ...
+        2. Open ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      placeholder: What were you expecting to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Error Messages
+      render: shell
+
+  - type: input
+    id: python
+    attributes:
+      label: Python Version
+      placeholder: 3.11.4
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      placeholder: Ubuntu 24.04
+
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware Information
+      placeholder: GPU, CPU, RAM, etc.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+``

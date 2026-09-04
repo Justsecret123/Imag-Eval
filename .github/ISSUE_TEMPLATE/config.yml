@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Security Vulnerability
+    url: mailto:ibrahim.mohamed-serouis@talan.com
+    about: Please report security issues privately.
+
+  - name: Discussions
+    url: https://github.com/JustSecret123/Imag-Eval/discussions
+    about: Ask questions, share ideas, and discuss research directions.

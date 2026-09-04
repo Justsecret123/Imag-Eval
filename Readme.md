@@ -19,7 +19,7 @@
 > To ensure leaderboard integrity and reproducibility, submissions must include the generated images, generation seed, the method used for annotation, and all relevant inference parameters. Reported results will be independently verified, and entries whose reproduced results closely match the submitted scores will be added to the leaderboard.
 
 ## 🚀 Recent News
-- **[Sept 2026]** 🎉 [The official leaderboard](https://justsecret123.github.io/imag-eval-leaderboard.io/) is now available. 
+- **[Sept 2026]** 🎉 [The official leaderboard](https://justsecret123.github.io/imag-eval-leaderboard.io) is now available. 
 - **[Aug 2026]** 🎉 IMAG-EVAL has been accepted to **EMNLP 2026**.
 - **[Aug 2026]** 📊 Released the first version of the IMAG-EVAL benchmark, comprising **1,140 prompts**, **8,842 evaluation rules**, and **7 evaluation dimensions**: Counting, Spatial Relations, Size Relations, Color Attribution, Emotion Attribution, Text Rendering, and Cohesiveness.
 - **[Future]** 🌱 Planned extensions include backend support for MPS and AMD, improved extraction pipelines, additional evaluation skills, and expanded leaderboard support.
@@ -279,7 +279,7 @@ This project has been built iteratively, brick by brick, and has been maintained
 **Ibrahim MOHAMED SEROUIS, PhD.**
 Multimodal AI Researcher
 - **Email:** ibrahim.mohamed-serouis@talan.com. 
-- **LinkedIn:** https://www.linkedin.com/in/ibrahim-serouis/
+- **LinkedIn:** https://www.linkedin.com/in/ibrahim-serouis
 
 ## Citation (pending EMNLP proceedings)
 

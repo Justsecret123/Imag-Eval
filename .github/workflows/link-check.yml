@@ -34,4 +34,3 @@ jobs:
             --retry-wait-time 5
             --max-retries 3
             "./**/*.md"
-            "./website.html"

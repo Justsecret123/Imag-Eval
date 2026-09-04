@@ -281,6 +281,21 @@ Multimodal AI Researcher
 - **Email:** ibrahim.mohamed-serouis@talan.com. 
 - **LinkedIn:** https://www.linkedin.com/in/ibrahim-serouis/
 
+## Citation (pending EMNLP proceedings)
+
+If you use Imag-Eval in your research, please cite:
+
+```bibtex
+@inproceedings{serouis2026imageval,
+  title={Imag-Eval: A Language-Grounded Framework for Interpretable Text-to-Image Instruction Following Evaluation},
+  author={Mohamed Serouis, Ibrahim and Jaramillo Duque, David},
+  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year={2026},
+  url={https://arxiv.org/abs/2608.29210}
+}
+```
+
+
 ## License
 
 The dataset (prompt collections in JSON format), generation scripts, and annotation guidelines are released under the **CC BY-NC 4.0 License** (Creative Commons Attribution-NonCommercial).

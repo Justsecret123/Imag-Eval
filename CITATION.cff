@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 
 title: "Imag-Eval"
+
 message: "If you use Imag-Eval in your research, please cite the accompanying paper."
 
 type: software
@@ -10,6 +11,9 @@ authors:
     given-names: "Ibrahim"
     email: "ibrahim.mohamed-serouis@talan.com"
     affiliation: "Talan"
+
+  - family-names: "Jaramillo Duque"
+    given-names: "David"
 
 repository-code: "https://github.com/JustSecret123/Imag-Eval"
 
@@ -34,12 +38,18 @@ license: "CC-BY-NC-4.0"
 
 preferred-citation:
   type: paper-conference
+
   title: "Imag-Eval: A Language-Grounded Framework for Interpretable Text-to-Image Instruction Following Evaluation"
 
   authors:
     - family-names: "Mohamed Serouis"
       given-names: "Ibrahim"
 
-  collection-title: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+    - family-names: "Jaramillo Duque"
+      given-names: "David"
+
+  collection-title: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing"
+
   year: 2026
+
   url: "https://arxiv.org/abs/2608.29210"

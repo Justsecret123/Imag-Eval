@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "Imag-Eval"
+message: "If you use Imag-Eval in your research, please cite the paper and the repository."
+type: software
+
+authors:
+  - family-names: "MOHAMED SEROUIS"
+    given-names: "Ibrahim"
+    email: "ibrahim.mohamed-serouis@talan.com"
+    affiliation: "Talan"
+
+repository-code: "https://github.com/JustSecret123/Imag-Eval"
+
+keywords:
+  - text-to-image
+  - image-generation
+  - benchmark
+  - evaluation
+  - multimodal
+  - vision-language
+  - instruction-following
+  - diffusion-models
+
+license: "CC-BY-NC-4.0"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "MOHAMED SEROUIS"
+      given-names: "Ibrahim"
+  title: "Imag-Eval: A Language-Grounded Framework for Interpretable Text-to-Image Instruction Following Evaluation"
+  journal: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing"
+  year: 2026
+  url: "https://arxiv.org/abs/2608.29210"
+`
